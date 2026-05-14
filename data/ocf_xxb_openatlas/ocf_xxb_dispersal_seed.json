@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "title": "OCF-XXB manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:41.767Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XXB. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-XXB.",
+    "entityEnrichedAt": "2026-05-12T09:59:45.434Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XXB",
+        "label": "French Translations of the Ordo of Reims / Directory of ca. 1230",
+        "labelFr": "Traductions françaises de l'Ordo de Reims / Directoire de ca. 1230",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "ca. 1260–350",
+        "description": "French translations and adaptations of the Ordo of Reims, preserved in multiple manuscripts including the Coronation Book of Charles V. Includes the directory for the ceremony and the texts of coronation oaths."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xxb-b",
+        "siglum": "B",
+        "label": "B — London, British Library, MS Cotton Tiberius B.viii",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "London, British Library, MS Cotton Tiberius B.viii",
+        "folios": "fols. 35r–2v",
+        "date": "1365",
+        "origin": "Paris (for Charles V)",
+        "currentRepositoryId": "repo-london-british-library",
+        "currentRepository": "London, British Library",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "The Coronation Book of Charles V. French translation precedes the Latin ordo.",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 51.5299,
+        "lon": -0.1277,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: London, British Library, MS Cotton Tiberius B.viii"
+      },
+      {
+        "id": "place-paris",
+        "label": "Paris",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Paris (for Charles V)\"."
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xxb-b-current-repository",
+        "label": "B kept at London, British Library",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxb-b",
+        "placeId": "repo-london-british-library",
+        "start": "",
+        "end": "",
+        "description": "London, British Library, MS Cotton Tiberius B.viii is currently kept at London, British Library.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxb-b-origin-paris",
+        "label": "B origin/context: Paris",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxb-b",
+        "placeId": "place-paris",
+        "start": "1365",
+        "end": "1365",
+        "description": "London, British Library, MS Cotton Tiberius B.viii: origin/context recorded as \"Paris (for Charles V)\".",
+        "certainty": "probable"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-arles-church",
+        "label": "Arles ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "episcopal / liturgical context",
+        "placeId": "place-arles",
+        "description": ""
+      },
+      {
+        "id": "actor-british-library",
+        "label": "British Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-london-british-library",
+        "description": ""
+      },
+      {
+        "id": "actor-charles-v-france",
+        "label": "Charles V of France",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal patron / former owner",
+        "placeId": "place-paris",
+        "description": ""
+      }
+    ],
+    "references": []
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xxb-b",
+      "predicate": "witnesses",
+      "object": "OCF-XXB",
+      "certainty": "certain",
+      "source": "OCF-XXB witness list"
+    },
+    {
+      "subject": "ms-ocf-xxb-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxb-b-origin-paris",
+      "predicate": "occurred_at",
+      "object": "place-paris",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxb-b",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-paris",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxb-b",
+      "predicate": "associated_with",
+      "object": "actor-british-library",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxb-b",
+      "predicate": "associated_with",
+      "object": "actor-arles-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxb-b",
+      "predicate": "associated_person",
+      "object": "actor-charles-v-france",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "OCF-XXB",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-XXB",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxb-b",
+      "certainty": "certain",
+      "source": "OCF-XXB witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 51.5299,
+        "lon": -0.1277,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: London, British Library, MS Cotton Tiberius B.viii"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-paris",
+        "label": "Paris",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Paris (for Charles V)\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-xxb-b-paris-to-london-british-library",
+        "label": "B: Paris → London, British Library",
+        "manuscriptId": "ms-ocf-xxb-b",
+        "fromPlaceId": "place-paris",
+        "toPlaceId": "repo-london-british-library",
+        "start": "1365",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_person",
+        "label": "associated_person"
+      },
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

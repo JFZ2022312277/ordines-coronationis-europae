@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visionneuse — Ordines Coronationis Europae</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;background:#13110d;color:#e8dcc8;font-family:Georgia,'Times New Roman',serif}
+
+#app{display:flex;flex-direction:column;height:100vh}
+#topbar{background:#0e0c09;border-bottom:1px solid #2e2518;padding:0 16px;display:flex;align-items:center;gap:12px;height:44px;flex-shrink:0}
+#tabs{background:#0a0906;border-bottom:1px solid #2e2518;display:flex;padding:0 16px;gap:2px;flex-shrink:0;flex-wrap:wrap}
+#main{flex:1;display:flex;overflow:hidden}
+#sidebar{width:220px;background:#100e0b;border-right:1px solid #2e2518;display:flex;flex-direction:column;flex-shrink:0;overflow:hidden}
+#viewer-area{flex:1;display:flex;flex-direction:column;overflow:hidden}
+#toolbar{background:#0e0c09;border-bottom:1px solid #2e2518;display:flex;align-items:center;gap:6px;padding:6px 10px;flex-shrink:0;flex-wrap:wrap}
+#canvas-wrap{flex:1;overflow:hidden;position:relative;cursor:grab;background:#13110d}
+#canvas-wrap.grabbing{cursor:grabbing}
+#img-container{position:absolute;top:0;left:0;transform-origin:0 0}
+#img-container img{display:block;max-width:none;user-select:none;-webkit-user-drag:none}
+#statusbar{height:26px;background:#0e0c09;border-top:1px solid #2e2518;display:flex;align-items:center;padding:0 12px;gap:16px;flex-shrink:0;font-size:11px;color:#7a6a52}
+
+#back-btn{color:#c8a96e;text-decoration:none;font-size:12px;opacity:.8;white-space:nowrap;transition:opacity .15s}
+#back-btn:hover{opacity:1}
+#title-main{font-size:13px;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#e8dcc8}
+#title-sub{font-size:11px;color:#7a6a52;white-space:nowrap}
+
+.tab-btn{background:none;border:none;border-bottom:2px solid transparent;color:#7a6a52;padding:8px 14px;font-family:Georgia,serif;font-size:12px;cursor:pointer;transition:all .15s;margin-bottom:-1px;white-space:nowrap}
+.tab-btn:hover{color:#c8a96e}
+.tab-btn.active{color:#c8a96e;border-bottom-color:#c8a96e}
+
+#thumb-header{padding:8px 10px;font-size:11px;color:#7a6a52;border-bottom:1px solid #2e2518;flex-shrink:0}
+#thumb-list{flex:1;overflow-y:auto;padding:6px}
+#thumb-list::-webkit-scrollbar{width:4px}
+#thumb-list::-webkit-scrollbar-track{background:#0a0906}
+#thumb-list::-webkit-scrollbar-thumb{background:#3a2e1e;border-radius:2px}
+.thumb-item{border-radius:3px;padding:4px;cursor:pointer;margin-bottom:3px;display:flex;align-items:center;gap:6px;transition:background .1s}
+.thumb-item:hover{background:#1e1a14}
+.thumb-item.active{background:#2a2218;outline:1px solid #c8a96e}
+.thumb-num{font-size:10px;color:#7a6a52;min-width:26px;text-align:right;flex-shrink:0}
+.thumb-label{font-size:11px;color:#c8a96e}
+.thumb-img-wrap{width:36px;height:28px;overflow:hidden;border-radius:2px;background:#0a0906;flex-shrink:0}
+.thumb-img-wrap img{width:100%;height:100%;object-fit:cover;display:block}
+#meta-panel{border-top:1px solid #2e2518;padding:8px 10px;overflow-y:auto;flex-shrink:0;max-height:180px}
+#meta-panel dt{color:#a08860;margin-top:5px;font-size:10px}
+#meta-panel dd{color:#c8a96e;font-size:10px;margin:0 0 2px;word-break:break-word}
+
+.tool-btn{background:#1e1a14;border:1px solid #3a2e1e;color:#c8a96e;padding:4px 10px;border-radius:3px;cursor:pointer;font-family:Georgia,serif;font-size:12px;transition:all .15s;white-space:nowrap}
+.tool-btn:hover{background:#2a2218;border-color:#c8a96e}
+.tool-btn:disabled{opacity:.4;cursor:default}
+#folio-label{font-size:13px;color:#e8dcc8;min-width:70px;text-align:center;font-style:italic}
+#zoom-pct{font-size:11px;color:#7a6a52;min-width:38px;text-align:right}
+.sep{width:1px;height:20px;background:#2e2518;flex-shrink:0}
+
+#loading{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:#13110d;z-index:10;pointer-events:none}
+#loading.hidden{display:none}
+.spinner{width:36px;height:36px;border:3px solid #2e2518;border-top-color:#c8a96e;border-radius:50%;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+#loading p{font-size:13px;color:#7a6a52}
+#err-msg{color:#c45;font-size:12px;text-align:center;padding:0 20px;display:none}
+</style>
+</head>
+<body>
+<div id="app">
+
+  <div id="topbar">
+    <a id="back-btn" href="../index.html">← Ordines Coronationis Europae</a>
+    <div class="sep"></div>
+    <div id="title-main">Visionneuse de manuscrit</div>
+    <div id="title-sub" id="sub"></div>
+  </div>
+
+  <div id="tabs" id="tabs-row"></div>
+
+  <div id="main">
+    <div id="sidebar">
+      <div id="thumb-header"><span id="thumb-count">—</span></div>
+      <div id="thumb-list"></div>
+      <dl id="meta-panel"></dl>
+    </div>
+    <div id="viewer-area">
+      <div id="toolbar">
+        <button class="tool-btn" id="btn-prev" onclick="navigate(-1)">&#8592;</button>
+        <div id="folio-label">—</div>
+        <button class="tool-btn" id="btn-next" onclick="navigate(1)">&#8594;</button>
+        <div class="sep"></div>
+        <button class="tool-btn" onclick="zoomBy(1.25)">＋</button>
+        <button class="tool-btn" onclick="zoomBy(0.8)">－</button>
+        <button class="tool-btn" onclick="fitImage()">Ajuster</button>
+        <button class="tool-btn" onclick="zoom100()">100%</button>
+        <div style="flex:1"></div>
+        <span id="zoom-pct">—</span>
+      </div>
+      <div id="canvas-wrap">
+        <div id="loading">
+          <div class="spinner"></div>
+          <p id="loading-msg">Chargement…</p>
+          <p id="err-msg"></p>
+        </div>
+        <div id="img-container">
+          <img id="folio-img" alt="" draggable="false"
+               onload="onImgLoad()" onerror="onImgError()">
+        </div>
+      </div>
+      <div id="statusbar">
+        <span id="st-folio">—</span>
+        <span id="st-ms">—</span>
+        <span id="st-size">—</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script src="./embedded-canvases.js?v=20260407b"></script>
+<script>
+// ── Registry of available manifests ──────────────────────────
+// file: chemin relatif (manifeste local) ou url: URL complète (Gallica, UIUC, etc.)
+const EMBEDDED_IIIF_CANVASES = window.__EMBEDDED_IIIF_CANVASES__ || Object.create(null);
+const REGISTRY = {
+  // ── Manuscrits locaux ──────────────────────────────────────────────────────
+  'OCF-XIII':   { file:'OCF-XIII/manifest.json',   tab:'Ordo d\'Erdmann · Sens BM MS 12 (OCF-XIII)' },
+  'OCF-XVI':    { file:'OCF-XVI/manifest.json',    tab:'Ordo royal de Cologne · MS 141 (OCF-XVI)', shelfmark:'Cologne, Erzbischofliche Diozesan- und Dombibl., MS 141' },
+  'ECR-XIII-LIBER-REGALIS': { file:'ECR-XIII-LIBER-REGALIS/manifest.json', tab:'Liber Regalis · Westminster Abbey MS 38', shelfmark:'London, Westminster Abbey, MS 38' },
+
+  // ── Manuscrits externes (Gallica, UIUC, etc.) ──────────────────────────────
+  'OCF-I-Gellone': {
+    url: 'https://gallica.bnf.fr/iiif/ark:/12148/btv1b8452763b/manifest.json',
+    tab: 'Sacramentaire de Gellone · BnF lat. 12048 (Gallica)'
+  },
+  'UIUC-Ordo-consecrandum': {
+    url: 'https://digital.library.illinois.edu/iiif/2/d9225070-3413-013e-321b-02d0d7bfd6e4-6/manifest',
+    tab: 'Ordo ad consecrandum · UIUC Pre-1650 MS 0124'
+  },
+};
+
+// ── State ─────────────────────────────────────────────────────
+let S = {
+  id: null, canvases: [], idx: 0,
+  scale: 1, tx: 0, ty: 0,
+  dragging: false, dragX: 0, dragY: 0
+};
+
+// ── Build tabs dynamically ─────────────────────────────────────
+(function buildTabs() {
+  const row = document.getElementById('tabs');
+  row.innerHTML = '';
+  Object.entries(REGISTRY).forEach(([id, info]) => {
+    const btn = document.createElement('button');
+    btn.className = 'tab-btn';
+    btn.id = 'tab-' + id;
+    btn.textContent = info.tab;
+    btn.onclick = () => loadManifest(id);
+    row.appendChild(btn);
+  });
+})();
+
+// ── Load manifest ─────────────────────────────────────────────
+function loadManifest(id) {
+  if (!REGISTRY[id]) { showErr('Manifeste inconnu : ' + id); return; }
+  if (S.id === id) return;
+  S.id = id;
+
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  const tb = document.getElementById('tab-' + id);
+  if (tb) tb.classList.add('active');
+
+  showLoading('Chargement…');
+
+  const entry = REGISTRY[id];
+  const embeddedCanvases = entry.file
+    ? (EMBEDDED_IIIF_CANVASES[entry.file] || EMBEDDED_IIIF_CANVASES['iiif/' + entry.file] || null)
+    : null;
+  if (Array.isArray(embeddedCanvases) && embeddedCanvases.length) {
+    initViewerFromCanvases(embeddedCanvases, entry.tab, entry.shelfmark || '');
+    return;
+  }
+  const manifestUrl = entry.url || entry.file;  // support both external URL and local file
+  fetch(manifestUrl)
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(m => initViewer(m))
+    .catch(e => showErr('Impossible de charger le manifeste.<br><small>' + e.message + '</small>'));
+}
+
+function initViewerFromCanvases(canvases, title, shelfmark) {
+  S.canvases = canvases.map(c => ({
+    label: c.label || '—',
+    src: c.imgUrl || '',
+    width: c.width || 1504,
+    height: c.height || 1943,
+    shelfmark: shelfmark || ''
+  })).filter(c => c.src);
+
+  document.getElementById('title-main').textContent = title || 'Visionneuse';
+  document.getElementById('thumb-count').textContent = S.canvases.length + ' folios';
+  buildThumbs();
+  buildMeta({
+    label: { none: [title || 'Visionneuse'] },
+    metadata: [
+      { label: { none: ['Shelfmark'] }, value: { none: [shelfmark || ''] } },
+      { label: { none: ['Source'] }, value: { none: ['Embedded local canvases'] } }
+    ]
+  });
+
+  const params = new URLSearchParams(window.location.search);
+  const target = params.get('folio') || '';
+  let start = 0;
+  if (target) {
+    const i = S.canvases.findIndex(c => c.label.toLowerCase().includes(target.toLowerCase()));
+    if (i >= 0) start = i;
+  }
+  goTo(start);
+}
+
+function initViewer(manifest) {
+  S.canvases = (manifest.items || []).map(canvas => {
+    const anno = canvas.items?.[0]?.items?.[0];
+    const body = anno?.body;
+    return {
+      label:     getLabel(canvas.label),
+      src:       body?.id || '',
+      width:     body?.width  || canvas.width  || 1200,
+      height:    body?.height || canvas.height || 1600,
+      shelfmark: getMetaVal(manifest, ['Shelfmark','Cote']) || ''
+    };
+  }).filter(c => c.src);
+
+  document.getElementById('title-main').textContent = getLabel(manifest.label) || 'Visionneuse';
+  document.getElementById('thumb-count').textContent = S.canvases.length + ' folios';
+  buildThumbs();
+  buildMeta(manifest);
+
+  const params = new URLSearchParams(window.location.search);
+  const target = params.get('folio') || '';
+  let start = 0;
+  if (target) {
+    const i = S.canvases.findIndex(c => c.label.toLowerCase().includes(target.toLowerCase()));
+    if (i >= 0) start = i;
+  }
+  goTo(start);
+}
+
+// ── Navigation ────────────────────────────────────────────────
+function goTo(i) {
+  i = Math.max(0, Math.min(S.canvases.length - 1, i));
+  S.idx = i;
+  const c = S.canvases[i];
+
+  document.querySelectorAll('.thumb-item').forEach((el, j) =>
+    el.classList.toggle('active', j === i));
+  document.getElementById('thumb-' + i)?.scrollIntoView({ block:'nearest' });
+
+  document.getElementById('folio-label').textContent = c.label;
+  document.getElementById('st-folio').textContent = c.label;
+  document.getElementById('st-ms').textContent = c.shelfmark;
+  document.getElementById('st-size').textContent = '';
+  document.getElementById('btn-prev').disabled = i === 0;
+  document.getElementById('btn-next').disabled = i === S.canvases.length - 1;
+
+  showLoading('');
+  const img = document.getElementById('folio-img');
+  img.src = c.src;
+}
+
+function navigate(d) { goTo(S.idx + d); }
+
+// ── Image callbacks ───────────────────────────────────────────
+function onImgLoad() {
+  const img = document.getElementById('folio-img');
+  document.getElementById('st-size').textContent =
+    img.naturalWidth + ' × ' + img.naturalHeight + ' px';
+  hideLoading();
+  fitImage();
+}
+
+function onImgError() {
+  const src = document.getElementById('folio-img').src;
+  showErr('Image introuvable.<br><small>' + src + '</small>');
+}
+
+// ── Transform (transform-origin: 0 0) ────────────────────────
+function applyT() {
+  document.getElementById('img-container').style.transform =
+    'translate(' + S.tx + 'px,' + S.ty + 'px) scale(' + S.scale + ')';
+  document.getElementById('zoom-pct').textContent = Math.round(S.scale * 100) + '%';
+}
+
+function fitImage() {
+  const wrap = document.getElementById('canvas-wrap');
+  const img  = document.getElementById('folio-img');
+  if (!img.naturalWidth) return;
+  const ww = wrap.clientWidth, wh = wrap.clientHeight;
+  const iw = img.naturalWidth, ih = img.naturalHeight;
+  S.scale = Math.min((ww - 16) / iw, (wh - 16) / ih);
+  S.tx = (ww - iw * S.scale) / 2;
+  S.ty = (wh - ih * S.scale) / 2;
+  applyT();
+}
+
+function zoom100() {
+  const wrap = document.getElementById('canvas-wrap');
+  S.scale = 1;
+  const img = document.getElementById('folio-img');
+  S.tx = (wrap.clientWidth  - img.naturalWidth)  / 2;
+  S.ty = (wrap.clientHeight - img.naturalHeight) / 2;
+  applyT();
+}
+
+// zoom toward point (px, py) in viewport coords
+function zoomAt(factor, px, py) {
+  const prev = S.scale;
+  S.scale = Math.max(0.04, Math.min(20, S.scale * factor));
+  // keep image-point under (px,py) fixed:
+  // img_x = (px - tx) / prev  →  new tx = px - img_x * new_scale
+  S.tx = px - (px - S.tx) * (S.scale / prev);
+  S.ty = py - (py - S.ty) * (S.scale / prev);
+  applyT();
+}
+
+function zoomBy(f) {
+  const w = document.getElementById('canvas-wrap');
+  zoomAt(f, w.clientWidth / 2, w.clientHeight / 2);
+}
+
+// ── Mouse / wheel / touch ─────────────────────────────────────
+(function interactions() {
+  const wrap = document.getElementById('canvas-wrap');
+
+  wrap.addEventListener('wheel', e => {
+    e.preventDefault();
+    const r = wrap.getBoundingClientRect();
+    zoomAt(e.deltaY < 0 ? 1.12 : 1/1.12, e.clientX - r.left, e.clientY - r.top);
+  }, { passive: false });
+
+  wrap.addEventListener('mousedown', e => {
+    if (e.button) return;
+    S.dragging = true; S.dragX = e.clientX - S.tx; S.dragY = e.clientY - S.ty;
+    wrap.classList.add('grabbing');
+  });
+  window.addEventListener('mousemove', e => {
+    if (!S.dragging) return;
+    S.tx = e.clientX - S.dragX; S.ty = e.clientY - S.dragY; applyT();
+  });
+  window.addEventListener('mouseup', () => {
+    S.dragging = false;
+    document.getElementById('canvas-wrap').classList.remove('grabbing');
+  });
+
+  let lastDist = 0;
+  wrap.addEventListener('touchstart', e => {
+    if (e.touches.length === 1) {
+      S.dragging = true;
+      S.dragX = e.touches[0].clientX - S.tx;
+      S.dragY = e.touches[0].clientY - S.ty;
+    } else if (e.touches.length === 2) {
+      lastDist = Math.hypot(e.touches[0].clientX-e.touches[1].clientX,
+                             e.touches[0].clientY-e.touches[1].clientY);
+    }
+  }, { passive:true });
+  wrap.addEventListener('touchmove', e => {
+    if (e.touches.length === 1 && S.dragging) {
+      S.tx = e.touches[0].clientX - S.dragX;
+      S.ty = e.touches[0].clientY - S.dragY; applyT();
+    } else if (e.touches.length === 2) {
+      const d = Math.hypot(e.touches[0].clientX-e.touches[1].clientX,
+                            e.touches[0].clientY-e.touches[1].clientY);
+      if (lastDist) zoomBy(d / lastDist);
+      lastDist = d;
+    }
+  }, { passive:true });
+  wrap.addEventListener('touchend', () => { S.dragging=false; lastDist=0; });
+})();
+
+document.addEventListener('keydown', e => {
+  if (e.target.tagName==='INPUT') return;
+  if (e.key==='ArrowRight'||e.key==='ArrowDown') navigate(1);
+  else if (e.key==='ArrowLeft'||e.key==='ArrowUp') navigate(-1);
+  else if (e.key==='+'||e.key==='=') zoomBy(1.25);
+  else if (e.key==='-') zoomBy(0.8);
+  else if (e.key==='0'||e.key==='f'||e.key==='F') fitImage();
+});
+
+// ── Sidebar ───────────────────────────────────────────────────
+function buildThumbs() {
+  const list = document.getElementById('thumb-list');
+  list.innerHTML = '';
+  S.canvases.forEach((c, i) => {
+    const d = document.createElement('div');
+    d.className = 'thumb-item'; d.id = 'thumb-' + i;
+    d.onclick = () => goTo(i);
+    d.innerHTML =
+      '<div class="thumb-img-wrap"><img src="'+c.src+'" loading="lazy" alt=""></div>' +
+      '<span class="thumb-num">'+(i+1)+'</span>' +
+      '<span class="thumb-label">'+esc(c.label)+'</span>';
+    list.appendChild(d);
+  });
+}
+
+function buildMeta(m) {
+  const dl = document.getElementById('meta-panel');
+  dl.innerHTML = '';
+  (m.metadata || []).forEach(item => {
+    const k = arr(item.label?.fr || item.label?.en)[0];
+    const v = arr(item.value?.fr  || item.value?.en)[0];
+    if (!k||!v) return;
+    dl.innerHTML += '<dt>'+esc(k)+'</dt><dd>'+esc(v)+'</dd>';
+  });
+}
+
+function getLabel(obj) {
+  if (!obj) return '';
+  if (typeof obj==='string') return obj;
+  const a = arr(obj.fr || obj.en || Object.values(obj)[0]);
+  return a[0] || '';
+}
+
+function getMetaVal(m, keys) {
+  for (const item of (m.metadata||[])) {
+    const lv = arr(item.label?.en || item.label?.fr);
+    if (keys.some(k => lv.some(l => l.toLowerCase().includes(k.toLowerCase())))) {
+      return arr(item.value?.fr || item.value?.en)[0] || '';
+    }
+  }
+  return '';
+}
+
+function arr(x) { return Array.isArray(x) ? x : (x ? [x] : []); }
+function esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+// ── Loading overlay ───────────────────────────────────────────
+function showLoading(msg) {
+  const el = document.getElementById('loading');
+  el.classList.remove('hidden');
+  document.getElementById('loading-msg').textContent = msg;
+  document.getElementById('err-msg').style.display = 'none';
+}
+function hideLoading() { document.getElementById('loading').classList.add('hidden'); }
+function showErr(html) {
+  document.getElementById('loading').classList.remove('hidden');
+  document.getElementById('loading-msg').textContent = '';
+  const e = document.getElementById('err-msg');
+  e.style.display = 'block'; e.innerHTML = html;
+}
+
+// ── Init ──────────────────────────────────────────────────────
+const _p = new URLSearchParams(window.location.search);
+loadManifest(_p.get('manifest') || 'ECR-XIII-LIBER-REGALIS');
+</script>
+</body>
+</html>
+
+

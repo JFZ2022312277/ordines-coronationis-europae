@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-X manuscript pilot">
+  <ordo id="OCF-X"><label>Petitio and Promissio of Carloman</label><date>9 September 882</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-x-a" siglum="A"><shelfmark>Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40</shelfmark><folios>fol. 29r</folios><date>11th century</date><origin>Monastery of Ripoll</origin><currentRepository ref="repo-barcelona-archivo-de-la-corona-de-aragon">Barcelona, Archivo de la Corona de Aragon</currentRepository></manuscript>
+    <manuscript id="ms-ocf-x-b" siglum="B"><shelfmark>Paris, BnF, MS Baluze 1</shelfmark><folios>fol. 25v</folios><date>17th century</date><origin></origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="repo-barcelona-archivo-de-la-corona-de-aragon" type="repository_place" lat="41.3851" lon="2.1734" certainty="certain">Barcelona, Archivo de la Corona de Aragon</place>
+    <place id="place-monastery-of-ripoll" type="scriptorium_or_origin_place" lat="42.2" lon="2.191" certainty="probable">Monastery of Ripoll</place>
+    <place id="repo-paris-bnf" type="repository_place" lat="48.8339" lon="2.3757" certainty="certain">Paris, BnF</place>
+  </places>
+</openatlasSeed>

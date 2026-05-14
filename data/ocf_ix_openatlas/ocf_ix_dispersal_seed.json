@@ -1,0 +1,428 @@
+{
+  "meta": {
+    "title": "OCF-IX manuscript pilot",
+    "generatedAt": "2026-05-12T09:13:46.653Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-IX. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-IX.",
+    "entityEnrichedAt": "2026-05-12T09:14:27.639Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-IX",
+        "label": "Royal Texts in the Sacramentary of Saint-Thierry",
+        "labelFr": "Textes royaux du Sacramentaire de Saint-Thierry",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "7 September 878 (in part)",
+        "description": "Three collections of royal formulas from the sacramentary of Saint-Thierry, copied before A.D. 1000. Ordo IXA is associated with the coronation of Louis the Stammerer by Pope John VIII at the Council of Troyes in 878. Ordo IXB and IXC are from an older benedictional."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-ix-a",
+        "siglum": "A",
+        "label": "A — Reims, Bibl. mun., MS 214",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Reims, Bibl. mun., MS 214",
+        "folios": "fols. 3v (IXA), 219r (IXB), 221v–22r (IXC)",
+        "date": "Late 10th century",
+        "origin": "Saint-Thierry, near Reims",
+        "currentRepositoryId": "repo-reims-bibl-mun",
+        "currentRepository": "Reims, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "https://portail.biblissima.fr/ark:/43093/mdata193b47fc9ce99b274d8022c5b83bbf0f",
+        "iiifUrl": "https://api.irht.cnrs.fr/ark:/63955/f7bgc86el8ga/manifest.json",
+        "sourceLabel": "Biblissima resource page / Reims BM MS 214",
+        "description": "Single witness preserving Ordo IXA, IXB, and IXC at the listed folios. | Additional digital resources: ARCA viewer https://arca.irht.cnrs.fr/ark:/63955/md182j62v266 ; Biblissima IIIF collection https://iiif.biblissima.fr/collections/manifest/8d31d169ad002f3c46855ce7821a1ebf ; CCFr catalog http://ccfr.bnf.fr/portailccfr/jsp/public/index.jsp?record=eadcgm:EADC:D38A11273 ; IRHT Initiale https://initiale.irht.cnrs.fr/codex/3720 ; IRHT Medium https://medium-avance.irht.cnrs.fr/Manuscrits/Voir?idFicheManuscrit=37384 .",
+        "bibliography": "Delisle, 'Mémoire,' 285–9, no. CXVI; Leroquais, Sacramentaires, 1: 91–4, no. 36"
+      }
+    ],
+    "places": [
+      {
+        "id": "repo-reims-bibl-mun",
+        "label": "Reims, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.2541,
+        "lon": 3.025,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Reims, Bibl. mun., MS 214"
+      },
+      {
+        "id": "place-saint-thierry-near-reims",
+        "label": "Saint-Thierry, near Reims",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.303,
+        "lon": 3.966,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Saint-Thierry, near Reims\"."
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-ix-a-current-repository",
+        "label": "A kept at Reims, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-ix-a",
+        "placeId": "repo-reims-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Reims, Bibl. mun., MS 214 is currently kept at Reims, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-ix-a-origin-saint-thierry-near-reims",
+        "label": "A origin/context: Saint-Thierry, near Reims",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-ix-a",
+        "placeId": "place-saint-thierry-near-reims",
+        "start": "Late 10th century",
+        "end": "Late 10th century",
+        "description": "Reims, Bibl. mun., MS 214: origin/context recorded as \"Saint-Thierry, near Reims\".",
+        "certainty": "probable"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-saint-thierry",
+        "label": "Abbey of Saint-Thierry near Reims",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "monastic scriptorium / origin context",
+        "placeId": "place-saint-thierry-near-reims",
+        "description": ""
+      },
+      {
+        "id": "actor-bnf",
+        "label": "Bibliothèque nationale de France (BnF)",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-paris-bnf",
+        "description": ""
+      },
+      {
+        "id": "actor-biblissima",
+        "label": "Biblissima",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "digital source aggregator",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-iiif",
+        "label": "IIIF",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "image/service reference",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-leopold-delisle",
+        "label": "Léopold Delisle",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "scholar / bibliographic authority",
+        "placeId": "place-paris",
+        "description": ""
+      },
+      {
+        "id": "actor-reims-cathedral",
+        "label": "Reims Cathedral / Chapter Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "cathedral repository / coronation center",
+        "placeId": "place-reims",
+        "description": ""
+      },
+      {
+        "id": "actor-victor-leroquais",
+        "label": "Victor Leroquais",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "cataloguer / scholar",
+        "placeId": "place-paris",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-ix-a-digital",
+        "label": "Biblissima resource page / Reims BM MS 214: Reims, Bibl. mun., MS 214",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://portail.biblissima.fr/ark:/43093/mdata193b47fc9ce99b274d8022c5b83bbf0f",
+        "description": "Digital source for Reims, Bibl. mun., MS 214."
+      },
+      {
+        "id": "ref-ms-ocf-ix-a-bib-1",
+        "label": "Delisle, 'Mémoire,' 285–9, no. CXVI",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference for Reims, Bibl. mun., MS 214."
+      },
+      {
+        "id": "ref-ms-ocf-ix-a-iiif",
+        "label": "IIIF manifest: Reims, Bibl. mun., MS 214",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://api.irht.cnrs.fr/ark:/63955/f7bgc86el8ga/manifest.json",
+        "description": "IIIF manifest for Reims, Bibl. mun., MS 214."
+      },
+      {
+        "id": "ref-ms-ocf-ix-a-bib-2",
+        "label": "Leroquais, Sacramentaires, 1: 91–4, no. 36",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Reims, Bibl. mun., MS 214."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-ix-a",
+      "predicate": "witnesses",
+      "object": "OCF-IX",
+      "certainty": "certain",
+      "source": "OCF-IX witness list"
+    },
+    {
+      "subject": "ms-ocf-ix-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-reims-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-ix-a-origin-saint-thierry-near-reims",
+      "predicate": "occurred_at",
+      "object": "place-saint-thierry-near-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-ix-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-saint-thierry-near-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-ix-a",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ix-a",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ix-a",
+      "predicate": "associated_with",
+      "object": "actor-saint-thierry",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ix-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ix-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ix-a",
+      "predicate": "associated_source_actor",
+      "object": "actor-biblissima",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ix-a",
+      "predicate": "associated_source_actor",
+      "object": "actor-iiif",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ix-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-ix-a-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-ix-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-ix-a-iiif",
+      "certainty": "certain",
+      "source": "iiif_manifest"
+    },
+    {
+      "subject": "ms-ocf-ix-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-ix-a-bib-1",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-ix-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-ix-a-bib-2",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "OCF-IX",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-IX",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-ix-a",
+      "certainty": "certain",
+      "source": "OCF-IX witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-reims-bibl-mun",
+        "label": "Reims, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.2541,
+        "lon": 3.025,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Reims, Bibl. mun., MS 214"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-saint-thierry-near-reims",
+        "label": "Saint-Thierry, near Reims",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.303,
+        "lon": 3.966,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Saint-Thierry, near Reims\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-ix-a-saint-thierry-near-reims-to-reims-bibl-mun",
+        "label": "A: Saint-Thierry, near Reims → Reims, Bibl. mun.",
+        "manuscriptId": "ms-ocf-ix-a",
+        "fromPlaceId": "place-saint-thierry-near-reims",
+        "toPlaceId": "repo-reims-bibl-mun",
+        "start": "Late 10th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_source_actor",
+        "label": "associated_source_actor"
+      },
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-edited_or_studied_by",
+        "label": "edited_or_studied_by"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-has_reference",
+        "label": "has_reference"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

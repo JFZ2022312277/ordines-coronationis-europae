@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "title": "HRE-XXA Ordo for empress coronation in younger manuscripts of Ordo XX dispersal pilot",
+    "generatedAt": "2026-05-12T13:04:25.670Z",
+    "source": "ordines_coronationis_iiif.html HRE records",
+    "note": "Pilot OpenAtlas-style data for HRE entries; source anchors are reference/context entities, not asserted manuscript repositories."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "HRE-XXA",
+        "label": "Ordo for empress coronation in younger manuscripts of Ordo XX",
+        "labelFr": "Ordo for empress coronation in younger manuscripts of Ordo XX",
+        "sourceLabel": "HRE",
+        "tradition": "HRE",
+        "date": "14th century",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "Ordo for empress coronation in younger manuscripts of Ordo XX. Date: 14th century. Imported from Elze (1960), Ordo XXA."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-hre-xxa-src",
+        "siglum": "SRC",
+        "shelfmark": "Rome (Curia / Vatican), source tradition anchor",
+        "repositoryPlaceId": "repo-vatican-bav",
+        "currentRepository": "Rome (Curia / Vatican), source tradition anchor",
+        "lat": 41.904,
+        "lon": 12.4545,
+        "date": "14th century",
+        "folios": "",
+        "group": "reference",
+        "origin": "Rome / Papal Curia context",
+        "witnessType": "reference",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Geographic anchor inferred from HRE source dateline place: Curia.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-rome-curia-context",
+        "label": "Rome / Papal Curia context",
+        "lat": 41.9029,
+        "lon": 12.4534,
+        "type": "origin_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-vatican-bav",
+        "label": "Vatican City, Biblioteca Apostolica Vaticana",
+        "lat": 41.904,
+        "lon": 12.4545,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-hre-xxa-src-context",
+        "label": "SRC copying/source context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-vatican-bav",
+        "start": "14th century",
+        "end": "14th century",
+        "description": "Geographic anchor inferred from HRE source dateline place: Curia.",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-reinhard-elze",
+        "label": "Reinhard Elze",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of Ordines Coronationis Imperialis",
+        "placeId": ""
+      },
+      {
+        "id": "actor-hre-imperial-tradition",
+        "label": "Holy Roman imperial coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "political-liturgical context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-rome-papal-curia-context",
+        "label": "Rome / Papal Curia context",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "textual or production context",
+        "placeId": "place-rome-curia-context"
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-elze-1960",
+        "label": "Reinhard Elze, Ordines Coronationis Imperialis (1960)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00000664-8",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-hre",
+        "label": "Holy Roman Empire coronation ordines",
+        "code": "HRE"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "HRE-XXA",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-hre",
+      "certainty": "certain",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "HRE-XXA",
+      "predicate": "edited_by",
+      "object": "actor-reinhard-elze",
+      "certainty": "certain",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "HRE-XXA",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "HRE-XXA",
+      "predicate": "preserved_in",
+      "object": "ms-hre-xxa-src",
+      "certainty": "certain",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "ms-hre-xxa-src",
+      "predicate": "has_event",
+      "object": "event-ms-hre-xxa-src-context",
+      "certainty": "certain",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "ms-hre-xxa-src",
+      "predicate": "located_at",
+      "object": "repo-vatican-bav",
+      "certainty": "certain",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "ms-hre-xxa-src",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "ms-hre-xxa-src",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "ms-hre-xxa-src",
+      "predicate": "associated_with",
+      "object": "actor-rome-papal-curia-context",
+      "certainty": "derived",
+      "source": "HRE XI-XXVIIA pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": [
+      {
+        "id": "move-ms-hre-xxa-src",
+        "manuscriptId": "ms-hre-xxa-src",
+        "fromPlaceId": "place-rome-curia-context",
+        "toPlaceId": "repo-vatican-bav",
+        "start": "14th century",
+        "end": "14th century",
+        "certainty": "derived",
+        "description": "Research context line for SRC: Rome / Papal Curia context -> Rome (Curia / Vatican), source tradition anchor."
+      }
+    ]
+  }
+}

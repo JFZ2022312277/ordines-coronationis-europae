@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "title": "OCF-XII manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:41.712Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XII. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XII",
+        "label": "First Set of Royal Texts in the Second Sacramentary of Tours",
+        "labelFr": "Premier ensemble de textes royaux du Second Sacramentaire de Tours",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "ca. 900 or earlier",
+        "description": "Brief rubrics and prayers from the second sacramentary of Tours, written about 900 from a still older source. Only the first (Prospice omnipotens Deus) can be connected with an inaugural rite. Shows that many similar benedictionals with royal texts once existed."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xii-a",
+        "siglum": "A",
+        "label": "A — Angers, Bibl. mun., MS 80",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Angers, Bibl. mun., MS 80",
+        "folios": "fols. 158v–59r",
+        "date": "Second half or end of 9th century",
+        "origin": "Poitiers or Tours",
+        "currentRepositoryId": "repo-angers-bibl-mun",
+        "currentRepository": "Angers, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "https://portail.biblissima.fr/fr/ark:/43093/mdatac71d6f77be2ec5ff8a915c93ef79e991deefbc47",
+        "iiifUrl": "https://portail.biblissima.fr/iiif/collection/ark:/43093/mdatac71d6f77be2ec5ff8a915c93ef79e991deefbc47",
+        "sourceLabel": "Biblissima / Angers BM MS 80",
+        "description": "Pontifical of Saint-Aubin of Angers. Nos. 1 and 3 only. | Additional links: ARCA viewer https://arca.irht.cnrs.fr/ark:/63955/md23vt152k6d ; IIIF member manifests: https://api.irht.cnrs.fr/ark:/63955/frcgxmh16hjj/manifest.json and https://api.irht.cnrs.fr/ark:/63955/f6vplgnj32m9/manifest.json .",
+        "bibliography": "Leroquais, Pontificaux, 1: 25–2"
+      },
+      {
+        "id": "ms-ocf-xii-b",
+        "siglum": "B",
+        "label": "B — Paris, BnF, MS lat. 9430",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 9430",
+        "folios": "fol. 190r",
+        "date": "ca. 900",
+        "origin": "Tours",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b8422986v",
+        "iiifUrl": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422986v/manifest.json",
+        "sourceLabel": "Gallica / BnF (MS lat. 9430)",
+        "description": "Part of the second sacramentary of Tours. | Additional catalog links: BnF Archives et manuscrits https://archivesetmanuscrits.bnf.fr/ark:/12148/cc38708p ; Biblissima resource https://portail.biblissima.fr/fr/ark:/43093/mdatad4184d7024d2dd1f49b535644af5da61dbc3 .",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "repo-angers-bibl-mun",
+        "label": "Angers, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 47.4739,
+        "lon": -0.5518,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Angers, Bibl. mun., MS 80"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS lat. 9430"
+      },
+      {
+        "id": "place-poitiers",
+        "label": "Poitiers",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 46.58,
+        "lon": 0.34,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Poitiers or Tours\"."
+      },
+      {
+        "id": "place-tours",
+        "label": "Tours",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 47.394,
+        "lon": 0.684,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Tours\"."
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xii-a-current-repository",
+        "label": "A kept at Angers, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xii-a",
+        "placeId": "repo-angers-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Angers, Bibl. mun., MS 80 is currently kept at Angers, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xii-a-origin-tours",
+        "label": "A origin/context: Tours",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xii-a",
+        "placeId": "place-tours",
+        "start": "Second half or end of 9th century",
+        "end": "Second half or end of 9th century",
+        "description": "Angers, Bibl. mun., MS 80: origin/context recorded as \"Poitiers or Tours\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xii-a-origin-poitiers",
+        "label": "A origin/context: Poitiers",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xii-a",
+        "placeId": "place-poitiers",
+        "start": "Second half or end of 9th century",
+        "end": "Second half or end of 9th century",
+        "description": "Angers, Bibl. mun., MS 80: origin/context recorded as \"Poitiers or Tours\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-xii-b-current-repository",
+        "label": "B kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xii-b",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 9430 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xii-b-origin-tours",
+        "label": "B origin/context: Tours",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xii-b",
+        "placeId": "place-tours",
+        "start": "ca. 900",
+        "end": "ca. 900",
+        "description": "Paris, BnF, MS lat. 9430: origin/context recorded as \"Tours\".",
+        "certainty": "probable"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xii-a",
+      "predicate": "witnesses",
+      "object": "OCF-XII",
+      "certainty": "certain",
+      "source": "OCF-XII witness list"
+    },
+    {
+      "subject": "ms-ocf-xii-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-angers-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xii-a-origin-tours",
+      "predicate": "occurred_at",
+      "object": "place-tours",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xii-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-tours",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "event-ms-ocf-xii-a-origin-poitiers",
+      "predicate": "occurred_at",
+      "object": "place-poitiers",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xii-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-poitiers",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xii-b",
+      "predicate": "witnesses",
+      "object": "OCF-XII",
+      "certainty": "certain",
+      "source": "OCF-XII witness list"
+    },
+    {
+      "subject": "ms-ocf-xii-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xii-b-origin-tours",
+      "predicate": "occurred_at",
+      "object": "place-tours",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xii-b",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-tours",
+      "certainty": "probable",
+      "source": "origin field"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-angers-bibl-mun",
+        "label": "Angers, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 47.4739,
+        "lon": -0.5518,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Angers, Bibl. mun., MS 80"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS lat. 9430"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-poitiers",
+        "label": "Poitiers",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 46.58,
+        "lon": 0.34,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Poitiers or Tours\"."
+      },
+      {
+        "id": "place-tours",
+        "label": "Tours",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 47.394,
+        "lon": 0.684,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Tours\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-xii-a-tours-to-angers-bibl-mun",
+        "label": "A: Tours → Angers, Bibl. mun.",
+        "manuscriptId": "ms-ocf-xii-a",
+        "fromPlaceId": "place-tours",
+        "toPlaceId": "repo-angers-bibl-mun",
+        "start": "Second half or end of 9th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xii-a-poitiers-to-angers-bibl-mun",
+        "label": "A: Poitiers → Angers, Bibl. mun.",
+        "manuscriptId": "ms-ocf-xii-a",
+        "fromPlaceId": "place-poitiers",
+        "toPlaceId": "repo-angers-bibl-mun",
+        "start": "Second half or end of 9th century",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xii-b-tours-to-paris-bnf",
+        "label": "B: Tours → Paris, BnF",
+        "manuscriptId": "ms-ocf-xii-b",
+        "fromPlaceId": "place-tours",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "ca. 900",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  }
+}

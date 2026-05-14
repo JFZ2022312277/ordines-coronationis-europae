@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "title": "HRE-IX The Ordo of Arras dispersal pilot",
+    "generatedAt": "2026-05-12T13:04:23.602Z",
+    "source": "ordines_coronationis_iiif.html HRE records + Elze witness lists where explicit",
+    "note": "Pilot OpenAtlas-style data; context links are marked derived/probable."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "HRE-IX",
+        "label": "The Ordo of Arras",
+        "labelFr": "The Ordo of Arras",
+        "sourceLabel": "HRE",
+        "tradition": "HRE",
+        "date": "11th century",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "Edd.: Waitz Formebn S. 67/. (aus Al, gek1lrzt);"
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-hre-ix-src",
+        "siglum": "SRC",
+        "shelfmark": "Arras, source tradition anchor",
+        "repositoryPlaceId": "place-arras-source-tradition-anchor",
+        "currentRepository": "Arras, source tradition anchor",
+        "lat": 50.291,
+        "lon": 2.7775,
+        "date": "11th century",
+        "folios": "",
+        "group": "reference",
+        "origin": "Arras / Saint-Vaast context",
+        "witnessType": "reference",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Geographic anchor inferred from HRE source dateline place: Arras?.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ix-a",
+        "siglum": "A",
+        "shelfmark": "Cologne, Dombibliothek, Cod. 141",
+        "repositoryPlaceId": "repo-cologne-dombibliothek",
+        "currentRepository": "Erzbischöfliche Diözesan- und Dombibliothek, Cologne",
+        "lat": 50.9413,
+        "lon": 6.9583,
+        "date": "mid-11th century",
+        "folios": "",
+        "group": "manuscript",
+        "origin": "Arras, Benediktinerkloster Saint-Vaast",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "https://digital.dombibliothek-koeln.de/hs/content/titleinfo/176753",
+        "iiifUrl": "",
+        "description": "Pontificale Cameracense; principal witness for the Ordo of Arras (HRE-IX).",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-arras-context",
+        "label": "Arras / Saint-Vaast context",
+        "lat": 50.291,
+        "lon": 2.7775,
+        "type": "origin_context",
+        "openatlasClass": "E53 Place",
+        "description": "Arras or Saint-Vaast context."
+      },
+      {
+        "id": "place-arras-source-tradition-anchor",
+        "label": "Arras, source tradition anchor",
+        "lat": 50.291,
+        "lon": 2.7775,
+        "type": "origin_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-cologne-dombibliothek",
+        "label": "Cologne, Dombibliothek",
+        "lat": 50.9413,
+        "lon": 6.9583,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-hre-ix-src-transmission",
+        "label": "SRC copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "place-arras-source-tradition-anchor",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Geographic anchor inferred from HRE source dateline place: Arras?.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ix-a-transmission",
+        "label": "A copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-cologne-dombibliothek",
+        "start": "mid-11th century",
+        "end": "mid-11th century",
+        "description": "Pontificale Cameracense; principal witness for the Ordo of Arras (HRE-IX).",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-reinhard-elze",
+        "label": "Reinhard Elze",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of Ordines Coronationis Imperialis",
+        "placeId": ""
+      },
+      {
+        "id": "actor-hre-imperial-tradition",
+        "label": "Holy Roman imperial coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "political-liturgical context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-arras-saint-vaast-context",
+        "label": "Arras / Saint-Vaast context",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "textual or production context",
+        "placeId": "place-arras-context"
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-elze-1960",
+        "label": "Reinhard Elze, Ordines Coronationis Imperialis (1960)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00000664-8",
+        "description": ""
+      },
+      {
+        "id": "ref-ms-hre-ix-a-digital",
+        "label": "Digital source: Cologne, Dombibliothek, Cod. 141",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://digital.dombibliothek-koeln.de/hs/content/titleinfo/176753",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-hre",
+        "label": "Holy Roman Empire coronation ordines",
+        "code": "HRE"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "HRE-IX",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ix-src",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ix-src",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ix-src-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ix-src",
+      "predicate": "located_at",
+      "object": "place-arras-source-tradition-anchor",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ix-src",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ix-src",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ix-src",
+      "predicate": "associated_with",
+      "object": "actor-arras-saint-vaast-context",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-IX",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ix-a",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ix-a",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ix-a-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ix-a",
+      "predicate": "located_at",
+      "object": "repo-cologne-dombibliothek",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ix-a",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ix-a",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ix-a",
+      "predicate": "associated_with",
+      "object": "actor-arras-saint-vaast-context",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ix-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-hre-ix-a-digital",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-IX",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-hre",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-IX",
+      "predicate": "edited_by",
+      "object": "actor-reinhard-elze",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-IX",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": [
+      {
+        "id": "move-ms-hre-ix-src",
+        "manuscriptId": "ms-hre-ix-src",
+        "fromPlaceId": "place-arras-context",
+        "toPlaceId": "place-arras-source-tradition-anchor",
+        "start": "11th century",
+        "end": "11th century",
+        "certainty": "derived",
+        "description": "Research context line for SRC: Arras / Saint-Vaast context -> Arras, source tradition anchor."
+      },
+      {
+        "id": "move-ms-hre-ix-a",
+        "manuscriptId": "ms-hre-ix-a",
+        "fromPlaceId": "place-arras-context",
+        "toPlaceId": "repo-cologne-dombibliothek",
+        "start": "mid-11th century",
+        "end": "mid-11th century",
+        "certainty": "probable",
+        "description": "Research context line for A: Arras / Saint-Vaast context -> Erzbischöfliche Diözesan- und Dombibliothek, Cologne."
+      }
+    ]
+  }
+}

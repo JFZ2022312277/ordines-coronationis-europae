@@ -1,0 +1,3 @@
+"id","label","type","placeId","start","end","description","openatlasClass"
+"event-ms-hre-x-src-transmission","SRC copying/transmission context","copying_or_transmission","repo-vatican-bav","ca. 1100","ca. 1100","Geographic anchor inferred from HRE source dateline place: Rome.","E5 Event"
+"event-ms-hre-x-a-transmission","A copying/transmission context","copying_or_transmission","repo-vatican-bav","ca. 1100-1192","ca. 1100-1192","Liber Censuum; contains Ordo Romanus coronationis (Cencius I, HRE-X).","E5 Event"

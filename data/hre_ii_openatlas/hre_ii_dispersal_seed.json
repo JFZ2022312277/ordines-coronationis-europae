@@ -1,0 +1,1830 @@
+{
+  "meta": {
+    "title": "HRE-II The Western Ordo in the Ottonian Pontifical dispersal pilot",
+    "generatedAt": "2026-05-12T13:04:23.566Z",
+    "source": "ordines_coronationis_iiif.html HRE records + Elze witness lists where explicit",
+    "note": "Pilot OpenAtlas-style data; context links are marked derived/probable."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "HRE-II",
+        "label": "The Western Ordo in the Ottonian Pontifical",
+        "labelFr": "The Western Ordo in the Ottonian Pontifical",
+        "sourceLabel": "HRE",
+        "tradition": "HRE",
+        "date": "before 960",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "Edd.: Waitz Formeln S. 64-66 (aus B4Dl und Hss. der Ordines VIII und XI)= Erd!ma'/1/TI, Forsch. S. 89f.; Diemand S.142 (aus A6, gelcwrzt); Aruieu Ordines 4 6 (1956) 503-505, 517-519 (aus Al.3.6.7 B C, Paris 3839A, Vitry 36 und Hss. der Ordines V, VII und VIII),· vgl. femer die Ausgahen des Ordo XI (und XIA)."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-hre-ii-src",
+        "siglum": "SRC",
+        "shelfmark": "Mainz, source tradition anchor",
+        "repositoryPlaceId": "place-mainz-source-tradition-anchor",
+        "currentRepository": "Mainz, source tradition anchor",
+        "lat": 50,
+        "lon": 8.2711,
+        "date": "before 960",
+        "folios": "",
+        "group": "reference",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "reference",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Geographic anchor inferred from HRE source dateline place: Mainz?.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-a",
+        "siglum": "A",
+        "shelfmark": "Munich, BSB, Clm 3917",
+        "repositoryPlaceId": "repo-munich-bsb",
+        "currentRepository": "Bayerische Staatsbibliothek, Munich",
+        "lat": 48.1486,
+        "lon": 11.5802,
+        "date": "ca. 1100",
+        "folios": "",
+        "group": "manuscript",
+        "origin": "Augsburg",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "https://www.digitale-sammlungen.de/en/view/bsb00106697",
+        "iiifUrl": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106697/manifest",
+        "description": "Pontificale Romano-Germanicum; transmits Western Ordo.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-b",
+        "siglum": "B",
+        "shelfmark": "Vatican City, BAV, Vat. lat. 7114",
+        "repositoryPlaceId": "repo-vatican-bav",
+        "currentRepository": "Biblioteca Apostolica Vaticana",
+        "lat": 41.904,
+        "lon": 12.4545,
+        "date": "11th century",
+        "folios": "",
+        "group": "manuscript",
+        "origin": "Germany (Ottonian realm)",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "https://digi.vatlib.it/view/MSS_Vat.lat.7114",
+        "iiifUrl": "https://digi.vatlib.it/iiif/MSS_Vat.lat.7114/manifest.json",
+        "description": "Vatican witness for Western Ordo.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-c",
+        "siglum": "C",
+        "shelfmark": "Munich, BSB, Clm 6425",
+        "repositoryPlaceId": "repo-munich-bsb",
+        "currentRepository": "Bayerische Staatsbibliothek, Munich (prov. Freising Cathedral Library)",
+        "lat": 48.1486,
+        "lon": 11.5802,
+        "date": "2nd quarter 11th century",
+        "folios": "",
+        "group": "manuscript",
+        "origin": "Freising",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "https://www.digitale-sammlungen.de/en/view/bsb00060090",
+        "iiifUrl": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060090/manifest",
+        "description": "Pontificale Egilberti; transmits HRE-II and HRE-VI union redaction.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-a1",
+        "siglum": "A1",
+        "shelfmark": "Lucca, Biblioteca Capitolare, MS 607",
+        "repositoryPlaceId": "repo-lucca-capitular",
+        "currentRepository": "Lucca, Biblioteca Capitolare",
+        "lat": 43.843,
+        "lon": 10.507,
+        "date": "10th century",
+        "folios": "fols. 91r-92r",
+        "group": "A",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-a2",
+        "siglum": "A2",
+        "shelfmark": "Pistoia, Biblioteca Capitolare, MS O 141",
+        "repositoryPlaceId": "repo-pistoia-capitular",
+        "currentRepository": "Pistoia, Biblioteca Capitolare",
+        "lat": 43.9333,
+        "lon": 10.9167,
+        "date": "11th century",
+        "folios": "fols. 73v-74r",
+        "group": "A",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-a3",
+        "siglum": "A3",
+        "shelfmark": "Eichstätt, Pontifical of Gundekar",
+        "repositoryPlaceId": "repo-eichstaett",
+        "currentRepository": "Eichstätt, Pontifical of Gundekar",
+        "lat": 48.8912,
+        "lon": 11.1839,
+        "date": "11th century",
+        "folios": "fols. 56v-57r",
+        "group": "A",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-a5",
+        "siglum": "A5",
+        "shelfmark": "Cambridge, Corpus Christi College, MS 163",
+        "repositoryPlaceId": "repo-cambridge-corpus",
+        "currentRepository": "Cambridge, Corpus Christi College",
+        "lat": 52.2053,
+        "lon": 0.1192,
+        "date": "11th century",
+        "folios": "pp. 195-197",
+        "group": "A",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-a6",
+        "siglum": "A6",
+        "shelfmark": "Bamberg, Staatsbibliothek, Msc. Lit. 50",
+        "repositoryPlaceId": "repo-bamberg-staatsbibliothek",
+        "currentRepository": "Bamberg, Staatsbibliothek",
+        "lat": 49.8917,
+        "lon": 10.886,
+        "date": "11th century",
+        "folios": "fols. 28v-31r",
+        "group": "A",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-a7",
+        "siglum": "A7",
+        "shelfmark": "Bamberg, Staatsbibliothek, Msc. Lit. 53",
+        "repositoryPlaceId": "repo-bamberg-staatsbibliothek",
+        "currentRepository": "Bamberg, Staatsbibliothek",
+        "lat": 49.8917,
+        "lon": 10.886,
+        "date": "11th century",
+        "folios": "fols. 17r-18r",
+        "group": "A",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-a8",
+        "siglum": "A8",
+        "shelfmark": "Schaffhausen, MS 94",
+        "repositoryPlaceId": "repo-schaffhausen",
+        "currentRepository": "Schaffhausen, MS 94",
+        "lat": 47.6965,
+        "lon": 8.6339,
+        "date": "11th century",
+        "folios": "fols. 40v-43v",
+        "group": "A",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-b1",
+        "siglum": "B1",
+        "shelfmark": "Montecassino, MS 451",
+        "repositoryPlaceId": "repo-montecassino",
+        "currentRepository": "Montecassino, MS 451",
+        "lat": 41.4905,
+        "lon": 13.8138,
+        "date": "11th century",
+        "folios": "fols. 64r-65r",
+        "group": "B",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-b2",
+        "siglum": "B2",
+        "shelfmark": "Rome, Biblioteca Vallicelliana, MS D 5",
+        "repositoryPlaceId": "repo-rome-vallicelliana",
+        "currentRepository": "Rome, Biblioteca Vallicelliana",
+        "lat": 41.8986,
+        "lon": 12.4698,
+        "date": "11th century",
+        "folios": "fols. 58r-59r",
+        "group": "B",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-b3",
+        "siglum": "B3",
+        "shelfmark": "Venice, Biblioteca Marciana, MS 14",
+        "repositoryPlaceId": "repo-venice-marciana",
+        "currentRepository": "Venice, Biblioteca Marciana",
+        "lat": 45.434,
+        "lon": 12.3397,
+        "date": "11th century",
+        "folios": "fols. 50r-51r",
+        "group": "B",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-b4",
+        "siglum": "B4",
+        "shelfmark": "Paris, BnF, MS lat. 820",
+        "repositoryPlaceId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "lat": 48.8336,
+        "lon": 2.3758,
+        "date": "11th century",
+        "folios": "fols. 66v-67v",
+        "group": "B",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-c1",
+        "siglum": "C1",
+        "shelfmark": "Bamberg, Staatsbibliothek, Msc. Lit. 52",
+        "repositoryPlaceId": "repo-bamberg-staatsbibliothek",
+        "currentRepository": "Bamberg, Staatsbibliothek",
+        "lat": 49.8917,
+        "lon": 10.886,
+        "date": "12th century",
+        "folios": "fols. 50v-56r",
+        "group": "C",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-c2",
+        "siglum": "C2",
+        "shelfmark": "Bamberg, Staatsbibliothek, Msc. Lit. 56",
+        "repositoryPlaceId": "repo-bamberg-staatsbibliothek",
+        "currentRepository": "Bamberg, Staatsbibliothek",
+        "lat": 49.8917,
+        "lon": 10.886,
+        "date": "12th century",
+        "folios": "fols. 40r-41r",
+        "group": "C",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-hre-ii-c3",
+        "siglum": "C3",
+        "shelfmark": "London, British Library, Add. MS 17004",
+        "repositoryPlaceId": "repo-london-british-library",
+        "currentRepository": "London, British Library",
+        "lat": 51.5299,
+        "lon": -0.1275,
+        "date": "11th century",
+        "folios": "fols. 149r-154r",
+        "group": "C",
+        "origin": "Mainz? textual-context anchor",
+        "witnessType": "primary",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-mainz-context",
+        "label": "Mainz? textual-context anchor",
+        "lat": 50,
+        "lon": 8.2711,
+        "type": "origin_context",
+        "openatlasClass": "E53 Place",
+        "description": "Elze contextual dateline."
+      },
+      {
+        "id": "place-mainz-source-tradition-anchor",
+        "label": "Mainz, source tradition anchor",
+        "lat": 50,
+        "lon": 8.2711,
+        "type": "origin_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-munich-bsb",
+        "label": "Munich, Bayerische Staatsbibliothek",
+        "lat": 48.1486,
+        "lon": 11.5802,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-vatican-bav",
+        "label": "Vatican City, Biblioteca Apostolica Vaticana",
+        "lat": 41.904,
+        "lon": 12.4545,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-lucca-capitular",
+        "label": "Lucca, Biblioteca Capitolare",
+        "lat": 43.843,
+        "lon": 10.507,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-pistoia-capitular",
+        "label": "Pistoia, Biblioteca Capitolare",
+        "lat": 43.9333,
+        "lon": 10.9167,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-eichstaett",
+        "label": "Eichstätt, Diocesan/University Library context",
+        "lat": 48.8912,
+        "lon": 11.1839,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-cambridge-corpus",
+        "label": "Cambridge, Corpus Christi College",
+        "lat": 52.2053,
+        "lon": 0.1192,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-bamberg-staatsbibliothek",
+        "label": "Bamberg, Staatsbibliothek",
+        "lat": 49.8917,
+        "lon": 10.886,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-schaffhausen",
+        "label": "Schaffhausen, Stadtbibliothek",
+        "lat": 47.6965,
+        "lon": 8.6339,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-montecassino",
+        "label": "Montecassino, Archivio dell’Abbazia",
+        "lat": 41.4905,
+        "lon": 13.8138,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-rome-vallicelliana",
+        "label": "Rome, Biblioteca Vallicelliana",
+        "lat": 41.8986,
+        "lon": 12.4698,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-venice-marciana",
+        "label": "Venice, Biblioteca Marciana",
+        "lat": 45.434,
+        "lon": 12.3397,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, Bibliothèque nationale de France",
+        "lat": 48.8336,
+        "lon": 2.3758,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "lat": 51.5299,
+        "lon": -0.1275,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-hre-ii-src-transmission",
+        "label": "SRC copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "place-mainz-source-tradition-anchor",
+        "start": "before 960",
+        "end": "before 960",
+        "description": "Geographic anchor inferred from HRE source dateline place: Mainz?.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-a-transmission",
+        "label": "A copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-munich-bsb",
+        "start": "ca. 1100",
+        "end": "ca. 1100",
+        "description": "Pontificale Romano-Germanicum; transmits Western Ordo.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-b-transmission",
+        "label": "B copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-vatican-bav",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Vatican witness for Western Ordo.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-c-transmission",
+        "label": "C copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-munich-bsb",
+        "start": "2nd quarter 11th century",
+        "end": "2nd quarter 11th century",
+        "description": "Pontificale Egilberti; transmits HRE-II and HRE-VI union redaction.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-a1-transmission",
+        "label": "A1 copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-lucca-capitular",
+        "start": "10th century",
+        "end": "10th century",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-a2-transmission",
+        "label": "A2 copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-pistoia-capitular",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-a3-transmission",
+        "label": "A3 copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-eichstaett",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-a5-transmission",
+        "label": "A5 copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-cambridge-corpus",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-a6-transmission",
+        "label": "A6 copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-bamberg-staatsbibliothek",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-a7-transmission",
+        "label": "A7 copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-bamberg-staatsbibliothek",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-a8-transmission",
+        "label": "A8 copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-schaffhausen",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-b1-transmission",
+        "label": "B1 copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-montecassino",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-b2-transmission",
+        "label": "B2 copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-rome-vallicelliana",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-b3-transmission",
+        "label": "B3 copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-venice-marciana",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-b4-transmission",
+        "label": "B4 copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-paris-bnf",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-c1-transmission",
+        "label": "C1 copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-bamberg-staatsbibliothek",
+        "start": "12th century",
+        "end": "12th century",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-c2-transmission",
+        "label": "C2 copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-bamberg-staatsbibliothek",
+        "start": "12th century",
+        "end": "12th century",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-hre-ii-c3-transmission",
+        "label": "C3 copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-london-british-library",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Witness listed in Elze for this HRE ordo; structured here as a pilot entity.",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-reinhard-elze",
+        "label": "Reinhard Elze",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of Ordines Coronationis Imperialis",
+        "placeId": ""
+      },
+      {
+        "id": "actor-hre-imperial-tradition",
+        "label": "Holy Roman imperial coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "political-liturgical context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-mainz-textual-context-anchor",
+        "label": "Mainz? textual-context",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "textual or production context",
+        "placeId": "place-mainz-context"
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-elze-1960",
+        "label": "Reinhard Elze, Ordines Coronationis Imperialis (1960)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00000664-8",
+        "description": ""
+      },
+      {
+        "id": "ref-ms-hre-ii-a-digital",
+        "label": "Digital source: Munich, BSB, Clm 3917",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://www.digitale-sammlungen.de/en/view/bsb00106697",
+        "description": ""
+      },
+      {
+        "id": "ref-ms-hre-ii-a-iiif",
+        "label": "IIIF manifest: Munich, BSB, Clm 3917",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106697/manifest",
+        "description": ""
+      },
+      {
+        "id": "ref-ms-hre-ii-b-digital",
+        "label": "Digital source: Vatican City, BAV, Vat. lat. 7114",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://digi.vatlib.it/view/MSS_Vat.lat.7114",
+        "description": ""
+      },
+      {
+        "id": "ref-ms-hre-ii-b-iiif",
+        "label": "IIIF manifest: Vatican City, BAV, Vat. lat. 7114",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://digi.vatlib.it/iiif/MSS_Vat.lat.7114/manifest.json",
+        "description": ""
+      },
+      {
+        "id": "ref-ms-hre-ii-c-digital",
+        "label": "Digital source: Munich, BSB, Clm 6425",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://www.digitale-sammlungen.de/en/view/bsb00060090",
+        "description": ""
+      },
+      {
+        "id": "ref-ms-hre-ii-c-iiif",
+        "label": "IIIF manifest: Munich, BSB, Clm 6425",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060090/manifest",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-hre",
+        "label": "Holy Roman Empire coronation ordines",
+        "code": "HRE"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-src",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-src",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-src-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-src",
+      "predicate": "located_at",
+      "object": "place-mainz-source-tradition-anchor",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-src",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-src",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-src",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-a",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-a-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a",
+      "predicate": "located_at",
+      "object": "repo-munich-bsb",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-hre-ii-a-digital",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-hre-ii-a-iiif",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-b",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-b-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b",
+      "predicate": "located_at",
+      "object": "repo-vatican-bav",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b",
+      "predicate": "has_reference",
+      "object": "ref-ms-hre-ii-b-digital",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b",
+      "predicate": "has_reference",
+      "object": "ref-ms-hre-ii-b-iiif",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-c",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-c-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c",
+      "predicate": "located_at",
+      "object": "repo-munich-bsb",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c",
+      "predicate": "has_reference",
+      "object": "ref-ms-hre-ii-c-digital",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c",
+      "predicate": "has_reference",
+      "object": "ref-ms-hre-ii-c-iiif",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-a1",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a1",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-a1-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a1",
+      "predicate": "located_at",
+      "object": "repo-lucca-capitular",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a1",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a1",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a1",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-a2",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a2",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-a2-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a2",
+      "predicate": "located_at",
+      "object": "repo-pistoia-capitular",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a2",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a2",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a2",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-a3",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a3",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-a3-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a3",
+      "predicate": "located_at",
+      "object": "repo-eichstaett",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a3",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a3",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a3",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-a5",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a5",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-a5-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a5",
+      "predicate": "located_at",
+      "object": "repo-cambridge-corpus",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a5",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a5",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a5",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-a6",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a6",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-a6-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a6",
+      "predicate": "located_at",
+      "object": "repo-bamberg-staatsbibliothek",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a6",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a6",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a6",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-a7",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a7",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-a7-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a7",
+      "predicate": "located_at",
+      "object": "repo-bamberg-staatsbibliothek",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a7",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a7",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a7",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-a8",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a8",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-a8-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a8",
+      "predicate": "located_at",
+      "object": "repo-schaffhausen",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a8",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a8",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-a8",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-b1",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b1",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-b1-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b1",
+      "predicate": "located_at",
+      "object": "repo-montecassino",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b1",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b1",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b1",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-b2",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b2",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-b2-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b2",
+      "predicate": "located_at",
+      "object": "repo-rome-vallicelliana",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b2",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b2",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b2",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-b3",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b3",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-b3-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b3",
+      "predicate": "located_at",
+      "object": "repo-venice-marciana",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b3",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b3",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b3",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-b4",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b4",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-b4-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b4",
+      "predicate": "located_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b4",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b4",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-b4",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-c1",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c1",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-c1-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c1",
+      "predicate": "located_at",
+      "object": "repo-bamberg-staatsbibliothek",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c1",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c1",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c1",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-c2",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c2",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-c2-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c2",
+      "predicate": "located_at",
+      "object": "repo-bamberg-staatsbibliothek",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c2",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c2",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c2",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "preserved_in",
+      "object": "ms-hre-ii-c3",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c3",
+      "predicate": "has_event",
+      "object": "event-ms-hre-ii-c3-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c3",
+      "predicate": "located_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c3",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c3",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-ii-c3",
+      "predicate": "associated_with",
+      "object": "actor-mainz-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-hre",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "edited_by",
+      "object": "actor-reinhard-elze",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-II",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": [
+      {
+        "id": "move-ms-hre-ii-src",
+        "manuscriptId": "ms-hre-ii-src",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "place-mainz-source-tradition-anchor",
+        "start": "before 960",
+        "end": "before 960",
+        "certainty": "derived",
+        "description": "Research context line for SRC: Mainz? textual-context anchor -> Mainz, source tradition anchor."
+      },
+      {
+        "id": "move-ms-hre-ii-a",
+        "manuscriptId": "ms-hre-ii-a",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-munich-bsb",
+        "start": "ca. 1100",
+        "end": "ca. 1100",
+        "certainty": "probable",
+        "description": "Research context line for A: Mainz? textual-context anchor -> Bayerische Staatsbibliothek, Munich."
+      },
+      {
+        "id": "move-ms-hre-ii-b",
+        "manuscriptId": "ms-hre-ii-b",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-vatican-bav",
+        "start": "11th century",
+        "end": "11th century",
+        "certainty": "probable",
+        "description": "Research context line for B: Mainz? textual-context anchor -> Biblioteca Apostolica Vaticana."
+      },
+      {
+        "id": "move-ms-hre-ii-c",
+        "manuscriptId": "ms-hre-ii-c",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-munich-bsb",
+        "start": "2nd quarter 11th century",
+        "end": "2nd quarter 11th century",
+        "certainty": "probable",
+        "description": "Research context line for C: Mainz? textual-context anchor -> Bayerische Staatsbibliothek, Munich (prov. Freising Cathedral Library)."
+      },
+      {
+        "id": "move-ms-hre-ii-a1",
+        "manuscriptId": "ms-hre-ii-a1",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-lucca-capitular",
+        "start": "10th century",
+        "end": "10th century",
+        "certainty": "derived",
+        "description": "Research context line for A1: Mainz? textual-context anchor -> Lucca, Biblioteca Capitolare."
+      },
+      {
+        "id": "move-ms-hre-ii-a2",
+        "manuscriptId": "ms-hre-ii-a2",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-pistoia-capitular",
+        "start": "11th century",
+        "end": "11th century",
+        "certainty": "derived",
+        "description": "Research context line for A2: Mainz? textual-context anchor -> Pistoia, Biblioteca Capitolare."
+      },
+      {
+        "id": "move-ms-hre-ii-a3",
+        "manuscriptId": "ms-hre-ii-a3",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-eichstaett",
+        "start": "11th century",
+        "end": "11th century",
+        "certainty": "derived",
+        "description": "Research context line for A3: Mainz? textual-context anchor -> Eichstätt, Pontifical of Gundekar."
+      },
+      {
+        "id": "move-ms-hre-ii-a5",
+        "manuscriptId": "ms-hre-ii-a5",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-cambridge-corpus",
+        "start": "11th century",
+        "end": "11th century",
+        "certainty": "derived",
+        "description": "Research context line for A5: Mainz? textual-context anchor -> Cambridge, Corpus Christi College."
+      },
+      {
+        "id": "move-ms-hre-ii-a6",
+        "manuscriptId": "ms-hre-ii-a6",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-bamberg-staatsbibliothek",
+        "start": "11th century",
+        "end": "11th century",
+        "certainty": "derived",
+        "description": "Research context line for A6: Mainz? textual-context anchor -> Bamberg, Staatsbibliothek."
+      },
+      {
+        "id": "move-ms-hre-ii-a7",
+        "manuscriptId": "ms-hre-ii-a7",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-bamberg-staatsbibliothek",
+        "start": "11th century",
+        "end": "11th century",
+        "certainty": "derived",
+        "description": "Research context line for A7: Mainz? textual-context anchor -> Bamberg, Staatsbibliothek."
+      },
+      {
+        "id": "move-ms-hre-ii-a8",
+        "manuscriptId": "ms-hre-ii-a8",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-schaffhausen",
+        "start": "11th century",
+        "end": "11th century",
+        "certainty": "derived",
+        "description": "Research context line for A8: Mainz? textual-context anchor -> Schaffhausen, MS 94."
+      },
+      {
+        "id": "move-ms-hre-ii-b1",
+        "manuscriptId": "ms-hre-ii-b1",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-montecassino",
+        "start": "11th century",
+        "end": "11th century",
+        "certainty": "derived",
+        "description": "Research context line for B1: Mainz? textual-context anchor -> Montecassino, MS 451."
+      },
+      {
+        "id": "move-ms-hre-ii-b2",
+        "manuscriptId": "ms-hre-ii-b2",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-rome-vallicelliana",
+        "start": "11th century",
+        "end": "11th century",
+        "certainty": "derived",
+        "description": "Research context line for B2: Mainz? textual-context anchor -> Rome, Biblioteca Vallicelliana."
+      },
+      {
+        "id": "move-ms-hre-ii-b3",
+        "manuscriptId": "ms-hre-ii-b3",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-venice-marciana",
+        "start": "11th century",
+        "end": "11th century",
+        "certainty": "derived",
+        "description": "Research context line for B3: Mainz? textual-context anchor -> Venice, Biblioteca Marciana."
+      },
+      {
+        "id": "move-ms-hre-ii-b4",
+        "manuscriptId": "ms-hre-ii-b4",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "11th century",
+        "end": "11th century",
+        "certainty": "derived",
+        "description": "Research context line for B4: Mainz? textual-context anchor -> Paris, BnF."
+      },
+      {
+        "id": "move-ms-hre-ii-c1",
+        "manuscriptId": "ms-hre-ii-c1",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-bamberg-staatsbibliothek",
+        "start": "12th century",
+        "end": "12th century",
+        "certainty": "derived",
+        "description": "Research context line for C1: Mainz? textual-context anchor -> Bamberg, Staatsbibliothek."
+      },
+      {
+        "id": "move-ms-hre-ii-c2",
+        "manuscriptId": "ms-hre-ii-c2",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-bamberg-staatsbibliothek",
+        "start": "12th century",
+        "end": "12th century",
+        "certainty": "derived",
+        "description": "Research context line for C2: Mainz? textual-context anchor -> Bamberg, Staatsbibliothek."
+      },
+      {
+        "id": "move-ms-hre-ii-c3",
+        "manuscriptId": "ms-hre-ii-c3",
+        "fromPlaceId": "place-mainz-context",
+        "toPlaceId": "repo-london-british-library",
+        "start": "11th century",
+        "end": "11th century",
+        "certainty": "derived",
+        "description": "Research context line for C3: Mainz? textual-context anchor -> London, British Library."
+      }
+    ]
+  }
+}

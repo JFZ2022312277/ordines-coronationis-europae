@@ -1,0 +1,1504 @@
+{
+  "meta": {
+    "title": "OCF-XXIII manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:45.106Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XXIII. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-XXIII.",
+    "entityEnrichedAt": "2026-05-12T09:59:45.447Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XXIII",
+        "label": "Ordo of Charles V",
+        "labelFr": "Ordo de Charles V",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "19 May 1364",
+        "description": "Unusual in many ways. Personally supervised by Charles V, who signed the manuscript. Famous, highly detailed miniatures-the best example of an illustrated coronation text from medieval France. The longest of all French ordines. Reflects current political circumstances: the English claim to the French throne, King John's death in England, heavy ransom and territorial losses. Contains 19 new formulas. Formed the core of coronations from 1364 through the livre rouge to the end of the Old Regime."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xxiii-a",
+        "siglum": "A",
+        "displaySiglum": "A",
+        "label": "A — London, British Library, MS Cotton Tiberius B.viii",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "London, British Library, MS Cotton Tiberius B.viii",
+        "folios": "fols. 43r–4v",
+        "date": "1365 (13 April 1365” April 1366)",
+        "origin": "Paris (for Charles V, royal library)",
+        "currentRepositoryId": "repo-london-british-library",
+        "currentRepository": "London, British Library",
+        "copiedFrom": "",
+        "digitalUrl": "https://portail.biblissima.fr/ark:/43093/mdata1f640af7b55e4c5e48254969500d754e0eba1c56",
+        "iiifUrl": "",
+        "sourceLabel": "Biblissima IIIF",
+        "description": "The Coronation Book (Livre du sacre) of Charles V. Over 40 miniatures. Signed by the king on fol. 74v. Taken to England by Duke of Bedford after 1427. Incomplete: missing leaves between fols. 48v–9r and 53v–4r. Base text.",
+        "bibliography": "Dewick, Coronation Book, xi–xii; Sherman, 'The Queen in Charles V's Coronation Book' (1977)"
+      },
+      {
+        "id": "ms-ocf-xxiii-b",
+        "siglum": "B",
+        "displaySiglum": "B",
+        "label": "B — Paris, BnF, MS lat. 8886",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 8886",
+        "folios": "fols. 62v–3v",
+        "date": "Early 15th century",
+        "origin": "Bayeux (pontifical) / for Jean, Duke of Berry",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b84516106",
+        "iiifUrl": "",
+        "sourceLabel": "Gallica / BnF",
+        "description": "Magnificent pontifical. Given to Sainte-Chapelle in Bourges 1405–7. Not copied from A.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiii-c",
+        "siglum": "C",
+        "displaySiglum": "C",
+        "label": "C — Paris, BnF, MS lat. 9479",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Paris, BnF, MS lat. 9479",
+        "folios": "fols. 213r–19r",
+        "date": "Early 15th century (before 1427/1435)",
+        "origin": "Arles (pontifical, with addition)",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b9067004s",
+        "iiifUrl": "",
+        "sourceLabel": "Gallica / BnF",
+        "description": "Queen's ordo only (nos. 87–08). Copied from A.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiii-d",
+        "siglum": "D",
+        "displaySiglum": "D",
+        "label": "D — London, British Library, MS Additional 32097",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "London, British Library, MS Additional 32097",
+        "folios": "fols. 150v–61v",
+        "date": "15th century",
+        "origin": "",
+        "currentRepositoryId": "repo-london-british-library",
+        "currentRepository": "London, British Library",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Copied from lost MS 1 or 2.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiii-e",
+        "siglum": "E",
+        "displaySiglum": "E",
+        "label": "E — Paris, BnF, MS Dupuy 365",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Paris, BnF, MS Dupuy 365",
+        "folios": "fols. 28r–4r",
+        "date": "15th century, third quarter",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b10034215c",
+        "iiifUrl": "",
+        "sourceLabel": "Gallica / BnF",
+        "description": "Copied from B.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiii-f",
+        "siglum": "F",
+        "displaySiglum": "F",
+        "label": "F — Paris, Archives de Saint-Sulpice, MS 1928",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, Archives de Saint-Sulpice, MS 1928",
+        "folios": "fols. 57r–8r",
+        "date": "ca. 1480",
+        "origin": "Noyon (for Bishop Guillaume de Marafin, 1473–501)",
+        "currentRepositoryId": "repo-paris-archives-de-saint-sulpice",
+        "currentRepository": "Paris, Archives de Saint-Sulpice",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Copied from livre rouge (lost MS 4). Later collated with livre rouge, with marginal additions. Important witness to lost MS.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiii-g",
+        "siglum": "G",
+        "displaySiglum": "G",
+        "label": "G — Paris, BnF, MS lat. 13314",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 13314",
+        "folios": "fols. 3r–4r",
+        "date": "1530–535",
+        "origin": "Beauvais (for Bishop Charles de Villiers-de-l'Isle-Adam)",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b10720778b",
+        "iiifUrl": "",
+        "sourceLabel": "Gallica / BnF",
+        "description": "Copied from livre rouge. King's ordo only. Best copy of the three witnesses to the livre rouge.",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "place-arles",
+        "label": "Arles",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 43.677,
+        "lon": 4.628,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Beauvais (for Bishop Charles de Villiers-de-l'Isle-Adam)\"."
+      },
+      {
+        "id": "place-bayeux",
+        "label": "Bayeux",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.276,
+        "lon": -0.703,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Bayeux (pontifical) / for Jean, Duke of Berry\"."
+      },
+      {
+        "id": "place-beauvais",
+        "label": "Beauvais",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.431,
+        "lon": 2.08,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Beauvais (for Bishop Charles de Villiers-de-l'Isle-Adam)\"."
+      },
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 51.5299,
+        "lon": -0.1277,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: London, British Library, MS Additional 32097"
+      },
+      {
+        "id": "place-noyon",
+        "label": "Noyon",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.581,
+        "lon": 3,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Noyon (for Bishop Guillaume de Marafin, 1473–501)\"."
+      },
+      {
+        "id": "place-paris",
+        "label": "Paris",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Paris (for Charles V, royal library)\"."
+      },
+      {
+        "id": "repo-paris-archives-de-saint-sulpice",
+        "label": "Paris, Archives de Saint-Sulpice",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8513,
+        "lon": 2.3346,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, Archives de Saint-Sulpice, MS 1928"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS lat. 13314"
+      },
+      {
+        "id": "place-royal-library-paris",
+        "label": "Royal Library, Paris",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "collection_context",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Paris (for Charles V, royal library)\"."
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xxiii-a-current-repository",
+        "label": "A kept at London, British Library",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiii-a",
+        "placeId": "repo-london-british-library",
+        "start": "",
+        "end": "",
+        "description": "London, British Library, MS Cotton Tiberius B.viii is currently kept at London, British Library.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiii-a-origin-arles",
+        "label": "A origin/context: Arles",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxiii-a",
+        "placeId": "place-arles",
+        "start": "1365 (13 April 1365” April 1366)",
+        "end": "1365 (13 April 1365” April 1366)",
+        "description": "London, British Library, MS Cotton Tiberius B.viii: origin/context recorded as \"Paris (for Charles V, royal library)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxiii-a-origin-paris",
+        "label": "A origin/context: Paris",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxiii-a",
+        "placeId": "place-paris",
+        "start": "1365 (13 April 1365” April 1366)",
+        "end": "1365 (13 April 1365” April 1366)",
+        "description": "London, British Library, MS Cotton Tiberius B.viii: origin/context recorded as \"Paris (for Charles V, royal library)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxiii-a-origin-royal-library-paris",
+        "label": "A origin/context: Royal Library, Paris",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxiii-a",
+        "placeId": "place-royal-library-paris",
+        "start": "1365 (13 April 1365” April 1366)",
+        "end": "1365 (13 April 1365” April 1366)",
+        "description": "London, British Library, MS Cotton Tiberius B.viii: origin/context recorded as \"Paris (for Charles V, royal library)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxiii-b-current-repository",
+        "label": "B kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiii-b",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 8886 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiii-b-origin-bayeux",
+        "label": "B origin/context: Bayeux",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxiii-b",
+        "placeId": "place-bayeux",
+        "start": "Early 15th century",
+        "end": "Early 15th century",
+        "description": "Paris, BnF, MS lat. 8886: origin/context recorded as \"Bayeux (pontifical) / for Jean, Duke of Berry\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxiii-c-current-repository",
+        "label": "C kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiii-c",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 9479 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiii-c-origin-arles",
+        "label": "C origin/context: Arles",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxiii-c",
+        "placeId": "place-arles",
+        "start": "Early 15th century (before 1427/1435)",
+        "end": "Early 15th century (before 1427/1435)",
+        "description": "Paris, BnF, MS lat. 9479: origin/context recorded as \"Arles (pontifical, with addition)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxiii-d-current-repository",
+        "label": "D kept at London, British Library",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiii-d",
+        "placeId": "repo-london-british-library",
+        "start": "",
+        "end": "",
+        "description": "London, British Library, MS Additional 32097 is currently kept at London, British Library.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiii-e-current-repository",
+        "label": "E kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiii-e",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS Dupuy 365 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiii-f-current-repository",
+        "label": "F kept at Paris, Archives de Saint-Sulpice",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiii-f",
+        "placeId": "repo-paris-archives-de-saint-sulpice",
+        "start": "",
+        "end": "",
+        "description": "Paris, Archives de Saint-Sulpice, MS 1928 is currently kept at Paris, Archives de Saint-Sulpice.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiii-f-origin-noyon",
+        "label": "F origin/context: Noyon",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxiii-f",
+        "placeId": "place-noyon",
+        "start": "ca. 1480",
+        "end": "ca. 1480",
+        "description": "Paris, Archives de Saint-Sulpice, MS 1928: origin/context recorded as \"Noyon (for Bishop Guillaume de Marafin, 1473–501)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxiii-g-current-repository",
+        "label": "G kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiii-g",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 13314 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiii-g-origin-arles",
+        "label": "G origin/context: Arles",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxiii-g",
+        "placeId": "place-arles",
+        "start": "1530–535",
+        "end": "1530–535",
+        "description": "Paris, BnF, MS lat. 13314: origin/context recorded as \"Beauvais (for Bishop Charles de Villiers-de-l'Isle-Adam)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxiii-g-origin-beauvais",
+        "label": "G origin/context: Beauvais",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxiii-g",
+        "placeId": "place-beauvais",
+        "start": "1530–535",
+        "end": "1530–535",
+        "description": "Paris, BnF, MS lat. 13314: origin/context recorded as \"Beauvais (for Bishop Charles de Villiers-de-l'Isle-Adam)\".",
+        "certainty": "probable"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-saint-sulpice-archives",
+        "label": "Archives Saint-Sulpice",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution",
+        "placeId": "repo-paris-archives-saint-sulpice",
+        "description": ""
+      },
+      {
+        "id": "actor-arles-church",
+        "label": "Arles ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "episcopal / liturgical context",
+        "placeId": "place-arles",
+        "description": ""
+      },
+      {
+        "id": "actor-bayeux-church",
+        "label": "Bayeux ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "episcopal / liturgical context",
+        "placeId": "place-bayeux",
+        "description": ""
+      },
+      {
+        "id": "actor-beauvais-church",
+        "label": "Beauvais ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "episcopal / liturgical context",
+        "placeId": "place-beauvais",
+        "description": ""
+      },
+      {
+        "id": "actor-bnf",
+        "label": "Bibliothèque nationale de France (BnF)",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-paris-bnf",
+        "description": ""
+      },
+      {
+        "id": "actor-biblissima",
+        "label": "Biblissima",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "digital source aggregator",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-british-library",
+        "label": "British Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-london-british-library",
+        "description": ""
+      },
+      {
+        "id": "actor-charles-villiers-isle-adam",
+        "label": "Charles de Villiers-de-l'Isle-Adam",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "bishop / patron or owner",
+        "placeId": "place-beauvais",
+        "description": ""
+      },
+      {
+        "id": "actor-charles-v-france",
+        "label": "Charles V of France",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal patron / former owner",
+        "placeId": "place-paris",
+        "description": ""
+      },
+      {
+        "id": "actor-claire-sherman",
+        "label": "Claire Richter Sherman",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "modern scholar",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-ew-dewick",
+        "label": "E. S. Dewick",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor / scholar",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-gallica",
+        "label": "Gallica",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "digital source platform",
+        "placeId": "repo-paris-bnf",
+        "description": ""
+      },
+      {
+        "id": "actor-guillaume-de-marafin",
+        "label": "Guillaume de Marafin",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "bishop / patron or owner",
+        "placeId": "place-noyon",
+        "description": ""
+      },
+      {
+        "id": "actor-iiif",
+        "label": "IIIF",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "image/service reference",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-jean-duke-of-berry",
+        "label": "Jean, Duke of Berry",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal patron / former owner",
+        "placeId": "place-bourges",
+        "description": ""
+      },
+      {
+        "id": "actor-duke-of-bedford",
+        "label": "John, Duke of Bedford",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "collector / transfer actor",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-noyon-church",
+        "label": "Noyon ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "liturgical/sacramentary context",
+        "placeId": "place-noyon",
+        "description": ""
+      },
+      {
+        "id": "actor-royal-library-paris",
+        "label": "Royal Library of Charles V",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "royal collection / provenance context",
+        "placeId": "place-paris",
+        "description": ""
+      },
+      {
+        "id": "actor-sainte-chapelle-bourges",
+        "label": "Sainte-Chapelle of Bourges",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "former repository / royal chapel context",
+        "placeId": "place-bourges",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-xxiii-a-digital",
+        "label": "Biblissima IIIF: London, British Library, MS Cotton Tiberius B.viii",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://portail.biblissima.fr/ark:/43093/mdata1f640af7b55e4c5e48254969500d754e0eba1c56",
+        "description": "Digital source for London, British Library, MS Cotton Tiberius B.viii."
+      },
+      {
+        "id": "ref-ms-ocf-xxiii-a-bib-1",
+        "label": "Dewick, Coronation Book, xi–xii",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for London, British Library, MS Cotton Tiberius B.viii."
+      },
+      {
+        "id": "ref-ms-ocf-xxiii-e-digital",
+        "label": "Gallica / BnF: Paris, BnF, MS Dupuy 365",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b10034215c",
+        "description": "Digital source for Paris, BnF, MS Dupuy 365."
+      },
+      {
+        "id": "ref-ms-ocf-xxiii-g-digital",
+        "label": "Gallica / BnF: Paris, BnF, MS lat. 13314",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b10720778b",
+        "description": "Digital source for Paris, BnF, MS lat. 13314."
+      },
+      {
+        "id": "ref-ms-ocf-xxiii-b-digital",
+        "label": "Gallica / BnF: Paris, BnF, MS lat. 8886",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b84516106",
+        "description": "Digital source for Paris, BnF, MS lat. 8886."
+      },
+      {
+        "id": "ref-ms-ocf-xxiii-c-digital",
+        "label": "Gallica / BnF: Paris, BnF, MS lat. 9479",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b9067004s",
+        "description": "Digital source for Paris, BnF, MS lat. 9479."
+      },
+      {
+        "id": "ref-ms-ocf-xxiii-a-bib-2",
+        "label": "Sherman, 'The Queen in Charles V's Coronation Book' (1977)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for London, British Library, MS Cotton Tiberius B.viii."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "witnesses",
+      "object": "OCF-XXIII",
+      "certainty": "certain",
+      "source": "OCF-XXIII witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxiii-a-origin-arles",
+      "predicate": "occurred_at",
+      "object": "place-arles",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-arles",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "event-ms-ocf-xxiii-a-origin-paris",
+      "predicate": "occurred_at",
+      "object": "place-paris",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-paris",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "event-ms-ocf-xxiii-a-origin-royal-library-paris",
+      "predicate": "occurred_at",
+      "object": "place-royal-library-paris",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-royal-library-paris",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiii-b",
+      "predicate": "witnesses",
+      "object": "OCF-XXIII",
+      "certainty": "certain",
+      "source": "OCF-XXIII witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiii-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxiii-b-origin-bayeux",
+      "predicate": "occurred_at",
+      "object": "place-bayeux",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiii-b",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-bayeux",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiii-c",
+      "predicate": "witnesses",
+      "object": "OCF-XXIII",
+      "certainty": "certain",
+      "source": "OCF-XXIII witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiii-c",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxiii-c-origin-arles",
+      "predicate": "occurred_at",
+      "object": "place-arles",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiii-c",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-arles",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiii-d",
+      "predicate": "witnesses",
+      "object": "OCF-XXIII",
+      "certainty": "certain",
+      "source": "OCF-XXIII witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiii-d",
+      "predicate": "currently_kept_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxiii-e",
+      "predicate": "witnesses",
+      "object": "OCF-XXIII",
+      "certainty": "certain",
+      "source": "OCF-XXIII witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiii-e",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxiii-f",
+      "predicate": "witnesses",
+      "object": "OCF-XXIII",
+      "certainty": "certain",
+      "source": "OCF-XXIII witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiii-f",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-archives-de-saint-sulpice",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxiii-f-origin-noyon",
+      "predicate": "occurred_at",
+      "object": "place-noyon",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiii-f",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-noyon",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiii-g",
+      "predicate": "witnesses",
+      "object": "OCF-XXIII",
+      "certainty": "certain",
+      "source": "OCF-XXIII witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiii-g",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxiii-g-origin-arles",
+      "predicate": "occurred_at",
+      "object": "place-arles",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiii-g",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-arles",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "event-ms-ocf-xxiii-g-origin-beauvais",
+      "predicate": "occurred_at",
+      "object": "place-beauvais",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiii-g",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-beauvais",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "associated_with",
+      "object": "actor-british-library",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "associated_with",
+      "object": "actor-arles-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "associated_with",
+      "object": "actor-royal-library-paris",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-ew-dewick",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-claire-sherman",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "associated_person",
+      "object": "actor-charles-v-france",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "associated_person",
+      "object": "actor-duke-of-bedford",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "associated_source_actor",
+      "object": "actor-biblissima",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "associated_source_actor",
+      "object": "actor-iiif",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xxiii-a-digital",
+      "certainty": "certain",
+      "source": "iiif_manifest"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xxiii-a-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xxiii-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xxiii-a-bib-2",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xxiii-b",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-b",
+      "predicate": "associated_with",
+      "object": "actor-bayeux-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-b",
+      "predicate": "associated_with",
+      "object": "actor-sainte-chapelle-bourges",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-b",
+      "predicate": "associated_person",
+      "object": "actor-jean-duke-of-berry",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-b",
+      "predicate": "associated_source_actor",
+      "object": "actor-gallica",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-b",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xxiii-b-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xxiii-c",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-c",
+      "predicate": "associated_with",
+      "object": "actor-arles-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-c",
+      "predicate": "associated_source_actor",
+      "object": "actor-gallica",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-c",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xxiii-c-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xxiii-d",
+      "predicate": "associated_with",
+      "object": "actor-british-library",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-e",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-e",
+      "predicate": "associated_source_actor",
+      "object": "actor-gallica",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-e",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xxiii-e-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xxiii-f",
+      "predicate": "associated_with",
+      "object": "actor-saint-sulpice-archives",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-f",
+      "predicate": "associated_with",
+      "object": "actor-noyon-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-f",
+      "predicate": "associated_person",
+      "object": "actor-guillaume-de-marafin",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-g",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-g",
+      "predicate": "associated_with",
+      "object": "actor-beauvais-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-g",
+      "predicate": "associated_with",
+      "object": "actor-arles-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-g",
+      "predicate": "associated_person",
+      "object": "actor-charles-villiers-isle-adam",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-g",
+      "predicate": "associated_source_actor",
+      "object": "actor-gallica",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiii-g",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xxiii-g-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "OCF-XXIII",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-XXIII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiii-a",
+      "certainty": "certain",
+      "source": "OCF-XXIII witness list"
+    },
+    {
+      "subject": "OCF-XXIII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiii-b",
+      "certainty": "certain",
+      "source": "OCF-XXIII witness list"
+    },
+    {
+      "subject": "OCF-XXIII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiii-c",
+      "certainty": "certain",
+      "source": "OCF-XXIII witness list"
+    },
+    {
+      "subject": "OCF-XXIII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiii-d",
+      "certainty": "certain",
+      "source": "OCF-XXIII witness list"
+    },
+    {
+      "subject": "OCF-XXIII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiii-e",
+      "certainty": "certain",
+      "source": "OCF-XXIII witness list"
+    },
+    {
+      "subject": "OCF-XXIII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiii-f",
+      "certainty": "certain",
+      "source": "OCF-XXIII witness list"
+    },
+    {
+      "subject": "OCF-XXIII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiii-g",
+      "certainty": "certain",
+      "source": "OCF-XXIII witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 51.5299,
+        "lon": -0.1277,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: London, British Library, MS Additional 32097"
+      },
+      {
+        "id": "repo-paris-archives-de-saint-sulpice",
+        "label": "Paris, Archives de Saint-Sulpice",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8513,
+        "lon": 2.3346,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, Archives de Saint-Sulpice, MS 1928"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS lat. 13314"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-arles",
+        "label": "Arles",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 43.677,
+        "lon": 4.628,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Beauvais (for Bishop Charles de Villiers-de-l'Isle-Adam)\"."
+      },
+      {
+        "id": "place-bayeux",
+        "label": "Bayeux",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.276,
+        "lon": -0.703,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Bayeux (pontifical) / for Jean, Duke of Berry\"."
+      },
+      {
+        "id": "place-beauvais",
+        "label": "Beauvais",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.431,
+        "lon": 2.08,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Beauvais (for Bishop Charles de Villiers-de-l'Isle-Adam)\"."
+      },
+      {
+        "id": "place-noyon",
+        "label": "Noyon",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.581,
+        "lon": 3,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Noyon (for Bishop Guillaume de Marafin, 1473–501)\"."
+      },
+      {
+        "id": "place-paris",
+        "label": "Paris",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Paris (for Charles V, royal library)\"."
+      },
+      {
+        "id": "place-royal-library-paris",
+        "label": "Royal Library, Paris",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "collection_context",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Paris (for Charles V, royal library)\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-xxiii-a-arles-to-london-british-library",
+        "label": "A: Arles → London, British Library",
+        "manuscriptId": "ms-ocf-xxiii-a",
+        "fromPlaceId": "place-arles",
+        "toPlaceId": "repo-london-british-library",
+        "start": "1365 (13 April 1365” April 1366)",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxiii-a-paris-to-london-british-library",
+        "label": "A: Paris → London, British Library",
+        "manuscriptId": "ms-ocf-xxiii-a",
+        "fromPlaceId": "place-paris",
+        "toPlaceId": "repo-london-british-library",
+        "start": "1365 (13 April 1365” April 1366)",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxiii-a-royal-library-paris-to-london-british-library",
+        "label": "A: Royal Library, Paris → London, British Library",
+        "manuscriptId": "ms-ocf-xxiii-a",
+        "fromPlaceId": "place-royal-library-paris",
+        "toPlaceId": "repo-london-british-library",
+        "start": "1365 (13 April 1365” April 1366)",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxiii-b-bayeux-to-paris-bnf",
+        "label": "B: Bayeux → Paris, BnF",
+        "manuscriptId": "ms-ocf-xxiii-b",
+        "fromPlaceId": "place-bayeux",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "Early 15th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxiii-c-arles-to-paris-bnf",
+        "label": "C: Arles → Paris, BnF",
+        "manuscriptId": "ms-ocf-xxiii-c",
+        "fromPlaceId": "place-arles",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "Early 15th century (before 1427/1435)",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxiii-f-noyon-to-paris-archives-de-saint-sulpice",
+        "label": "F: Noyon → Paris, Archives de Saint-Sulpice",
+        "manuscriptId": "ms-ocf-xxiii-f",
+        "fromPlaceId": "place-noyon",
+        "toPlaceId": "repo-paris-archives-de-saint-sulpice",
+        "start": "ca. 1480",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxiii-g-arles-to-paris-bnf",
+        "label": "G: Arles → Paris, BnF",
+        "manuscriptId": "ms-ocf-xxiii-g",
+        "fromPlaceId": "place-arles",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "1530–535",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxiii-g-beauvais-to-paris-bnf",
+        "label": "G: Beauvais → Paris, BnF",
+        "manuscriptId": "ms-ocf-xxiii-g",
+        "fromPlaceId": "place-beauvais",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "1530–535",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_person",
+        "label": "associated_person"
+      },
+      {
+        "id": "rel-associated_source_actor",
+        "label": "associated_source_actor"
+      },
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-edited_or_studied_by",
+        "label": "edited_or_studied_by"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-has_reference",
+        "label": "has_reference"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

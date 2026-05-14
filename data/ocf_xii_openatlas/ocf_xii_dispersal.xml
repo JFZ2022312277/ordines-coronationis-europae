@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XII manuscript pilot">
+  <ordo id="OCF-XII"><label>First Set of Royal Texts in the Second Sacramentary of Tours</label><date>ca. 900 or earlier</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xii-a" siglum="A"><shelfmark>Angers, Bibl. mun., MS 80</shelfmark><folios>fols. 158v–59r</folios><date>Second half or end of 9th century</date><origin>Poitiers or Tours</origin><currentRepository ref="repo-angers-bibl-mun">Angers, Bibl. mun.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xii-b" siglum="B"><shelfmark>Paris, BnF, MS lat. 9430</shelfmark><folios>fol. 190r</folios><date>ca. 900</date><origin>Tours</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="repo-angers-bibl-mun" type="repository_place" lat="47.4739" lon="-0.5518" certainty="certain">Angers, Bibl. mun.</place>
+    <place id="repo-paris-bnf" type="repository_place" lat="48.8339" lon="2.3757" certainty="certain">Paris, BnF</place>
+    <place id="place-poitiers" type="scriptorium_or_origin_place" lat="46.58" lon="0.34" certainty="possible">Poitiers</place>
+    <place id="place-tours" type="scriptorium_or_origin_place" lat="47.394" lon="0.684" certainty="probable">Tours</place>
+  </places>
+</openatlasSeed>

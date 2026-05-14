@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "title": "ECR-XXVII Coronation Order of King William III. and Queen Mary II. English coronation record pilot",
+    "generatedAt": "2026-05-12T13:41:42.896Z",
+    "source": "ordines_coronationis_iiif.html ECR records",
+    "note": "ECR includes ordines, narrative records, papal letters, inventories, processions, and printed orders; reference anchors are not asserted physical manuscripts."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "ECR-XXVII",
+        "label": "Coronation Order of King William III. and Queen Mary II.",
+        "labelFr": "Coronation Order of King William III. and Queen Mary II.",
+        "sourceLabel": "ECR",
+        "tradition": "English",
+        "date": "S.d.",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "The troubles of James II. 's reign arose from the religion of the King j and when the Revolution took place, it was felt that the Coronation service ought to be so framed that no Roman Catholic could be crowned King of England. Hence very considerable changes were made in the service under the guidance of Dr. Compton, the Bishop of London: but the most important were the change of the oath, which becomes scarcely recognizable, the omission of all prayers consecrating the King before unction, with the exception of Dms qui populis which occurs at the end of the Litany, and the insertion of the coronation into the Communion Service, a return, unconscious perhaps, to the arrangement found in the first recension. In detail also changes took place, as the crowning was put off till after the delivery of the other ornaments, and the prayers were altered to some extent. Another innovation is the presentation of the Bible to the sovereign. The order for William and Mary has been the model which subsequent coronation services have copied. The text of Veni Creator is different from either of the versions in the Book of Common Prayer. The version which is more commonly known, and which is found in Hymns Ancient and Modern (No. 15), was the text used at James II. 's coronation; but the variant here printed has been used at the coronation, down to 1838, with the exception of the alteration of one line at George III.'s coronation. It will be observed that the Queen is crowned and invested at the same time as the King. This of course is due to the fact that Queen Mary was not a Queen Consort, but a Queen Regnant; but there are directions that she should be invested with St. Edward's robes, as was her right. There is no evidence that these robes were made for her. (J. Wickham Legg, Three Coronation Orders, Henry Bradshaw Society, 1900, pp. 5, 6.) Another point to be noticed is the hesitation, shown in the Recognition, about the legality of the sovereignty of WilUam and Mary over the British dominions. It is evident that at one time, in addition to missing out the words \"rightful, by the laws of God and man,'' the omission of \" undoubted King and Queen of this realm \" was contemplated. The words \" rightful \" and \" by the laws of God and man \" have,, by a concession to Jacobitish sentiment, never since been restored. This document has an interesting service prefixed to it: a special order for Morning Prayer on the day of the Coronation."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ecr-xxvii-src",
+        "siglum": "SRC",
+        "shelfmark": "London, British Library / Westminster tradition (reference anchor)",
+        "repositoryPlaceId": "repo-london-british-library",
+        "currentRepository": "London, British Library / Westminster tradition (reference anchor)",
+        "lat": 51.4994,
+        "lon": -0.1276,
+        "date": "medieval to early modern",
+        "folios": "",
+        "group": "reference",
+        "origin": "",
+        "witnessType": "reference",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "iiif_url": "",
+        "iiif_manifest_url": "",
+        "embedded_viewer_url": "",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "bibliography": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "source_record"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-westminster-abbey",
+        "label": "Westminster Abbey",
+        "lat": 51.4993,
+        "lon": -0.1273,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Principal English coronation church."
+      },
+      {
+        "id": "place-tower-of-london",
+        "label": "Tower of London",
+        "lat": 51.5081,
+        "lon": -0.0759,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Processional and regalia context."
+      },
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "lat": 51.5299,
+        "lon": -0.1275,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ecr-xxvii-record-context",
+        "label": "ECR-XXVII English coronation record context",
+        "type": "documentary_record",
+        "placeId": "place-westminster-abbey",
+        "start": "S.d.",
+        "end": "S.d.",
+        "description": "The troubles of James II. 's reign arose from the religion of the King j and when the Revolution took place, it was felt that the Coronation service ought to be so framed that no Roman Catholic could be crowned King of England. Hence very considerable changes were made in the service under the guidance of Dr. Compton, the Bishop of London: but the most important were the change of the oath, which becomes scarcely recognizable, the omission of all prayers consecrating the King before unction, with the exception of Dms qui populis which occurs at the end of the Litany, and the insertion of the coronation into the Communion Service, a return, unconscious perhaps, to the arrangement found in the first recension. In detail also changes took place, as the crowning was put off till after the delivery of the other ornaments, and the prayers were altered to some extent. Another innovation is the presentation of the Bible to the sovereign. The order for William and Mary has been the model which subsequent coronation services have copied. The text of Veni Creator is different from either of the versions in the Book of Common Prayer. The version which is more commonly known, and which is found in Hymns Ancient and Modern (No. 15), was the text used at James II. 's coronation; but the variant here printed has been used at the coronation, down to 1838, with the exception of the alteration of one line at George III.'s coronation. It will be observed that the Queen is crowned and invested at the same time as the King. This of course is due to the fact that Queen Mary was not a Queen Consort, but a Queen Regnant; but there are directions that she should be invested with St. Edward's robes, as was her right. There is no evidence that these robes were made for her. (J. Wickham Legg, Three Coronation Orders, Henry Bradshaw Society, 1900, pp. 5, 6.) Another point to be noticed is the hesitation, shown in the Recognition, about the legality of the sovereignty of WilUam and Mary over the British dominions. It is evident that at one time, in addition to missing out the words \"rightful, by the laws of God and man,'' the omission of \" undoubted King and Queen of this realm \" was contemplated. The words \" rightful \" and \" by the laws of God and man \" have,, by a concession to Jacobitish sentiment, never since been restored. This document has an interesting service prefixed to it: a special order for Morning Prayer on the day of the Coronation.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-ecr-xxvii-src-source",
+        "label": "SRC source/witness context",
+        "type": "source_reference",
+        "placeId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-leopold-legg",
+        "label": "Leopold G. Wickham Legg",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of English Coronation Records",
+        "placeId": ""
+      },
+      {
+        "id": "actor-english-coronation-tradition",
+        "label": "English coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "ritual and documentary tradition",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-westminster-abbey",
+        "label": "Westminster Abbey",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "coronation church / institutional context",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-william-conqueror",
+        "label": "William the Conqueror",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-james-i",
+        "label": "James I",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-james-ii",
+        "label": "James II",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-william-mary",
+        "label": "William III and Mary II",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "joint coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-compton",
+        "label": "Henry Compton, Bishop of London",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "Bishop of London / service reviser",
+        "placeId": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-legg-1901",
+        "label": "Leopold G. Wickham Legg, English Coronation Records (1901)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Base edition for the ECR corpus."
+      },
+      {
+        "id": "ref-ecr-xxvii-edition-1",
+        "label": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_source",
+        "url": "",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-english",
+        "label": "English coronation records",
+        "code": "ECR"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ECR-XXVII",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-english",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVII",
+      "predicate": "edited_by",
+      "object": "actor-leopold-legg",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVII",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVII",
+      "predicate": "documents_event",
+      "object": "event-ecr-xxvii-record-context",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVII",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVII",
+      "predicate": "associated_with",
+      "object": "actor-westminster-abbey",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVII",
+      "predicate": "associated_with",
+      "object": "actor-william-conqueror",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVII",
+      "predicate": "associated_with",
+      "object": "actor-james-i",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVII",
+      "predicate": "associated_with",
+      "object": "actor-james-ii",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVII",
+      "predicate": "associated_with",
+      "object": "actor-william-mary",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVII",
+      "predicate": "associated_with",
+      "object": "actor-compton",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVII",
+      "predicate": "preserved_in",
+      "object": "ms-ecr-xxvii-src",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxvii-src",
+      "predicate": "has_event",
+      "object": "event-ms-ecr-xxvii-src-source",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxvii-src",
+      "predicate": "located_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxvii-src",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxvii-src",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxvii-src",
+      "predicate": "associated_with",
+      "object": "actor-british-library",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": [
+      {
+        "id": "move-ms-ecr-xxvii-src",
+        "manuscriptId": "ms-ecr-xxvii-src",
+        "fromPlaceId": "place-westminster-abbey",
+        "toPlaceId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "certainty": "derived",
+        "description": "Research context line for SRC: Westminster Abbey -> London, British Library / Westminster tradition (reference anchor)."
+      }
+    ]
+  }
+}

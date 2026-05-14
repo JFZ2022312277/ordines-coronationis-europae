@@ -1,0 +1,4 @@
+"id","label","lat","lon","type","openatlasClass","description"
+"place-freising-context","Freising ecclesiastical context","48.4029","11.748","origin_context","E53 Place","Freising textual or production context."
+"place-freising-source-tradition-anchor","Freising, source tradition anchor","48.4029","11.748","origin_context","E53 Place",""
+"repo-munich-bsb","Munich, Bayerische Staatsbibliothek","48.1486","11.5802","repository_place","E53 Place",""

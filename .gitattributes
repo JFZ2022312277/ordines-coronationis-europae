@@ -1,0 +1,49 @@
+# Default: treat as text, normalize line endings to LF on commit.
+* text=auto eol=lf
+
+# Force text for code and data formats
+*.md         text eol=lf
+*.html       text eol=lf
+*.css        text eol=lf
+*.js         text eol=lf
+*.json       text eol=lf
+*.csv        text eol=lf
+*.xml        text eol=lf
+*.tei        text eol=lf
+*.yaml       text eol=lf
+*.yml        text eol=lf
+*.cff        text eol=lf
+
+# Mark binary assets so Git doesn't try to diff them.
+*.png        binary
+*.jpg        binary
+*.jpeg       binary
+*.gif        binary
+*.webp       binary
+*.tif        binary
+*.tiff       binary
+*.pdf        binary
+*.zip        binary
+
+# --- Git LFS — INTENTIONALLY DISABLED for this repository ------------------
+#
+# Earlier drafts of this file routed the 22 MB index.html, the multi-MB
+# OpenAtlas seed JSON files, and the Charles V manuscript PNGs through
+# Git LFS.  That is the WRONG choice for a project that serves itself via
+# GitHub Pages: every reviewer page load streams the LFS objects and
+# consumes the repository's free monthly LFS bandwidth quota (1 GB/month
+# on the free tier).  At ~22 MB per page load the quota burns out after
+# roughly 45 visits — far less than a single round of Speculum review
+# generates between reviewers, editorial staff, search engines, and the
+# author's own debugging.
+#
+# Plain Git storage works correctly with GitHub Pages: the files are
+# served as ordinary HTTP, with no per-month bandwidth ceiling beyond
+# the standard Pages quota (100 GB/month, which is generous).  The
+# trade-off is a slower initial `git clone` for collaborators; for a
+# review-deposited static site that trade-off is the right one.
+#
+# Re-introduce LFS only if (a) the project moves OFF GitHub Pages, or
+# (b) GitHub raises the LFS bandwidth allowance, or (c) the repository
+# is split so that the served bundle lives separately from the heavy
+# binary archives that genuinely need LFS.

@@ -1,0 +1,7 @@
+"id","label","openatlasClass","systemClass","type","role","placeId","description"
+"actor-bamberg-staatsbibliothek","Bamberg Staatsbibliothek","E74 Group","actor","institution","repository institution","repo-bamberg-staatsbibliothek",""
+"actor-cambrai-church","Cambrai ecclesiastical milieu","E74 Group","actor","institution","adaptation / use context","place-cambrai",""
+"actor-cologne-dombibliothek","Cologne Cathedral Library","E74 Group","actor","institution","repository institution / digital provider","repo-cologne-dombibliothek",""
+"actor-friedrich-leitschuh","Friedrich Leitschuh","E21 Person","actor","editor","cataloguer / scholar","",""
+"actor-michel-andrieu","Michel Andrieu","E21 Person","actor","editor","editor of Ordines Romani","",""
+"actor-reims-cathedral","Reims Cathedral / Chapter Library","E74 Group","actor","institution","cathedral repository / coronation center","place-reims",""

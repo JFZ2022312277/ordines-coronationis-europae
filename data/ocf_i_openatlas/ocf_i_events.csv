@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","manuscriptId","placeId","start","end","description","certainty"
+"event-ms-ocf-i-a-current-repository","A kept at Paris, BnF","E7 Activity","activity","current_repository","ms-ocf-i-a","repo-paris-bnf","","","Paris, BnF, MS lat. 12048 is currently kept at Paris, BnF.","certain"
+"event-ms-ocf-i-a-origin-abbey-of-gellone-saint-guilhem-le-desert","A origin/copying context: Abbey of Gellone, Saint-Guilhem-le-Desert","E12 Production","production","copying_or_origin","ms-ocf-i-a","place-abbey-of-gellone-saint-guilhem-le-desert","Late 8th century","Late 8th century","Paris, BnF, MS lat. 12048: origin/copying context recorded as ""Gellone?"".","probable"
+"event-ms-ocf-i-b-current-repository","B kept at Paris, BnF","E7 Activity","activity","current_repository","ms-ocf-i-b","repo-paris-bnf","","","Paris, BnF, MS lat. 12049 is currently kept at Paris, BnF.","certain"
+"event-ms-ocf-i-b-origin-paris","B origin/copying context: Paris","E7 Activity","activity","copying","ms-ocf-i-b","place-paris","1677","1677","Paris, BnF, MS lat. 12049: origin/copying context recorded as ""Copy of A by Luc d'Achery"".","probable"

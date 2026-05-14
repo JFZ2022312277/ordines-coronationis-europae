@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "title": "ECR-II An English Coronation Order taken from a Ninth Century Pontifical English coronation record pilot",
+    "generatedAt": "2026-05-12T13:41:42.739Z",
+    "source": "ordines_coronationis_iiif.html ECR records",
+    "note": "ECR includes ordines, narrative records, papal letters, inventories, processions, and printed orders; reference anchors are not asserted physical manuscripts."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "ECR-II",
+        "label": "An English Coronation Order taken from a Ninth Century Pontifical",
+        "labelFr": "An English Coronation Order taken from a Ninth Century Pontifical",
+        "sourceLabel": "ECR",
+        "tradition": "English",
+        "date": "S.d.",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "This coronation order is the oldest known service for the coronation of an English King. A similar service is found in the manuscript pontifical (Paris, National Library, fonds latin 10,575, fo. 130^) which is said to be a copy of the pontifical of Egbert, Archbishop of York from 732 to 766. The Rouen manuscript, from which the document printed below has been taken, contains a far better text than the pontifical of Egbert. This latter, for example, refers the reader for Deus qui populis to a blessing over a newly consecrated bishop, of which the text is totally different from that for the consecration of a King. The chief differences between the two have been noted: and the pontifical of Egbert appears designated by the symbol Eg. The blessings in the Leofric Missal (Bodl. MS. 579 fo. 302^) have also been collated and appear in the notes under the sign Leo. The chief difference between the service in the Leofric Missal and that in the other two manuscripts, is the omission of the Mass, so that it gives only the special blessings or sacring proper, which in Egbert's Pontifical and in the Rouen manuscript, are interpolated between the missa catechumenorum and the missa fidelium: and also the absence of rubrics and of the prayer Deus qui populis. The Rouen manuscript contains on fo. 39^ and on fo. 56 and 56^ a service for the consecration of a Queen consort. It can never have been in such a position as to follow immediately on the order for the consecration of the King, and its separation from the latter lends colour to the theory put forward by Mr. H. A. Wilson {The Journal of Theological Studies, July, 1901, p. 482) that the service for the consecration of a Queen formed no part of the first recension. The variations from the service in the second recension (Doc. iii.) consist in the omission of the rubric at the beginning from Quam consecratio to decernimus, and the addition of words before the word Oratio which precedes the prayer Omnium Domine fons. Consequently it has not been thought worth while to print this service here. The manuscript from which the text is taken dates from the ninth or the tenth century. The place of its origin is much discussed: it passed later into the hands of the Bishop of Alet in Brittany, hence it is known as the Pontificale Lanaleiense. But the presence of Anglo-Saxon glosses, and the manner of spelling English names give considerable support to the theory that it is of English origin; while the honour of an episcopal benediction assigned to St. Cuthbert's day (fo. 137^) and the prominence given to Egbert, Archbishop of York, may possibly be held to indicate that it comes from the north of England."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ecr-ii-a",
+        "siglum": "A",
+        "shelfmark": "Rouen, Bibl. mun., MS 369 (Y.7)",
+        "repositoryPlaceId": "repo-rouen-bm",
+        "currentRepository": "Rouen, Bibl. mun.",
+        "lat": 49.4432,
+        "lon": 1.0999,
+        "date": "10th century",
+        "folios": "",
+        "group": "primary",
+        "origin": "Winchester",
+        "witnessType": "primary",
+        "sourceLabel": "Rotomagus / Rouen",
+        "digitalUrl": "https://www.rotomagus.fr/ark:/12148/btv1b100508259",
+        "iiifUrl": "",
+        "iiif_url": "",
+        "iiif_manifest_url": "",
+        "embedded_viewer_url": "",
+        "description": "Benedictional/Pontifical of Winchester (dit B�n�dictionnaire de Robert). Best text of the oldest English coronation service.",
+        "bibliography": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      },
+      {
+        "id": "ms-ecr-ii-b",
+        "siglum": "B",
+        "shelfmark": "Paris, BnF, MS lat. 10575",
+        "repositoryPlaceId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "date": "10th-11th century",
+        "folios": "",
+        "group": "secondary",
+        "origin": "Southern England (Wessex?)",
+        "witnessType": "secondary",
+        "sourceLabel": "Gallica / BnF",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b90667571",
+        "iiifUrl": "",
+        "iiif_url": "",
+        "iiif_manifest_url": "",
+        "embedded_viewer_url": "",
+        "description": "Pontifical of Egbert (so-called). Copy of the pontifical of Egbert, Archbishop of York (732-766).",
+        "bibliography": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-westminster-abbey",
+        "label": "Westminster Abbey",
+        "lat": 51.4993,
+        "lon": -0.1273,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Principal English coronation church."
+      },
+      {
+        "id": "place-york",
+        "label": "York / archiepiscopal context",
+        "lat": 53.959,
+        "lon": -1.0815,
+        "type": "institutional_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "place-iona",
+        "label": "Iona",
+        "lat": 56.335,
+        "lon": -6.393,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "place-scotland-context",
+        "label": "Scottish royal context",
+        "lat": 56.49,
+        "lon": -4.2,
+        "type": "political_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-rouen-bm",
+        "label": "Rouen, Bibliothèque municipale",
+        "lat": 49.4432,
+        "lon": 1.0999,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "place-winchester",
+        "label": "Winchester ecclesiastical context",
+        "lat": 51.0629,
+        "lon": -1.3165,
+        "type": "origin_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, Bibliothèque nationale de France",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "place-wessex-context",
+        "label": "Southern England / Wessex context",
+        "lat": 51,
+        "lon": -1.3,
+        "type": "origin_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ecr-ii-record-context",
+        "label": "ECR-II English coronation record context",
+        "type": "coronation_or_ritual_record",
+        "placeId": "place-westminster-abbey",
+        "start": "S.d.",
+        "end": "S.d.",
+        "description": "This coronation order is the oldest known service for the coronation of an English King. A similar service is found in the manuscript pontifical (Paris, National Library, fonds latin 10,575, fo. 130^) which is said to be a copy of the pontifical of Egbert, Archbishop of York from 732 to 766. The Rouen manuscript, from which the document printed below has been taken, contains a far better text than the pontifical of Egbert. This latter, for example, refers the reader for Deus qui populis to a blessing over a newly consecrated bishop, of which the text is totally different from that for the consecration of a King. The chief differences between the two have been noted: and the pontifical of Egbert appears designated by the symbol Eg. The blessings in the Leofric Missal (Bodl. MS. 579 fo. 302^) have also been collated and appear in the notes under the sign Leo. The chief difference between the service in the Leofric Missal and that in the other two manuscripts, is the omission of the Mass, so that it gives only the special blessings or sacring proper, which in Egbert's Pontifical and in the Rouen manuscript, are interpolated between the missa catechumenorum and the missa fidelium: and also the absence of rubrics and of the prayer Deus qui populis. The Rouen manuscript contains on fo. 39^ and on fo. 56 and 56^ a service for the consecration of a Queen consort. It can never have been in such a position as to follow immediately on the order for the consecration of the King, and its separation from the latter lends colour to the theory put forward by Mr. H. A. Wilson {The Journal of Theological Studies, July, 1901, p. 482) that the service for the consecration of a Queen formed no part of the first recension. The variations from the service in the second recension (Doc. iii.) consist in the omission of the rubric at the beginning from Quam consecratio to decernimus, and the addition of words before the word Oratio which precedes the prayer Omnium Domine fons. Consequently it has not been thought worth while to print this service here. The manuscript from which the text is taken dates from the ninth or the tenth century. The place of its origin is much discussed: it passed later into the hands of the Bishop of Alet in Brittany, hence it is known as the Pontificale Lanaleiense. But the presence of Anglo-Saxon glosses, and the manner of spelling English names give considerable support to the theory that it is of English origin; while the honour of an episcopal benediction assigned to St. Cuthbert's day (fo. 137^) and the prominence given to Egbert, Archbishop of York, may possibly be held to indicate that it comes from the north of England.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-ecr-ii-a-source",
+        "label": "A source/witness context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-rouen-bm",
+        "start": "10th century",
+        "end": "10th century",
+        "description": "Benedictional/Pontifical of Winchester (dit B�n�dictionnaire de Robert). Best text of the oldest English coronation service.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-ecr-ii-b-source",
+        "label": "B source/witness context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-paris-bnf",
+        "start": "10th-11th century",
+        "end": "10th-11th century",
+        "description": "Pontifical of Egbert (so-called). Copy of the pontifical of Egbert, Archbishop of York (732-766).",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-leopold-legg",
+        "label": "Leopold G. Wickham Legg",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of English Coronation Records",
+        "placeId": ""
+      },
+      {
+        "id": "actor-english-coronation-tradition",
+        "label": "English coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "ritual and documentary tradition",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-westminster-abbey",
+        "label": "Westminster Abbey",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "coronation church / institutional context",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-columba",
+        "label": "St Columba",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "saint / consecrating figure",
+        "placeId": ""
+      },
+      {
+        "id": "actor-roger-york",
+        "label": "Roger de Pont l'Évêque, Archbishop of York",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "archiepiscopal actor",
+        "placeId": ""
+      },
+      {
+        "id": "actor-york",
+        "label": "Archbishopric of York",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "rival/participating coronation authority",
+        "placeId": "place-york"
+      },
+      {
+        "id": "actor-bnf",
+        "label": "Bibliothèque nationale de France (BnF)",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-paris-bnf"
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-legg-1901",
+        "label": "Leopold G. Wickham Legg, English Coronation Records (1901)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Base edition for the ECR corpus."
+      },
+      {
+        "id": "ref-ecr-ii-edition-1",
+        "label": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_source",
+        "url": "",
+        "description": ""
+      },
+      {
+        "id": "ref-ms-ecr-ii-a-digital",
+        "label": "Rotomagus / Rouen: Rouen, Bibl. mun., MS 369 (Y.7)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://www.rotomagus.fr/ark:/12148/btv1b100508259",
+        "description": ""
+      },
+      {
+        "id": "ref-ms-ecr-ii-b-digital",
+        "label": "Gallica / BnF: Paris, BnF, MS lat. 10575",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b90667571",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-english",
+        "label": "English coronation records",
+        "code": "ECR"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ECR-II",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-english",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-II",
+      "predicate": "edited_by",
+      "object": "actor-leopold-legg",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-II",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-II",
+      "predicate": "documents_event",
+      "object": "event-ecr-ii-record-context",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-II",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-II",
+      "predicate": "associated_with",
+      "object": "actor-westminster-abbey",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-II",
+      "predicate": "associated_with",
+      "object": "actor-columba",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-II",
+      "predicate": "associated_with",
+      "object": "actor-roger-york",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-II",
+      "predicate": "associated_with",
+      "object": "actor-york",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-II",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-II",
+      "predicate": "preserved_in",
+      "object": "ms-ecr-ii-a",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-ii-a",
+      "predicate": "has_event",
+      "object": "event-ms-ecr-ii-a-source",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-ii-a",
+      "predicate": "located_at",
+      "object": "repo-rouen-bm",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-ii-a",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-ii-a",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-ii-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-ecr-ii-a-digital",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-II",
+      "predicate": "preserved_in",
+      "object": "ms-ecr-ii-b",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-ii-b",
+      "predicate": "has_event",
+      "object": "event-ms-ecr-ii-b-source",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-ii-b",
+      "predicate": "located_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-ii-b",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-ii-b",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-ii-b",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-ii-b",
+      "predicate": "has_reference",
+      "object": "ref-ms-ecr-ii-b-digital",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": [
+      {
+        "id": "move-ms-ecr-ii-a",
+        "manuscriptId": "ms-ecr-ii-a",
+        "fromPlaceId": "place-winchester",
+        "toPlaceId": "repo-rouen-bm",
+        "start": "10th century",
+        "end": "10th century",
+        "certainty": "probable",
+        "description": "Research context line for A: Winchester ecclesiastical context -> Rouen, Bibl. mun.."
+      },
+      {
+        "id": "move-ms-ecr-ii-b",
+        "manuscriptId": "ms-ecr-ii-b",
+        "fromPlaceId": "place-wessex-context",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "10th-11th century",
+        "end": "10th-11th century",
+        "certainty": "probable",
+        "description": "Research context line for B: Southern England / Wessex context -> Paris, BnF."
+      }
+    ]
+  }
+}

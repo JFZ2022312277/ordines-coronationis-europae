@@ -1,0 +1,1323 @@
+{
+  "meta": {
+    "title": "OCF-XXA manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:41.761Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XXA. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-XXA.",
+    "entityEnrichedAt": "2026-05-12T09:59:45.430Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XXA",
+        "label": "Ordo of Reims",
+        "labelFr": "Ordo de Reims",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "ca. 1230",
+        "description": "Not a full ordo but a modus-it gives instructions for the ceremony while omitting liturgical texts, to be used with a pontifical. Extremely important as the first text providing for the Holy Ampulla, the peers of France, the oath to expel heretics, and investiture with ankle boots and spurs. Marks the transition to a specifically French coronation ritual."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xxa-a",
+        "siglum": "A",
+        "label": "A — Reims, Bibl. mun., MS 328",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Reims, Bibl. mun., MS 328",
+        "folios": "fols. 70v–3r",
+        "date": "Late 13th century",
+        "origin": "Reims Cathedral (ordinary)",
+        "currentRepositoryId": "repo-reims-bibl-mun",
+        "currentRepository": "Reims, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Primary Reims witness for the short XXA recension.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxa-b",
+        "siglum": "B",
+        "label": "B — Reims, Bibl. mun., MS 329",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Reims, Bibl. mun., MS 329",
+        "folios": "fols. 3v”v",
+        "date": "ca. 1300",
+        "origin": "Reims Cathedral (ordinary)",
+        "currentRepositoryId": "repo-reims-bibl-mun",
+        "currentRepository": "Reims, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Primary Reims witness for the short XXA recension.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxa-c",
+        "siglum": "C",
+        "label": "C — Reims, Bibl. mun., MS 330",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Reims, Bibl. mun., MS 330",
+        "folios": "fols. 104v–06v",
+        "date": "14th century, first quarter",
+        "origin": "Reims Cathedral (ordinary)",
+        "currentRepositoryId": "repo-reims-bibl-mun",
+        "currentRepository": "Reims, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Primary Reims witness for the short XXA recension.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxa-d",
+        "siglum": "D",
+        "label": "D — Wolfenbüttel, Herzog August Bibl., MS Guelf 1 Gud. lat. 20",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Wolfenbüttel, Herzog August Bibl., MS Guelf 1 Gud. lat. 20",
+        "folios": "fols. 72v–3r",
+        "date": "14th century (addition to 12th-century MS)",
+        "origin": "Diocese of Thérouanne, Tournai, or Cambrai",
+        "currentRepositoryId": "repo-wolfenbu-ttel-herzog-august-bibl",
+        "currentRepository": "Wolfenbüttel, Herzog August Bibl.",
+        "copiedFrom": "",
+        "digitalUrl": "http://diglib.hab.de/mss/1-gud-lat/start.htm",
+        "iiifUrl": "",
+        "sourceLabel": "HAB Wolfenbüttel",
+        "description": "In the Liber Floridus of Lambert de Saint-Omer. Parts omitted.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxa-e",
+        "siglum": "E",
+        "label": "E — Chantilly, Musée Condé, MS 1596",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Chantilly, Musée Condé, MS 1596",
+        "folios": "fols. 73v–4r",
+        "date": "ca. 1470",
+        "origin": "",
+        "currentRepositoryId": "repo-chantilly-muse-e-conde",
+        "currentRepository": "Chantilly, Musée Condé",
+        "copiedFrom": "",
+        "digitalUrl": "https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/463/manifest",
+        "iiifUrl": "",
+        "sourceLabel": "BVMM / IRHT",
+        "description": "Liber Floridus, copied from D.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxa-f",
+        "siglum": "F",
+        "label": "F — The Hague, Koninklijke Bibl., MS 72 A 23",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "The Hague, Koninklijke Bibl., MS 72 A 23",
+        "folios": "fol. 86r–v",
+        "date": "1460",
+        "origin": "Lille or Ninove",
+        "currentRepositoryId": "repo-the-hague-koninklijke-bibl",
+        "currentRepository": "The Hague, Koninklijke Bibl.",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Liber Floridus, copied from D.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxa-g",
+        "siglum": "G",
+        "label": "G — Genoa, Bibl. Durazzo-Giustiniani, MS A IX 9",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Genoa, Bibl. Durazzo-Giustiniani, MS A IX 9",
+        "folios": "fols. 70r–1r",
+        "date": "Late 15th century",
+        "origin": "",
+        "currentRepositoryId": "repo-genoa-bibl-durazzo-giustiniani",
+        "currentRepository": "Genoa, Bibl. Durazzo-Giustiniani",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Liber Floridus, copied from D.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxa-h",
+        "siglum": "H",
+        "label": "H — Vatican City, BAV, MS Reg. lat. 574",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Vatican City, BAV, MS Reg. lat. 574",
+        "folios": "fols. 17r–9r",
+        "date": "15th century",
+        "origin": "",
+        "currentRepositoryId": "repo-vatican-city-bav",
+        "currentRepository": "Vatican City, BAV",
+        "copiedFrom": "",
+        "digitalUrl": "https://digi.vatlib.it/view/MSS_Reg.lat.574",
+        "iiifUrl": "",
+        "sourceLabel": "DigiVatLib",
+        "description": "Inserted into Guillaume de Nangis's works.",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "place-cambrai",
+        "label": "Cambrai",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.176,
+        "lon": 3.235,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Diocese of Thérouanne, Tournai, or Cambrai\"."
+      },
+      {
+        "id": "repo-chantilly-muse-e-conde",
+        "label": "Chantilly, Musée Condé",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.1945,
+        "lon": 2.4858,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Chantilly, Musée Condé, MS 1596"
+      },
+      {
+        "id": "repo-genoa-bibl-durazzo-giustiniani",
+        "label": "Genoa, Bibl. Durazzo-Giustiniani",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 44.4072,
+        "lon": 8.934,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Genoa, Bibl. Durazzo-Giustiniani, MS A IX 9"
+      },
+      {
+        "id": "place-lille",
+        "label": "Lille",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.629,
+        "lon": 3.057,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Lille or Ninove\"."
+      },
+      {
+        "id": "place-ninove",
+        "label": "Ninove",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.827,
+        "lon": 4.026,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Lille or Ninove\"."
+      },
+      {
+        "id": "place-reims",
+        "label": "Reims",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.258,
+        "lon": 4.031,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Reims Cathedral (ordinary)\"."
+      },
+      {
+        "id": "repo-reims-bibl-mun",
+        "label": "Reims, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.2541,
+        "lon": 3.025,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Reims, Bibl. mun., MS 330"
+      },
+      {
+        "id": "repo-the-hague-koninklijke-bibl",
+        "label": "The Hague, Koninklijke Bibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 52.0817,
+        "lon": 4.326,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: The Hague, Koninklijke Bibl., MS 72 A 23"
+      },
+      {
+        "id": "place-therouanne",
+        "label": "Therouanne",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "diocesan_context",
+        "lat": 50.636,
+        "lon": 2.258,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Diocese of Thérouanne, Tournai, or Cambrai\"."
+      },
+      {
+        "id": "place-tournai",
+        "label": "Tournai",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "diocesan_context",
+        "lat": 50.605,
+        "lon": 3.389,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Diocese of Thérouanne, Tournai, or Cambrai\"."
+      },
+      {
+        "id": "repo-vatican-city-bav",
+        "label": "Vatican City, BAV",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Vatican City, BAV, MS Reg. lat. 574"
+      },
+      {
+        "id": "repo-wolfenbu-ttel-herzog-august-bibl",
+        "label": "Wolfenbüttel, Herzog August Bibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 52.1637,
+        "lon": 10.5333,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Wolfenbüttel, Herzog August Bibl., MS Guelf 1 Gud. lat. 20"
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xxa-a-current-repository",
+        "label": "A kept at Reims, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxa-a",
+        "placeId": "repo-reims-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Reims, Bibl. mun., MS 328 is currently kept at Reims, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxa-a-origin-reims",
+        "label": "A origin/context: Reims",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxa-a",
+        "placeId": "place-reims",
+        "start": "Late 13th century",
+        "end": "Late 13th century",
+        "description": "Reims, Bibl. mun., MS 328: origin/context recorded as \"Reims Cathedral (ordinary)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxa-b-current-repository",
+        "label": "B kept at Reims, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxa-b",
+        "placeId": "repo-reims-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Reims, Bibl. mun., MS 329 is currently kept at Reims, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxa-b-origin-reims",
+        "label": "B origin/context: Reims",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxa-b",
+        "placeId": "place-reims",
+        "start": "ca. 1300",
+        "end": "ca. 1300",
+        "description": "Reims, Bibl. mun., MS 329: origin/context recorded as \"Reims Cathedral (ordinary)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxa-c-current-repository",
+        "label": "C kept at Reims, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxa-c",
+        "placeId": "repo-reims-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Reims, Bibl. mun., MS 330 is currently kept at Reims, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxa-c-origin-reims",
+        "label": "C origin/context: Reims",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxa-c",
+        "placeId": "place-reims",
+        "start": "14th century, first quarter",
+        "end": "14th century, first quarter",
+        "description": "Reims, Bibl. mun., MS 330: origin/context recorded as \"Reims Cathedral (ordinary)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxa-d-current-repository",
+        "label": "D kept at Wolfenbüttel, Herzog August Bibl.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxa-d",
+        "placeId": "repo-wolfenbu-ttel-herzog-august-bibl",
+        "start": "",
+        "end": "",
+        "description": "Wolfenbüttel, Herzog August Bibl., MS Guelf 1 Gud. lat. 20 is currently kept at Wolfenbüttel, Herzog August Bibl..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxa-d-origin-cambrai",
+        "label": "D origin/context: Cambrai",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxa-d",
+        "placeId": "place-cambrai",
+        "start": "14th century (addition to 12th-century MS)",
+        "end": "14th century (addition to 12th-century MS)",
+        "description": "Wolfenbüttel, Herzog August Bibl., MS Guelf 1 Gud. lat. 20: origin/context recorded as \"Diocese of Thérouanne, Tournai, or Cambrai\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxa-d-origin-therouanne",
+        "label": "D origin/context: Therouanne",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxa-d",
+        "placeId": "place-therouanne",
+        "start": "14th century (addition to 12th-century MS)",
+        "end": "14th century (addition to 12th-century MS)",
+        "description": "Wolfenbüttel, Herzog August Bibl., MS Guelf 1 Gud. lat. 20: origin/context recorded as \"Diocese of Thérouanne, Tournai, or Cambrai\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-xxa-d-origin-tournai",
+        "label": "D origin/context: Tournai",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxa-d",
+        "placeId": "place-tournai",
+        "start": "14th century (addition to 12th-century MS)",
+        "end": "14th century (addition to 12th-century MS)",
+        "description": "Wolfenbüttel, Herzog August Bibl., MS Guelf 1 Gud. lat. 20: origin/context recorded as \"Diocese of Thérouanne, Tournai, or Cambrai\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-xxa-e-current-repository",
+        "label": "E kept at Chantilly, Musée Condé",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxa-e",
+        "placeId": "repo-chantilly-muse-e-conde",
+        "start": "",
+        "end": "",
+        "description": "Chantilly, Musée Condé, MS 1596 is currently kept at Chantilly, Musée Condé.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxa-f-current-repository",
+        "label": "F kept at The Hague, Koninklijke Bibl.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxa-f",
+        "placeId": "repo-the-hague-koninklijke-bibl",
+        "start": "",
+        "end": "",
+        "description": "The Hague, Koninklijke Bibl., MS 72 A 23 is currently kept at The Hague, Koninklijke Bibl..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxa-f-origin-lille",
+        "label": "F origin/context: Lille",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxa-f",
+        "placeId": "place-lille",
+        "start": "1460",
+        "end": "1460",
+        "description": "The Hague, Koninklijke Bibl., MS 72 A 23: origin/context recorded as \"Lille or Ninove\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-xxa-f-origin-ninove",
+        "label": "F origin/context: Ninove",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxa-f",
+        "placeId": "place-ninove",
+        "start": "1460",
+        "end": "1460",
+        "description": "The Hague, Koninklijke Bibl., MS 72 A 23: origin/context recorded as \"Lille or Ninove\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-xxa-g-current-repository",
+        "label": "G kept at Genoa, Bibl. Durazzo-Giustiniani",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxa-g",
+        "placeId": "repo-genoa-bibl-durazzo-giustiniani",
+        "start": "",
+        "end": "",
+        "description": "Genoa, Bibl. Durazzo-Giustiniani, MS A IX 9 is currently kept at Genoa, Bibl. Durazzo-Giustiniani.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxa-h-current-repository",
+        "label": "H kept at Vatican City, BAV",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxa-h",
+        "placeId": "repo-vatican-city-bav",
+        "start": "",
+        "end": "",
+        "description": "Vatican City, BAV, MS Reg. lat. 574 is currently kept at Vatican City, BAV.",
+        "certainty": "certain"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-bav",
+        "label": "Biblioteca Apostolica Vaticana",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-vatican-city-bav",
+        "description": ""
+      },
+      {
+        "id": "actor-genoa-university-library",
+        "label": "Biblioteca Universitaria di Genova",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution",
+        "placeId": "repo-genoa-biblioteca-universitaria",
+        "description": ""
+      },
+      {
+        "id": "actor-cambrai-church",
+        "label": "Cambrai ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "adaptation / use context",
+        "placeId": "place-cambrai",
+        "description": ""
+      },
+      {
+        "id": "actor-wolfenbuettel-hab",
+        "label": "Herzog August Bibliothek Wolfenbüttel",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-wolfenbuettel-herzog-august-bibl",
+        "description": ""
+      },
+      {
+        "id": "actor-iiif",
+        "label": "IIIF",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "image/service reference",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-koninklijke-bibliotheek",
+        "label": "Koninklijke Bibliotheek, The Hague",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution",
+        "placeId": "repo-the-hague-koninklijke-bibliotheek",
+        "description": ""
+      },
+      {
+        "id": "actor-chantilly-conde",
+        "label": "Musée Condé, Chantilly",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution",
+        "placeId": "repo-chantilly-musee-conde",
+        "description": ""
+      },
+      {
+        "id": "actor-reims-cathedral",
+        "label": "Reims Cathedral / Chapter Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "cathedral repository / coronation center",
+        "placeId": "place-reims",
+        "description": ""
+      },
+      {
+        "id": "actor-saint-martin-tournai",
+        "label": "Saint-Martin of Tournai",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "monastic / diocesan context",
+        "placeId": "place-saint-martin-of-tournai",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-xxa-e-digital",
+        "label": "BVMM / IRHT: Chantilly, Musée Condé, MS 1596",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/463/manifest",
+        "description": "Digital source for Chantilly, Musée Condé, MS 1596."
+      },
+      {
+        "id": "ref-ms-ocf-xxa-h-digital",
+        "label": "DigiVatLib: Vatican City, BAV, MS Reg. lat. 574",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://digi.vatlib.it/view/MSS_Reg.lat.574",
+        "description": "Digital source for Vatican City, BAV, MS Reg. lat. 574."
+      },
+      {
+        "id": "ref-ms-ocf-xxa-d-digital",
+        "label": "HAB Wolfenbüttel: Wolfenbüttel, Herzog August Bibl., MS Guelf 1 Gud. lat. 20",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "http://diglib.hab.de/mss/1-gud-lat/start.htm",
+        "description": "Digital source for Wolfenbüttel, Herzog August Bibl., MS Guelf 1 Gud. lat. 20."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xxa-a",
+      "predicate": "witnesses",
+      "object": "OCF-XXA",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxa-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-reims-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxa-a-origin-reims",
+      "predicate": "occurred_at",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxa-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxa-b",
+      "predicate": "witnesses",
+      "object": "OCF-XXA",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxa-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-reims-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxa-b-origin-reims",
+      "predicate": "occurred_at",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxa-b",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxa-c",
+      "predicate": "witnesses",
+      "object": "OCF-XXA",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxa-c",
+      "predicate": "currently_kept_at",
+      "object": "repo-reims-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxa-c-origin-reims",
+      "predicate": "occurred_at",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxa-c",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxa-d",
+      "predicate": "witnesses",
+      "object": "OCF-XXA",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxa-d",
+      "predicate": "currently_kept_at",
+      "object": "repo-wolfenbu-ttel-herzog-august-bibl",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxa-d-origin-cambrai",
+      "predicate": "occurred_at",
+      "object": "place-cambrai",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxa-d",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-cambrai",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "event-ms-ocf-xxa-d-origin-therouanne",
+      "predicate": "occurred_at",
+      "object": "place-therouanne",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxa-d",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-therouanne",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "event-ms-ocf-xxa-d-origin-tournai",
+      "predicate": "occurred_at",
+      "object": "place-tournai",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxa-d",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-tournai",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxa-e",
+      "predicate": "witnesses",
+      "object": "OCF-XXA",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxa-e",
+      "predicate": "currently_kept_at",
+      "object": "repo-chantilly-muse-e-conde",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxa-f",
+      "predicate": "witnesses",
+      "object": "OCF-XXA",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxa-f",
+      "predicate": "currently_kept_at",
+      "object": "repo-the-hague-koninklijke-bibl",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxa-f-origin-lille",
+      "predicate": "occurred_at",
+      "object": "place-lille",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxa-f",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-lille",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "event-ms-ocf-xxa-f-origin-ninove",
+      "predicate": "occurred_at",
+      "object": "place-ninove",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxa-f",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-ninove",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxa-g",
+      "predicate": "witnesses",
+      "object": "OCF-XXA",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxa-g",
+      "predicate": "currently_kept_at",
+      "object": "repo-genoa-bibl-durazzo-giustiniani",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxa-h",
+      "predicate": "witnesses",
+      "object": "OCF-XXA",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxa-h",
+      "predicate": "currently_kept_at",
+      "object": "repo-vatican-city-bav",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxa-a",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxa-b",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxa-c",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxa-d",
+      "predicate": "associated_with",
+      "object": "actor-wolfenbuettel-hab",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxa-d",
+      "predicate": "associated_with",
+      "object": "actor-cambrai-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxa-d",
+      "predicate": "associated_with",
+      "object": "actor-saint-martin-tournai",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxa-d",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xxa-d-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xxa-e",
+      "predicate": "associated_with",
+      "object": "actor-chantilly-conde",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxa-e",
+      "predicate": "associated_source_actor",
+      "object": "actor-iiif",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxa-e",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xxa-e-digital",
+      "certainty": "certain",
+      "source": "iiif_manifest"
+    },
+    {
+      "subject": "ms-ocf-xxa-f",
+      "predicate": "associated_with",
+      "object": "actor-koninklijke-bibliotheek",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxa-g",
+      "predicate": "associated_with",
+      "object": "actor-genoa-university-library",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxa-h",
+      "predicate": "associated_with",
+      "object": "actor-bav",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxa-h",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xxa-h-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "OCF-XXA",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-XXA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxa-a",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "OCF-XXA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxa-b",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "OCF-XXA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxa-c",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "OCF-XXA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxa-d",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "OCF-XXA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxa-e",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "OCF-XXA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxa-f",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "OCF-XXA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxa-g",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    },
+    {
+      "subject": "OCF-XXA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxa-h",
+      "certainty": "certain",
+      "source": "OCF-XXA witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-chantilly-muse-e-conde",
+        "label": "Chantilly, Musée Condé",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.1945,
+        "lon": 2.4858,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Chantilly, Musée Condé, MS 1596"
+      },
+      {
+        "id": "repo-genoa-bibl-durazzo-giustiniani",
+        "label": "Genoa, Bibl. Durazzo-Giustiniani",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 44.4072,
+        "lon": 8.934,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Genoa, Bibl. Durazzo-Giustiniani, MS A IX 9"
+      },
+      {
+        "id": "repo-reims-bibl-mun",
+        "label": "Reims, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.2541,
+        "lon": 3.025,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Reims, Bibl. mun., MS 330"
+      },
+      {
+        "id": "repo-the-hague-koninklijke-bibl",
+        "label": "The Hague, Koninklijke Bibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 52.0817,
+        "lon": 4.326,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: The Hague, Koninklijke Bibl., MS 72 A 23"
+      },
+      {
+        "id": "repo-vatican-city-bav",
+        "label": "Vatican City, BAV",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Vatican City, BAV, MS Reg. lat. 574"
+      },
+      {
+        "id": "repo-wolfenbu-ttel-herzog-august-bibl",
+        "label": "Wolfenbüttel, Herzog August Bibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 52.1637,
+        "lon": 10.5333,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Wolfenbüttel, Herzog August Bibl., MS Guelf 1 Gud. lat. 20"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-cambrai",
+        "label": "Cambrai",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.176,
+        "lon": 3.235,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Diocese of Thérouanne, Tournai, or Cambrai\"."
+      },
+      {
+        "id": "place-lille",
+        "label": "Lille",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.629,
+        "lon": 3.057,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Lille or Ninove\"."
+      },
+      {
+        "id": "place-ninove",
+        "label": "Ninove",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.827,
+        "lon": 4.026,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Lille or Ninove\"."
+      },
+      {
+        "id": "place-reims",
+        "label": "Reims",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.258,
+        "lon": 4.031,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Reims Cathedral (ordinary)\"."
+      },
+      {
+        "id": "place-therouanne",
+        "label": "Therouanne",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "diocesan_context",
+        "lat": 50.636,
+        "lon": 2.258,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Diocese of Thérouanne, Tournai, or Cambrai\"."
+      },
+      {
+        "id": "place-tournai",
+        "label": "Tournai",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "diocesan_context",
+        "lat": 50.605,
+        "lon": 3.389,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Diocese of Thérouanne, Tournai, or Cambrai\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-xxa-a-reims-to-reims-bibl-mun",
+        "label": "A: Reims → Reims, Bibl. mun.",
+        "manuscriptId": "ms-ocf-xxa-a",
+        "fromPlaceId": "place-reims",
+        "toPlaceId": "repo-reims-bibl-mun",
+        "start": "Late 13th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxa-b-reims-to-reims-bibl-mun",
+        "label": "B: Reims → Reims, Bibl. mun.",
+        "manuscriptId": "ms-ocf-xxa-b",
+        "fromPlaceId": "place-reims",
+        "toPlaceId": "repo-reims-bibl-mun",
+        "start": "ca. 1300",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxa-c-reims-to-reims-bibl-mun",
+        "label": "C: Reims → Reims, Bibl. mun.",
+        "manuscriptId": "ms-ocf-xxa-c",
+        "fromPlaceId": "place-reims",
+        "toPlaceId": "repo-reims-bibl-mun",
+        "start": "14th century, first quarter",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxa-d-cambrai-to-wolfenbu-ttel-herzog-august-bibl",
+        "label": "D: Cambrai → Wolfenbüttel, Herzog August Bibl.",
+        "manuscriptId": "ms-ocf-xxa-d",
+        "fromPlaceId": "place-cambrai",
+        "toPlaceId": "repo-wolfenbu-ttel-herzog-august-bibl",
+        "start": "14th century (addition to 12th-century MS)",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxa-d-therouanne-to-wolfenbu-ttel-herzog-august-bibl",
+        "label": "D: Therouanne → Wolfenbüttel, Herzog August Bibl.",
+        "manuscriptId": "ms-ocf-xxa-d",
+        "fromPlaceId": "place-therouanne",
+        "toPlaceId": "repo-wolfenbu-ttel-herzog-august-bibl",
+        "start": "14th century (addition to 12th-century MS)",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxa-d-tournai-to-wolfenbu-ttel-herzog-august-bibl",
+        "label": "D: Tournai → Wolfenbüttel, Herzog August Bibl.",
+        "manuscriptId": "ms-ocf-xxa-d",
+        "fromPlaceId": "place-tournai",
+        "toPlaceId": "repo-wolfenbu-ttel-herzog-august-bibl",
+        "start": "14th century (addition to 12th-century MS)",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxa-f-lille-to-the-hague-koninklijke-bibl",
+        "label": "F: Lille → The Hague, Koninklijke Bibl.",
+        "manuscriptId": "ms-ocf-xxa-f",
+        "fromPlaceId": "place-lille",
+        "toPlaceId": "repo-the-hague-koninklijke-bibl",
+        "start": "1460",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxa-f-ninove-to-the-hague-koninklijke-bibl",
+        "label": "F: Ninove → The Hague, Koninklijke Bibl.",
+        "manuscriptId": "ms-ocf-xxa-f",
+        "fromPlaceId": "place-ninove",
+        "toPlaceId": "repo-the-hague-koninklijke-bibl",
+        "start": "1460",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_source_actor",
+        "label": "associated_source_actor"
+      },
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-has_reference",
+        "label": "has_reference"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

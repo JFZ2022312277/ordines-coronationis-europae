@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","url","description"
+"ref-legg-1901","Leopold G. Wickham Legg, English Coronation Records (1901)","E31 Document","reference","edition","","Base edition for the ECR corpus."
+"ref-ecr-ii-edition-1","Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).","E31 Document","reference","edition_or_source","",""
+"ref-ms-ecr-ii-a-digital","Rotomagus / Rouen: Rouen, Bibl. mun., MS 369 (Y.7)","E31 Document","reference","digital_facsimile","https://www.rotomagus.fr/ark:/12148/btv1b100508259",""
+"ref-ms-ecr-ii-b-digital","Gallica / BnF: Paris, BnF, MS lat. 10575","E31 Document","reference","digital_facsimile","https://gallica.bnf.fr/ark:/12148/btv1b90667571",""

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XIV manuscript pilot">
+  <ordo id="OCF-XIV"><label>Ordo of Eleven Forms</label><date>900–50</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xiv-a" siglum="A"><shelfmark>Leiden, Rijksuniversiteit Bibl., MS Vossianus lat. Q. 13</shelfmark><folios>fols. 28v-30r</folios><date>ca. 1000</date><origin>Province of Sens?</origin><currentRepository ref="repo-leiden-rijksuniversiteit-bibl">Leiden, Rijksuniversiteit Bibl.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xiv-b" siglum="B"><shelfmark>Milan, Biblioteca del Capitolo Metropolitano, MS D 1-11</shelfmark><folios>fols. 103r-127v</folios><date>11th century</date><origin>Milan</origin><currentRepository ref="repo-milan-biblioteca-del-capitolo-metropolitano">Milan, Biblioteca del Capitolo Metropolitano</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xiv-c" siglum="C"><shelfmark>Vatican City, BAV, MS lat. 13151</shelfmark><folios>fols. 52r-59v</folios><date>11th century</date><origin>Milan</origin><currentRepository ref="repo-vatican-city-bav">Vatican City, BAV</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xiv-d" siglum="D"><shelfmark>Vatican City, BAV, MS Barb. lat. 631</shelfmark><folios>fols. 155v-166r</folios><date>Second half of 11th century</date><origin>Monte Cassino</origin><currentRepository ref="repo-vatican-city-bav">Vatican City, BAV</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xiv-e" siglum="E"><shelfmark>Brussels, Bibl. roy. Albert Ier, MS 2067-73</shelfmark><folios>fols. 109v-110v</folios><date>13th century</date><origin></origin><currentRepository ref="repo-brussels-bibl-roy-albert-ier">Brussels, Bibl. roy. Albert Ier</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xiv-f" siglum="F"><shelfmark>Lisbon, Bibl. Nac., MS Alcobacen 162</shelfmark><folios>fols. 67v-69r</folios><date>13th century</date><origin>Archbishopric of Braga</origin><currentRepository ref="repo-lisbon-bibl-nac">Lisbon, Bibl. Nac.</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="place-braga" type="ecclesiastical_context" lat="41.551" lon="-8.422" certainty="probable">Braga</place>
+    <place id="repo-brussels-bibl-roy-albert-ier" type="repository_place" lat="50.8427" lon="4.361" certainty="certain">Brussels, Bibl. roy. Albert Ier</place>
+    <place id="repo-leiden-rijksuniversiteit-bibl" type="repository_place" lat="52.1574" lon="4.4854" certainty="certain">Leiden, Rijksuniversiteit Bibl.</place>
+    <place id="repo-lisbon-bibl-nac" type="repository_place" lat="38.7361" lon="-9.1461" certainty="certain">Lisbon, Bibl. Nac.</place>
+    <place id="place-milan" type="scriptorium_or_origin_place" lat="45.464" lon="9.19" certainty="probable">Milan</place>
+    <place id="repo-milan-biblioteca-del-capitolo-metropolitano" type="repository_place" lat="45.4642" lon="9.19" certainty="certain">Milan, Biblioteca del Capitolo Metropolitano</place>
+    <place id="place-monte-cassino" type="scriptorium_or_origin_place" lat="41.49" lon="13.813" certainty="probable">Monte Cassino</place>
+    <place id="place-sens" type="scriptorium_or_origin_place" lat="48.198" lon="3.283" certainty="probable">Sens</place>
+    <place id="repo-vatican-city-bav" type="repository_place" lat="41.9022" lon="12.4539" certainty="certain">Vatican City, BAV</place>
+  </places>
+</openatlasSeed>

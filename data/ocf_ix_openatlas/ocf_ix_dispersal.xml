@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-IX manuscript pilot">
+  <ordo id="OCF-IX"><label>Royal Texts in the Sacramentary of Saint-Thierry</label><date>7 September 878 (in part)</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-ix-a" siglum="A"><shelfmark>Reims, Bibl. mun., MS 214</shelfmark><folios>fols. 3v (IXA), 219r (IXB), 221v–22r (IXC)</folios><date>Late 10th century</date><origin>Saint-Thierry, near Reims</origin><currentRepository ref="repo-reims-bibl-mun">Reims, Bibl. mun.</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="repo-reims-bibl-mun" type="repository_place" lat="49.2541" lon="3.025" certainty="certain">Reims, Bibl. mun.</place>
+    <place id="place-saint-thierry-near-reims" type="scriptorium_or_origin_place" lat="49.303" lon="3.966" certainty="probable">Saint-Thierry, near Reims</place>
+  </places>
+</openatlasSeed>

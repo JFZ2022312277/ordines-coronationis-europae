@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","role","placeId","description"
+"actor-institut-de-france","Bibliothèque de l’Institut de France","E74 Group","actor","institution","repository institution","repo-paris-bibl-institut-de-france",""
+"actor-bnf","Bibliothèque nationale de France (BnF)","E74 Group","actor","institution","repository institution / digital provider","repo-paris-bnf",""
+"actor-british-library","British Library","E74 Group","actor","institution","repository institution / digital provider","repo-london-british-library",""
+"actor-denis-godefroy","Denis Godefroy","E21 Person","actor","person","collector / copy tradition context","place-paris",""

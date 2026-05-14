@@ -1,0 +1,8 @@
+"id","label","openatlasClass","systemClass","type","role","placeId"
+"actor-reinhard-elze","Reinhard Elze","E21 Person","actor","editor","editor of Ordines Coronationis Imperialis",""
+"actor-bsb","Bayerische Staatsbibliothek","E74 Group","actor","institution","repository institution / digital provider","repo-munich-bsb"
+"actor-bav","Biblioteca Apostolica Vaticana","E74 Group","actor","institution","repository institution / digital provider","repo-vatican-bav"
+"actor-mainz-church","Mainz ecclesiastical milieu","E74 Group","actor","institution","textual-context / possible origin milieu","place-mainz-context"
+"actor-augsburg-church","Augsburg ecclesiastical milieu","E74 Group","actor","institution","origin context for Clm 3917","place-augsburg-context"
+"actor-ottonian-imperial-tradition","Ottonian imperial tradition","E74 Group","actor","institution","political-liturgical context",""
+"actor-st-peter-rome","St Peter's Basilica, Rome","E74 Group","actor","institution","ritual place named in the ordo","repo-vatican-bav"

@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "title": "ECR-XXVI Coronation Order of James II. English coronation record pilot",
+    "generatedAt": "2026-05-12T13:41:42.887Z",
+    "source": "ordines_coronationis_iiif.html ECR records",
+    "note": "ECR includes ordines, narrative records, papal letters, inventories, processions, and printed orders; reference anchors are not asserted physical manuscripts."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "ECR-XXVI",
+        "label": "Coronation Order of James II.",
+        "labelFr": "Coronation Order of James II.",
+        "sourceLabel": "ECR",
+        "tradition": "English",
+        "date": "S.d.",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "James II. was a Roman Catholic, and was therefore anxious to dispense with the ceremony of coronation at the hands of a Protestant bishop. He ordered Sancroft, the Archbishop of Canterbury, to \" abbridge (as much as conveniently might be) the extreme length\" of the service, leaving the essentials. (Francis Sandford, The History of the Coronation of... King James II. London, 1687, p. 4.) This was done; and Sancroft took the opportunity of dealing with the service in a drastic manner. The abridgement consisted chiefly in omitting the Communion Service and some of the long prayers at the beginning of the coronation service. The place of the Litany was changed from after the Oath and Vent Creator to before the sermon, and this caused some confusion in the arrangement of the service. (See Introduction, 搂 24.) The oath remained the same as before. It may be noticed that the prayers have been all recast, and that those in which the Archbishop blessed the ornaments in Liber regalis have been changed so that the blessing is invoked not on the ornaments, but on the King who is to be invested with the ornaments. The process of change may be seen in Bodl. MS. Tanner 31. fo. 75. etc., which gives, all in Sancroft's hand, his notes and alterations in the old text of the service as used at the three preceding coronations. The orb seems to have been a source of confusion, which has lasted from this coronation down to our day. Dr. Sancroft cannot have realized that it was interchangeable with the sceptre with the cross, or he would not have introduced the delivery of the orb into the investiture with the pall; a ceremony which was only performed in order to be undone, for almost immediately afterwards the orb has to be given up in order to free the King's hands for the ungirding of the sword. Two anthems have been introduced into the service: the 89th psalm vv. 20.-30. which, as events turned out, was a somewhat unfortunate selection, after the homage, and an anthem composed of Ps. xlv. vv. i. 10. 14.-16. 11. 17. Ps. cxlvii. 12. Is. cxlix. 23. at the enthronement of the Queen. James II. and his Queen could not, on reUgious grounds, communicate at a service of the Church of England, hence there was no Communion, precedent for which must be looked for at the coronation of King John. But a mutilated second oblation, of a mark of gold, took place after the delivery of the Rod. The manuscript from which this coronation is edited is all written in Sancroft's hand. The contractions are so numerous that it has been thought worth while to notice them in editing the document."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ecr-xxvi-src",
+        "siglum": "SRC",
+        "shelfmark": "London, British Library / Westminster tradition (reference anchor)",
+        "repositoryPlaceId": "repo-london-british-library",
+        "currentRepository": "London, British Library / Westminster tradition (reference anchor)",
+        "lat": 51.4994,
+        "lon": -0.1276,
+        "date": "medieval to early modern",
+        "folios": "",
+        "group": "reference",
+        "origin": "",
+        "witnessType": "reference",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "iiif_url": "",
+        "iiif_manifest_url": "",
+        "embedded_viewer_url": "",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "bibliography": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "source_record"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-westminster-abbey",
+        "label": "Westminster Abbey",
+        "lat": 51.4993,
+        "lon": -0.1273,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Principal English coronation church."
+      },
+      {
+        "id": "place-canterbury",
+        "label": "Canterbury / archiepiscopal context",
+        "lat": 51.2802,
+        "lon": 1.0789,
+        "type": "institutional_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "place-winchester",
+        "label": "Winchester ecclesiastical context",
+        "lat": 51.0629,
+        "lon": -1.3165,
+        "type": "origin_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "lat": 51.5299,
+        "lon": -0.1275,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ecr-xxvi-record-context",
+        "label": "ECR-XXVI English coronation record context",
+        "type": "documentary_record",
+        "placeId": "place-westminster-abbey",
+        "start": "S.d.",
+        "end": "S.d.",
+        "description": "James II. was a Roman Catholic, and was therefore anxious to dispense with the ceremony of coronation at the hands of a Protestant bishop. He ordered Sancroft, the Archbishop of Canterbury, to \" abbridge (as much as conveniently might be) the extreme length\" of the service, leaving the essentials. (Francis Sandford, The History of the Coronation of... King James II. London, 1687, p. 4.) This was done; and Sancroft took the opportunity of dealing with the service in a drastic manner. The abridgement consisted chiefly in omitting the Communion Service and some of the long prayers at the beginning of the coronation service. The place of the Litany was changed from after the Oath and Vent Creator to before the sermon, and this caused some confusion in the arrangement of the service. (See Introduction, 搂 24.) The oath remained the same as before. It may be noticed that the prayers have been all recast, and that those in which the Archbishop blessed the ornaments in Liber regalis have been changed so that the blessing is invoked not on the ornaments, but on the King who is to be invested with the ornaments. The process of change may be seen in Bodl. MS. Tanner 31. fo. 75. etc., which gives, all in Sancroft's hand, his notes and alterations in the old text of the service as used at the three preceding coronations. The orb seems to have been a source of confusion, which has lasted from this coronation down to our day. Dr. Sancroft cannot have realized that it was interchangeable with the sceptre with the cross, or he would not have introduced the delivery of the orb into the investiture with the pall; a ceremony which was only performed in order to be undone, for almost immediately afterwards the orb has to be given up in order to free the King's hands for the ungirding of the sword. Two anthems have been introduced into the service: the 89th psalm vv. 20.-30. which, as events turned out, was a somewhat unfortunate selection, after the homage, and an anthem composed of Ps. xlv. vv. i. 10. 14.-16. 11. 17. Ps. cxlvii. 12. Is. cxlix. 23. at the enthronement of the Queen. James II. and his Queen could not, on reUgious grounds, communicate at a service of the Church of England, hence there was no Communion, precedent for which must be looked for at the coronation of King John. But a mutilated second oblation, of a mark of gold, took place after the delivery of the Rod. The manuscript from which this coronation is edited is all written in Sancroft's hand. The contractions are so numerous that it has been thought worth while to notice them in editing the document.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-ecr-xxvi-src-source",
+        "label": "SRC source/witness context",
+        "type": "source_reference",
+        "placeId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-leopold-legg",
+        "label": "Leopold G. Wickham Legg",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of English Coronation Records",
+        "placeId": ""
+      },
+      {
+        "id": "actor-english-coronation-tradition",
+        "label": "English coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "ritual and documentary tradition",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-westminster-abbey",
+        "label": "Westminster Abbey",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "coronation church / institutional context",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-john",
+        "label": "King John",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-james-i",
+        "label": "James I",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-charles-i",
+        "label": "Charles I",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-james-ii",
+        "label": "James II",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-sancroft",
+        "label": "William Sancroft",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "Archbishop of Canterbury / service reviser",
+        "placeId": ""
+      },
+      {
+        "id": "actor-canterbury",
+        "label": "Archbishopric of Canterbury",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "claimant/coronation authority",
+        "placeId": "place-canterbury"
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-legg-1901",
+        "label": "Leopold G. Wickham Legg, English Coronation Records (1901)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Base edition for the ECR corpus."
+      },
+      {
+        "id": "ref-ecr-xxvi-edition-1",
+        "label": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_source",
+        "url": "",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-english",
+        "label": "English coronation records",
+        "code": "ECR"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ECR-XXVI",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-english",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVI",
+      "predicate": "edited_by",
+      "object": "actor-leopold-legg",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVI",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVI",
+      "predicate": "documents_event",
+      "object": "event-ecr-xxvi-record-context",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVI",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVI",
+      "predicate": "associated_with",
+      "object": "actor-westminster-abbey",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVI",
+      "predicate": "associated_with",
+      "object": "actor-john",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVI",
+      "predicate": "associated_with",
+      "object": "actor-james-i",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVI",
+      "predicate": "associated_with",
+      "object": "actor-charles-i",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVI",
+      "predicate": "associated_with",
+      "object": "actor-james-ii",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVI",
+      "predicate": "associated_with",
+      "object": "actor-sancroft",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVI",
+      "predicate": "associated_with",
+      "object": "actor-canterbury",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXVI",
+      "predicate": "preserved_in",
+      "object": "ms-ecr-xxvi-src",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxvi-src",
+      "predicate": "has_event",
+      "object": "event-ms-ecr-xxvi-src-source",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxvi-src",
+      "predicate": "located_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxvi-src",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxvi-src",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxvi-src",
+      "predicate": "associated_with",
+      "object": "actor-british-library",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": [
+      {
+        "id": "move-ms-ecr-xxvi-src",
+        "manuscriptId": "ms-ecr-xxvi-src",
+        "fromPlaceId": "place-westminster-abbey",
+        "toPlaceId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "certainty": "derived",
+        "description": "Research context line for SRC: Westminster Abbey -> London, British Library / Westminster tradition (reference anchor)."
+      }
+    ]
+  }
+}

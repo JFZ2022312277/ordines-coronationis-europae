@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "title": "OCF-IV manuscript pilot",
+    "generatedAt": "2026-05-12T09:06:32.383Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-IV. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-IV.",
+    "entityEnrichedAt": "2026-05-12T09:06:35.695Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-IV",
+        "label": "Royal Texts in the Benedictional of Freising",
+        "labelFr": "Textes royaux du Bénédictional de Freising",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "before 900",
+        "description": "Four liturgical formulas that entered the liturgy of consecration and coronation. Contains the earliest evidence of the formula for the anointing of hands (Unguantur manus iste). Copied from an older model, possibly older than Sankt Emmeram."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-iv-a",
+        "siglum": "A",
+        "label": "A — Munich, Bayerische Staatsbibl., MS Clm. 6430",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Munich, Bayerische Staatsbibl., MS Clm. 6430",
+        "folios": "fols. 50v-51r",
+        "date": "Second half of 9th century",
+        "origin": "Freising",
+        "currentRepositoryId": "repo-munich-bayerische-staatsbibl",
+        "currentRepository": "Munich, Bayerische Staatsbibl.",
+        "copiedFrom": "",
+        "digitalUrl": "https://www.digitale-sammlungen.de/en/view/bsb00046285?q=%22pok%22&page=64",
+        "iiifUrl": "",
+        "sourceLabel": "Bayerische Staatsbibliothek Digitale Sammlungen",
+        "description": "Second benedictional of Freising Digital witness pages for this section: fols. 50v-51r.",
+        "bibliography": "Amiet (ed. c), 23–0"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-freising",
+        "label": "Freising",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.402,
+        "lon": 11.749,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Freising\"."
+      },
+      {
+        "id": "repo-munich-bayerische-staatsbibl",
+        "label": "Munich, Bayerische Staatsbibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.1497,
+        "lon": 11.5786,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Munich, Bayerische Staatsbibl., MS Clm. 6430"
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-iv-a-current-repository",
+        "label": "A kept at Munich, Bayerische Staatsbibl.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-iv-a",
+        "placeId": "repo-munich-bayerische-staatsbibl",
+        "start": "",
+        "end": "",
+        "description": "Munich, Bayerische Staatsbibl., MS Clm. 6430 is currently kept at Munich, Bayerische Staatsbibl..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-iv-a-origin-freising",
+        "label": "A origin/context: Freising",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-iv-a",
+        "placeId": "place-freising",
+        "start": "Second half of 9th century",
+        "end": "Second half of 9th century",
+        "description": "Munich, Bayerische Staatsbibl., MS Clm. 6430: origin/context recorded as \"Freising\".",
+        "certainty": "probable"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-bsb",
+        "label": "Bayerische Staatsbibliothek",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-munich-bayerische-staatsbibl",
+        "description": ""
+      },
+      {
+        "id": "actor-freising-church",
+        "label": "Freising ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "liturgical/sacramentary context",
+        "placeId": "place-freising",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-iv-a-bib-1",
+        "label": "Amiet (ed. c), 23–0",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Bibliographic reference for Munich, Bayerische Staatsbibl., MS Clm. 6430."
+      },
+      {
+        "id": "ref-ms-ocf-iv-a-digital",
+        "label": "Bayerische Staatsbibliothek Digitale Sammlungen: Munich, Bayerische Staatsbibl., MS Clm. 6430",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://www.digitale-sammlungen.de/en/view/bsb00046285?q=%22pok%22&page=64",
+        "description": "Digital source for Munich, Bayerische Staatsbibl., MS Clm. 6430."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-iv-a",
+      "predicate": "witnesses",
+      "object": "OCF-IV",
+      "certainty": "certain",
+      "source": "OCF-IV witness list"
+    },
+    {
+      "subject": "ms-ocf-iv-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-munich-bayerische-staatsbibl",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-iv-a-origin-freising",
+      "predicate": "occurred_at",
+      "object": "place-freising",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-iv-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-freising",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-iv-a",
+      "predicate": "associated_with",
+      "object": "actor-bsb",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-iv-a",
+      "predicate": "associated_with",
+      "object": "actor-freising-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-iv-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-iv-a-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-iv-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-iv-a-bib-1",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "OCF-IV",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-IV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-iv-a",
+      "certainty": "certain",
+      "source": "OCF-IV witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-munich-bayerische-staatsbibl",
+        "label": "Munich, Bayerische Staatsbibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.1497,
+        "lon": 11.5786,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Munich, Bayerische Staatsbibl., MS Clm. 6430"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-freising",
+        "label": "Freising",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.402,
+        "lon": 11.749,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Freising\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-iv-a-freising-to-munich-bayerische-staatsbibl",
+        "label": "A: Freising → Munich, Bayerische Staatsbibl.",
+        "manuscriptId": "ms-ocf-iv-a",
+        "fromPlaceId": "place-freising",
+        "toPlaceId": "repo-munich-bayerische-staatsbibl",
+        "start": "Second half of 9th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-has_reference",
+        "label": "has_reference"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

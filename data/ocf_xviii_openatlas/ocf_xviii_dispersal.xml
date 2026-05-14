@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XVIII manuscript pilot">
+  <ordo id="OCF-XVIII"><label>Ordo of Saint-Bertin</label><date>ca. 1150–200</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xviii-a" siglum="A"><shelfmark>Saint-Omer, Bibl. mun., MS 98</shelfmark><folios>fols. 64v–1r</folios><date>12th century, middle or second half</date><origin>Saint-Bertin, Saint-Omer</origin><currentRepository ref="repo-saint-omer-bibl-mun">Saint-Omer, Bibl. mun.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xviii-b" siglum="B"><shelfmark>Paris, Bibl. Sainte-Geneviève, MS 148</shelfmark><folios>fols. 84v–2r</folios><date>1350–356</date><origin>Senlis</origin><currentRepository ref="repo-paris-bibl-sainte-genevie-ve">Paris, Bibl. Sainte-Geneviève</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="repo-paris-bibl-sainte-genevie-ve" type="repository_place" lat="48.8469" lon="2.3464" certainty="certain">Paris, Bibl. Sainte-Geneviève</place>
+    <place id="place-saint-bertin-saint-omer" type="scriptorium_or_origin_place" lat="50.75" lon="2.253" certainty="probable">Saint-Bertin, Saint-Omer</place>
+    <place id="repo-saint-omer-bibl-mun" type="repository_place" lat="50.75" lon="2.253" certainty="certain">Saint-Omer, Bibl. mun.</place>
+    <place id="place-senlis" type="scriptorium_or_origin_place" lat="49.207" lon="2.586" certainty="probable">Senlis</place>
+  </places>
+</openatlasSeed>

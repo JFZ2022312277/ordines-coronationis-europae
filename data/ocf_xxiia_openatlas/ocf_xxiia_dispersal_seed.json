@@ -1,0 +1,1533 @@
+{
+  "meta": {
+    "title": "OCF-XXIIA manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:45.100Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XXIIA. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-XXIIA.",
+    "entityEnrichedAt": "2026-05-12T09:59:45.442Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XXIIA",
+        "label": "Last Capetian Ordo",
+        "labelFr": "Dernier Ordo capétien",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "1250–270",
+        "description": "The first complete ordo that is both specifically 'French' and usable at a coronation. Combines the Ratold Ordo and the Ordo of Reims. The most successful of all French coronation ordines: it supplied the ceremony's structure from the late 13th century to the coronation of John in 1350, then was modified for Charles V in 1364. Reused for Charles VII in 1429 and Louis XI in 1461. Its features remained in the ceremony until the end of the Old Regime."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xxiia-a",
+        "siglum": "A",
+        "displaySiglum": "A",
+        "label": "A — Paris, BnF, MS nouv. acq. lat. 1202",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS nouv. acq. lat. 1202",
+        "folios": "fols. 121r–43v",
+        "date": "ca. 1250–270",
+        "origin": "Meaux (pontifical)",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Base text. Oldest surviving copy.",
+        "bibliography": "Leroquais, Pontificaux, 2: 235; Molin, 'Un pontifical de Meaux'"
+      },
+      {
+        "id": "ms-ocf-xxiia-b",
+        "siglum": "B",
+        "displaySiglum": "B",
+        "label": "B — Urbana, University of Illinois Library, unnumbered MS",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Urbana, University of Illinois Library, unnumbered MS",
+        "folios": "fols. 1r–3v",
+        "date": "ca. 1330",
+        "origin": "France",
+        "currentRepositoryId": "repo-urbana-university-of-illinois-library",
+        "currentRepository": "Urbana, University of Illinois Library",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Illuminated coronation manuscript (historiated initials, ca. 3cm). Incomplete: missing first 6 folios and 2 internal folios.",
+        "bibliography": "Hedeman, 'Commemoration of Jeanne d'Évreux's Coronation' (1990)"
+      },
+      {
+        "id": "ms-ocf-xxiia-c",
+        "siglum": "C",
+        "displaySiglum": "C",
+        "label": "C — Vatican City, BAV, MS Chigi C VI 182",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Vatican City, BAV, MS Chigi C VI 182",
+        "folios": "fols. 72r–5v",
+        "date": "Mid 14th century",
+        "origin": "Cambrai (or Reims)",
+        "currentRepositoryId": "repo-vatican-city-bav",
+        "currentRepository": "Vatican City, BAV",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Pontifical with detailed historiated miniatures in bottom margin.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiia-d",
+        "siglum": "D",
+        "displaySiglum": "D",
+        "label": "D — London, British Library, MS Egerton 931",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "London, British Library, MS Egerton 931",
+        "folios": "fols. 183v–03r",
+        "date": "1346–378",
+        "origin": "Sens (for Archbishop Guillaume de Melun)",
+        "currentRepositoryId": "repo-london-british-library",
+        "currentRepository": "London, British Library",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Beautiful pontifical. Source of Martène's edition.",
+        "bibliography": "Martimort, 203–04, no. 298"
+      },
+      {
+        "id": "ms-ocf-xxiia-e",
+        "siglum": "E",
+        "displaySiglum": "E",
+        "label": "E — Vatican City, BAV, MS lat. 4733",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Vatican City, BAV, MS lat. 4733",
+        "folios": "fols. 61r–7r",
+        "date": "15th century",
+        "origin": "",
+        "currentRepositoryId": "repo-vatican-city-bav",
+        "currentRepository": "Vatican City, BAV",
+        "copiedFrom": "",
+        "digitalUrl": "https://digi.vatlib.it/view/MSS_Vat.lat.4733",
+        "iiifUrl": "",
+        "sourceLabel": "DigiVatLib",
+        "description": "Incomplete copy in 'Caeremoniale Jacobi Stefaneschi.'",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiia-f",
+        "siglum": "F",
+        "displaySiglum": "F",
+        "label": "F — Paris, BnF, MS lat. 3968",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Paris, BnF, MS lat. 3968",
+        "folios": "fols. 208r–10r",
+        "date": "15th century",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "In a miscellaneous collection of legal commentaries.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiia-g",
+        "siglum": "G",
+        "displaySiglum": "G",
+        "label": "G — Paris, BnF, MS fr. 14371",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS fr. 14371",
+        "folios": "fols. 318r–24v",
+        "date": "ca. 1475",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Complete ordo (except litany). In 'Protocolle de la chancellerie royale sous Charles VII.' Only surviving ms copied directly from Croix.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiia-g-2",
+        "siglum": "G2",
+        "displaySiglum": "G",
+        "label": "G (2) — Paris, BnF, MS fr. 14371",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Paris, BnF, MS fr. 14371",
+        "folios": "fol. 356r",
+        "date": "ca. 1475 (same codex as G?; different hand)",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Coronation oaths only, different hand from G",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiia-h",
+        "siglum": "H",
+        "displaySiglum": "H",
+        "label": "H — London, British Library, MS Arundel 149",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "London, British Library, MS Arundel 149",
+        "folios": "fols. 23r–0v",
+        "date": "Late 15th century (after 1484)",
+        "origin": "",
+        "currentRepositoryId": "repo-london-british-library",
+        "currentRepository": "London, British Library",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Secondary witness of the Last Capetian ordo in the Arundel pontifical.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiia-i",
+        "siglum": "I",
+        "displaySiglum": "I",
+        "label": "I — Paris, BnF, MS lat. 12080",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Paris, BnF, MS lat. 12080",
+        "folios": "fols. 1r–0v",
+        "date": "ca. 1500",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b10721237p",
+        "iiifUrl": "",
+        "sourceLabel": "Gallica / BnF",
+        "description": "Secondary witness of the Last Capetian ordo in this BnF manuscript.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiia-j",
+        "siglum": "J",
+        "displaySiglum": "J",
+        "label": "J — Paris, BnF, MS nouv. acq. fr. 7232",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "copy",
+        "shelfmark": "Paris, BnF, MS nouv. acq. fr. 7232",
+        "folios": "fols. 7v–1v",
+        "date": "17th century, first half",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Copied from lost MS 5 (Nouveau Croix).",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiia-k",
+        "siglum": "K",
+        "displaySiglum": "K",
+        "label": "K — Sens, Bibl. mun., MS 11",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "copy",
+        "shelfmark": "Sens, Bibl. mun., MS 11",
+        "folios": "fols. 144r–55r",
+        "date": "1671",
+        "origin": "",
+        "currentRepositoryId": "repo-sens-bibl-mun",
+        "currentRepository": "Sens, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Copied from D.",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "place-cambrai",
+        "label": "Cambrai",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.176,
+        "lon": 3.235,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Cambrai (or Reims)\"."
+      },
+      {
+        "id": "place-france",
+        "label": "France",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "regional_context",
+        "lat": 46.8,
+        "lon": 2.4,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"France\"."
+      },
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 51.5299,
+        "lon": -0.1277,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: London, British Library, MS Arundel 149"
+      },
+      {
+        "id": "place-meaux",
+        "label": "Meaux",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.96,
+        "lon": 2.888,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Meaux (pontifical)\"."
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS nouv. acq. fr. 7232"
+      },
+      {
+        "id": "place-reims",
+        "label": "Reims",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.258,
+        "lon": 4.031,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Cambrai (or Reims)\"."
+      },
+      {
+        "id": "place-sens",
+        "label": "Sens",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.198,
+        "lon": 3.283,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Sens (for Archbishop Guillaume de Melun)\"."
+      },
+      {
+        "id": "repo-sens-bibl-mun",
+        "label": "Sens, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.1974,
+        "lon": 3.282,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Sens, Bibl. mun., MS 11"
+      },
+      {
+        "id": "repo-urbana-university-of-illinois-library",
+        "label": "Urbana, University of Illinois Library",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 40.102,
+        "lon": -88.2272,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Urbana, University of Illinois Library, unnumbered MS"
+      },
+      {
+        "id": "repo-vatican-city-bav",
+        "label": "Vatican City, BAV",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Vatican City, BAV, MS lat. 4733"
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xxiia-a-current-repository",
+        "label": "A kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiia-a",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS nouv. acq. lat. 1202 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-a-origin-meaux",
+        "label": "A origin/context: Meaux",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxiia-a",
+        "placeId": "place-meaux",
+        "start": "ca. 1250–270",
+        "end": "ca. 1250–270",
+        "description": "Paris, BnF, MS nouv. acq. lat. 1202: origin/context recorded as \"Meaux (pontifical)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-b-current-repository",
+        "label": "B kept at Urbana, University of Illinois Library",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiia-b",
+        "placeId": "repo-urbana-university-of-illinois-library",
+        "start": "",
+        "end": "",
+        "description": "Urbana, University of Illinois Library, unnumbered MS is currently kept at Urbana, University of Illinois Library.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-b-origin-france",
+        "label": "B origin/context: France",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxiia-b",
+        "placeId": "place-france",
+        "start": "ca. 1330",
+        "end": "ca. 1330",
+        "description": "Urbana, University of Illinois Library, unnumbered MS: origin/context recorded as \"France\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-c-current-repository",
+        "label": "C kept at Vatican City, BAV",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiia-c",
+        "placeId": "repo-vatican-city-bav",
+        "start": "",
+        "end": "",
+        "description": "Vatican City, BAV, MS Chigi C VI 182 is currently kept at Vatican City, BAV.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-c-origin-cambrai",
+        "label": "C origin/context: Cambrai",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxiia-c",
+        "placeId": "place-cambrai",
+        "start": "Mid 14th century",
+        "end": "Mid 14th century",
+        "description": "Vatican City, BAV, MS Chigi C VI 182: origin/context recorded as \"Cambrai (or Reims)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-c-origin-reims",
+        "label": "C origin/context: Reims",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxiia-c",
+        "placeId": "place-reims",
+        "start": "Mid 14th century",
+        "end": "Mid 14th century",
+        "description": "Vatican City, BAV, MS Chigi C VI 182: origin/context recorded as \"Cambrai (or Reims)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-d-current-repository",
+        "label": "D kept at London, British Library",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiia-d",
+        "placeId": "repo-london-british-library",
+        "start": "",
+        "end": "",
+        "description": "London, British Library, MS Egerton 931 is currently kept at London, British Library.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-d-origin-sens",
+        "label": "D origin/context: Sens",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxiia-d",
+        "placeId": "place-sens",
+        "start": "1346–378",
+        "end": "1346–378",
+        "description": "London, British Library, MS Egerton 931: origin/context recorded as \"Sens (for Archbishop Guillaume de Melun)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-e-current-repository",
+        "label": "E kept at Vatican City, BAV",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiia-e",
+        "placeId": "repo-vatican-city-bav",
+        "start": "",
+        "end": "",
+        "description": "Vatican City, BAV, MS lat. 4733 is currently kept at Vatican City, BAV.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-f-current-repository",
+        "label": "F kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiia-f",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 3968 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-g-current-repository",
+        "label": "G kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiia-g",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS fr. 14371 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-g-2-current-repository",
+        "label": "G kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiia-g-2",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS fr. 14371 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-h-current-repository",
+        "label": "H kept at London, British Library",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiia-h",
+        "placeId": "repo-london-british-library",
+        "start": "",
+        "end": "",
+        "description": "London, British Library, MS Arundel 149 is currently kept at London, British Library.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-i-current-repository",
+        "label": "I kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiia-i",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 12080 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-j-current-repository",
+        "label": "J kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiia-j",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS nouv. acq. fr. 7232 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiia-k-current-repository",
+        "label": "K kept at Sens, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiia-k",
+        "placeId": "repo-sens-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Sens, Bibl. mun., MS 11 is currently kept at Sens, Bibl. mun..",
+        "certainty": "certain"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-arles-church",
+        "label": "Arles ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "episcopal / liturgical context",
+        "placeId": "place-arles",
+        "description": ""
+      },
+      {
+        "id": "actor-bav",
+        "label": "Biblioteca Apostolica Vaticana",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-vatican-city-bav",
+        "description": ""
+      },
+      {
+        "id": "actor-bnf",
+        "label": "Bibliothèque nationale de France (BnF)",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-paris-bnf",
+        "description": ""
+      },
+      {
+        "id": "actor-british-library",
+        "label": "British Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-london-british-library",
+        "description": ""
+      },
+      {
+        "id": "actor-cambrai-church",
+        "label": "Cambrai ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "adaptation / use context",
+        "placeId": "place-cambrai",
+        "description": ""
+      },
+      {
+        "id": "actor-charles-v-france",
+        "label": "Charles V of France",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal patron / former owner",
+        "placeId": "place-paris",
+        "description": ""
+      },
+      {
+        "id": "actor-gallica",
+        "label": "Gallica",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "digital source platform",
+        "placeId": "repo-paris-bnf",
+        "description": ""
+      },
+      {
+        "id": "actor-reims-cathedral",
+        "label": "Reims Cathedral / Chapter Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "cathedral repository / coronation center",
+        "placeId": "place-reims",
+        "description": ""
+      },
+      {
+        "id": "actor-sens-cathedral",
+        "label": "Sens Cathedral / Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "cathedral repository / origin context",
+        "placeId": "repo-sens-bibl-mun",
+        "description": ""
+      },
+      {
+        "id": "actor-university-illinois-library",
+        "label": "University of Illinois Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution",
+        "placeId": "repo-urbana-university-of-illinois-library",
+        "description": ""
+      },
+      {
+        "id": "actor-victor-leroquais",
+        "label": "Victor Leroquais",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "cataloguer / scholar",
+        "placeId": "place-paris",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-xxiia-e-digital",
+        "label": "DigiVatLib: Vatican City, BAV, MS lat. 4733",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://digi.vatlib.it/view/MSS_Vat.lat.4733",
+        "description": "Digital source for Vatican City, BAV, MS lat. 4733."
+      },
+      {
+        "id": "ref-ms-ocf-xxiia-i-digital",
+        "label": "Gallica / BnF: Paris, BnF, MS lat. 12080",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b10721237p",
+        "description": "Digital source for Paris, BnF, MS lat. 12080."
+      },
+      {
+        "id": "ref-ms-ocf-xxiia-b-bib-1",
+        "label": "Hedeman, 'Commemoration of Jeanne d'Évreux's Coronation' (1990)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Urbana, University of Illinois Library, unnumbered MS."
+      },
+      {
+        "id": "ref-ms-ocf-xxiia-a-bib-1",
+        "label": "Leroquais, Pontificaux, 2: 235",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS nouv. acq. lat. 1202."
+      },
+      {
+        "id": "ref-ms-ocf-xxiia-d-bib-1",
+        "label": "Martimort, 203–04, no. 298",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference for London, British Library, MS Egerton 931."
+      },
+      {
+        "id": "ref-ms-ocf-xxiia-a-bib-2",
+        "label": "Molin, 'Un pontifical de Meaux'",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS nouv. acq. lat. 1202."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xxiia-a",
+      "predicate": "witnesses",
+      "object": "OCF-XXIIA",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiia-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxiia-a-origin-meaux",
+      "predicate": "occurred_at",
+      "object": "place-meaux",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiia-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-meaux",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiia-b",
+      "predicate": "witnesses",
+      "object": "OCF-XXIIA",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiia-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-urbana-university-of-illinois-library",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxiia-b-origin-france",
+      "predicate": "occurred_at",
+      "object": "place-france",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiia-b",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-france",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiia-c",
+      "predicate": "witnesses",
+      "object": "OCF-XXIIA",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiia-c",
+      "predicate": "currently_kept_at",
+      "object": "repo-vatican-city-bav",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxiia-c-origin-cambrai",
+      "predicate": "occurred_at",
+      "object": "place-cambrai",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiia-c",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-cambrai",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "event-ms-ocf-xxiia-c-origin-reims",
+      "predicate": "occurred_at",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiia-c",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiia-d",
+      "predicate": "witnesses",
+      "object": "OCF-XXIIA",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiia-d",
+      "predicate": "currently_kept_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxiia-d-origin-sens",
+      "predicate": "occurred_at",
+      "object": "place-sens",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiia-d",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-sens",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxiia-e",
+      "predicate": "witnesses",
+      "object": "OCF-XXIIA",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiia-e",
+      "predicate": "currently_kept_at",
+      "object": "repo-vatican-city-bav",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxiia-f",
+      "predicate": "witnesses",
+      "object": "OCF-XXIIA",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiia-f",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxiia-g",
+      "predicate": "witnesses",
+      "object": "OCF-XXIIA",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiia-g",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxiia-g-2",
+      "predicate": "witnesses",
+      "object": "OCF-XXIIA",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiia-g-2",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxiia-h",
+      "predicate": "witnesses",
+      "object": "OCF-XXIIA",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiia-h",
+      "predicate": "currently_kept_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxiia-i",
+      "predicate": "witnesses",
+      "object": "OCF-XXIIA",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiia-i",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxiia-j",
+      "predicate": "witnesses",
+      "object": "OCF-XXIIA",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiia-j",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxiia-k",
+      "predicate": "witnesses",
+      "object": "OCF-XXIIA",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiia-k",
+      "predicate": "currently_kept_at",
+      "object": "repo-sens-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxiia-a",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xxiia-a-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xxiia-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xxiia-a-bib-2",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-xxiia-b",
+      "predicate": "associated_with",
+      "object": "actor-university-illinois-library",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-b",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xxiia-b-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xxiia-c",
+      "predicate": "associated_with",
+      "object": "actor-bav",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-c",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-c",
+      "predicate": "associated_with",
+      "object": "actor-cambrai-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-d",
+      "predicate": "associated_with",
+      "object": "actor-british-library",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-d",
+      "predicate": "associated_with",
+      "object": "actor-sens-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-d",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xxiia-d-bib-1",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-xxiia-e",
+      "predicate": "associated_with",
+      "object": "actor-bav",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-e",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xxiia-e-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xxiia-f",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-g",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-g",
+      "predicate": "associated_with",
+      "object": "actor-arles-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-g",
+      "predicate": "associated_person",
+      "object": "actor-charles-v-france",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-g-2",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-h",
+      "predicate": "associated_with",
+      "object": "actor-british-library",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-i",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-i",
+      "predicate": "associated_source_actor",
+      "object": "actor-gallica",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-i",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xxiia-i-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xxiia-j",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiia-k",
+      "predicate": "associated_with",
+      "object": "actor-sens-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "OCF-XXIIA",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-XXIIA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiia-a",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "OCF-XXIIA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiia-b",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "OCF-XXIIA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiia-c",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "OCF-XXIIA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiia-d",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "OCF-XXIIA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiia-e",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "OCF-XXIIA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiia-f",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "OCF-XXIIA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiia-g",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "OCF-XXIIA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiia-g-2",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "OCF-XXIIA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiia-h",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "OCF-XXIIA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiia-i",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "OCF-XXIIA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiia-j",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    },
+    {
+      "subject": "OCF-XXIIA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiia-k",
+      "certainty": "certain",
+      "source": "OCF-XXIIA witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 51.5299,
+        "lon": -0.1277,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: London, British Library, MS Arundel 149"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS nouv. acq. fr. 7232"
+      },
+      {
+        "id": "repo-sens-bibl-mun",
+        "label": "Sens, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.1974,
+        "lon": 3.282,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Sens, Bibl. mun., MS 11"
+      },
+      {
+        "id": "repo-urbana-university-of-illinois-library",
+        "label": "Urbana, University of Illinois Library",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 40.102,
+        "lon": -88.2272,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Urbana, University of Illinois Library, unnumbered MS"
+      },
+      {
+        "id": "repo-vatican-city-bav",
+        "label": "Vatican City, BAV",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Vatican City, BAV, MS lat. 4733"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-cambrai",
+        "label": "Cambrai",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.176,
+        "lon": 3.235,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Cambrai (or Reims)\"."
+      },
+      {
+        "id": "place-france",
+        "label": "France",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "regional_context",
+        "lat": 46.8,
+        "lon": 2.4,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"France\"."
+      },
+      {
+        "id": "place-meaux",
+        "label": "Meaux",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.96,
+        "lon": 2.888,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Meaux (pontifical)\"."
+      },
+      {
+        "id": "place-reims",
+        "label": "Reims",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.258,
+        "lon": 4.031,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Cambrai (or Reims)\"."
+      },
+      {
+        "id": "place-sens",
+        "label": "Sens",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.198,
+        "lon": 3.283,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Sens (for Archbishop Guillaume de Melun)\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-xxiia-a-meaux-to-paris-bnf",
+        "label": "A: Meaux → Paris, BnF",
+        "manuscriptId": "ms-ocf-xxiia-a",
+        "fromPlaceId": "place-meaux",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "ca. 1250–270",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxiia-b-france-to-urbana-university-of-illinois-library",
+        "label": "B: France → Urbana, University of Illinois Library",
+        "manuscriptId": "ms-ocf-xxiia-b",
+        "fromPlaceId": "place-france",
+        "toPlaceId": "repo-urbana-university-of-illinois-library",
+        "start": "ca. 1330",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxiia-c-cambrai-to-vatican-city-bav",
+        "label": "C: Cambrai → Vatican City, BAV",
+        "manuscriptId": "ms-ocf-xxiia-c",
+        "fromPlaceId": "place-cambrai",
+        "toPlaceId": "repo-vatican-city-bav",
+        "start": "Mid 14th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxiia-c-reims-to-vatican-city-bav",
+        "label": "C: Reims → Vatican City, BAV",
+        "manuscriptId": "ms-ocf-xxiia-c",
+        "fromPlaceId": "place-reims",
+        "toPlaceId": "repo-vatican-city-bav",
+        "start": "Mid 14th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxiia-d-sens-to-london-british-library",
+        "label": "D: Sens → London, British Library",
+        "manuscriptId": "ms-ocf-xxiia-d",
+        "fromPlaceId": "place-sens",
+        "toPlaceId": "repo-london-british-library",
+        "start": "1346–378",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_person",
+        "label": "associated_person"
+      },
+      {
+        "id": "rel-associated_source_actor",
+        "label": "associated_source_actor"
+      },
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-edited_or_studied_by",
+        "label": "edited_or_studied_by"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-has_reference",
+        "label": "has_reference"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

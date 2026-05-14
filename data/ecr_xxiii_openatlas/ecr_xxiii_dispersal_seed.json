@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "title": "ECR-XXIII The Coronation Order of King Charles I. English coronation record pilot",
+    "generatedAt": "2026-05-12T13:41:42.868Z",
+    "source": "ordines_coronationis_iiif.html ECR records",
+    "note": "ECR includes ordines, narrative records, papal letters, inventories, processions, and printed orders; reference anchors are not asserted physical manuscripts."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "ECR-XXIII",
+        "label": "The Coronation Order of King Charles I.",
+        "labelFr": "The Coronation Order of King Charles I.",
+        "sourceLabel": "ECR",
+        "tradition": "English",
+        "date": "S.d.",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "The coronation of Charles I. took place on Candlemas Day, February 2, 1626, but the Queen did not take any part in the ceremony. The service is nearly the same as that for James I., which was a version of Liber regalis, but the almost superstitious exorcism of the ring was omitted, both at this coronation and at Charles II.'s. The names of the officers who are mentioned in the rubrics as carrying the ornaments are not those of the officers who actually carried the regalia, but merely those of the hereditary officers who performed these services when the Liber regalis was drawn up. The manuscript here edited (Harl. 5,222) has the service for the Queen as well as that for the King. The copy which it is beUeved that the King held in his hand, now at St. John's College, Cambridge, does not contain it, nor does it contain the prayer God, the unspeakable author of the world, which, it appears, was not said. There seems to have been some tradition prejudicial to the use of this prayer. A statement was made by Thomas Fuller (Church History of Britain, London, 1655 [p. 124 of tenth book] Book xi. Cent. xvii. 搂 34) to the effect that \" a passage not in fashion since the reign of King Henry the sixt, was used in a prayer at this time. Obtineat gratiam huic populo sicut Aaron in Tabernaculo, Elizeus in Fluvio, Zacharias in Templo, sit Petrus in Clave, Paulus in Dogmate, Let him obtain favor for this people like Aaron in the Tabernacle, Elisha in the Waters, Zacharias in the Temple, give him Peter's Key of Discipline, PauPs Doctrine \"; and the statement was repeated by Peter Heylin (A short view of the Life and Reign of King Charles, London, 1658, p. 26, and Cyprianus Anglicus, p. 142). Bancroft (Chr. Wordsworth, 2%芦 Coronation of King Charles I., Henry Bradshaw Society, 1892, p. 87) says, in quoting Heylin's Cyprianus Anglicus, that the clause was added to Deus ineffabilis after having been omitted since Henry VL's time. But as Bancroft says lower, \" 'tis not in Ch. I.'s Coronation Office.... Nor can I find it in any other.\" It certainly does not occur anywhere in Liber regalis, but it is to be found in the coronation of the Emperor (Muratori, Liturgia Romana Vetus, Venetiis, 1748, t. ii. col. 461). Bancroft also successfully rebuts the charge against Laud, that he altered the words of Sta et retine, which, as a fact, remained the same as they had ever been. The form for blessing the oil, used by Laud on the morning of the coronation, is copied from Bodl. Ashm. 863, and may be compared with the more expanded form used by Dr. Bancroft at the coronation of James II. (Doc. xxvi.) The Latin phrases which appear in the rubrics are taken from Liber regalis. The words printed in Clarendon type are written in a hand imitating printing. Of the actual ceremony two details have come down to us. First, that Charles did not wear the outer shirt of red silk, but only the shirt of white silk under his parliament robes; and secondly, that the sermon was preached from the text, \" Be thou faithful unto death, and I will give thee a crown of life,\" both of which incidents were remembered afterwards as omens of the misfortunes that came upon the King. \"45"
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ecr-xxiii-src",
+        "siglum": "SRC",
+        "shelfmark": "London, British Library / Westminster tradition (reference anchor)",
+        "repositoryPlaceId": "repo-london-british-library",
+        "currentRepository": "London, British Library / Westminster tradition (reference anchor)",
+        "lat": 51.4994,
+        "lon": -0.1276,
+        "date": "medieval to early modern",
+        "folios": "",
+        "group": "reference",
+        "origin": "",
+        "witnessType": "reference",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "iiif_url": "",
+        "iiif_manifest_url": "",
+        "embedded_viewer_url": "",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "bibliography": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "source_record"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-westminster-abbey",
+        "label": "Westminster Abbey",
+        "lat": 51.4993,
+        "lon": -0.1273,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Principal English coronation church."
+      },
+      {
+        "id": "place-tower-of-london",
+        "label": "Tower of London",
+        "lat": 51.5081,
+        "lon": -0.0759,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Processional and regalia context."
+      },
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "lat": 51.5299,
+        "lon": -0.1275,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ecr-xxiii-record-context",
+        "label": "ECR-XXIII English coronation record context",
+        "type": "documentary_record",
+        "placeId": "place-westminster-abbey",
+        "start": "S.d.",
+        "end": "S.d.",
+        "description": "The coronation of Charles I. took place on Candlemas Day, February 2, 1626, but the Queen did not take any part in the ceremony. The service is nearly the same as that for James I., which was a version of Liber regalis, but the almost superstitious exorcism of the ring was omitted, both at this coronation and at Charles II.'s. The names of the officers who are mentioned in the rubrics as carrying the ornaments are not those of the officers who actually carried the regalia, but merely those of the hereditary officers who performed these services when the Liber regalis was drawn up. The manuscript here edited (Harl. 5,222) has the service for the Queen as well as that for the King. The copy which it is beUeved that the King held in his hand, now at St. John's College, Cambridge, does not contain it, nor does it contain the prayer God, the unspeakable author of the world, which, it appears, was not said. There seems to have been some tradition prejudicial to the use of this prayer. A statement was made by Thomas Fuller (Church History of Britain, London, 1655 [p. 124 of tenth book] Book xi. Cent. xvii. 搂 34) to the effect that \" a passage not in fashion since the reign of King Henry the sixt, was used in a prayer at this time. Obtineat gratiam huic populo sicut Aaron in Tabernaculo, Elizeus in Fluvio, Zacharias in Templo, sit Petrus in Clave, Paulus in Dogmate, Let him obtain favor for this people like Aaron in the Tabernacle, Elisha in the Waters, Zacharias in the Temple, give him Peter's Key of Discipline, PauPs Doctrine \"; and the statement was repeated by Peter Heylin (A short view of the Life and Reign of King Charles, London, 1658, p. 26, and Cyprianus Anglicus, p. 142). Bancroft (Chr. Wordsworth, 2%芦 Coronation of King Charles I., Henry Bradshaw Society, 1892, p. 87) says, in quoting Heylin's Cyprianus Anglicus, that the clause was added to Deus ineffabilis after having been omitted since Henry VL's time. But as Bancroft says lower, \" 'tis not in Ch. I.'s Coronation Office.... Nor can I find it in any other.\" It certainly does not occur anywhere in Liber regalis, but it is to be found in the coronation of the Emperor (Muratori, Liturgia Romana Vetus, Venetiis, 1748, t. ii. col. 461). Bancroft also successfully rebuts the charge against Laud, that he altered the words of Sta et retine, which, as a fact, remained the same as they had ever been. The form for blessing the oil, used by Laud on the morning of the coronation, is copied from Bodl. Ashm. 863, and may be compared with the more expanded form used by Dr. Bancroft at the coronation of James II. (Doc. xxvi.) The Latin phrases which appear in the rubrics are taken from Liber regalis. The words printed in Clarendon type are written in a hand imitating printing. Of the actual ceremony two details have come down to us. First, that Charles did not wear the outer shirt of red silk, but only the shirt of white silk under his parliament robes; and secondly, that the sermon was preached from the text, \" Be thou faithful unto death, and I will give thee a crown of life,\" both of which incidents were remembered afterwards as omens of the misfortunes that came upon the King. \"45",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-ecr-xxiii-src-source",
+        "label": "SRC source/witness context",
+        "type": "source_reference",
+        "placeId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-leopold-legg",
+        "label": "Leopold G. Wickham Legg",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of English Coronation Records",
+        "placeId": ""
+      },
+      {
+        "id": "actor-english-coronation-tradition",
+        "label": "English coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "ritual and documentary tradition",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-westminster-abbey",
+        "label": "Westminster Abbey",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "coronation church / institutional context",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-john",
+        "label": "King John",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-james-i",
+        "label": "James I",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-charles-i",
+        "label": "Charles I",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-charles-ii",
+        "label": "Charles II",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-james-ii",
+        "label": "James II",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-legg-1901",
+        "label": "Leopold G. Wickham Legg, English Coronation Records (1901)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Base edition for the ECR corpus."
+      },
+      {
+        "id": "ref-ecr-xxiii-edition-1",
+        "label": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_source",
+        "url": "",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-english",
+        "label": "English coronation records",
+        "code": "ECR"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ECR-XXIII",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-english",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIII",
+      "predicate": "edited_by",
+      "object": "actor-leopold-legg",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIII",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIII",
+      "predicate": "documents_event",
+      "object": "event-ecr-xxiii-record-context",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIII",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIII",
+      "predicate": "associated_with",
+      "object": "actor-westminster-abbey",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIII",
+      "predicate": "associated_with",
+      "object": "actor-john",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIII",
+      "predicate": "associated_with",
+      "object": "actor-james-i",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIII",
+      "predicate": "associated_with",
+      "object": "actor-charles-i",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIII",
+      "predicate": "associated_with",
+      "object": "actor-charles-ii",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIII",
+      "predicate": "associated_with",
+      "object": "actor-james-ii",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIII",
+      "predicate": "preserved_in",
+      "object": "ms-ecr-xxiii-src",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxiii-src",
+      "predicate": "has_event",
+      "object": "event-ms-ecr-xxiii-src-source",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxiii-src",
+      "predicate": "located_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxiii-src",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxiii-src",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxiii-src",
+      "predicate": "associated_with",
+      "object": "actor-british-library",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": [
+      {
+        "id": "move-ms-ecr-xxiii-src",
+        "manuscriptId": "ms-ecr-xxiii-src",
+        "fromPlaceId": "place-westminster-abbey",
+        "toPlaceId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "certainty": "derived",
+        "description": "Research context line for SRC: Westminster Abbey -> London, British Library / Westminster tradition (reference anchor)."
+      }
+    ]
+  }
+}

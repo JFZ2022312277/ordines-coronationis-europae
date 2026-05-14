@@ -1,0 +1,4 @@
+"id","label","openatlasClass","systemClass","type","lat","lon","certainty","note"
+"repo-barcelona-archivo-de-la-corona-de-aragon","Barcelona, Archivo de la Corona de Aragon","E53 Place","place","repository_place","41.3851","2.1734","certain","Current repository inferred from shelfmark: Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40"
+"place-monastery-of-ripoll","Monastery of Ripoll","E53 Place","place","scriptorium_or_origin_place","42.2","2.191","probable","Origin/context place parsed from ""Monastery of Ripoll""."
+"repo-paris-bnf","Paris, BnF","E53 Place","place","repository_place","48.8339","2.3757","certain","Current repository inferred from shelfmark: Paris, BnF, MS Baluze 1"

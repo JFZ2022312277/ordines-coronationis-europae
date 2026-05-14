@@ -1,0 +1,4 @@
+"id","label","openatlasClass","systemClass","type","url","description"
+"ref-ms-ocf-xxa-e-digital","BVMM / IRHT: Chantilly, Musée Condé, MS 1596","E31 Document","reference","iiif_manifest","https://bvmm.irht.cnrs.fr/mirador/index.php?manifest=https://bvmm.irht.cnrs.fr/iiif/463/manifest","Digital source for Chantilly, Musée Condé, MS 1596."
+"ref-ms-ocf-xxa-h-digital","DigiVatLib: Vatican City, BAV, MS Reg. lat. 574","E31 Document","reference","digital_facsimile","https://digi.vatlib.it/view/MSS_Reg.lat.574","Digital source for Vatican City, BAV, MS Reg. lat. 574."
+"ref-ms-ocf-xxa-d-digital","HAB Wolfenbüttel: Wolfenbüttel, Herzog August Bibl., MS Guelf 1 Gud. lat. 20","E31 Document","reference","digital_facsimile","http://diglib.hab.de/mss/1-gud-lat/start.htm","Digital source for Wolfenbüttel, Herzog August Bibl., MS Guelf 1 Gud. lat. 20."

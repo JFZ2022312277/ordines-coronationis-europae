@@ -1,0 +1,3 @@
+"id","label","manuscriptId","fromPlaceId","toPlaceId","start","end","certainty","type"
+"move-ms-ocf-i-a-abbey-of-gellone-saint-guilhem-le-desert-to-paris-bnf","A: Abbey of Gellone, Saint-Guilhem-le-Desert → Paris, BnF","ms-ocf-i-a","place-abbey-of-gellone-saint-guilhem-le-desert","repo-paris-bnf","Late 8th century","","probable","manuscript_dispersal"
+"move-ms-ocf-i-b-paris-to-paris-bnf","B: Paris → Paris, BnF","ms-ocf-i-b","place-paris","repo-paris-bnf","1677","","probable","copy_witness_context"

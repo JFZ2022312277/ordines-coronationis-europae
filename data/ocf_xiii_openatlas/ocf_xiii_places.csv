@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","lat","lon","certainty","note"
+"repo-leningrad-st-petersburg-public-library","Leningrad [St. Petersburg], Public Library","E53 Place","place","repository_place","59.9343","30.3351","certain","Current repository inferred from shelfmark: Leningrad [St. Petersburg], Public Library, MS lat. Q.v.I, no. 35"
+"place-sens","Sens","E53 Place","place","scriptorium_or_origin_place","48.198","3.283","probable","Origin/context place parsed from ""Sens""."
+"repo-sens-bibl-mun","Sens, Bibl. mun.","E53 Place","place","repository_place","48.1974","3.282","certain","Current repository inferred from shelfmark: Sens, Bibl. mun., MS 12"
+"repo-sens-tr-sor-de-la-cath-drale","Sens, Tr?sor de la Cath?drale","E53 Place","place","repository_place","48.1974","3.282","certain","Current repository inferred from shelfmark: Sens, Tr?sor de la Cath?drale, unnumbered"

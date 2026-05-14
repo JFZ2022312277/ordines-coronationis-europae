@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "title": "OCF-XVI manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:41.739Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XVI. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-XVI.",
+    "entityEnrichedAt": "2026-05-12T09:59:45.408Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XVI",
+        "label": "Royal Ordo in Cologne Dombibliothek 141",
+        "labelFr": "Ordo royal du Cologne Dombibliothek 141",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "1000-1050",
+        "description": "Survives in only two manuscripts. A rational combination of texts from the Romano-Germanic pontifical of Mainz and the Ratold Ordo. In both manuscripts the king's ordo is separated from the queen's by the Ordo Romanus ad benedicendum imperatore."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xvi-a",
+        "siglum": "A",
+        "label": "A — Cologne, Erzbischöfliche Diözesan- und Dombibl., MS 141",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Cologne, Erzbischöfliche Diözesan- und Dombibl., MS 141",
+        "folios": "fols. 153r–65v, 168v–71v",
+        "date": "First half of 11th century",
+        "origin": "Benedictine monastery in diocese of Cambrai (archdiocese of Reims)",
+        "currentRepositoryId": "repo-cologne-erzbischo-fliche-dio-zesan-und-dombibl",
+        "currentRepository": "Cologne, Erzbischöfliche Diözesan- und Dombibl.",
+        "copiedFrom": "",
+        "digitalUrl": "https://digital.dombibliothek-koeln.de/urn/urn:nbn:de:hbz:kn28-3-666",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Primary witness for Ordo XVI in this pontifical manuscript.",
+        "bibliography": "Andrieu, Ordines Romani, 1: 108–4, 4: 475–9"
+      },
+      {
+        "id": "ms-ocf-xvi-b",
+        "siglum": "B",
+        "label": "B — Bamberg, Staatsbibl., MS Msc. Lit. 56",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Bamberg, Staatsbibl., MS Msc. Lit. 56",
+        "folios": "fols. 146r–55v, 158r–60r",
+        "date": "14th century",
+        "origin": "Copied from A",
+        "currentRepositoryId": "repo-bamberg-staatsbibl",
+        "currentRepository": "Bamberg, Staatsbibl.",
+        "copiedFrom": "A",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Primary witness for Ordo XVI in this pontifical manuscript.",
+        "bibliography": "Leitschuh, Katalog Bamberg, 1/1: 202"
+      }
+    ],
+    "places": [
+      {
+        "id": "repo-bamberg-staatsbibl",
+        "label": "Bamberg, Staatsbibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.8917,
+        "lon": 10.8867,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Bamberg, Staatsbibl., MS Msc. Lit. 56"
+      },
+      {
+        "id": "place-cambrai",
+        "label": "Cambrai",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.176,
+        "lon": 3.235,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Benedictine monastery in diocese of Cambrai (archdiocese of Reims)\"."
+      },
+      {
+        "id": "repo-cologne-erzbischo-fliche-dio-zesan-und-dombibl",
+        "label": "Cologne, Erzbischöfliche Diözesan- und Dombibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.9413,
+        "lon": 6.9583,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Cologne, Erzbischöfliche Diözesan- und Dombibl., MS 141"
+      },
+      {
+        "id": "place-reims",
+        "label": "Reims",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.258,
+        "lon": 4.031,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Benedictine monastery in diocese of Cambrai (archdiocese of Reims)\"."
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xvi-a-current-repository",
+        "label": "A kept at Cologne, Erzbischöfliche Diözesan- und Dombibl.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xvi-a",
+        "placeId": "repo-cologne-erzbischo-fliche-dio-zesan-und-dombibl",
+        "start": "",
+        "end": "",
+        "description": "Cologne, Erzbischöfliche Diözesan- und Dombibl., MS 141 is currently kept at Cologne, Erzbischöfliche Diözesan- und Dombibl..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xvi-a-origin-cambrai",
+        "label": "A origin/context: Cambrai",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xvi-a",
+        "placeId": "place-cambrai",
+        "start": "First half of 11th century",
+        "end": "First half of 11th century",
+        "description": "Cologne, Erzbischöfliche Diözesan- und Dombibl., MS 141: origin/context recorded as \"Benedictine monastery in diocese of Cambrai (archdiocese of Reims)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xvi-a-origin-reims",
+        "label": "A origin/context: Reims",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xvi-a",
+        "placeId": "place-reims",
+        "start": "First half of 11th century",
+        "end": "First half of 11th century",
+        "description": "Cologne, Erzbischöfliche Diözesan- und Dombibl., MS 141: origin/context recorded as \"Benedictine monastery in diocese of Cambrai (archdiocese of Reims)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xvi-b-current-repository",
+        "label": "B kept at Bamberg, Staatsbibl.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xvi-b",
+        "placeId": "repo-bamberg-staatsbibl",
+        "start": "",
+        "end": "",
+        "description": "Bamberg, Staatsbibl., MS Msc. Lit. 56 is currently kept at Bamberg, Staatsbibl..",
+        "certainty": "certain"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-bamberg-staatsbibliothek",
+        "label": "Bamberg Staatsbibliothek",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution",
+        "placeId": "repo-bamberg-staatsbibliothek",
+        "description": ""
+      },
+      {
+        "id": "actor-cambrai-church",
+        "label": "Cambrai ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "adaptation / use context",
+        "placeId": "place-cambrai",
+        "description": ""
+      },
+      {
+        "id": "actor-cologne-dombibliothek",
+        "label": "Cologne Cathedral Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-cologne-dombibliothek",
+        "description": ""
+      },
+      {
+        "id": "actor-friedrich-leitschuh",
+        "label": "Friedrich Leitschuh",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "cataloguer / scholar",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-michel-andrieu",
+        "label": "Michel Andrieu",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of Ordines Romani",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-reims-cathedral",
+        "label": "Reims Cathedral / Chapter Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "cathedral repository / coronation center",
+        "placeId": "place-reims",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-xvi-a-bib-1",
+        "label": "Andrieu, Ordines Romani, 1: 108–4, 4: 475–9",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Cologne, Erzbischöfliche Diözesan- und Dombibl., MS 141."
+      },
+      {
+        "id": "ref-ms-ocf-xvi-a-digital",
+        "label": "Digital source: Cologne, Erzbischöfliche Diözesan- und Dombibl., MS 141",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://digital.dombibliothek-koeln.de/urn/urn:nbn:de:hbz:kn28-3-666",
+        "description": "Digital source for Cologne, Erzbischöfliche Diözesan- und Dombibl., MS 141."
+      },
+      {
+        "id": "ref-ms-ocf-xvi-b-bib-1",
+        "label": "Leitschuh, Katalog Bamberg, 1/1: 202",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference for Bamberg, Staatsbibl., MS Msc. Lit. 56."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xvi-a",
+      "predicate": "witnesses",
+      "object": "OCF-XVI",
+      "certainty": "certain",
+      "source": "OCF-XVI witness list"
+    },
+    {
+      "subject": "ms-ocf-xvi-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-cologne-erzbischo-fliche-dio-zesan-und-dombibl",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xvi-a-origin-cambrai",
+      "predicate": "occurred_at",
+      "object": "place-cambrai",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xvi-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-cambrai",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "event-ms-ocf-xvi-a-origin-reims",
+      "predicate": "occurred_at",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xvi-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xvi-b",
+      "predicate": "witnesses",
+      "object": "OCF-XVI",
+      "certainty": "certain",
+      "source": "OCF-XVI witness list"
+    },
+    {
+      "subject": "ms-ocf-xvi-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-bamberg-staatsbibl",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xvi-b",
+      "predicate": "copied_from",
+      "object": "ms-ocf-xvi-a",
+      "certainty": "probable",
+      "source": "witness note"
+    },
+    {
+      "subject": "ms-ocf-xvi-a",
+      "predicate": "associated_with",
+      "object": "actor-cologne-dombibliothek",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xvi-a",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xvi-a",
+      "predicate": "associated_with",
+      "object": "actor-cambrai-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xvi-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-michel-andrieu",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xvi-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xvi-a-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xvi-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xvi-a-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xvi-b",
+      "predicate": "associated_with",
+      "object": "actor-bamberg-staatsbibliothek",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xvi-b",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-friedrich-leitschuh",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xvi-b",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xvi-b-bib-1",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "OCF-XVI",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-XVI",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xvi-a",
+      "certainty": "certain",
+      "source": "OCF-XVI witness list"
+    },
+    {
+      "subject": "OCF-XVI",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xvi-b",
+      "certainty": "certain",
+      "source": "OCF-XVI witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-bamberg-staatsbibl",
+        "label": "Bamberg, Staatsbibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.8917,
+        "lon": 10.8867,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Bamberg, Staatsbibl., MS Msc. Lit. 56"
+      },
+      {
+        "id": "repo-cologne-erzbischo-fliche-dio-zesan-und-dombibl",
+        "label": "Cologne, Erzbischöfliche Diözesan- und Dombibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.9413,
+        "lon": 6.9583,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Cologne, Erzbischöfliche Diözesan- und Dombibl., MS 141"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-cambrai",
+        "label": "Cambrai",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.176,
+        "lon": 3.235,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Benedictine monastery in diocese of Cambrai (archdiocese of Reims)\"."
+      },
+      {
+        "id": "place-reims",
+        "label": "Reims",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.258,
+        "lon": 4.031,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Benedictine monastery in diocese of Cambrai (archdiocese of Reims)\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-xvi-a-cambrai-to-cologne-erzbischo-fliche-dio-zesan-und-dombibl",
+        "label": "A: Cambrai → Cologne, Erzbischöfliche Diözesan- und Dombibl.",
+        "manuscriptId": "ms-ocf-xvi-a",
+        "fromPlaceId": "place-cambrai",
+        "toPlaceId": "repo-cologne-erzbischo-fliche-dio-zesan-und-dombibl",
+        "start": "First half of 11th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xvi-a-reims-to-cologne-erzbischo-fliche-dio-zesan-und-dombibl",
+        "label": "A: Reims → Cologne, Erzbischöfliche Diözesan- und Dombibl.",
+        "manuscriptId": "ms-ocf-xvi-a",
+        "fromPlaceId": "place-reims",
+        "toPlaceId": "repo-cologne-erzbischo-fliche-dio-zesan-und-dombibl",
+        "start": "First half of 11th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-copied_from",
+        "label": "copied_from"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-edited_or_studied_by",
+        "label": "edited_or_studied_by"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-has_reference",
+        "label": "has_reference"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

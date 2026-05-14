@@ -1,0 +1,7 @@
+"id","label","lat","lon","type","openatlasClass","description"
+"place-mainz-context","Mainz? textual-context anchor","50","8.2711","origin_context","E53 Place","Elze contextual dateline."
+"place-mainz-source-tradition-anchor","Mainz, source tradition anchor","50","8.2711","origin_context","E53 Place",""
+"repo-milan-ambrosiana","Milan, Biblioteca Ambrosiana","45.4642","9.19","repository_place","E53 Place",""
+"repo-merseburg-cathedral","Merseburg Cathedral Library context","51.3579","11.9941","repository_place","E53 Place",""
+"place-augsburg-context","Augsburg origin context","48.3705","10.8978","origin_context","E53 Place",""
+"repo-munich-bsb","Munich, Bayerische Staatsbibliothek","48.1486","11.5802","repository_place","E53 Place",""

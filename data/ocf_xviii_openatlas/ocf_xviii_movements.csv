@@ -1,0 +1,3 @@
+"id","label","manuscriptId","fromPlaceId","toPlaceId","start","end","certainty","type"
+"move-ms-ocf-xviii-a-saint-bertin-saint-omer-to-saint-omer-bibl-mun","A: Saint-Bertin, Saint-Omer → Saint-Omer, Bibl. mun.","ms-ocf-xviii-a","place-saint-bertin-saint-omer","repo-saint-omer-bibl-mun","12th century, middle or second half","","probable","manuscript_dispersal"
+"move-ms-ocf-xviii-b-senlis-to-paris-bibl-sainte-genevie-ve","B: Senlis → Paris, Bibl. Sainte-Geneviève","ms-ocf-xviii-b","place-senlis","repo-paris-bibl-sainte-genevie-ve","1350–356","","probable","manuscript_dispersal"

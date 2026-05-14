@@ -1,0 +1,42 @@
+MIT License
+
+Copyright (c) 2026 Jia Fangzhou and contributors to the Ordines Coronationis Europae project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+----------------------------------------------------------------------------
+
+NOTE ON SCOPE
+
+This MIT License applies to the application source code only — JavaScript,
+HTML structure, CSS, IIIF viewer code, and build/configuration files.
+
+Scholarly content authored or curated by the project — including TEI
+transcriptions, normalized text data, OpenAtlas-style JSON/CSV datasets,
+geographic data, scholarly annotations, and project documentation — is
+distributed under a separate Creative Commons license. See LICENSE-content.md.
+
+Third-party assets bundled in this repository (Leaflet, MarkerCluster, React,
+fonts) retain their original upstream licenses; see assets/vendor/ for
+upstream notices where applicable.
+
+Digital reproductions of medieval manuscripts that appear in this repository
+or are referenced via IIIF are subject to the rights statements of the
+holding institutions. Use of these images is governed by those upstream
+statements, NOT by this LICENSE or LICENSE-content.md.

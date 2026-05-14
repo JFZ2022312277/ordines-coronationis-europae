@@ -1,0 +1,464 @@
+{
+  "meta": {
+    "title": "OCF-XIX manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:41.756Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XIX. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-XIX.",
+    "entityEnrichedAt": "2026-05-12T09:59:45.425Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XIX",
+        "label": "Ordo of 1200",
+        "labelFr": "Ordo de 1200",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "ca. 1200",
+        "description": "The last of the 'Frankish' ordines (i.e., displaying few French-specific traits). Essentially a developed version of the Romano-Germanic pontifical's royal ordo. MS A was located in the coronation cathedral at Reims until the Revolution and was demonstrably consulted in later centuries. One of four sources of the Ordo of 1250 (Ordo XXI)."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xix-a",
+        "siglum": "A",
+        "label": "A — Reims, Bibl. mun., MS 343",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Reims, Bibl. mun., MS 343",
+        "folios": "fols. 126r–49r",
+        "date": "Early 13th century",
+        "origin": "Reims Cathedral chapter library",
+        "currentRepositoryId": "repo-reims-bibl-mun",
+        "currentRepository": "Reims, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Formerly shelf mark Lit. A, ord. 3, N. 45 in cathedral chapter library.",
+        "bibliography": "Leroquais, Pontificaux, 2: 282–5, no. 186"
+      },
+      {
+        "id": "ms-ocf-xix-b",
+        "siglum": "B",
+        "label": "B — Besançon, Bibl. mun., MS 138",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Besançon, Bibl. mun., MS 138",
+        "folios": "fols. 190v–14v",
+        "date": "Mid-13th century",
+        "origin": "Beauvais",
+        "currentRepositoryId": "repo-besanc-on-bibl-mun",
+        "currentRepository": "Besançon, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Pontifical of Beauvais. Copied from A.",
+        "bibliography": "Leroquais, Pontificaux, 1: 80–6, no. 27"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-beauvais",
+        "label": "Beauvais",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.431,
+        "lon": 2.08,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Beauvais\"."
+      },
+      {
+        "id": "repo-besanc-on-bibl-mun",
+        "label": "Besançon, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 47.2378,
+        "lon": 6.0244,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Besançon, Bibl. mun., MS 138"
+      },
+      {
+        "id": "place-reims",
+        "label": "Reims",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.258,
+        "lon": 4.031,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Reims Cathedral chapter library\"."
+      },
+      {
+        "id": "repo-reims-bibl-mun",
+        "label": "Reims, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.2541,
+        "lon": 3.025,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Reims, Bibl. mun., MS 343"
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xix-a-current-repository",
+        "label": "A kept at Reims, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xix-a",
+        "placeId": "repo-reims-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Reims, Bibl. mun., MS 343 is currently kept at Reims, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xix-a-origin-reims",
+        "label": "A origin/context: Reims",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xix-a",
+        "placeId": "place-reims",
+        "start": "Early 13th century",
+        "end": "Early 13th century",
+        "description": "Reims, Bibl. mun., MS 343: origin/context recorded as \"Reims Cathedral chapter library\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xix-b-current-repository",
+        "label": "B kept at Besançon, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xix-b",
+        "placeId": "repo-besanc-on-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Besançon, Bibl. mun., MS 138 is currently kept at Besançon, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xix-b-origin-beauvais",
+        "label": "B origin/context: Beauvais",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xix-b",
+        "placeId": "place-beauvais",
+        "start": "Mid-13th century",
+        "end": "Mid-13th century",
+        "description": "Besançon, Bibl. mun., MS 138: origin/context recorded as \"Beauvais\".",
+        "certainty": "probable"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-beauvais-church",
+        "label": "Beauvais ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "episcopal / liturgical context",
+        "placeId": "place-beauvais",
+        "description": ""
+      },
+      {
+        "id": "actor-reims-cathedral",
+        "label": "Reims Cathedral / Chapter Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "cathedral repository / coronation center",
+        "placeId": "place-reims",
+        "description": ""
+      },
+      {
+        "id": "actor-victor-leroquais",
+        "label": "Victor Leroquais",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "cataloguer / scholar",
+        "placeId": "place-paris",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-xix-b-bib-1",
+        "label": "Leroquais, Pontificaux, 1: 80–6, no. 27",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Besançon, Bibl. mun., MS 138."
+      },
+      {
+        "id": "ref-ms-ocf-xix-a-bib-1",
+        "label": "Leroquais, Pontificaux, 2: 282–5, no. 186",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Reims, Bibl. mun., MS 343."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xix-a",
+      "predicate": "witnesses",
+      "object": "OCF-XIX",
+      "certainty": "certain",
+      "source": "OCF-XIX witness list"
+    },
+    {
+      "subject": "ms-ocf-xix-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-reims-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xix-a-origin-reims",
+      "predicate": "occurred_at",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xix-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xix-b",
+      "predicate": "witnesses",
+      "object": "OCF-XIX",
+      "certainty": "certain",
+      "source": "OCF-XIX witness list"
+    },
+    {
+      "subject": "ms-ocf-xix-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-besanc-on-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xix-b-origin-beauvais",
+      "predicate": "occurred_at",
+      "object": "place-beauvais",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xix-b",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-beauvais",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xix-a",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xix-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xix-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xix-a-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xix-b",
+      "predicate": "associated_with",
+      "object": "actor-beauvais-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xix-b",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xix-b",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xix-b-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "OCF-XIX",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-XIX",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xix-a",
+      "certainty": "certain",
+      "source": "OCF-XIX witness list"
+    },
+    {
+      "subject": "OCF-XIX",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xix-b",
+      "certainty": "certain",
+      "source": "OCF-XIX witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-besanc-on-bibl-mun",
+        "label": "Besançon, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 47.2378,
+        "lon": 6.0244,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Besançon, Bibl. mun., MS 138"
+      },
+      {
+        "id": "repo-reims-bibl-mun",
+        "label": "Reims, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.2541,
+        "lon": 3.025,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Reims, Bibl. mun., MS 343"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-beauvais",
+        "label": "Beauvais",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.431,
+        "lon": 2.08,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Beauvais\"."
+      },
+      {
+        "id": "place-reims",
+        "label": "Reims",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.258,
+        "lon": 4.031,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Reims Cathedral chapter library\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-xix-a-reims-to-reims-bibl-mun",
+        "label": "A: Reims → Reims, Bibl. mun.",
+        "manuscriptId": "ms-ocf-xix-a",
+        "fromPlaceId": "place-reims",
+        "toPlaceId": "repo-reims-bibl-mun",
+        "start": "Early 13th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xix-b-beauvais-to-besanc-on-bibl-mun",
+        "label": "B: Beauvais → Besançon, Bibl. mun.",
+        "manuscriptId": "ms-ocf-xix-b",
+        "fromPlaceId": "place-beauvais",
+        "toPlaceId": "repo-besanc-on-bibl-mun",
+        "start": "Mid-13th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-edited_or_studied_by",
+        "label": "edited_or_studied_by"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

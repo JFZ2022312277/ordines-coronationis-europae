@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "title": "ECR-XIX Emptions and Provisions of Stuff for the Coronation of Henry VII. English coronation record pilot",
+    "generatedAt": "2026-05-12T13:41:42.847Z",
+    "source": "ordines_coronationis_iiif.html ECR records",
+    "note": "ECR includes ordines, narrative records, papal letters, inventories, processions, and printed orders; reference anchors are not asserted physical manuscripts."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "ECR-XIX",
+        "label": "Emptions and Provisions of Stuff for the Coronation of Henry VII.",
+        "labelFr": "Emptions and Provisions of Stuff for the Coronation of Henry VII.",
+        "sourceLabel": "ECR",
+        "tradition": "English",
+        "date": "S.d.",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "This document is especially interesting as it shows what provisions were considered necessary to be made for the coronation of Henry VII. The use to which many of the things mentioned were put can only be conjectured, but the large amount of scarlet and other kinds of stuff which appears to have been bought was probably used for hanging the church and Westminster Hall, and for decorating the Tower of London. The \" xxviij vnces frenge of gold and silke for the canopy \" which were supplied by Cecyly Walcot (p. 206) were in all probability for the canopy held over the King when he was anointed; or for that used in the procession from the Tower, which, according to the Little Device was to be made of cloth of gold, and supported on four gilt staves, so that it is reasonable to suppose that the \" viij. staves with fyne golde for y\" canapie\" (p. 207) furnished these two canopies. The \" canapy of purpuUe damaske clothe of gold \" on p. 212 is possibly the canopy carried over the King by the wardens of the Cinque Ports. Four swords are mentioned, two of them blunted and called Curtana (p. 210), and a chair of estate is mentioned (p. 209) as having the pomells gilt, and the King's chair is covered with silk and gold on p. 217, but which of the chairs is meant it is impossible to say. Near the end of the document there are payments entered for several garments, some of which may be meant for the King to wear on the coronation day, such as the \" longe gowne of crymsyn velvet upon velvet \" which may be the parliament robe worn in the procession to the church, the \" ij dalmatikkes one of crymsyn satin, the other of white sarsinet,\" are suggestive of the supertunica and colobium sindonis; but the other vestments, such as the pall and armilla cannot be distinguished. The 4,989 staves of ray cloth (p. 200) may refer to the cloth laid down under the King's feet, though, as this cloth is provided by the almoner, it would be more likely to have been paid for by that officer. Payment, however, is made for the \" hiring of men to helpe to laye the rayes vnder the kinge's fete at Westminster\" (p. 213). Saddlery forms a large item in the accounts. This must have been the preparation for the riding from the Tower to Westminster. The King's saddle was covered with cloth of gold, and the leading rein and saddle for the spare horse are also mentioned, the latter to be covered with cloth of gold as was directed in the Little Device (p. 222). The \" longe gowne of purpulle velvet furred withe Ermyns powdred\" (p. 217) is word for word the description in the Little Device of the garment which the King wore in the procession from the Tower to Westminster, but no trace is to be found of the \" doublet grene or whyte clothe of gold \" which the King is described as wearing on that occasion under the purple gown. The first part of the document relates to the buying of the stuff; but at the end the cost of making up the various stuffs for the King's personal use appears under the title of \" Thes been the parcelles folowing of George the Kinge's taillour.\" The \" longe gowne of crymsyn velvet vpon velvet afterwarde furred with martrons/' and \" the Robes of crymsyn velvet... ageinst the parliament: a longe mantelle with a trayne,\" seems to be what became of \" xliiii yerdes iij quarters crymsyn velvet for the parliament robe.\" The \" xj >98 yerdes of fyne blue cloth for a Robe for all soulen day \" (p. 200) reappear as \" a robe of blew clothe against all Soulen day \" (p. 217), and the \" vi. yerdes crymsyn saten for a Dalmatyke for the king\" (p. 205) were used doubtless in making the crimson satin dalmatic mentioned in George the king's tailor's bill (p. 217). The pair of sabatons of cloth of gold (p. 213), and the two pair of gloves on p. 203 are probably those referred to on p. 206, where the cost of the Venice gold for the \"kinges gloves and his sabatons\" is entered; but if the gloves refer to the rich gloves presented by Furnival, it is difficult to see why two pairs were made. The same objection applies to the identification of the \" ij coiffes, ij breches \" with the linen coif and femoral worn by the King."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ecr-xix-src",
+        "siglum": "SRC",
+        "shelfmark": "London, British Library / Westminster tradition (reference anchor)",
+        "repositoryPlaceId": "repo-london-british-library",
+        "currentRepository": "London, British Library / Westminster tradition (reference anchor)",
+        "lat": 51.4994,
+        "lon": -0.1276,
+        "date": "medieval to early modern",
+        "folios": "",
+        "group": "reference",
+        "origin": "",
+        "witnessType": "reference",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "iiif_url": "",
+        "iiif_manifest_url": "",
+        "embedded_viewer_url": "",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "bibliography": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "source_record"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-westminster-abbey",
+        "label": "Westminster Abbey",
+        "lat": 51.4993,
+        "lon": -0.1273,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Principal English coronation church."
+      },
+      {
+        "id": "place-tower-of-london",
+        "label": "Tower of London",
+        "lat": 51.5081,
+        "lon": -0.0759,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Processional and regalia context."
+      },
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "lat": 51.5299,
+        "lon": -0.1275,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ecr-xix-record-context",
+        "label": "ECR-XIX English coronation record context",
+        "type": "documentary_record",
+        "placeId": "place-westminster-abbey",
+        "start": "S.d.",
+        "end": "S.d.",
+        "description": "This document is especially interesting as it shows what provisions were considered necessary to be made for the coronation of Henry VII. The use to which many of the things mentioned were put can only be conjectured, but the large amount of scarlet and other kinds of stuff which appears to have been bought was probably used for hanging the church and Westminster Hall, and for decorating the Tower of London. The \" xxviij vnces frenge of gold and silke for the canopy \" which were supplied by Cecyly Walcot (p. 206) were in all probability for the canopy held over the King when he was anointed; or for that used in the procession from the Tower, which, according to the Little Device was to be made of cloth of gold, and supported on four gilt staves, so that it is reasonable to suppose that the \" viij. staves with fyne golde for y\" canapie\" (p. 207) furnished these two canopies. The \" canapy of purpuUe damaske clothe of gold \" on p. 212 is possibly the canopy carried over the King by the wardens of the Cinque Ports. Four swords are mentioned, two of them blunted and called Curtana (p. 210), and a chair of estate is mentioned (p. 209) as having the pomells gilt, and the King's chair is covered with silk and gold on p. 217, but which of the chairs is meant it is impossible to say. Near the end of the document there are payments entered for several garments, some of which may be meant for the King to wear on the coronation day, such as the \" longe gowne of crymsyn velvet upon velvet \" which may be the parliament robe worn in the procession to the church, the \" ij dalmatikkes one of crymsyn satin, the other of white sarsinet,\" are suggestive of the supertunica and colobium sindonis; but the other vestments, such as the pall and armilla cannot be distinguished. The 4,989 staves of ray cloth (p. 200) may refer to the cloth laid down under the King's feet, though, as this cloth is provided by the almoner, it would be more likely to have been paid for by that officer. Payment, however, is made for the \" hiring of men to helpe to laye the rayes vnder the kinge's fete at Westminster\" (p. 213). Saddlery forms a large item in the accounts. This must have been the preparation for the riding from the Tower to Westminster. The King's saddle was covered with cloth of gold, and the leading rein and saddle for the spare horse are also mentioned, the latter to be covered with cloth of gold as was directed in the Little Device (p. 222). The \" longe gowne of purpulle velvet furred withe Ermyns powdred\" (p. 217) is word for word the description in the Little Device of the garment which the King wore in the procession from the Tower to Westminster, but no trace is to be found of the \" doublet grene or whyte clothe of gold \" which the King is described as wearing on that occasion under the purple gown. The first part of the document relates to the buying of the stuff; but at the end the cost of making up the various stuffs for the King's personal use appears under the title of \" Thes been the parcelles folowing of George the Kinge's taillour.\" The \" longe gowne of crymsyn velvet vpon velvet afterwarde furred with martrons/' and \" the Robes of crymsyn velvet... ageinst the parliament: a longe mantelle with a trayne,\" seems to be what became of \" xliiii yerdes iij quarters crymsyn velvet for the parliament robe.\" The \" xj >98 yerdes of fyne blue cloth for a Robe for all soulen day \" (p. 200) reappear as \" a robe of blew clothe against all Soulen day \" (p. 217), and the \" vi. yerdes crymsyn saten for a Dalmatyke for the king\" (p. 205) were used doubtless in making the crimson satin dalmatic mentioned in George the king's tailor's bill (p. 217). The pair of sabatons of cloth of gold (p. 213), and the two pair of gloves on p. 203 are probably those referred to on p. 206, where the cost of the Venice gold for the \"kinges gloves and his sabatons\" is entered; but if the gloves refer to the rich gloves presented by Furnival, it is difficult to see why two pairs were made. The same objection applies to the identification of the \" ij coiffes, ij breches \" with the linen coif and femoral worn by the King.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-ecr-xix-src-source",
+        "label": "SRC source/witness context",
+        "type": "source_reference",
+        "placeId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-leopold-legg",
+        "label": "Leopold G. Wickham Legg",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of English Coronation Records",
+        "placeId": ""
+      },
+      {
+        "id": "actor-english-coronation-tradition",
+        "label": "English coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "ritual and documentary tradition",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-westminster-abbey",
+        "label": "Westminster Abbey",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "coronation church / institutional context",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-john",
+        "label": "King John",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-henry-vi",
+        "label": "Henry VI",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-henry-vii",
+        "label": "Henry VII",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-legg-1901",
+        "label": "Leopold G. Wickham Legg, English Coronation Records (1901)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Base edition for the ECR corpus."
+      },
+      {
+        "id": "ref-ecr-xix-edition-1",
+        "label": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_source",
+        "url": "",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-english",
+        "label": "English coronation records",
+        "code": "ECR"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ECR-XIX",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-english",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIX",
+      "predicate": "edited_by",
+      "object": "actor-leopold-legg",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIX",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIX",
+      "predicate": "documents_event",
+      "object": "event-ecr-xix-record-context",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIX",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIX",
+      "predicate": "associated_with",
+      "object": "actor-westminster-abbey",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIX",
+      "predicate": "associated_with",
+      "object": "actor-john",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIX",
+      "predicate": "associated_with",
+      "object": "actor-henry-vi",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIX",
+      "predicate": "associated_with",
+      "object": "actor-henry-vii",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIX",
+      "predicate": "preserved_in",
+      "object": "ms-ecr-xix-src",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xix-src",
+      "predicate": "has_event",
+      "object": "event-ms-ecr-xix-src-source",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xix-src",
+      "predicate": "located_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xix-src",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xix-src",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xix-src",
+      "predicate": "associated_with",
+      "object": "actor-british-library",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": [
+      {
+        "id": "move-ms-ecr-xix-src",
+        "manuscriptId": "ms-ecr-xix-src",
+        "fromPlaceId": "place-westminster-abbey",
+        "toPlaceId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "certainty": "derived",
+        "description": "Research context line for SRC: Westminster Abbey -> London, British Library / Westminster tradition (reference anchor)."
+      }
+    ]
+  }
+}

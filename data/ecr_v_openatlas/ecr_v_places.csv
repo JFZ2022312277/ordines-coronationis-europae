@@ -1,0 +1,5 @@
+"id","label","lat","lon","type","openatlasClass","description"
+"place-westminster-abbey","Westminster Abbey","51.4993","-0.1273","ritual_place","E53 Place","Principal English coronation church."
+"place-canterbury","Canterbury / archiepiscopal context","51.2802","1.0789","institutional_context","E53 Place",""
+"place-york","York / archiepiscopal context","53.959","-1.0815","institutional_context","E53 Place",""
+"repo-london-british-library","London, British Library","51.5299","-0.1275","repository_place","E53 Place",""

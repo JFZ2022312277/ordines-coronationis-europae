@@ -1,0 +1,7 @@
+"id","label","openatlasClass","systemClass","type","role","placeId","description"
+"actor-institut-de-france","Bibliothèque de l’Institut de France","E74 Group","actor","institution","repository institution","repo-paris-bibl-institut-de-france",""
+"actor-bnf","Bibliothèque nationale de France (BnF)","E74 Group","actor","institution","repository institution / digital provider","repo-paris-bnf",""
+"actor-denis-godefroy","Denis Godefroy","E21 Person","actor","person","collector / copy tradition context","place-paris",""
+"actor-pierre-bonne","Pierre Bonne","E21 Person","actor","editor","modern scholar","",""
+"actor-reims-cathedral","Reims Cathedral / Chapter Library","E74 Group","actor","institution","cathedral repository / coronation center","place-reims",""
+"actor-robert-branner","Robert Branner","E21 Person","actor","editor","modern scholar","",""

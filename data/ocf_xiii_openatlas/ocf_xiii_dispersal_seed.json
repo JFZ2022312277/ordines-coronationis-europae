@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "title": "OCF-XIII manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:41.718Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XIII. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XIII",
+        "label": "Erdmann Ordo",
+        "labelFr": "Ordo d'Erdmann",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "ca. 900",
+        "description": "The first text containing both king's and queen's ceremonies. Named after Carl Erdmann. Enormously important: it decisively influenced both Continental and Anglo-Saxon ceremonial. The Erdmann Ordo contains Ordo XIIIA (nos. 1-2, complete) and Ordo XIIIB (nos. 33-8, separate investiture formulas)."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xiii-a",
+        "siglum": "A",
+        "label": "A — Sens, Bibl. mun., MS 12",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Sens, Bibl. mun., MS 12",
+        "folios": "fols. 85r-97v",
+        "date": "Late 9th / early 10th century",
+        "origin": "Sens",
+        "currentRepositoryId": "repo-sens-bibl-mun",
+        "currentRepository": "Sens, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "https://portail.biblissima.fr/ark:/43093/mdatadc2cbd74fe6e0d00a5430d37b6b01237878978e0",
+        "iiifUrl": "",
+        "sourceLabel": "Biblissima (manuscript record)",
+        "description": "Pontifical of Sens. Contains both Ordo XIIIA (fols. 85r-94v) and XIIIB (fols. 97r-v).",
+        "bibliography": "de Meyier, Codices Vossiani Latini, Pars II, 38-39"
+      },
+      {
+        "id": "ms-ocf-xiii-b",
+        "siglum": "B",
+        "label": "B — Leningrad [St. Petersburg], Public Library, MS lat. Q.v.I, no. 35",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Leningrad [St. Petersburg], Public Library, MS lat. Q.v.I, no. 35",
+        "folios": "fols. 65r-73v",
+        "date": "10th century",
+        "origin": "Copied from A",
+        "currentRepositoryId": "repo-leningrad-st-petersburg-public-library",
+        "currentRepository": "Leningrad [St. Petersburg], Public Library",
+        "copiedFrom": "A",
+        "digitalUrl": "https://primo.nlr.ru/primo-explore/search?query=any,contains,lat.%20Q.v.I,%20no.%2035&tab=default_tab&search_scope=default_scope&sortby=rank&vid=07NLR_VU1&lang=en_US&mode=basic",
+        "iiifUrl": "",
+        "sourceLabel": "National Library of Russia (Primo catalog search)",
+        "description": "Contains Ordo XIIIB inserted between nos. 14 and 15 of XIIIA.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xiii-c",
+        "siglum": "C",
+        "label": "C — Sens, Tr?sor de la Cath?drale, unnumbered",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Sens, Tr?sor de la Cath?drale, unnumbered",
+        "folios": "-",
+        "date": "Late 9th / early 10th century?",
+        "origin": "",
+        "currentRepositoryId": "repo-sens-tr-sor-de-la-cath-drale",
+        "currentRepository": "Sens, Tr?sor de la Cath?drale",
+        "copiedFrom": "",
+        "digitalUrl": "https://arca.irht.cnrs.fr/repository/97",
+        "iiifUrl": "",
+        "sourceLabel": "ARCA / IRHT (repository record)",
+        "description": "Only 5 texts from the battlefield benedictions (published by Erdmann).",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "repo-leningrad-st-petersburg-public-library",
+        "label": "Leningrad [St. Petersburg], Public Library",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 59.9343,
+        "lon": 30.3351,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Leningrad [St. Petersburg], Public Library, MS lat. Q.v.I, no. 35"
+      },
+      {
+        "id": "place-sens",
+        "label": "Sens",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.198,
+        "lon": 3.283,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Sens\"."
+      },
+      {
+        "id": "repo-sens-bibl-mun",
+        "label": "Sens, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.1974,
+        "lon": 3.282,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Sens, Bibl. mun., MS 12"
+      },
+      {
+        "id": "repo-sens-tr-sor-de-la-cath-drale",
+        "label": "Sens, Tr?sor de la Cath?drale",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.1974,
+        "lon": 3.282,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Sens, Tr?sor de la Cath?drale, unnumbered"
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xiii-a-current-repository",
+        "label": "A kept at Sens, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xiii-a",
+        "placeId": "repo-sens-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Sens, Bibl. mun., MS 12 is currently kept at Sens, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xiii-a-origin-sens",
+        "label": "A origin/context: Sens",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xiii-a",
+        "placeId": "place-sens",
+        "start": "Late 9th / early 10th century",
+        "end": "Late 9th / early 10th century",
+        "description": "Sens, Bibl. mun., MS 12: origin/context recorded as \"Sens\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xiii-b-current-repository",
+        "label": "B kept at Leningrad [St. Petersburg], Public Library",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xiii-b",
+        "placeId": "repo-leningrad-st-petersburg-public-library",
+        "start": "",
+        "end": "",
+        "description": "Leningrad [St. Petersburg], Public Library, MS lat. Q.v.I, no. 35 is currently kept at Leningrad [St. Petersburg], Public Library.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xiii-c-current-repository",
+        "label": "C kept at Sens, Tr?sor de la Cath?drale",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xiii-c",
+        "placeId": "repo-sens-tr-sor-de-la-cath-drale",
+        "start": "",
+        "end": "",
+        "description": "Sens, Tr?sor de la Cath?drale, unnumbered is currently kept at Sens, Tr?sor de la Cath?drale.",
+        "certainty": "certain"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xiii-a",
+      "predicate": "witnesses",
+      "object": "OCF-XIII",
+      "certainty": "certain",
+      "source": "OCF-XIII witness list"
+    },
+    {
+      "subject": "ms-ocf-xiii-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-sens-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xiii-a-origin-sens",
+      "predicate": "occurred_at",
+      "object": "place-sens",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xiii-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-sens",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xiii-b",
+      "predicate": "witnesses",
+      "object": "OCF-XIII",
+      "certainty": "certain",
+      "source": "OCF-XIII witness list"
+    },
+    {
+      "subject": "ms-ocf-xiii-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-leningrad-st-petersburg-public-library",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xiii-c",
+      "predicate": "witnesses",
+      "object": "OCF-XIII",
+      "certainty": "certain",
+      "source": "OCF-XIII witness list"
+    },
+    {
+      "subject": "ms-ocf-xiii-c",
+      "predicate": "currently_kept_at",
+      "object": "repo-sens-tr-sor-de-la-cath-drale",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xiii-b",
+      "predicate": "copied_from",
+      "object": "ms-ocf-xiii-a",
+      "certainty": "probable",
+      "source": "witness note"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-leningrad-st-petersburg-public-library",
+        "label": "Leningrad [St. Petersburg], Public Library",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 59.9343,
+        "lon": 30.3351,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Leningrad [St. Petersburg], Public Library, MS lat. Q.v.I, no. 35"
+      },
+      {
+        "id": "repo-sens-bibl-mun",
+        "label": "Sens, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.1974,
+        "lon": 3.282,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Sens, Bibl. mun., MS 12"
+      },
+      {
+        "id": "repo-sens-tr-sor-de-la-cath-drale",
+        "label": "Sens, Tr?sor de la Cath?drale",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.1974,
+        "lon": 3.282,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Sens, Tr?sor de la Cath?drale, unnumbered"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-sens",
+        "label": "Sens",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.198,
+        "lon": 3.283,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Sens\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-xiii-a-sens-to-sens-bibl-mun",
+        "label": "A: Sens → Sens, Bibl. mun.",
+        "manuscriptId": "ms-ocf-xiii-a",
+        "fromPlaceId": "place-sens",
+        "toPlaceId": "repo-sens-bibl-mun",
+        "start": "Late 9th / early 10th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  }
+}

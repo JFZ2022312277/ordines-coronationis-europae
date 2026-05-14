@@ -1,0 +1,4 @@
+"id","label","openatlasClass","systemClass","type","url","description"
+"ref-elze-1960","Reinhard Elze, Ordines Coronationis Imperialis (1960)","E31 Document","reference","edition","https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00000664-8",""
+"ref-ms-hre-vi-a-digital","Digital source: Munich, BSB, Clm 6425","E31 Document","reference","digital_facsimile","https://www.digitale-sammlungen.de/en/view/bsb00060090",""
+"ref-ms-hre-vi-a-iiif","IIIF manifest: Munich, BSB, Clm 6425","E31 Document","reference","iiif_manifest","https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060090/manifest",""

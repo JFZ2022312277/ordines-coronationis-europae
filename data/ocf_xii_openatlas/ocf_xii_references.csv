@@ -1,0 +1,6 @@
+"id","label","openatlasClass","systemClass","type","url","description"
+"ref-ms-ocf-xii-a-digital","Biblissima / Angers BM MS 80: Angers, Bibl. mun., MS 80","E31 Document","reference","digital_facsimile","https://portail.biblissima.fr/fr/ark:/43093/mdatac71d6f77be2ec5ff8a915c93ef79e991deefbc47","Digital source for Angers, Bibl. mun., MS 80."
+"ref-ms-ocf-xii-b-digital","Gallica / BnF (MS lat. 9430): Paris, BnF, MS lat. 9430","E31 Document","reference","digital_facsimile","https://gallica.bnf.fr/ark:/12148/btv1b8422986v","Digital source for Paris, BnF, MS lat. 9430."
+"ref-ms-ocf-xii-a-iiif","IIIF manifest: Angers, Bibl. mun., MS 80","E31 Document","reference","iiif_manifest","https://portail.biblissima.fr/iiif/collection/ark:/43093/mdatac71d6f77be2ec5ff8a915c93ef79e991deefbc47","IIIF manifest for Angers, Bibl. mun., MS 80."
+"ref-ms-ocf-xii-b-iiif","IIIF manifest: Paris, BnF, MS lat. 9430","E31 Document","reference","iiif_manifest","https://gallica.bnf.fr/iiif/ark:/12148/btv1b8422986v/manifest.json","IIIF manifest for Paris, BnF, MS lat. 9430."
+"ref-ms-ocf-xii-a-bib-1","Leroquais, Pontificaux, 1: 25–2","E31 Document","reference","edition_or_catalogue","","Bibliographic reference for Angers, Bibl. mun., MS 80."

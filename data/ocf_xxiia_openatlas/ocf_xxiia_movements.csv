@@ -1,0 +1,6 @@
+"id","label","manuscriptId","fromPlaceId","toPlaceId","start","end","certainty","type"
+"move-ms-ocf-xxiia-a-meaux-to-paris-bnf","A: Meaux → Paris, BnF","ms-ocf-xxiia-a","place-meaux","repo-paris-bnf","ca. 1250–270","","probable","manuscript_dispersal"
+"move-ms-ocf-xxiia-b-france-to-urbana-university-of-illinois-library","B: France → Urbana, University of Illinois Library","ms-ocf-xxiia-b","place-france","repo-urbana-university-of-illinois-library","ca. 1330","","possible","manuscript_dispersal"
+"move-ms-ocf-xxiia-c-cambrai-to-vatican-city-bav","C: Cambrai → Vatican City, BAV","ms-ocf-xxiia-c","place-cambrai","repo-vatican-city-bav","Mid 14th century","","probable","manuscript_dispersal"
+"move-ms-ocf-xxiia-c-reims-to-vatican-city-bav","C: Reims → Vatican City, BAV","ms-ocf-xxiia-c","place-reims","repo-vatican-city-bav","Mid 14th century","","probable","manuscript_dispersal"
+"move-ms-ocf-xxiia-d-sens-to-london-british-library","D: Sens → London, British Library","ms-ocf-xxiia-d","place-sens","repo-london-british-library","1346–378","","probable","manuscript_dispersal"

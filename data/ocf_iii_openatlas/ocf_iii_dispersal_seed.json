@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "title": "OCF-III manuscript pilot",
+    "generatedAt": "2026-05-12T09:06:32.377Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-III. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-III.",
+    "entityEnrichedAt": "2026-05-12T09:06:35.690Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-III",
+        "label": "Royal Texts in the Collection of Sankt Emmeram",
+        "labelFr": "Textes royaux de la Collection de Sankt Emmeram",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "824–27",
+        "description": "Five royal benedictions from a manuscript dating largely from 824-27. Contains the new formula Deus qui victrices Moysi, which reappears in France only in the Ordines of Charles V and Charles VIII."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-iii-a",
+        "siglum": "A",
+        "label": "A — Munich, Bayerische Staatsbibl., MS Clm. 14510",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Munich, Bayerische Staatsbibl., MS Clm. 14510",
+        "folios": "fols. 72v-74r",
+        "date": "824–27",
+        "origin": "Sankt Emmeram",
+        "currentRepositoryId": "repo-munich-bayerische-staatsbibl",
+        "currentRepository": "Munich, Bayerische Staatsbibl.",
+        "copiedFrom": "",
+        "digitalUrl": "https://iiif.biblissima.fr/collections/manifest/0c361a44643a083fcc0a7382c79e9d9a951394f9",
+        "iiifUrl": "",
+        "sourceLabel": "Biblissima IIIF Collections (BSB Clm 14510)",
+        "description": "Ordo III witness: fols. 72v-74r (Biblissima manifest for BSB Clm 14510; IIIF canvases 146-149).",
+        "bibliography": "Andrieu, Ordines Romani, 1: 232–8"
+      }
+    ],
+    "places": [
+      {
+        "id": "repo-munich-bayerische-staatsbibl",
+        "label": "Munich, Bayerische Staatsbibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.1497,
+        "lon": 11.5786,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Munich, Bayerische Staatsbibl., MS Clm. 14510"
+      },
+      {
+        "id": "place-sankt-emmeram-regensburg",
+        "label": "Sankt Emmeram, Regensburg",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.014,
+        "lon": 12.095,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Sankt Emmeram\"."
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-iii-a-current-repository",
+        "label": "A kept at Munich, Bayerische Staatsbibl.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-iii-a",
+        "placeId": "repo-munich-bayerische-staatsbibl",
+        "start": "",
+        "end": "",
+        "description": "Munich, Bayerische Staatsbibl., MS Clm. 14510 is currently kept at Munich, Bayerische Staatsbibl..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-iii-a-origin-sankt-emmeram-regensburg",
+        "label": "A origin/context: Sankt Emmeram, Regensburg",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-iii-a",
+        "placeId": "place-sankt-emmeram-regensburg",
+        "start": "824–27",
+        "end": "824–27",
+        "description": "Munich, Bayerische Staatsbibl., MS Clm. 14510: origin/context recorded as \"Sankt Emmeram\".",
+        "certainty": "probable"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-bsb",
+        "label": "Bayerische Staatsbibliothek",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-munich-bayerische-staatsbibl",
+        "description": ""
+      },
+      {
+        "id": "actor-michel-andrieu",
+        "label": "Michel Andrieu",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of Ordines Romani",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-sankt-emmeram",
+        "label": "Sankt Emmeram Abbey, Regensburg",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "monastic scriptorium / origin context",
+        "placeId": "place-sankt-emmeram-regensburg",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-iii-a-bib-1",
+        "label": "Andrieu, Ordines Romani, 1: 232–8",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference for Munich, Bayerische Staatsbibl., MS Clm. 14510."
+      },
+      {
+        "id": "ref-ms-ocf-iii-a-digital",
+        "label": "Biblissima IIIF Collections (BSB Clm 14510): Munich, Bayerische Staatsbibl., MS Clm. 14510",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://iiif.biblissima.fr/collections/manifest/0c361a44643a083fcc0a7382c79e9d9a951394f9",
+        "description": "Digital source for Munich, Bayerische Staatsbibl., MS Clm. 14510."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-iii-a",
+      "predicate": "witnesses",
+      "object": "OCF-III",
+      "certainty": "certain",
+      "source": "OCF-III witness list"
+    },
+    {
+      "subject": "ms-ocf-iii-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-munich-bayerische-staatsbibl",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-iii-a-origin-sankt-emmeram-regensburg",
+      "predicate": "occurred_at",
+      "object": "place-sankt-emmeram-regensburg",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-iii-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-sankt-emmeram-regensburg",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-iii-a",
+      "predicate": "associated_with",
+      "object": "actor-bsb",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-iii-a",
+      "predicate": "associated_with",
+      "object": "actor-sankt-emmeram",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-iii-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-michel-andrieu",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-iii-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-iii-a-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-iii-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-iii-a-bib-1",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "OCF-III",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-III",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-iii-a",
+      "certainty": "certain",
+      "source": "OCF-III witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-munich-bayerische-staatsbibl",
+        "label": "Munich, Bayerische Staatsbibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.1497,
+        "lon": 11.5786,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Munich, Bayerische Staatsbibl., MS Clm. 14510"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-sankt-emmeram-regensburg",
+        "label": "Sankt Emmeram, Regensburg",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.014,
+        "lon": 12.095,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Sankt Emmeram\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-iii-a-sankt-emmeram-regensburg-to-munich-bayerische-staatsbibl",
+        "label": "A: Sankt Emmeram, Regensburg → Munich, Bayerische Staatsbibl.",
+        "manuscriptId": "ms-ocf-iii-a",
+        "fromPlaceId": "place-sankt-emmeram-regensburg",
+        "toPlaceId": "repo-munich-bayerische-staatsbibl",
+        "start": "824–27",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-edited_or_studied_by",
+        "label": "edited_or_studied_by"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-has_reference",
+        "label": "has_reference"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

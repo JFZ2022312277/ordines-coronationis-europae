@@ -1,0 +1,7 @@
+"id","label","openatlasClass","systemClass","type","role","placeId","description"
+"actor-monte-cassino","Abbey of Monte Cassino","E74 Group","actor","institution","monastic scriptorium / origin context","place-monte-cassino",""
+"actor-bav","Biblioteca Apostolica Vaticana","E74 Group","actor","institution","repository institution / digital provider","repo-vatican-city-bav",""
+"actor-braga-church","Braga ecclesiastical milieu","E74 Group","actor","institution","ecclesiastical context","place-braga",""
+"actor-milan-chapter","Milan Cathedral Chapter Library","E74 Group","actor","institution","repository / liturgical context","repo-milan-biblioteca-del-capitolo-metropolitano",""
+"actor-sens-cathedral","Sens Cathedral / Library","E74 Group","actor","institution","cathedral repository / origin context","repo-sens-bibl-mun",""
+"actor-usuarium","Usuarium","E74 Group","actor","source","digital manuscript record","",""

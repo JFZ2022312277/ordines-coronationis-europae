@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+title: "Ordines Coronationis Europae"
+message: "If you use this project in scholarly work, please cite the archived release."
+type: software
+authors:
+  - family-names: "Jia"
+    given-names: "Fangzhou"
+    email: "jfz2022312277@outlook.com"
+    # TODO: add ORCID and institutional affiliation before the public release.
+    # affiliation: ""
+    # orcid: ""
+abstract: >
+  A digital research platform and TEI/IIIF-linked dataset for the comparative
+  study of medieval coronation ordines. Extending Richard A. Jackson's
+  "Ordines Coronationis Franciae" into a European frame, the catalogue
+  integrates French, Holy Roman imperial, English, Aragonese, and Byzantine
+  records, with planned papal pontifical, Polish, and Nordic layers. The
+  platform combines a four-stratum TEI data model (source, text, action,
+  image), an OpenAtlas-style entity layer (CIDOC CRM-compatible), and a
+  geocoded spatial stratum for the visualization of manuscript transmission.
+date-released: "2026-05-12"
+version: "2026.05.12"
+url: "https://YOUR-USER.github.io/ordines-coronationis-europae/"
+repository-code: "https://github.com/YOUR-USER/ordines-coronationis-europae"
+license: "MIT"
+license-url: "https://opensource.org/licenses/MIT"
+keywords:
+  - medieval studies
+  - digital humanities
+  - coronation
+  - liturgical history
+  - manuscripts
+  - IIIF
+  - TEI
+  - OpenAtlas
+  - CIDOC CRM
+  - constitutional history
+  - mapping
+  - France
+  - Holy Roman Empire
+  - England
+  - Aragon
+  - Byzantium
+references:
+  - type: book
+    authors:
+      - family-names: "Jackson"
+        given-names: "Richard A."
+    title: >
+      Ordines Coronationis Franciae: Texts and Ordines for the Coronation of
+      Frankish and French Kings and Queens in the Middle Ages
+    publisher:
+      name: "University of Pennsylvania Press"
+    year: 1995
+    notes: "2 vols. (1995, 2000) — foundational critical edition."

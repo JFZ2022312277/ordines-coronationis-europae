@@ -1,0 +1,3 @@
+"id","label","type","placeId","start","end","description","openatlasClass"
+"event-ms-hre-ix-src-transmission","SRC copying/transmission context","copying_or_transmission","place-arras-source-tradition-anchor","11th century","11th century","Geographic anchor inferred from HRE source dateline place: Arras?.","E5 Event"
+"event-ms-hre-ix-a-transmission","A copying/transmission context","copying_or_transmission","repo-cologne-dombibliothek","mid-11th century","mid-11th century","Pontificale Cameracense; principal witness for the Ordo of Arras (HRE-IX).","E5 Event"

@@ -1,0 +1,3 @@
+"id","label","type","placeId","start","end","description","openatlasClass"
+"event-ms-hre-xiv-src-context","SRC copying/source context","copying_or_transmission","repo-vatican-bav","1st half of 12th century","1st half of 12th century","Geographic anchor inferred from HRE source dateline place: Curia.","E5 Event"
+"event-ms-hre-xiv-a-context","A copying/source context","copying_or_transmission","repo-vatican-bav","1st half 12th century","1st half 12th century","Principal witness for Cencius II (HRE-XIV).","E5 Event"

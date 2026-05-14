@@ -1,0 +1,386 @@
+{
+  "meta": {
+    "title": "ECR-XVIII Coronation of Richard III. English coronation record pilot",
+    "generatedAt": "2026-05-12T13:41:42.840Z",
+    "source": "ordines_coronationis_iiif.html ECR records",
+    "note": "ECR includes ordines, narrative records, papal letters, inventories, processions, and printed orders; reference anchors are not asserted physical manuscripts."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "ECR-XVIII",
+        "label": "Coronation of Richard III.",
+        "labelFr": "Coronation of Richard III.",
+        "sourceLabel": "ECR",
+        "tradition": "English",
+        "date": "S.d.",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "In the time of Richard I. symbolical meanings had come to be attached to the three places of unction, but it is not till the beginning of the fifteenth century that symbolical meanings are found attached to the ornaments. At the coronation of Henry IV. we have meanings attached to the swords (see Introduction 搂 13), and at the coronation of Henry VI. we also have the meanings which were finally adopted for the swords (Brit. Mas. Harg. MS. 497, fo. 29). In the document here printed symbolical meanings have been given to all the ornaments, and not to the swords only. The officers who carry the ornaments are nearly all different from the earlier officers; scarcely any of the old famiUes appear holding the offices. This was caused, no doubt, by the havoc wrought in the nobility of England by the wars of the Roses. The description of the coronation which follows is remarkable, as it gives the impression that the King and Queen were anointed and invested together. This conflicts with the arrangement in the Little Device that was drawn up for Richard III. (Brit. Mus. Add. 18,669), and is probably due to confusion in the mind of the narrator. It may also be noted that the Queen is described as receiving a robe of cloth of gold which as queen consort she was not entitled to receive, and which even Queen Mary II., though queen regnant, did not obtain. (J. Wickham Legg, Three Coronation Orders, Henry Bradshaw Society, 1900, p. 6.) From the expenses for the Coronation (Public Record Office, Lord Chamberlain's Series, i. 424) it appears that the ray cloth was put to the north door of the church, not to the west door, though it entered the choir at the west door of that part of the church (fo. 6). The document is printed from a seventeenth century copy."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ecr-xviii-src",
+        "siglum": "SRC",
+        "shelfmark": "London, British Library / Westminster tradition (reference anchor)",
+        "repositoryPlaceId": "repo-london-british-library",
+        "currentRepository": "London, British Library / Westminster tradition (reference anchor)",
+        "lat": 51.4994,
+        "lon": -0.1276,
+        "date": "medieval to early modern",
+        "folios": "",
+        "group": "reference",
+        "origin": "",
+        "witnessType": "reference",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "iiif_url": "",
+        "iiif_manifest_url": "",
+        "embedded_viewer_url": "",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "bibliography": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "source_record"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-westminster-abbey",
+        "label": "Westminster Abbey",
+        "lat": 51.4993,
+        "lon": -0.1273,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Principal English coronation church."
+      },
+      {
+        "id": "place-canterbury",
+        "label": "Canterbury / archiepiscopal context",
+        "lat": 51.2802,
+        "lon": 1.0789,
+        "type": "institutional_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "lat": 51.5299,
+        "lon": -0.1275,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ecr-xviii-record-context",
+        "label": "ECR-XVIII English coronation record context",
+        "type": "documentary_record",
+        "placeId": "place-westminster-abbey",
+        "start": "S.d.",
+        "end": "S.d.",
+        "description": "In the time of Richard I. symbolical meanings had come to be attached to the three places of unction, but it is not till the beginning of the fifteenth century that symbolical meanings are found attached to the ornaments. At the coronation of Henry IV. we have meanings attached to the swords (see Introduction 搂 13), and at the coronation of Henry VI. we also have the meanings which were finally adopted for the swords (Brit. Mas. Harg. MS. 497, fo. 29). In the document here printed symbolical meanings have been given to all the ornaments, and not to the swords only. The officers who carry the ornaments are nearly all different from the earlier officers; scarcely any of the old famiUes appear holding the offices. This was caused, no doubt, by the havoc wrought in the nobility of England by the wars of the Roses. The description of the coronation which follows is remarkable, as it gives the impression that the King and Queen were anointed and invested together. This conflicts with the arrangement in the Little Device that was drawn up for Richard III. (Brit. Mus. Add. 18,669), and is probably due to confusion in the mind of the narrator. It may also be noted that the Queen is described as receiving a robe of cloth of gold which as queen consort she was not entitled to receive, and which even Queen Mary II., though queen regnant, did not obtain. (J. Wickham Legg, Three Coronation Orders, Henry Bradshaw Society, 1900, p. 6.) From the expenses for the Coronation (Public Record Office, Lord Chamberlain's Series, i. 424) it appears that the ray cloth was put to the north door of the church, not to the west door, though it entered the choir at the west door of that part of the church (fo. 6). The document is printed from a seventeenth century copy.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-ecr-xviii-src-source",
+        "label": "SRC source/witness context",
+        "type": "source_reference",
+        "placeId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-leopold-legg",
+        "label": "Leopold G. Wickham Legg",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of English Coronation Records",
+        "placeId": ""
+      },
+      {
+        "id": "actor-english-coronation-tradition",
+        "label": "English coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "ritual and documentary tradition",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-westminster-abbey",
+        "label": "Westminster Abbey",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "coronation church / institutional context",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-richard-i",
+        "label": "Richard I",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-john",
+        "label": "King John",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-richard-ii",
+        "label": "Richard II",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-henry-iv",
+        "label": "Henry IV",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-henry-vi",
+        "label": "Henry VI",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-richard-iii",
+        "label": "Richard III",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-william-mary",
+        "label": "William III and Mary II",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "joint coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-canterbury",
+        "label": "Archbishopric of Canterbury",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "claimant/coronation authority",
+        "placeId": "place-canterbury"
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-legg-1901",
+        "label": "Leopold G. Wickham Legg, English Coronation Records (1901)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Base edition for the ECR corpus."
+      },
+      {
+        "id": "ref-ecr-xviii-edition-1",
+        "label": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_source",
+        "url": "",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-english",
+        "label": "English coronation records",
+        "code": "ECR"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-english",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "edited_by",
+      "object": "actor-leopold-legg",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "documents_event",
+      "object": "event-ecr-xviii-record-context",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "associated_with",
+      "object": "actor-westminster-abbey",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "associated_with",
+      "object": "actor-richard-i",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "associated_with",
+      "object": "actor-john",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "associated_with",
+      "object": "actor-richard-ii",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "associated_with",
+      "object": "actor-henry-iv",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "associated_with",
+      "object": "actor-henry-vi",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "associated_with",
+      "object": "actor-richard-iii",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "associated_with",
+      "object": "actor-william-mary",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "associated_with",
+      "object": "actor-canterbury",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XVIII",
+      "predicate": "preserved_in",
+      "object": "ms-ecr-xviii-src",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xviii-src",
+      "predicate": "has_event",
+      "object": "event-ms-ecr-xviii-src-source",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xviii-src",
+      "predicate": "located_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xviii-src",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xviii-src",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xviii-src",
+      "predicate": "associated_with",
+      "object": "actor-british-library",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": [
+      {
+        "id": "move-ms-ecr-xviii-src",
+        "manuscriptId": "ms-ecr-xviii-src",
+        "fromPlaceId": "place-westminster-abbey",
+        "toPlaceId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "certainty": "derived",
+        "description": "Research context line for SRC: Westminster Abbey -> London, British Library / Westminster tradition (reference anchor)."
+      }
+    ]
+  }
+}

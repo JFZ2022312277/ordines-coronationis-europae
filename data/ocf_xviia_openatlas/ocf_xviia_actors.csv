@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","role","placeId","description"
+"actor-beauvais-church","Beauvais ecclesiastical milieu","E74 Group","actor","institution","episcopal / liturgical context","place-beauvais",""
+"actor-bav","Biblioteca Apostolica Vaticana","E74 Group","actor","institution","repository institution / digital provider","repo-vatican-city-bav",""
+"actor-jacques-sirmond","Jacques Sirmond","E21 Person","actor","editor","early modern editor / user of lost witness","place-paris",""
+"actor-reims-cathedral","Reims Cathedral / Chapter Library","E74 Group","actor","institution","cathedral repository / coronation center","place-reims",""

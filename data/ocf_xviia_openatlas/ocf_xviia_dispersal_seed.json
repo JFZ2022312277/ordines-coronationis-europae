@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "title": "OCF-XVIIA manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:41.744Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XVIIA. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-XVIIA.",
+    "entityEnrichedAt": "2026-05-12T09:59:45.413Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XVIIA",
+        "label": "Memorandum of Philip I's Coronation",
+        "labelFr": "Mémorandum du sacre de Philippe Ier",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "23 May 1059",
+        "description": "One of the most widely copied and printed coronation texts. Written by Gervais, archbishop of Reims. The only description of a precise coronation between 877 and 1461. Not an ordo but a memorandum to strengthen the rights of the archbishop of Reims."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xviia-a",
+        "siglum": "A",
+        "label": "A — Vatican City, BAV, MS Ottoboniani lat. 811",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Vatican City, BAV, MS Ottoboniani lat. 811",
+        "folios": "fols. 113r?114r",
+        "date": "ca. 1100",
+        "origin": "",
+        "currentRepositoryId": "repo-vatican-city-bav",
+        "currentRepository": "Vatican City, BAV",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Only surviving medieval manuscript of the complete text; possibly, but not certainly, identical with the lost Beauvais witness (lost MS 2).",
+        "bibliography": "Les manuscrits de la reine de Suede (1964), no. 1807; Pellegrin et al., Manuscrits classiques latins, 1:447-49"
+      },
+      {
+        "id": "ms-ocf-xviia-lost-mss-1-5",
+        "siglum": "Lost MSS 1?5",
+        "label": "Lost MSS 1?5 — Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST]",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "lost",
+        "shelfmark": "Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST]",
+        "folios": "Unknown (lost manuscripts)",
+        "date": "Unknown",
+        "origin": "",
+        "currentRepositoryId": "repo-multiple-lost-witnesses-reims-beauvais-toul-sirmond-lost",
+        "currentRepository": "Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST]",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Multiple lost manuscripts mentioned by Jackson: Reims (lost MS 1), Beauvais cathedral (lost MS 2), Toul / Andre du Saussay (lost MS 3), Jacques Sirmond (lost MS 4), and Chantoine (lost MS 5).",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "repo-multiple-lost-witnesses-reims-beauvais-toul-sirmond-lost",
+        "label": "Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST]",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.2541,
+        "lon": 3.025,
+        "certainty": "last_known_or_reported",
+        "note": "Lost witness location inferred from shelfmark/last known context: Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST]"
+      },
+      {
+        "id": "repo-vatican-city-bav",
+        "label": "Vatican City, BAV",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Vatican City, BAV, MS Ottoboniani lat. 811"
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xviia-a-current-repository",
+        "label": "A kept at Vatican City, BAV",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xviia-a",
+        "placeId": "repo-vatican-city-bav",
+        "start": "",
+        "end": "",
+        "description": "Vatican City, BAV, MS Ottoboniani lat. 811 is currently kept at Vatican City, BAV.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xviia-lost-mss-1-5-current-repository",
+        "label": "Lost MSS 1?5 kept at Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST]",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "lost_witness_reported_location",
+        "manuscriptId": "ms-ocf-xviia-lost-mss-1-5",
+        "placeId": "repo-multiple-lost-witnesses-reims-beauvais-toul-sirmond-lost",
+        "start": "",
+        "end": "",
+        "description": "Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST] is currently kept at Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST].",
+        "certainty": "certain"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-beauvais-church",
+        "label": "Beauvais ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "episcopal / liturgical context",
+        "placeId": "place-beauvais",
+        "description": ""
+      },
+      {
+        "id": "actor-bav",
+        "label": "Biblioteca Apostolica Vaticana",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-vatican-city-bav",
+        "description": ""
+      },
+      {
+        "id": "actor-jacques-sirmond",
+        "label": "Jacques Sirmond",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "early modern editor / user of lost witness",
+        "placeId": "place-paris",
+        "description": ""
+      },
+      {
+        "id": "actor-reims-cathedral",
+        "label": "Reims Cathedral / Chapter Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "cathedral repository / coronation center",
+        "placeId": "place-reims",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-xviia-a-bib-1",
+        "label": "Les manuscrits de la reine de Suede (1964), no. 1807",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference for Vatican City, BAV, MS Ottoboniani lat. 811."
+      },
+      {
+        "id": "ref-ms-ocf-xviia-a-bib-2",
+        "label": "Pellegrin et al., Manuscrits classiques latins, 1:447-49",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference for Vatican City, BAV, MS Ottoboniani lat. 811."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xviia-a",
+      "predicate": "witnesses",
+      "object": "OCF-XVIIA",
+      "certainty": "certain",
+      "source": "OCF-XVIIA witness list"
+    },
+    {
+      "subject": "ms-ocf-xviia-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-vatican-city-bav",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xviia-lost-mss-1-5",
+      "predicate": "witnesses",
+      "object": "OCF-XVIIA",
+      "certainty": "certain",
+      "source": "OCF-XVIIA witness list"
+    },
+    {
+      "subject": "ms-ocf-xviia-lost-mss-1-5",
+      "predicate": "currently_kept_at",
+      "object": "repo-multiple-lost-witnesses-reims-beauvais-toul-sirmond-lost",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xviia-a",
+      "predicate": "associated_with",
+      "object": "actor-bav",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xviia-a",
+      "predicate": "associated_with",
+      "object": "actor-beauvais-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xviia-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xviia-a-bib-1",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-xviia-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xviia-a-bib-2",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-xviia-lost-mss-1-5",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xviia-lost-mss-1-5",
+      "predicate": "associated_with",
+      "object": "actor-beauvais-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xviia-lost-mss-1-5",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "OCF-XVIIA",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-XVIIA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xviia-a",
+      "certainty": "certain",
+      "source": "OCF-XVIIA witness list"
+    },
+    {
+      "subject": "OCF-XVIIA",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xviia-lost-mss-1-5",
+      "certainty": "certain",
+      "source": "OCF-XVIIA witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-multiple-lost-witnesses-reims-beauvais-toul-sirmond-lost",
+        "label": "Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST]",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.2541,
+        "lon": 3.025,
+        "certainty": "last_known_or_reported",
+        "note": "Lost witness location inferred from shelfmark/last known context: Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST]"
+      },
+      {
+        "id": "repo-vatican-city-bav",
+        "label": "Vatican City, BAV",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Vatican City, BAV, MS Ottoboniani lat. 811"
+      }
+    ],
+    "originPlaces": [],
+    "movements": []
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-edited_or_studied_by",
+        "label": "edited_or_studied_by"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

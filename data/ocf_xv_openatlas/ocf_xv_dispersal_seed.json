@@ -1,0 +1,4127 @@
+{
+  "meta": {
+    "title": "OCF-XV manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:41.733Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XV. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-XV.",
+    "entityEnrichedAt": "2026-05-12T09:59:45.397Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XV",
+        "label": "Ratold Ordo",
+        "labelFr": "Ordo de Ratold",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "ca. 980",
+        "description": "The most widely copied of all French coronation ordines. Named after Abbot Ratold of Corbie (d. 986). Of Anglo-Saxon origin, adapted for the Continent. Contains references to Albion and St. Gregory in the oldest manuscript. The ordo was consulted for French coronations probably from Louis VI's coronation in 1108 onwards. 20 surviving manuscripts (A-T) plus lost manuscripts."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xv-a",
+        "siglum": "A",
+        "label": "A — Paris, BnF, MS lat. 12052",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 12052",
+        "folios": "fols. 21v-30r",
+        "date": "ca. 980",
+        "origin": "Corbie",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b84274539",
+        "iiifUrl": "",
+        "sourceLabel": "Gallica / BnF",
+        "description": "Sacramentary copied for Abbot Ratold. Oldest surviving ms. Base text of all editions.",
+        "bibliography": "Delisle, 'Mémoire,' 188–0; Leroquais, Sacramentaires, 1: 79–1, no. 79"
+      },
+      {
+        "id": "ms-ocf-xv-b",
+        "siglum": "B",
+        "label": "B — Paris, BnF, MS lat. 13313",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 13313",
+        "folios": "fols. 188r-198v",
+        "date": "11th century",
+        "origin": "Trier, adapted for Cambrai",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b90669992",
+        "iiifUrl": "",
+        "sourceLabel": "Gallica / BnF",
+        "description": "Primary witness of the Ratold ordo in this codex at the listed folios.",
+        "bibliography": "Leroquais, Pontificaux, 2: 175–9, no. 151"
+      },
+      {
+        "id": "ms-ocf-xv-c",
+        "siglum": "C",
+        "label": "C — Paris, BnF, MS lat. 14192",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 14192",
+        "folios": "fols. 73r-81r, 82r-83r",
+        "date": "12th century, second quarter",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=MS+lat+14192",
+        "iiifUrl": "",
+        "sourceLabel": "BnF Catalogue (search)",
+        "description": "Primary witness of the Ratold ordo in this codex at the listed folios.",
+        "bibliography": "Brown, Franks, Burgundians, and Aquitanians, 15–0"
+      },
+      {
+        "id": "ms-ocf-xv-d",
+        "siglum": "D",
+        "label": "D — Paris, BnF, MS lat. 13315",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 13315",
+        "folios": "fols. 101r-110r",
+        "date": "12th century",
+        "origin": "Saint-Germain-des-Prés",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b9068382b",
+        "iiifUrl": "",
+        "sourceLabel": "Gallica / BnF",
+        "description": "Primary witness of the Ratold ordo in this codex at the listed folios.",
+        "bibliography": "Leroquais, Pontificaux, 2: 180–4, no. 153"
+      },
+      {
+        "id": "ms-ocf-xv-e",
+        "siglum": "E",
+        "label": "E — Paris, BnF, MS lat. 945",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 945",
+        "folios": "fols. 204r-215v",
+        "date": "Middle or second half of 12th century",
+        "origin": "Chartres",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b10073460v",
+        "iiifUrl": "",
+        "sourceLabel": "Gallica / BnF",
+        "description": "Primary witness of the Ratold ordo in this codex at the listed folios.",
+        "bibliography": "Leroquais, Pontificaux, 2: 15–1, no. 95"
+      },
+      {
+        "id": "ms-ocf-xv-f",
+        "siglum": "F",
+        "label": "F — Paris, BnF, MS lat. 953",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 953",
+        "folios": "fols. 107r-116r",
+        "date": "Middle or second half of 12th century",
+        "origin": "Saint-Amand, diocese of Tournai",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://usuarium.elte.hu/book/3115/view",
+        "iiifUrl": "",
+        "sourceLabel": "Usuarium (manuscript record)",
+        "description": "Primary witness of the Ratold ordo in this codex at the listed folios.",
+        "bibliography": "Leroquais, Pontificaux, 2: 41–6, no. 103"
+      },
+      {
+        "id": "ms-ocf-xv-g",
+        "siglum": "G",
+        "label": "G — Reims, Bibl. mun., MS 342",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Reims, Bibl. mun., MS 342",
+        "folios": "fols. 69v-80r",
+        "date": "Second half or end of 12th century",
+        "origin": "Reims Cathedral",
+        "currentRepositoryId": "repo-reims-bibl-mun",
+        "currentRepository": "Reims, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "https://iiif.biblissima.fr/collections/manifest/a2ad0ab6e218b57f2e17259f14cfe9d9e5c629c0",
+        "iiifUrl": "",
+        "sourceLabel": "Biblissima IIIF Collections",
+        "description": "Key manuscript. Located in coronation cathedral. Source of MSS K, P, R, T. Marginal additions from English source, early 13th c. Possibly used at coronations of Philip Augustus (1179), Louis VIII (1223), or Louis IX (1226).",
+        "bibliography": "Leroquais, Pontificaux, 1: 279–1, no. 185"
+      },
+      {
+        "id": "ms-ocf-xv-h",
+        "siglum": "H",
+        "label": "H — Sens, Bibl. mun., MS 9",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Sens, Bibl. mun., MS 9",
+        "folios": "fols. 57r-63v",
+        "date": "End of 12th century",
+        "origin": "Sens",
+        "currentRepositoryId": "repo-sens-bibl-mun",
+        "currentRepository": "Sens, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "https://iiif.biblissima.fr/collections/manifest/ccc201f9f2fa2d7805a3e7692a98db61b7df62d8",
+        "iiifUrl": "",
+        "sourceLabel": "Biblissima IIIF Collections",
+        "description": "Incomplete witness preserving part of the Ratold ordo.",
+        "bibliography": "Leroquais, Pontificaux, 1: 327–3, no. 199"
+      },
+      {
+        "id": "ms-ocf-xv-i",
+        "siglum": "I",
+        "label": "I — Troyes, Trésor de la Cathédrale, MS 4",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Troyes, Trésor de la Cathédrale, MS 4",
+        "folios": "fols. 129r-135r",
+        "date": "End of 12th century",
+        "origin": "Saint-Loup",
+        "currentRepositoryId": "repo-troyes-tre-sor-de-la-cathe-drale",
+        "currentRepository": "Troyes, Trésor de la Cathédrale",
+        "copiedFrom": "",
+        "digitalUrl": "https://iiif.biblissima.fr/collections/manifest/54329facc17fc3b405bc3429e6cd613d73ec0855",
+        "iiifUrl": "",
+        "sourceLabel": "Biblissima IIIF Collections",
+        "description": "Primary witness of the Ratold ordo in this codex at the listed folios.",
+        "bibliography": "Leroquais, Pontificaux, 2: 396–02, no. 223"
+      },
+      {
+        "id": "ms-ocf-xv-j",
+        "siglum": "J",
+        "label": "J — Siena, Bibl. Comunale degli Intronati, MS G.V. 12",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Siena, Bibl. Comunale degli Intronati, MS G.V. 12",
+        "folios": "fols. 65v-71v; Benedictio vexilli on fol. 108v",
+        "date": "Early 13th century (1203-1210)",
+        "origin": "Tyre",
+        "currentRepositoryId": "repo-siena-bibl-comunale-degli-intronati",
+        "currentRepository": "Siena, Bibl. Comunale degli Intronati",
+        "copiedFrom": "",
+        "digitalUrl": "https://iiif.biblissima.fr/collections/search?q=Siena+G.V+12",
+        "iiifUrl": "",
+        "sourceLabel": "Biblissima IIIF (search)",
+        "description": "Pontifical of Tyre.",
+        "bibliography": "Mayer, 'Das Pontificale von Tyrus,' Dumbarton Oaks Papers 21 (1967): 213–0"
+      },
+      {
+        "id": "ms-ocf-xv-k",
+        "siglum": "K",
+        "label": "K — Rouen, Bibl. mun., MS 370",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Rouen, Bibl. mun., MS 370",
+        "folios": "fols. 89r-98r",
+        "date": "Early 13th century",
+        "origin": "Reims",
+        "currentRepositoryId": "repo-rouen-bibl-mun",
+        "currentRepository": "Rouen, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "https://iiif.biblissima.fr/collections/manifest/7e1c202c01660933c01e7f001c2f8d1dcd2a0e94",
+        "iiifUrl": "",
+        "sourceLabel": "Biblissima IIIF Collections",
+        "description": "Copied from G.",
+        "bibliography": "Leroquais, Pontificaux, 2: 306–1, no. 190"
+      },
+      {
+        "id": "ms-ocf-xv-l",
+        "siglum": "L",
+        "label": "L — Orléans, Bibl. mun., MS 144",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Orléans, Bibl. mun., MS 144",
+        "folios": "fols. 160r-168r",
+        "date": "Early 13th century (before 1236)",
+        "origin": "Chartres; in Orléans by 1256",
+        "currentRepositoryId": "repo-orle-ans-bibl-mun",
+        "currentRepository": "Orléans, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "https://iiif.biblissima.fr/collections/manifest/68a4fdc0185ac172e4d150944c35051ca99c5317",
+        "iiifUrl": "",
+        "sourceLabel": "Biblissima IIIF Collections",
+        "description": "Copied from E.",
+        "bibliography": "Leroquais, Pontificaux, 1: 252–0, no. 76"
+      },
+      {
+        "id": "ms-ocf-xv-m",
+        "siglum": "M",
+        "label": "M — Paris, BnF, MS lat. 1223",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 1223",
+        "folios": "fols. 161v-190r",
+        "date": "13th century, perhaps first half",
+        "origin": "Metz",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b90781373",
+        "iiifUrl": "",
+        "sourceLabel": "Gallica / BnF",
+        "description": "Primary witness of the Ratold ordo in this codex at the listed folios.",
+        "bibliography": "Leroquais, Pontificaux, 2: 124–0, no. 129"
+      },
+      {
+        "id": "ms-ocf-xv-n",
+        "siglum": "N",
+        "label": "N — Brussels, Bibl. royale Albert Ier, MS II 1013",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Brussels, Bibl. royale Albert Ier, MS II 1013",
+        "folios": "fols. 131r-142v",
+        "date": "13th century",
+        "origin": "Saint-Martin of Tournai",
+        "currentRepositoryId": "repo-brussels-bibl-royale-albert-ier",
+        "currentRepository": "Brussels, Bibl. royale Albert Ier",
+        "copiedFrom": "",
+        "digitalUrl": "https://opac.kbr.be/search.aspx?SC=KBR_UNIFIED&QUERY=%22II%201013%22",
+        "iiifUrl": "",
+        "sourceLabel": "KBR OPAC (search)",
+        "description": "Primary witness of the Ratold ordo in this codex at the listed folios.",
+        "bibliography": "van den Gheyn, Catalogue, 1: 224–5"
+      },
+      {
+        "id": "ms-ocf-xv-o",
+        "siglum": "O",
+        "label": "O — Brugge, Stedelijke Openbare Bibl., MS 318",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Brugge, Stedelijke Openbare Bibl., MS 318",
+        "folios": "fols. 111v-121r",
+        "date": "13th century",
+        "origin": "Ter Doest",
+        "currentRepositoryId": "repo-brugge-stedelijke-openbare-bibl",
+        "currentRepository": "Brugge, Stedelijke Openbare Bibl.",
+        "copiedFrom": "",
+        "digitalUrl": "https://iiif.biblissima.fr/collections/search?q=Bruges+Biblioth%C3%A8que+publique+Ms.+318",
+        "iiifUrl": "",
+        "sourceLabel": "Biblissima IIIF (search)",
+        "description": "Primary witness of the Ratold ordo in this codex at the listed folios.",
+        "bibliography": "de Poorter, Catalogue, 2: 355–6"
+      },
+      {
+        "id": "ms-ocf-xv-p",
+        "siglum": "P",
+        "label": "P — Paris, BnF, MS lat. 17335",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 17335",
+        "folios": "fols. 64r-80r",
+        "date": "Second half or end of 13th century",
+        "origin": "Noyon",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b9077919m",
+        "iiifUrl": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8426275w/manifest.json",
+        "sourceLabel": "Gallica / BnF",
+        "description": "Copied from G. Preceded by a fragment from the Second English Ordo. | Additional catalog entry: MusMed https://musmed.eu/source/13499",
+        "bibliography": "Leroquais, Pontificaux, 2: 211–4, no. 162"
+      },
+      {
+        "id": "ms-ocf-xv-q",
+        "siglum": "Q",
+        "label": "Q — Wrocław, Bibl. Uniwersytecka, MS I F 380",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Wrocław, Bibl. Uniwersytecka, MS I F 380",
+        "folios": "fols. 118r-126v",
+        "date": "14th century",
+        "origin": "Prague (or near)",
+        "currentRepositoryId": "repo-wroc-aw-bibl-uniwersytecka",
+        "currentRepository": "Wrocław, Bibl. Uniwersytecka",
+        "copiedFrom": "",
+        "digitalUrl": "https://iiif.biblissima.fr/collections/search?q=Wroclaw+Biblioteka+Uniwersytecka+I+F+380",
+        "iiifUrl": "",
+        "sourceLabel": "Biblissima IIIF (search)",
+        "description": "Primary witness of the Ratold ordo in this codex at the listed folios.",
+        "bibliography": "Schenk, 'Rękopisy liturgiczne,' 202"
+      },
+      {
+        "id": "ms-ocf-xv-r",
+        "siglum": "R",
+        "label": "R — Paris, BnF, MS Baluze 379",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "copy",
+        "shelfmark": "Paris, BnF, MS Baluze 379",
+        "folios": "fols. 78r-83r",
+        "date": "17th century",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=MS+Baluze+379",
+        "iiifUrl": "",
+        "sourceLabel": "BnF Catalogue (search)",
+        "description": "Copied from G. Not collated.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xv-s",
+        "siglum": "S",
+        "label": "S — Chantilly, Musée Condé, MS 1149 (no. 356)",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "copy",
+        "shelfmark": "Chantilly, Musée Condé, MS 1149 (no. 356)",
+        "folios": "fols. 4r-9r",
+        "date": "17th century",
+        "origin": "",
+        "currentRepositoryId": "repo-chantilly-muse-e-conde",
+        "currentRepository": "Chantilly, Musée Condé",
+        "copiedFrom": "",
+        "digitalUrl": "https://iiif.biblissima.fr/collections/search?q=Chantilly+Mus%C3%A9e+Cond%C3%A9+Ms.+1149",
+        "iiifUrl": "",
+        "sourceLabel": "Biblissima IIIF (search)",
+        "description": "Copied from C.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xv-t",
+        "siglum": "T",
+        "label": "T — Paris, BnF, MS lat. 11743",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "copy",
+        "shelfmark": "Paris, BnF, MS lat. 11743",
+        "folios": "fols. 75r-84r",
+        "date": "17th century",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://catalogue.bnf.fr/rechercher.do?motRecherche=MS+lat+11743",
+        "iiifUrl": "",
+        "sourceLabel": "BnF Catalogue (search)",
+        "description": "Copied from G.",
+        "bibliography": "Leroquais, Pontificaux, 1: 170, no. 148"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-abbey-of-saint-loup-troyes",
+        "label": "Abbey of Saint-Loup, Troyes",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.297,
+        "lon": 4.074,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Saint-Loup\"."
+      },
+      {
+        "id": "repo-brugge-stedelijke-openbare-bibl",
+        "label": "Brugge, Stedelijke Openbare Bibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 51.2094,
+        "lon": 3.2247,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Brugge, Stedelijke Openbare Bibl., MS 318"
+      },
+      {
+        "id": "repo-brussels-bibl-royale-albert-ier",
+        "label": "Brussels, Bibl. royale Albert Ier",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.8427,
+        "lon": 4.361,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Brussels, Bibl. royale Albert Ier, MS II 1013"
+      },
+      {
+        "id": "place-cambrai",
+        "label": "Cambrai",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.176,
+        "lon": 3.235,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Trier, adapted for Cambrai\"."
+      },
+      {
+        "id": "repo-chantilly-muse-e-conde",
+        "label": "Chantilly, Musée Condé",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.1945,
+        "lon": 2.4858,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Chantilly, Musée Condé, MS 1149 (no. 356)"
+      },
+      {
+        "id": "place-chartres",
+        "label": "Chartres",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.446,
+        "lon": 1.489,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Chartres; in Orléans by 1256\"."
+      },
+      {
+        "id": "place-corbie",
+        "label": "Corbie",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.906,
+        "lon": 2.506,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Corbie\"."
+      },
+      {
+        "id": "place-metz",
+        "label": "Metz",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.119,
+        "lon": 6.176,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Metz\"."
+      },
+      {
+        "id": "place-noyon",
+        "label": "Noyon",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.581,
+        "lon": 3,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Noyon\"."
+      },
+      {
+        "id": "repo-orle-ans-bibl-mun",
+        "label": "Orléans, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 47.9029,
+        "lon": 1.9039,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Orléans, Bibl. mun., MS 144"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS lat. 11743"
+      },
+      {
+        "id": "place-prague",
+        "label": "Prague",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.0755,
+        "lon": 14.4378,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Prague (or near)\"."
+      },
+      {
+        "id": "place-reims",
+        "label": "Reims",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.258,
+        "lon": 4.031,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Reims\"."
+      },
+      {
+        "id": "repo-reims-bibl-mun",
+        "label": "Reims, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.2541,
+        "lon": 3.025,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Reims, Bibl. mun., MS 342"
+      },
+      {
+        "id": "repo-rouen-bibl-mun",
+        "label": "Rouen, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.4432,
+        "lon": 1.0993,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Rouen, Bibl. mun., MS 370"
+      },
+      {
+        "id": "place-saint-amand-les-eaux",
+        "label": "Saint-Amand-les-Eaux",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.447,
+        "lon": 3.429,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Saint-Amand, diocese of Tournai\"."
+      },
+      {
+        "id": "place-saint-germain-des-pres-paris",
+        "label": "Saint-Germain-des-Pres, Paris",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.854,
+        "lon": 2.334,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Saint-Germain-des-Prés\"."
+      },
+      {
+        "id": "place-saint-martin-of-tournai",
+        "label": "Saint-Martin of Tournai",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.605,
+        "lon": 3.389,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Saint-Martin of Tournai\"."
+      },
+      {
+        "id": "place-sens",
+        "label": "Sens",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.198,
+        "lon": 3.283,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Sens\"."
+      },
+      {
+        "id": "repo-sens-bibl-mun",
+        "label": "Sens, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.1974,
+        "lon": 3.282,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Sens, Bibl. mun., MS 9"
+      },
+      {
+        "id": "repo-siena-bibl-comunale-degli-intronati",
+        "label": "Siena, Bibl. Comunale degli Intronati",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 43.3188,
+        "lon": 11.3308,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Siena, Bibl. Comunale degli Intronati, MS G.V. 12"
+      },
+      {
+        "id": "place-ter-doest-abbey",
+        "label": "Ter Doest Abbey",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 51.3,
+        "lon": 3.19,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Ter Doest\"."
+      },
+      {
+        "id": "place-tournai",
+        "label": "Tournai",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "diocesan_context",
+        "lat": 50.605,
+        "lon": 3.389,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Saint-Martin of Tournai\"."
+      },
+      {
+        "id": "place-trier",
+        "label": "Trier",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.756,
+        "lon": 6.641,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Trier, adapted for Cambrai\"."
+      },
+      {
+        "id": "repo-troyes-tre-sor-de-la-cathe-drale",
+        "label": "Troyes, Trésor de la Cathédrale",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.2973,
+        "lon": 4.0744,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Troyes, Trésor de la Cathédrale, MS 4"
+      },
+      {
+        "id": "place-tyre",
+        "label": "Tyre",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 33.27,
+        "lon": 35.203,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Tyre\"."
+      },
+      {
+        "id": "repo-wroc-aw-bibl-uniwersytecka",
+        "label": "Wrocław, Bibl. Uniwersytecka",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 51.114,
+        "lon": 17.0471,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Wrocław, Bibl. Uniwersytecka, MS I F 380"
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xv-a-current-repository",
+        "label": "A kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-a",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 12052 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-a-origin-corbie",
+        "label": "A origin/context: Corbie",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-a",
+        "placeId": "place-corbie",
+        "start": "ca. 980",
+        "end": "ca. 980",
+        "description": "Paris, BnF, MS lat. 12052: origin/context recorded as \"Corbie\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-b-current-repository",
+        "label": "B kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-b",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 13313 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-b-origin-cambrai",
+        "label": "B origin/context: Cambrai",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-b",
+        "placeId": "place-cambrai",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Paris, BnF, MS lat. 13313: origin/context recorded as \"Trier, adapted for Cambrai\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-b-origin-trier",
+        "label": "B origin/context: Trier",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-b",
+        "placeId": "place-trier",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Paris, BnF, MS lat. 13313: origin/context recorded as \"Trier, adapted for Cambrai\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-c-current-repository",
+        "label": "C kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-c",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 14192 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-d-current-repository",
+        "label": "D kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-d",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 13315 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-d-origin-saint-germain-des-pres-paris",
+        "label": "D origin/context: Saint-Germain-des-Pres, Paris",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-d",
+        "placeId": "place-saint-germain-des-pres-paris",
+        "start": "12th century",
+        "end": "12th century",
+        "description": "Paris, BnF, MS lat. 13315: origin/context recorded as \"Saint-Germain-des-Prés\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-e-current-repository",
+        "label": "E kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-e",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 945 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-e-origin-chartres",
+        "label": "E origin/context: Chartres",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-e",
+        "placeId": "place-chartres",
+        "start": "Middle or second half of 12th century",
+        "end": "Middle or second half of 12th century",
+        "description": "Paris, BnF, MS lat. 945: origin/context recorded as \"Chartres\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-f-current-repository",
+        "label": "F kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-f",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 953 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-f-origin-tournai",
+        "label": "F origin/context: Tournai",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-f",
+        "placeId": "place-tournai",
+        "start": "Middle or second half of 12th century",
+        "end": "Middle or second half of 12th century",
+        "description": "Paris, BnF, MS lat. 953: origin/context recorded as \"Saint-Amand, diocese of Tournai\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-xv-f-origin-saint-amand-les-eaux",
+        "label": "F origin/context: Saint-Amand-les-Eaux",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-f",
+        "placeId": "place-saint-amand-les-eaux",
+        "start": "Middle or second half of 12th century",
+        "end": "Middle or second half of 12th century",
+        "description": "Paris, BnF, MS lat. 953: origin/context recorded as \"Saint-Amand, diocese of Tournai\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-g-current-repository",
+        "label": "G kept at Reims, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-g",
+        "placeId": "repo-reims-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Reims, Bibl. mun., MS 342 is currently kept at Reims, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-g-origin-reims",
+        "label": "G origin/context: Reims",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-g",
+        "placeId": "place-reims",
+        "start": "Second half or end of 12th century",
+        "end": "Second half or end of 12th century",
+        "description": "Reims, Bibl. mun., MS 342: origin/context recorded as \"Reims Cathedral\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-h-current-repository",
+        "label": "H kept at Sens, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-h",
+        "placeId": "repo-sens-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Sens, Bibl. mun., MS 9 is currently kept at Sens, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-h-origin-sens",
+        "label": "H origin/context: Sens",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-h",
+        "placeId": "place-sens",
+        "start": "End of 12th century",
+        "end": "End of 12th century",
+        "description": "Sens, Bibl. mun., MS 9: origin/context recorded as \"Sens\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-i-current-repository",
+        "label": "I kept at Troyes, Trésor de la Cathédrale",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-i",
+        "placeId": "repo-troyes-tre-sor-de-la-cathe-drale",
+        "start": "",
+        "end": "",
+        "description": "Troyes, Trésor de la Cathédrale, MS 4 is currently kept at Troyes, Trésor de la Cathédrale.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-i-origin-abbey-of-saint-loup-troyes",
+        "label": "I origin/context: Abbey of Saint-Loup, Troyes",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-i",
+        "placeId": "place-abbey-of-saint-loup-troyes",
+        "start": "End of 12th century",
+        "end": "End of 12th century",
+        "description": "Troyes, Trésor de la Cathédrale, MS 4: origin/context recorded as \"Saint-Loup\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-j-current-repository",
+        "label": "J kept at Siena, Bibl. Comunale degli Intronati",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-j",
+        "placeId": "repo-siena-bibl-comunale-degli-intronati",
+        "start": "",
+        "end": "",
+        "description": "Siena, Bibl. Comunale degli Intronati, MS G.V. 12 is currently kept at Siena, Bibl. Comunale degli Intronati.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-j-origin-tyre",
+        "label": "J origin/context: Tyre",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-j",
+        "placeId": "place-tyre",
+        "start": "Early 13th century (1203-1210)",
+        "end": "Early 13th century (1203-1210)",
+        "description": "Siena, Bibl. Comunale degli Intronati, MS G.V. 12: origin/context recorded as \"Tyre\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-k-current-repository",
+        "label": "K kept at Rouen, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-k",
+        "placeId": "repo-rouen-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Rouen, Bibl. mun., MS 370 is currently kept at Rouen, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-k-origin-reims",
+        "label": "K origin/context: Reims",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-k",
+        "placeId": "place-reims",
+        "start": "Early 13th century",
+        "end": "Early 13th century",
+        "description": "Rouen, Bibl. mun., MS 370: origin/context recorded as \"Reims\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-l-current-repository",
+        "label": "L kept at Orléans, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-l",
+        "placeId": "repo-orle-ans-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Orléans, Bibl. mun., MS 144 is currently kept at Orléans, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-l-origin-chartres",
+        "label": "L origin/context: Chartres",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-l",
+        "placeId": "place-chartres",
+        "start": "Early 13th century (before 1236)",
+        "end": "Early 13th century (before 1236)",
+        "description": "Orléans, Bibl. mun., MS 144: origin/context recorded as \"Chartres; in Orléans by 1256\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-m-current-repository",
+        "label": "M kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-m",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 1223 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-m-origin-metz",
+        "label": "M origin/context: Metz",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-m",
+        "placeId": "place-metz",
+        "start": "13th century, perhaps first half",
+        "end": "13th century, perhaps first half",
+        "description": "Paris, BnF, MS lat. 1223: origin/context recorded as \"Metz\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-n-current-repository",
+        "label": "N kept at Brussels, Bibl. royale Albert Ier",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-n",
+        "placeId": "repo-brussels-bibl-royale-albert-ier",
+        "start": "",
+        "end": "",
+        "description": "Brussels, Bibl. royale Albert Ier, MS II 1013 is currently kept at Brussels, Bibl. royale Albert Ier.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-n-origin-tournai",
+        "label": "N origin/context: Tournai",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-n",
+        "placeId": "place-tournai",
+        "start": "13th century",
+        "end": "13th century",
+        "description": "Brussels, Bibl. royale Albert Ier, MS II 1013: origin/context recorded as \"Saint-Martin of Tournai\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-xv-n-origin-saint-martin-of-tournai",
+        "label": "N origin/context: Saint-Martin of Tournai",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-n",
+        "placeId": "place-saint-martin-of-tournai",
+        "start": "13th century",
+        "end": "13th century",
+        "description": "Brussels, Bibl. royale Albert Ier, MS II 1013: origin/context recorded as \"Saint-Martin of Tournai\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-o-current-repository",
+        "label": "O kept at Brugge, Stedelijke Openbare Bibl.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-o",
+        "placeId": "repo-brugge-stedelijke-openbare-bibl",
+        "start": "",
+        "end": "",
+        "description": "Brugge, Stedelijke Openbare Bibl., MS 318 is currently kept at Brugge, Stedelijke Openbare Bibl..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-o-origin-ter-doest-abbey",
+        "label": "O origin/context: Ter Doest Abbey",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-o",
+        "placeId": "place-ter-doest-abbey",
+        "start": "13th century",
+        "end": "13th century",
+        "description": "Brugge, Stedelijke Openbare Bibl., MS 318: origin/context recorded as \"Ter Doest\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-p-current-repository",
+        "label": "P kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-p",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 17335 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-p-origin-noyon",
+        "label": "P origin/context: Noyon",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-p",
+        "placeId": "place-noyon",
+        "start": "Second half or end of 13th century",
+        "end": "Second half or end of 13th century",
+        "description": "Paris, BnF, MS lat. 17335: origin/context recorded as \"Noyon\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xv-q-current-repository",
+        "label": "Q kept at Wrocław, Bibl. Uniwersytecka",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-q",
+        "placeId": "repo-wroc-aw-bibl-uniwersytecka",
+        "start": "",
+        "end": "",
+        "description": "Wrocław, Bibl. Uniwersytecka, MS I F 380 is currently kept at Wrocław, Bibl. Uniwersytecka.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-q-origin-prague",
+        "label": "Q origin/context: Prague",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xv-q",
+        "placeId": "place-prague",
+        "start": "14th century",
+        "end": "14th century",
+        "description": "Wrocław, Bibl. Uniwersytecka, MS I F 380: origin/context recorded as \"Prague (or near)\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-xv-r-current-repository",
+        "label": "R kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-r",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS Baluze 379 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-s-current-repository",
+        "label": "S kept at Chantilly, Musée Condé",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-s",
+        "placeId": "repo-chantilly-muse-e-conde",
+        "start": "",
+        "end": "",
+        "description": "Chantilly, Musée Condé, MS 1149 (no. 356) is currently kept at Chantilly, Musée Condé.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xv-t-current-repository",
+        "label": "T kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xv-t",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 11743 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-saint-loup-troyes",
+        "label": "Abbey of Saint-Loup, Troyes",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "monastic scriptorium / origin context",
+        "placeId": "place-abbey-of-saint-loup-troyes",
+        "description": ""
+      },
+      {
+        "id": "actor-albert-de-poorter",
+        "label": "Albert de Poorter",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "cataloguer / scholar",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-bnf",
+        "label": "Bibliothèque nationale de France (BnF)",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-paris-bnf",
+        "description": ""
+      },
+      {
+        "id": "actor-biblissima",
+        "label": "Biblissima",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "digital source aggregator",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-cambrai-church",
+        "label": "Cambrai ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "adaptation / use context",
+        "placeId": "place-cambrai",
+        "description": ""
+      },
+      {
+        "id": "actor-chartres-cathedral",
+        "label": "Chartres ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "liturgical/sacramentary context",
+        "placeId": "place-chartres",
+        "description": ""
+      },
+      {
+        "id": "actor-corbie-abbey",
+        "label": "Corbie Abbey",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "monastic scriptorium / origin context",
+        "placeId": "place-corbie",
+        "description": ""
+      },
+      {
+        "id": "actor-elizabeth-brown",
+        "label": "Elizabeth A. R. Brown",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "modern scholar",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-gallica",
+        "label": "Gallica",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "digital source platform",
+        "placeId": "repo-paris-bnf",
+        "description": ""
+      },
+      {
+        "id": "actor-hans-eberhard-mayer",
+        "label": "Hans Eberhard Mayer",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "modern scholar",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-iiif",
+        "label": "IIIF",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "image/service reference",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-joseph-van-den-gheyn",
+        "label": "Joseph Van den Gheyn",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "cataloguer / scholar",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-tyre-church",
+        "label": "Latin Church of Tyre",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "crusader liturgical context",
+        "placeId": "place-tyre",
+        "description": ""
+      },
+      {
+        "id": "actor-leopold-delisle",
+        "label": "Léopold Delisle",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "scholar / bibliographic authority",
+        "placeId": "place-paris",
+        "description": ""
+      },
+      {
+        "id": "actor-metz-church",
+        "label": "Metz ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "liturgical/sacramentary context",
+        "placeId": "place-metz",
+        "description": ""
+      },
+      {
+        "id": "actor-chantilly-conde",
+        "label": "Musée Condé, Chantilly",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution",
+        "placeId": "repo-chantilly-musee-conde",
+        "description": ""
+      },
+      {
+        "id": "actor-musmed",
+        "label": "MusMed",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "digital source record",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-noyon-church",
+        "label": "Noyon ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "liturgical/sacramentary context",
+        "placeId": "place-noyon",
+        "description": ""
+      },
+      {
+        "id": "actor-reims-cathedral",
+        "label": "Reims Cathedral / Chapter Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "cathedral repository / coronation center",
+        "placeId": "place-reims",
+        "description": ""
+      },
+      {
+        "id": "actor-saint-amand",
+        "label": "Saint-Amand Abbey",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "monastic scriptorium / origin context",
+        "placeId": "place-saint-amand-les-eaux",
+        "description": ""
+      },
+      {
+        "id": "actor-saint-germain-des-pres",
+        "label": "Saint-Germain-des-Prés Abbey",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "monastic scriptorium / origin context",
+        "placeId": "place-saint-germain-des-pres-paris",
+        "description": ""
+      },
+      {
+        "id": "actor-saint-martin-tournai",
+        "label": "Saint-Martin of Tournai",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "monastic / diocesan context",
+        "placeId": "place-saint-martin-of-tournai",
+        "description": ""
+      },
+      {
+        "id": "actor-sens-cathedral",
+        "label": "Sens Cathedral / Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "cathedral repository / origin context",
+        "placeId": "repo-sens-bibl-mun",
+        "description": ""
+      },
+      {
+        "id": "actor-ter-doest",
+        "label": "Ter Doest Abbey",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "monastic scriptorium / origin context",
+        "placeId": "place-ter-doest-abbey",
+        "description": ""
+      },
+      {
+        "id": "actor-usuarium",
+        "label": "Usuarium",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "digital manuscript record",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-victor-leroquais",
+        "label": "Victor Leroquais",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "cataloguer / scholar",
+        "placeId": "place-paris",
+        "description": ""
+      },
+      {
+        "id": "actor-wladyslaw-schenk",
+        "label": "Władysław Schenk",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "modern scholar",
+        "placeId": "",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-xv-o-digital",
+        "label": "Biblissima IIIF (search): Brugge, Stedelijke Openbare Bibl., MS 318",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://iiif.biblissima.fr/collections/search?q=Bruges+Biblioth%C3%A8que+publique+Ms.+318",
+        "description": "Digital source for Brugge, Stedelijke Openbare Bibl., MS 318."
+      },
+      {
+        "id": "ref-ms-ocf-xv-s-digital",
+        "label": "Biblissima IIIF (search): Chantilly, Musée Condé, MS 1149 (no. 356)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://iiif.biblissima.fr/collections/search?q=Chantilly+Mus%C3%A9e+Cond%C3%A9+Ms.+1149",
+        "description": "Digital source for Chantilly, Musée Condé, MS 1149 (no. 356)."
+      },
+      {
+        "id": "ref-ms-ocf-xv-j-digital",
+        "label": "Biblissima IIIF (search): Siena, Bibl. Comunale degli Intronati, MS G.V. 12",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://iiif.biblissima.fr/collections/search?q=Siena+G.V+12",
+        "description": "Digital source for Siena, Bibl. Comunale degli Intronati, MS G.V. 12."
+      },
+      {
+        "id": "ref-ms-ocf-xv-q-digital",
+        "label": "Biblissima IIIF (search): Wrocław, Bibl. Uniwersytecka, MS I F 380",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://iiif.biblissima.fr/collections/search?q=Wroclaw+Biblioteka+Uniwersytecka+I+F+380",
+        "description": "Digital source for Wrocław, Bibl. Uniwersytecka, MS I F 380."
+      },
+      {
+        "id": "ref-ms-ocf-xv-l-digital",
+        "label": "Biblissima IIIF Collections: Orléans, Bibl. mun., MS 144",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://iiif.biblissima.fr/collections/manifest/68a4fdc0185ac172e4d150944c35051ca99c5317",
+        "description": "Digital source for Orléans, Bibl. mun., MS 144."
+      },
+      {
+        "id": "ref-ms-ocf-xv-g-digital",
+        "label": "Biblissima IIIF Collections: Reims, Bibl. mun., MS 342",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://iiif.biblissima.fr/collections/manifest/a2ad0ab6e218b57f2e17259f14cfe9d9e5c629c0",
+        "description": "Digital source for Reims, Bibl. mun., MS 342."
+      },
+      {
+        "id": "ref-ms-ocf-xv-k-digital",
+        "label": "Biblissima IIIF Collections: Rouen, Bibl. mun., MS 370",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://iiif.biblissima.fr/collections/manifest/7e1c202c01660933c01e7f001c2f8d1dcd2a0e94",
+        "description": "Digital source for Rouen, Bibl. mun., MS 370."
+      },
+      {
+        "id": "ref-ms-ocf-xv-h-digital",
+        "label": "Biblissima IIIF Collections: Sens, Bibl. mun., MS 9",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://iiif.biblissima.fr/collections/manifest/ccc201f9f2fa2d7805a3e7692a98db61b7df62d8",
+        "description": "Digital source for Sens, Bibl. mun., MS 9."
+      },
+      {
+        "id": "ref-ms-ocf-xv-i-digital",
+        "label": "Biblissima IIIF Collections: Troyes, Trésor de la Cathédrale, MS 4",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://iiif.biblissima.fr/collections/manifest/54329facc17fc3b405bc3429e6cd613d73ec0855",
+        "description": "Digital source for Troyes, Trésor de la Cathédrale, MS 4."
+      },
+      {
+        "id": "ref-ms-ocf-xv-r-digital",
+        "label": "BnF Catalogue (search): Paris, BnF, MS Baluze 379",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://catalogue.bnf.fr/rechercher.do?motRecherche=MS+Baluze+379",
+        "description": "Digital source for Paris, BnF, MS Baluze 379."
+      },
+      {
+        "id": "ref-ms-ocf-xv-t-digital",
+        "label": "BnF Catalogue (search): Paris, BnF, MS lat. 11743",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://catalogue.bnf.fr/rechercher.do?motRecherche=MS+lat+11743",
+        "description": "Digital source for Paris, BnF, MS lat. 11743."
+      },
+      {
+        "id": "ref-ms-ocf-xv-c-digital",
+        "label": "BnF Catalogue (search): Paris, BnF, MS lat. 14192",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://catalogue.bnf.fr/rechercher.do?motRecherche=MS+lat+14192",
+        "description": "Digital source for Paris, BnF, MS lat. 14192."
+      },
+      {
+        "id": "ref-ms-ocf-xv-c-bib-1",
+        "label": "Brown, Franks, Burgundians, and Aquitanians, 15–0",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS lat. 14192."
+      },
+      {
+        "id": "ref-ms-ocf-xv-o-bib-1",
+        "label": "de Poorter, Catalogue, 2: 355–6",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Brugge, Stedelijke Openbare Bibl., MS 318."
+      },
+      {
+        "id": "ref-ms-ocf-xv-a-bib-1",
+        "label": "Delisle, 'Mémoire,' 188–0",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS lat. 12052."
+      },
+      {
+        "id": "ref-ms-ocf-xv-a-digital",
+        "label": "Gallica / BnF: Paris, BnF, MS lat. 12052",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b84274539",
+        "description": "Digital source for Paris, BnF, MS lat. 12052."
+      },
+      {
+        "id": "ref-ms-ocf-xv-m-digital",
+        "label": "Gallica / BnF: Paris, BnF, MS lat. 1223",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b90781373",
+        "description": "Digital source for Paris, BnF, MS lat. 1223."
+      },
+      {
+        "id": "ref-ms-ocf-xv-b-digital",
+        "label": "Gallica / BnF: Paris, BnF, MS lat. 13313",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b90669992",
+        "description": "Digital source for Paris, BnF, MS lat. 13313."
+      },
+      {
+        "id": "ref-ms-ocf-xv-d-digital",
+        "label": "Gallica / BnF: Paris, BnF, MS lat. 13315",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b9068382b",
+        "description": "Digital source for Paris, BnF, MS lat. 13315."
+      },
+      {
+        "id": "ref-ms-ocf-xv-p-digital",
+        "label": "Gallica / BnF: Paris, BnF, MS lat. 17335",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b9077919m",
+        "description": "Digital source for Paris, BnF, MS lat. 17335."
+      },
+      {
+        "id": "ref-ms-ocf-xv-e-digital",
+        "label": "Gallica / BnF: Paris, BnF, MS lat. 945",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b10073460v",
+        "description": "Digital source for Paris, BnF, MS lat. 945."
+      },
+      {
+        "id": "ref-ms-ocf-xv-p-iiif",
+        "label": "IIIF manifest: Paris, BnF, MS lat. 17335",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8426275w/manifest.json",
+        "description": "IIIF manifest for Paris, BnF, MS lat. 17335."
+      },
+      {
+        "id": "ref-ms-ocf-xv-n-digital",
+        "label": "KBR OPAC (search): Brussels, Bibl. royale Albert Ier, MS II 1013",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://opac.kbr.be/search.aspx?SC=KBR_UNIFIED&QUERY=%22II%201013%22",
+        "description": "Digital source for Brussels, Bibl. royale Albert Ier, MS II 1013."
+      },
+      {
+        "id": "ref-ms-ocf-xv-t-bib-1",
+        "label": "Leroquais, Pontificaux, 1: 170, no. 148",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS lat. 11743."
+      },
+      {
+        "id": "ref-ms-ocf-xv-l-bib-1",
+        "label": "Leroquais, Pontificaux, 1: 252–0, no. 76",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Orléans, Bibl. mun., MS 144."
+      },
+      {
+        "id": "ref-ms-ocf-xv-g-bib-1",
+        "label": "Leroquais, Pontificaux, 1: 279–1, no. 185",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Reims, Bibl. mun., MS 342."
+      },
+      {
+        "id": "ref-ms-ocf-xv-h-bib-1",
+        "label": "Leroquais, Pontificaux, 1: 327–3, no. 199",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Sens, Bibl. mun., MS 9."
+      },
+      {
+        "id": "ref-ms-ocf-xv-m-bib-1",
+        "label": "Leroquais, Pontificaux, 2: 124–0, no. 129",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS lat. 1223."
+      },
+      {
+        "id": "ref-ms-ocf-xv-e-bib-1",
+        "label": "Leroquais, Pontificaux, 2: 15–1, no. 95",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS lat. 945."
+      },
+      {
+        "id": "ref-ms-ocf-xv-b-bib-1",
+        "label": "Leroquais, Pontificaux, 2: 175–9, no. 151",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS lat. 13313."
+      },
+      {
+        "id": "ref-ms-ocf-xv-d-bib-1",
+        "label": "Leroquais, Pontificaux, 2: 180–4, no. 153",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS lat. 13315."
+      },
+      {
+        "id": "ref-ms-ocf-xv-p-bib-1",
+        "label": "Leroquais, Pontificaux, 2: 211–4, no. 162",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS lat. 17335."
+      },
+      {
+        "id": "ref-ms-ocf-xv-k-bib-1",
+        "label": "Leroquais, Pontificaux, 2: 306–1, no. 190",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Rouen, Bibl. mun., MS 370."
+      },
+      {
+        "id": "ref-ms-ocf-xv-i-bib-1",
+        "label": "Leroquais, Pontificaux, 2: 396–02, no. 223",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Troyes, Trésor de la Cathédrale, MS 4."
+      },
+      {
+        "id": "ref-ms-ocf-xv-f-bib-1",
+        "label": "Leroquais, Pontificaux, 2: 41–6, no. 103",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS lat. 953."
+      },
+      {
+        "id": "ref-ms-ocf-xv-a-bib-2",
+        "label": "Leroquais, Sacramentaires, 1: 79–1, no. 79",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS lat. 12052."
+      },
+      {
+        "id": "ref-ms-ocf-xv-j-bib-1",
+        "label": "Mayer, 'Das Pontificale von Tyrus,' Dumbarton Oaks Papers 21 (1967): 213–0",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference for Siena, Bibl. Comunale degli Intronati, MS G.V. 12."
+      },
+      {
+        "id": "ref-ms-ocf-xv-q-bib-1",
+        "label": "Schenk, 'Rękopisy liturgiczne,' 202",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference for Wrocław, Bibl. Uniwersytecka, MS I F 380."
+      },
+      {
+        "id": "ref-ms-ocf-xv-f-digital",
+        "label": "Usuarium (manuscript record): Paris, BnF, MS lat. 953",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://usuarium.elte.hu/book/3115/view",
+        "description": "Digital source for Paris, BnF, MS lat. 953."
+      },
+      {
+        "id": "ref-ms-ocf-xv-n-bib-1",
+        "label": "van den Gheyn, Catalogue, 1: 224–5",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Brussels, Bibl. royale Albert Ier, MS II 1013."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xv-a",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-a-origin-corbie",
+      "predicate": "occurred_at",
+      "object": "place-corbie",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-corbie",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-b",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-b-origin-cambrai",
+      "predicate": "occurred_at",
+      "object": "place-cambrai",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-b",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-cambrai",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "event-ms-ocf-xv-b-origin-trier",
+      "predicate": "occurred_at",
+      "object": "place-trier",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-b",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-trier",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-c",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-c",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xv-d",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-d",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-d-origin-saint-germain-des-pres-paris",
+      "predicate": "occurred_at",
+      "object": "place-saint-germain-des-pres-paris",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-d",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-saint-germain-des-pres-paris",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-e",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-e",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-e-origin-chartres",
+      "predicate": "occurred_at",
+      "object": "place-chartres",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-e",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-chartres",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-f",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-f",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-f-origin-tournai",
+      "predicate": "occurred_at",
+      "object": "place-tournai",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-f",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-tournai",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "event-ms-ocf-xv-f-origin-saint-amand-les-eaux",
+      "predicate": "occurred_at",
+      "object": "place-saint-amand-les-eaux",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-f",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-saint-amand-les-eaux",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-g",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-g",
+      "predicate": "currently_kept_at",
+      "object": "repo-reims-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-g-origin-reims",
+      "predicate": "occurred_at",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-g",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-h",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-h",
+      "predicate": "currently_kept_at",
+      "object": "repo-sens-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-h-origin-sens",
+      "predicate": "occurred_at",
+      "object": "place-sens",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-h",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-sens",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-i",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-i",
+      "predicate": "currently_kept_at",
+      "object": "repo-troyes-tre-sor-de-la-cathe-drale",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-i-origin-abbey-of-saint-loup-troyes",
+      "predicate": "occurred_at",
+      "object": "place-abbey-of-saint-loup-troyes",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-i",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-abbey-of-saint-loup-troyes",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-j",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-j",
+      "predicate": "currently_kept_at",
+      "object": "repo-siena-bibl-comunale-degli-intronati",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-j-origin-tyre",
+      "predicate": "occurred_at",
+      "object": "place-tyre",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-j",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-tyre",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-k",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-k",
+      "predicate": "currently_kept_at",
+      "object": "repo-rouen-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-k-origin-reims",
+      "predicate": "occurred_at",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-k",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-l",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-l",
+      "predicate": "currently_kept_at",
+      "object": "repo-orle-ans-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-l-origin-chartres",
+      "predicate": "occurred_at",
+      "object": "place-chartres",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-l",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-chartres",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-m",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-m",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-m-origin-metz",
+      "predicate": "occurred_at",
+      "object": "place-metz",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-m",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-metz",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-n",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-n",
+      "predicate": "currently_kept_at",
+      "object": "repo-brussels-bibl-royale-albert-ier",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-n-origin-tournai",
+      "predicate": "occurred_at",
+      "object": "place-tournai",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-n",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-tournai",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "event-ms-ocf-xv-n-origin-saint-martin-of-tournai",
+      "predicate": "occurred_at",
+      "object": "place-saint-martin-of-tournai",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-n",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-saint-martin-of-tournai",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-o",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-o",
+      "predicate": "currently_kept_at",
+      "object": "repo-brugge-stedelijke-openbare-bibl",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-o-origin-ter-doest-abbey",
+      "predicate": "occurred_at",
+      "object": "place-ter-doest-abbey",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-o",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-ter-doest-abbey",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-p",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-p",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-p-origin-noyon",
+      "predicate": "occurred_at",
+      "object": "place-noyon",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-p",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-noyon",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-q",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-q",
+      "predicate": "currently_kept_at",
+      "object": "repo-wroc-aw-bibl-uniwersytecka",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xv-q-origin-prague",
+      "predicate": "occurred_at",
+      "object": "place-prague",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-q",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-prague",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xv-r",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-r",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xv-s",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-s",
+      "predicate": "currently_kept_at",
+      "object": "repo-chantilly-muse-e-conde",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xv-t",
+      "predicate": "witnesses",
+      "object": "OCF-XV",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "ms-ocf-xv-t",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xv-a",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-a",
+      "predicate": "associated_with",
+      "object": "actor-corbie-abbey",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-a",
+      "predicate": "associated_source_actor",
+      "object": "actor-gallica",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-a-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xv-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-a-bib-1",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-xv-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-a-bib-2",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xv-b",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-b",
+      "predicate": "associated_with",
+      "object": "actor-cambrai-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-b",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-b",
+      "predicate": "associated_source_actor",
+      "object": "actor-gallica",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-b",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-b",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-b-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xv-b",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-b-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xv-c",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-c",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-elizabeth-brown",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-c",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-c",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-c",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-c-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xv-c",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-c-bib-1",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-xv-d",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-d",
+      "predicate": "associated_with",
+      "object": "actor-saint-germain-des-pres",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-d",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-d",
+      "predicate": "associated_source_actor",
+      "object": "actor-gallica",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-d",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-d",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-d-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xv-d",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-d-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xv-e",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-e",
+      "predicate": "associated_with",
+      "object": "actor-chartres-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-e",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-e",
+      "predicate": "associated_source_actor",
+      "object": "actor-gallica",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-e",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-e",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-e-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xv-e",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-e-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xv-f",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-f",
+      "predicate": "associated_with",
+      "object": "actor-saint-amand",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-f",
+      "predicate": "associated_with",
+      "object": "actor-saint-martin-tournai",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-f",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-f",
+      "predicate": "associated_source_actor",
+      "object": "actor-usuarium",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-f",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-f",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-f-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xv-f",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-f-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xv-g",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-g",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-g",
+      "predicate": "associated_source_actor",
+      "object": "actor-biblissima",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-g",
+      "predicate": "associated_source_actor",
+      "object": "actor-iiif",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-g",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-g",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-g-digital",
+      "certainty": "certain",
+      "source": "iiif_manifest"
+    },
+    {
+      "subject": "ms-ocf-xv-g",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-g-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xv-h",
+      "predicate": "associated_with",
+      "object": "actor-sens-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-h",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-h",
+      "predicate": "associated_source_actor",
+      "object": "actor-biblissima",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-h",
+      "predicate": "associated_source_actor",
+      "object": "actor-iiif",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-h",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-h",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-h-digital",
+      "certainty": "certain",
+      "source": "iiif_manifest"
+    },
+    {
+      "subject": "ms-ocf-xv-h",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-h-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xv-i",
+      "predicate": "associated_with",
+      "object": "actor-saint-loup-troyes",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-i",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-i",
+      "predicate": "associated_source_actor",
+      "object": "actor-biblissima",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-i",
+      "predicate": "associated_source_actor",
+      "object": "actor-iiif",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-i",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-i",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-i-digital",
+      "certainty": "certain",
+      "source": "iiif_manifest"
+    },
+    {
+      "subject": "ms-ocf-xv-i",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-i-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xv-j",
+      "predicate": "associated_with",
+      "object": "actor-tyre-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-j",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-hans-eberhard-mayer",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-j",
+      "predicate": "associated_source_actor",
+      "object": "actor-biblissima",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-j",
+      "predicate": "associated_source_actor",
+      "object": "actor-iiif",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-j",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-j",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-j",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-j-digital",
+      "certainty": "certain",
+      "source": "iiif_manifest"
+    },
+    {
+      "subject": "ms-ocf-xv-j",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-j-bib-1",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-xv-k",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-k",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-k",
+      "predicate": "associated_source_actor",
+      "object": "actor-biblissima",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-k",
+      "predicate": "associated_source_actor",
+      "object": "actor-iiif",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-k",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-k",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-k-digital",
+      "certainty": "certain",
+      "source": "iiif_manifest"
+    },
+    {
+      "subject": "ms-ocf-xv-k",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-k-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xv-l",
+      "predicate": "associated_with",
+      "object": "actor-chartres-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-l",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-l",
+      "predicate": "associated_source_actor",
+      "object": "actor-biblissima",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-l",
+      "predicate": "associated_source_actor",
+      "object": "actor-iiif",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-l",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-l",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-l-digital",
+      "certainty": "certain",
+      "source": "iiif_manifest"
+    },
+    {
+      "subject": "ms-ocf-xv-l",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-l-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xv-m",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-m",
+      "predicate": "associated_with",
+      "object": "actor-metz-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-m",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-m",
+      "predicate": "associated_source_actor",
+      "object": "actor-gallica",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-m",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-m",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-m-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xv-m",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-m-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xv-n",
+      "predicate": "associated_with",
+      "object": "actor-saint-martin-tournai",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-n",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-joseph-van-den-gheyn",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-n",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-n",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-n",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-n-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xv-n",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-n-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xv-o",
+      "predicate": "associated_with",
+      "object": "actor-ter-doest",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-o",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-albert-de-poorter",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-o",
+      "predicate": "associated_source_actor",
+      "object": "actor-biblissima",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-o",
+      "predicate": "associated_source_actor",
+      "object": "actor-iiif",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-o",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-o",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-o",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-o-digital",
+      "certainty": "certain",
+      "source": "iiif_manifest"
+    },
+    {
+      "subject": "ms-ocf-xv-o",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-o-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xv-p",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-p",
+      "predicate": "associated_with",
+      "object": "actor-noyon-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-p",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-p",
+      "predicate": "associated_source_actor",
+      "object": "actor-iiif",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-p",
+      "predicate": "associated_source_actor",
+      "object": "actor-gallica",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-p",
+      "predicate": "associated_source_actor",
+      "object": "actor-musmed",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-p",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-p",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-p-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xv-p",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-p-iiif",
+      "certainty": "certain",
+      "source": "iiif_manifest"
+    },
+    {
+      "subject": "ms-ocf-xv-p",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-p-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xv-q",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-wladyslaw-schenk",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-q",
+      "predicate": "associated_source_actor",
+      "object": "actor-biblissima",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-q",
+      "predicate": "associated_source_actor",
+      "object": "actor-iiif",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-q",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-q",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-q",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-q-digital",
+      "certainty": "certain",
+      "source": "iiif_manifest"
+    },
+    {
+      "subject": "ms-ocf-xv-q",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-q-bib-1",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-xv-r",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-r",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-r",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-r",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-r-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xv-s",
+      "predicate": "associated_with",
+      "object": "actor-chantilly-conde",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-s",
+      "predicate": "associated_source_actor",
+      "object": "actor-biblissima",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-s",
+      "predicate": "associated_source_actor",
+      "object": "actor-iiif",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-s",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-s",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-s",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-s-digital",
+      "certainty": "certain",
+      "source": "iiif_manifest"
+    },
+    {
+      "subject": "ms-ocf-xv-t",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-t",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-t",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xv-t",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-xv-t-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-xv-t",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xv-t-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-a",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-b",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-c",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-d",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-e",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-f",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-g",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-h",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-i",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-j",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-k",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-l",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-m",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-n",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-o",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-p",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-q",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-r",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-s",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    },
+    {
+      "subject": "OCF-XV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xv-t",
+      "certainty": "certain",
+      "source": "OCF-XV witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-brugge-stedelijke-openbare-bibl",
+        "label": "Brugge, Stedelijke Openbare Bibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 51.2094,
+        "lon": 3.2247,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Brugge, Stedelijke Openbare Bibl., MS 318"
+      },
+      {
+        "id": "repo-brussels-bibl-royale-albert-ier",
+        "label": "Brussels, Bibl. royale Albert Ier",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.8427,
+        "lon": 4.361,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Brussels, Bibl. royale Albert Ier, MS II 1013"
+      },
+      {
+        "id": "repo-chantilly-muse-e-conde",
+        "label": "Chantilly, Musée Condé",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.1945,
+        "lon": 2.4858,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Chantilly, Musée Condé, MS 1149 (no. 356)"
+      },
+      {
+        "id": "repo-orle-ans-bibl-mun",
+        "label": "Orléans, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 47.9029,
+        "lon": 1.9039,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Orléans, Bibl. mun., MS 144"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS lat. 11743"
+      },
+      {
+        "id": "repo-reims-bibl-mun",
+        "label": "Reims, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.2541,
+        "lon": 3.025,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Reims, Bibl. mun., MS 342"
+      },
+      {
+        "id": "repo-rouen-bibl-mun",
+        "label": "Rouen, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.4432,
+        "lon": 1.0993,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Rouen, Bibl. mun., MS 370"
+      },
+      {
+        "id": "repo-sens-bibl-mun",
+        "label": "Sens, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.1974,
+        "lon": 3.282,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Sens, Bibl. mun., MS 9"
+      },
+      {
+        "id": "repo-siena-bibl-comunale-degli-intronati",
+        "label": "Siena, Bibl. Comunale degli Intronati",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 43.3188,
+        "lon": 11.3308,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Siena, Bibl. Comunale degli Intronati, MS G.V. 12"
+      },
+      {
+        "id": "repo-troyes-tre-sor-de-la-cathe-drale",
+        "label": "Troyes, Trésor de la Cathédrale",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.2973,
+        "lon": 4.0744,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Troyes, Trésor de la Cathédrale, MS 4"
+      },
+      {
+        "id": "repo-wroc-aw-bibl-uniwersytecka",
+        "label": "Wrocław, Bibl. Uniwersytecka",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 51.114,
+        "lon": 17.0471,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Wrocław, Bibl. Uniwersytecka, MS I F 380"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-abbey-of-saint-loup-troyes",
+        "label": "Abbey of Saint-Loup, Troyes",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.297,
+        "lon": 4.074,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Saint-Loup\"."
+      },
+      {
+        "id": "place-cambrai",
+        "label": "Cambrai",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.176,
+        "lon": 3.235,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Trier, adapted for Cambrai\"."
+      },
+      {
+        "id": "place-chartres",
+        "label": "Chartres",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.446,
+        "lon": 1.489,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Chartres; in Orléans by 1256\"."
+      },
+      {
+        "id": "place-corbie",
+        "label": "Corbie",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.906,
+        "lon": 2.506,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Corbie\"."
+      },
+      {
+        "id": "place-metz",
+        "label": "Metz",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.119,
+        "lon": 6.176,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Metz\"."
+      },
+      {
+        "id": "place-noyon",
+        "label": "Noyon",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.581,
+        "lon": 3,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Noyon\"."
+      },
+      {
+        "id": "place-prague",
+        "label": "Prague",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.0755,
+        "lon": 14.4378,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Prague (or near)\"."
+      },
+      {
+        "id": "place-reims",
+        "label": "Reims",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.258,
+        "lon": 4.031,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Reims\"."
+      },
+      {
+        "id": "place-saint-amand-les-eaux",
+        "label": "Saint-Amand-les-Eaux",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.447,
+        "lon": 3.429,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Saint-Amand, diocese of Tournai\"."
+      },
+      {
+        "id": "place-saint-germain-des-pres-paris",
+        "label": "Saint-Germain-des-Pres, Paris",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.854,
+        "lon": 2.334,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Saint-Germain-des-Prés\"."
+      },
+      {
+        "id": "place-saint-martin-of-tournai",
+        "label": "Saint-Martin of Tournai",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.605,
+        "lon": 3.389,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Saint-Martin of Tournai\"."
+      },
+      {
+        "id": "place-sens",
+        "label": "Sens",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.198,
+        "lon": 3.283,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Sens\"."
+      },
+      {
+        "id": "place-ter-doest-abbey",
+        "label": "Ter Doest Abbey",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 51.3,
+        "lon": 3.19,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Ter Doest\"."
+      },
+      {
+        "id": "place-tournai",
+        "label": "Tournai",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "diocesan_context",
+        "lat": 50.605,
+        "lon": 3.389,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Saint-Martin of Tournai\"."
+      },
+      {
+        "id": "place-trier",
+        "label": "Trier",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.756,
+        "lon": 6.641,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Trier, adapted for Cambrai\"."
+      },
+      {
+        "id": "place-tyre",
+        "label": "Tyre",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 33.27,
+        "lon": 35.203,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Tyre\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-xv-a-corbie-to-paris-bnf",
+        "label": "A: Corbie → Paris, BnF",
+        "manuscriptId": "ms-ocf-xv-a",
+        "fromPlaceId": "place-corbie",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "ca. 980",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-b-cambrai-to-paris-bnf",
+        "label": "B: Cambrai → Paris, BnF",
+        "manuscriptId": "ms-ocf-xv-b",
+        "fromPlaceId": "place-cambrai",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "11th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-b-trier-to-paris-bnf",
+        "label": "B: Trier → Paris, BnF",
+        "manuscriptId": "ms-ocf-xv-b",
+        "fromPlaceId": "place-trier",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "11th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-d-saint-germain-des-pres-paris-to-paris-bnf",
+        "label": "D: Saint-Germain-des-Pres, Paris → Paris, BnF",
+        "manuscriptId": "ms-ocf-xv-d",
+        "fromPlaceId": "place-saint-germain-des-pres-paris",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "12th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-e-chartres-to-paris-bnf",
+        "label": "E: Chartres → Paris, BnF",
+        "manuscriptId": "ms-ocf-xv-e",
+        "fromPlaceId": "place-chartres",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "Middle or second half of 12th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-f-tournai-to-paris-bnf",
+        "label": "F: Tournai → Paris, BnF",
+        "manuscriptId": "ms-ocf-xv-f",
+        "fromPlaceId": "place-tournai",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "Middle or second half of 12th century",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-f-saint-amand-les-eaux-to-paris-bnf",
+        "label": "F: Saint-Amand-les-Eaux → Paris, BnF",
+        "manuscriptId": "ms-ocf-xv-f",
+        "fromPlaceId": "place-saint-amand-les-eaux",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "Middle or second half of 12th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-g-reims-to-reims-bibl-mun",
+        "label": "G: Reims → Reims, Bibl. mun.",
+        "manuscriptId": "ms-ocf-xv-g",
+        "fromPlaceId": "place-reims",
+        "toPlaceId": "repo-reims-bibl-mun",
+        "start": "Second half or end of 12th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-h-sens-to-sens-bibl-mun",
+        "label": "H: Sens → Sens, Bibl. mun.",
+        "manuscriptId": "ms-ocf-xv-h",
+        "fromPlaceId": "place-sens",
+        "toPlaceId": "repo-sens-bibl-mun",
+        "start": "End of 12th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-i-abbey-of-saint-loup-troyes-to-troyes-tre-sor-de-la-cathe-drale",
+        "label": "I: Abbey of Saint-Loup, Troyes → Troyes, Trésor de la Cathédrale",
+        "manuscriptId": "ms-ocf-xv-i",
+        "fromPlaceId": "place-abbey-of-saint-loup-troyes",
+        "toPlaceId": "repo-troyes-tre-sor-de-la-cathe-drale",
+        "start": "End of 12th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-j-tyre-to-siena-bibl-comunale-degli-intronati",
+        "label": "J: Tyre → Siena, Bibl. Comunale degli Intronati",
+        "manuscriptId": "ms-ocf-xv-j",
+        "fromPlaceId": "place-tyre",
+        "toPlaceId": "repo-siena-bibl-comunale-degli-intronati",
+        "start": "Early 13th century (1203-1210)",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-k-reims-to-rouen-bibl-mun",
+        "label": "K: Reims → Rouen, Bibl. mun.",
+        "manuscriptId": "ms-ocf-xv-k",
+        "fromPlaceId": "place-reims",
+        "toPlaceId": "repo-rouen-bibl-mun",
+        "start": "Early 13th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-l-chartres-to-orle-ans-bibl-mun",
+        "label": "L: Chartres → Orléans, Bibl. mun.",
+        "manuscriptId": "ms-ocf-xv-l",
+        "fromPlaceId": "place-chartres",
+        "toPlaceId": "repo-orle-ans-bibl-mun",
+        "start": "Early 13th century (before 1236)",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-m-metz-to-paris-bnf",
+        "label": "M: Metz → Paris, BnF",
+        "manuscriptId": "ms-ocf-xv-m",
+        "fromPlaceId": "place-metz",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "13th century, perhaps first half",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-n-tournai-to-brussels-bibl-royale-albert-ier",
+        "label": "N: Tournai → Brussels, Bibl. royale Albert Ier",
+        "manuscriptId": "ms-ocf-xv-n",
+        "fromPlaceId": "place-tournai",
+        "toPlaceId": "repo-brussels-bibl-royale-albert-ier",
+        "start": "13th century",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-n-saint-martin-of-tournai-to-brussels-bibl-royale-albert-ier",
+        "label": "N: Saint-Martin of Tournai → Brussels, Bibl. royale Albert Ier",
+        "manuscriptId": "ms-ocf-xv-n",
+        "fromPlaceId": "place-saint-martin-of-tournai",
+        "toPlaceId": "repo-brussels-bibl-royale-albert-ier",
+        "start": "13th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-o-ter-doest-abbey-to-brugge-stedelijke-openbare-bibl",
+        "label": "O: Ter Doest Abbey → Brugge, Stedelijke Openbare Bibl.",
+        "manuscriptId": "ms-ocf-xv-o",
+        "fromPlaceId": "place-ter-doest-abbey",
+        "toPlaceId": "repo-brugge-stedelijke-openbare-bibl",
+        "start": "13th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-p-noyon-to-paris-bnf",
+        "label": "P: Noyon → Paris, BnF",
+        "manuscriptId": "ms-ocf-xv-p",
+        "fromPlaceId": "place-noyon",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "Second half or end of 13th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xv-q-prague-to-wroc-aw-bibl-uniwersytecka",
+        "label": "Q: Prague → Wrocław, Bibl. Uniwersytecka",
+        "manuscriptId": "ms-ocf-xv-q",
+        "fromPlaceId": "place-prague",
+        "toPlaceId": "repo-wroc-aw-bibl-uniwersytecka",
+        "start": "14th century",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_source_actor",
+        "label": "associated_source_actor"
+      },
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-edited_or_studied_by",
+        "label": "edited_or_studied_by"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-has_reference",
+        "label": "has_reference"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

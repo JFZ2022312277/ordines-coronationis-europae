@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "title": "HRE-III Ordo for the Queen (also for the Empress) in the Ottonian Pontifical tradition dispersal pilot",
+    "generatedAt": "2026-05-12T13:04:23.574Z",
+    "source": "ordines_coronationis_iiif.html HRE records + Elze witness lists where explicit",
+    "note": "Pilot OpenAtlas-style data; context links are marked derived/probable."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "HRE-III",
+        "label": "Ordo for the Queen (also for the Empress) in the Ottonian Pontifical tradition",
+        "labelFr": "Ordo for the Queen (also for the Empress) in the Ottonian Pontifical tradition",
+        "sourceLabel": "HRE",
+        "tradition": "HRE",
+        "date": "ca. 900",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "Ordo for the Queen (also for the Empress) in the Ottonian Pontifical tradition. Date: ca. 900. Imported from Elze (1960), Ordo III."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-hre-iii-src",
+        "siglum": "SRC",
+        "shelfmark": "Reims, source tradition anchor",
+        "repositoryPlaceId": "place-reims-source-tradition-anchor",
+        "currentRepository": "Reims, source tradition anchor",
+        "lat": 49.2583,
+        "lon": 4.0317,
+        "date": "ca. 900",
+        "folios": "",
+        "group": "reference",
+        "origin": "Reims textual-context anchor",
+        "witnessType": "reference",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Geographic anchor inferred from HRE source dateline place: West Francia.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-reims-context",
+        "label": "Reims textual-context anchor",
+        "lat": 49.2583,
+        "lon": 4.0317,
+        "type": "origin_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "place-reims-source-tradition-anchor",
+        "label": "Reims, source tradition anchor",
+        "lat": 49.2583,
+        "lon": 4.0317,
+        "type": "origin_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-hre-iii-src-transmission",
+        "label": "SRC copying/transmission context",
+        "type": "copying_or_transmission",
+        "placeId": "place-reims-source-tradition-anchor",
+        "start": "ca. 900",
+        "end": "ca. 900",
+        "description": "Geographic anchor inferred from HRE source dateline place: West Francia.",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-reinhard-elze",
+        "label": "Reinhard Elze",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of Ordines Coronationis Imperialis",
+        "placeId": ""
+      },
+      {
+        "id": "actor-hre-imperial-tradition",
+        "label": "Holy Roman imperial coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "political-liturgical context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-reims-textual-context-anchor",
+        "label": "Reims textual-context",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "textual or production context",
+        "placeId": "place-reims-context"
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-elze-1960",
+        "label": "Reinhard Elze, Ordines Coronationis Imperialis (1960)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00000664-8",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-hre",
+        "label": "Holy Roman Empire coronation ordines",
+        "code": "HRE"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "HRE-III",
+      "predicate": "preserved_in",
+      "object": "ms-hre-iii-src",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-iii-src",
+      "predicate": "has_event",
+      "object": "event-ms-hre-iii-src-transmission",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-iii-src",
+      "predicate": "located_at",
+      "object": "place-reims-source-tradition-anchor",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-iii-src",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-iii-src",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "ms-hre-iii-src",
+      "predicate": "associated_with",
+      "object": "actor-reims-textual-context-anchor",
+      "certainty": "derived",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-III",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-hre",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-III",
+      "predicate": "edited_by",
+      "object": "actor-reinhard-elze",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    },
+    {
+      "subject": "HRE-III",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE II-X pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": [
+      {
+        "id": "move-ms-hre-iii-src",
+        "manuscriptId": "ms-hre-iii-src",
+        "fromPlaceId": "place-reims-context",
+        "toPlaceId": "place-reims-source-tradition-anchor",
+        "start": "ca. 900",
+        "end": "ca. 900",
+        "certainty": "derived",
+        "description": "Research context line for SRC: Reims textual-context anchor -> Reims, source tradition anchor."
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+"id","label","openatlasClass","systemClass","type","lat","lon","certainty","note"
+"repo-reims-bibl-mun","Reims, Bibl. mun.","E53 Place","place","repository_place","49.2541","3.025","certain","Current repository inferred from shelfmark: Reims, Bibl. mun., MS 214"
+"place-saint-thierry-near-reims","Saint-Thierry, near Reims","E53 Place","place","scriptorium_or_origin_place","49.303","3.966","probable","Origin/context place parsed from ""Saint-Thierry, near Reims""."

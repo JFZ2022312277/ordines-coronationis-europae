@@ -1,0 +1,3 @@
+"id","label","manuscriptId","fromPlaceId","toPlaceId","start","end","certainty","type"
+"move-ms-ocf-xix-a-reims-to-reims-bibl-mun","A: Reims → Reims, Bibl. mun.","ms-ocf-xix-a","place-reims","repo-reims-bibl-mun","Early 13th century","","probable","manuscript_dispersal"
+"move-ms-ocf-xix-b-beauvais-to-besanc-on-bibl-mun","B: Beauvais → Besançon, Bibl. mun.","ms-ocf-xix-b","place-beauvais","repo-besanc-on-bibl-mun","Mid-13th century","","probable","manuscript_dispersal"

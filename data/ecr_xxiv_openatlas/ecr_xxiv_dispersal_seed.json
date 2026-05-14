@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "title": "ECR-XXIV Inventory of the Regalia taken in 1649. English coronation record pilot",
+    "generatedAt": "2026-05-12T13:41:42.873Z",
+    "source": "ordines_coronationis_iiif.html ECR records",
+    "note": "ECR includes ordines, narrative records, papal letters, inventories, processions, and printed orders; reference anchors are not asserted physical manuscripts."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "ECR-XXIV",
+        "label": "Inventory of the Regalia taken in 1649.",
+        "labelFr": "Inventory of the Regalia taken in 1649.",
+        "sourceLabel": "ECR",
+        "tradition": "English",
+        "date": "S.d.",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "On the overthrow of the monarchical form of government in 1649 the Parliament ordered the destruction of the Regalia preserved at Westminster. The inventory taken of them on this occasion is extremely interesting, as it shows with considerable fullness the composition of the ornaments. From this it appears that most of the Regalia were of silver gilt or even of baser material. The gold plate dish is probably St. Edward's Paten. The chalice of St. Edward is said to be of glass and \" wrought in figures and set in gold with some stones and pearls \"; and it is noticeable, with regard to what Sporley says of the material of the sceptres and rods, that one is found \" upon triall \" to be made of wood and silver gilt, another also to be of iron. The \" dove of gold set with stones and pearl \" is doubtless the ampul, the \" Collar of Crimson Taffaty,\" the armilla, and the staff of black and white ivory, the Queen's ivory rod. In the earlier part of the Inventory the globe is mentioned, and after it come \" 2. Coronation Braceletts.\" How or when these were used is difficult to determine, but that they were considered a necessary part of the ornaments is shown by the presence of a couple amongst the regalia in the Tower at the present day. At the end of the Inventory is a list of the robes, closing with \" One old Comb of home worth nothing.\" It is easy to see what the robes were, and we can well believe that there would have been people even in 1649 who would have been willing to give ten shillings or more for some of the items of this list."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ecr-xxiv-src",
+        "siglum": "SRC",
+        "shelfmark": "London, British Library / Westminster tradition (reference anchor)",
+        "repositoryPlaceId": "repo-london-british-library",
+        "currentRepository": "London, British Library / Westminster tradition (reference anchor)",
+        "lat": 51.4994,
+        "lon": -0.1276,
+        "date": "medieval to early modern",
+        "folios": "",
+        "group": "reference",
+        "origin": "",
+        "witnessType": "reference",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "iiif_url": "",
+        "iiif_manifest_url": "",
+        "embedded_viewer_url": "",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "bibliography": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "source_record"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-westminster-abbey",
+        "label": "Westminster Abbey",
+        "lat": 51.4993,
+        "lon": -0.1273,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Principal English coronation church."
+      },
+      {
+        "id": "place-tower-of-london",
+        "label": "Tower of London",
+        "lat": 51.5081,
+        "lon": -0.0759,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Processional and regalia context."
+      },
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "lat": 51.5299,
+        "lon": -0.1275,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ecr-xxiv-record-context",
+        "label": "ECR-XXIV English coronation record context",
+        "type": "documentary_record",
+        "placeId": "place-westminster-abbey",
+        "start": "S.d.",
+        "end": "S.d.",
+        "description": "On the overthrow of the monarchical form of government in 1649 the Parliament ordered the destruction of the Regalia preserved at Westminster. The inventory taken of them on this occasion is extremely interesting, as it shows with considerable fullness the composition of the ornaments. From this it appears that most of the Regalia were of silver gilt or even of baser material. The gold plate dish is probably St. Edward's Paten. The chalice of St. Edward is said to be of glass and \" wrought in figures and set in gold with some stones and pearls \"; and it is noticeable, with regard to what Sporley says of the material of the sceptres and rods, that one is found \" upon triall \" to be made of wood and silver gilt, another also to be of iron. The \" dove of gold set with stones and pearl \" is doubtless the ampul, the \" Collar of Crimson Taffaty,\" the armilla, and the staff of black and white ivory, the Queen's ivory rod. In the earlier part of the Inventory the globe is mentioned, and after it come \" 2. Coronation Braceletts.\" How or when these were used is difficult to determine, but that they were considered a necessary part of the ornaments is shown by the presence of a couple amongst the regalia in the Tower at the present day. At the end of the Inventory is a list of the robes, closing with \" One old Comb of home worth nothing.\" It is easy to see what the robes were, and we can well believe that there would have been people even in 1649 who would have been willing to give ten shillings or more for some of the items of this list.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-ecr-xxiv-src-source",
+        "label": "SRC source/witness context",
+        "type": "source_reference",
+        "placeId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-leopold-legg",
+        "label": "Leopold G. Wickham Legg",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of English Coronation Records",
+        "placeId": ""
+      },
+      {
+        "id": "actor-english-coronation-tradition",
+        "label": "English coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "ritual and documentary tradition",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-westminster-abbey",
+        "label": "Westminster Abbey",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "coronation church / institutional context",
+        "placeId": "place-westminster-abbey"
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-legg-1901",
+        "label": "Leopold G. Wickham Legg, English Coronation Records (1901)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Base edition for the ECR corpus."
+      },
+      {
+        "id": "ref-ecr-xxiv-edition-1",
+        "label": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_source",
+        "url": "",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-english",
+        "label": "English coronation records",
+        "code": "ECR"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ECR-XXIV",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-english",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIV",
+      "predicate": "edited_by",
+      "object": "actor-leopold-legg",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIV",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIV",
+      "predicate": "documents_event",
+      "object": "event-ecr-xxiv-record-context",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIV",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIV",
+      "predicate": "associated_with",
+      "object": "actor-westminster-abbey",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXIV",
+      "predicate": "preserved_in",
+      "object": "ms-ecr-xxiv-src",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxiv-src",
+      "predicate": "has_event",
+      "object": "event-ms-ecr-xxiv-src-source",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxiv-src",
+      "predicate": "located_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxiv-src",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxiv-src",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxiv-src",
+      "predicate": "associated_with",
+      "object": "actor-british-library",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": [
+      {
+        "id": "move-ms-ecr-xxiv-src",
+        "manuscriptId": "ms-ecr-xxiv-src",
+        "fromPlaceId": "place-westminster-abbey",
+        "toPlaceId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "certainty": "derived",
+        "description": "Research context line for SRC: Westminster Abbey -> London, British Library / Westminster tradition (reference anchor)."
+      }
+    ]
+  }
+}

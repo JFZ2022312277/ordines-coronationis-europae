@@ -1,0 +1,3 @@
+"id","label","type","placeId","start","end","description","openatlasClass"
+"event-ecr-xxix-record-context","ECR-XXIX English coronation record context","documentary_record","place-westminster-abbey","S.d.","S.d.","Entry imported from Leopold G. Wickham Legg (ed.), English Coronation Records (1901), Document XXIX.","E5 Event"
+"event-ms-ecr-xxix-src-source","SRC source/witness context","source_reference","repo-london-british-library","medieval to early modern","medieval to early modern","Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.","E5 Event"

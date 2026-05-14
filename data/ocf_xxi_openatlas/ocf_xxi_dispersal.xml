@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XXI manuscript pilot">
+  <ordo id="OCF-XXI"><label>Ordo of 1250</label><date>1240–1250</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xxi-a" siglum="A"><shelfmark>Paris, BnF, MS lat. 1246</shelfmark><folios>fols. 1r–1v</folios><date>ca. 1250</date><origin>Reims (text) / Paris (illumination)</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxi-b" siglum="B"><shelfmark>Paris, Bibl. de l'Institut de France, MS Godefroy 380</shelfmark><folios>pp. 179–27</folios><date>17th century</date><origin></origin><currentRepository ref="repo-paris-bibl-de-l-institut-de-france">Paris, Bibl. de l'Institut de France</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="place-paris" type="scriptorium_or_origin_place" lat="48.8566" lon="2.3522" certainty="probable">Paris</place>
+    <place id="repo-paris-bibl-de-l-institut-de-france" type="repository_place" lat="48.8568" lon="2.337" certainty="certain">Paris, Bibl. de l'Institut de France</place>
+    <place id="repo-paris-bnf" type="repository_place" lat="48.8339" lon="2.3757" certainty="certain">Paris, BnF</place>
+    <place id="place-reims" type="scriptorium_or_origin_place" lat="49.258" lon="4.031" certainty="probable">Reims</place>
+  </places>
+</openatlasSeed>

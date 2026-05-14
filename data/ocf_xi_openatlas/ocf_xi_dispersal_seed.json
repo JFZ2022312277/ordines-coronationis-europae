@@ -1,0 +1,396 @@
+{
+  "meta": {
+    "title": "OCF-XI manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:41.705Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XI. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XI",
+        "label": "Texts Concerning the First Coronation of Eudes",
+        "labelFr": "Textes relatifs au premier couronnement d'Eudes",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "29 February 888",
+        "description": "Eudes, the first Robertian king, was crowned at Compi� gne in 888. The text breaks off in MS A after the episcopal petitio; MS B in Barcelona continues where A ends and supplies the royal promissio. The most remarkable preservation of a coronation text across two manuscripts."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xi-a",
+        "siglum": "A",
+        "label": "A — Paris, BnF, MS lat. 9430",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 9430",
+        "folios": "fols. 191v-192r",
+        "date": "ca. 1000",
+        "origin": "Tours",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://archivesetmanuscrits.bnf.fr/ark:/12148/cc38708p",
+        "iiifUrl": "",
+        "sourceLabel": "BnF Archives et manuscrits / Paris, BnF, MS lat. 9430",
+        "description": "Part of the second sacramentary of Tours. Ordo XIA, nos. 1-5.",
+        "bibliography": "Delisle, 'Memoire,' 130-40; Leroquais, Sacramentaires, 1: 43-53, nos. 16-17; Henri Leclerc, 'Tours' (DACL 15.2, 1953), 2667-71; Martimort, 385, no. 773"
+      },
+      {
+        "id": "ms-ocf-xi-b",
+        "siglum": "B",
+        "label": "B — Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40",
+        "folios": "fol. 4v",
+        "date": "11th century",
+        "origin": "Monastery of Ripoll",
+        "currentRepositoryId": "repo-barcelona-archivo-de-la-corona-de-aragon",
+        "currentRepository": "Barcelona, Archivo de la Corona de Aragon",
+        "copiedFrom": "",
+        "digitalUrl": "https://pares.mcu.es/ParesBusquedas20/catalogo/show/2334950",
+        "iiifUrl": "",
+        "sourceLabel": "PARES / Barcelona, ACA, MS Ripoll 40",
+        "description": "Ordo XIB only (no. 6). Eleventh-century copy in a mixed collection; not copied by the same scribe as the episcopal petitio and Carloman's promissio (Ordo X).",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xi-c",
+        "siglum": "C",
+        "label": "C — Paris, BnF, MS Baluze 1",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "copy",
+        "shelfmark": "Paris, BnF, MS Baluze 1",
+        "folios": "fol. 25r",
+        "date": "17th century",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "From B (rather than directly from the lost original, contra Bautier).",
+        "bibliography": "Auvray and Poupardin, Manuscrits de la collection Baluze, 1-3"
+      },
+      {
+        "id": "ms-ocf-xi-d",
+        "siglum": "D",
+        "label": "D — Paris, BnF, MS nouv. acq. fr. 22211",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "copy",
+        "shelfmark": "Paris, BnF, MS nouv. acq. fr. 22211",
+        "folios": "fol. 60r",
+        "date": "18th century",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "No. 6 only. Perhaps from C, but more likely from d or f in the printed tradition.",
+        "bibliography": "Henri Omont, Catalogue general des manuscrits francais: Nouvelles acquisitions francaises, 4:393"
+      }
+    ],
+    "places": [
+      {
+        "id": "repo-barcelona-archivo-de-la-corona-de-aragon",
+        "label": "Barcelona, Archivo de la Corona de Aragon",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.3851,
+        "lon": 2.1734,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40"
+      },
+      {
+        "id": "place-monastery-of-ripoll",
+        "label": "Monastery of Ripoll",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 42.2,
+        "lon": 2.191,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Monastery of Ripoll\"."
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS nouv. acq. fr. 22211"
+      },
+      {
+        "id": "place-tours",
+        "label": "Tours",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 47.394,
+        "lon": 0.684,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Tours\"."
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xi-a-current-repository",
+        "label": "A kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xi-a",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 9430 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xi-a-origin-tours",
+        "label": "A origin/context: Tours",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xi-a",
+        "placeId": "place-tours",
+        "start": "ca. 1000",
+        "end": "ca. 1000",
+        "description": "Paris, BnF, MS lat. 9430: origin/context recorded as \"Tours\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xi-b-current-repository",
+        "label": "B kept at Barcelona, Archivo de la Corona de Aragon",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xi-b",
+        "placeId": "repo-barcelona-archivo-de-la-corona-de-aragon",
+        "start": "",
+        "end": "",
+        "description": "Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40 is currently kept at Barcelona, Archivo de la Corona de Aragon.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xi-b-origin-monastery-of-ripoll",
+        "label": "B origin/context: Monastery of Ripoll",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xi-b",
+        "placeId": "place-monastery-of-ripoll",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40: origin/context recorded as \"Monastery of Ripoll\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xi-c-current-repository",
+        "label": "C kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xi-c",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS Baluze 1 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xi-d-current-repository",
+        "label": "D kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xi-d",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS nouv. acq. fr. 22211 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xi-a",
+      "predicate": "witnesses",
+      "object": "OCF-XI",
+      "certainty": "certain",
+      "source": "OCF-XI witness list"
+    },
+    {
+      "subject": "ms-ocf-xi-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xi-a-origin-tours",
+      "predicate": "occurred_at",
+      "object": "place-tours",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xi-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-tours",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xi-b",
+      "predicate": "witnesses",
+      "object": "OCF-XI",
+      "certainty": "certain",
+      "source": "OCF-XI witness list"
+    },
+    {
+      "subject": "ms-ocf-xi-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-barcelona-archivo-de-la-corona-de-aragon",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xi-b-origin-monastery-of-ripoll",
+      "predicate": "occurred_at",
+      "object": "place-monastery-of-ripoll",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xi-b",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-monastery-of-ripoll",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xi-c",
+      "predicate": "witnesses",
+      "object": "OCF-XI",
+      "certainty": "certain",
+      "source": "OCF-XI witness list"
+    },
+    {
+      "subject": "ms-ocf-xi-c",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xi-d",
+      "predicate": "witnesses",
+      "object": "OCF-XI",
+      "certainty": "certain",
+      "source": "OCF-XI witness list"
+    },
+    {
+      "subject": "ms-ocf-xi-d",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-barcelona-archivo-de-la-corona-de-aragon",
+        "label": "Barcelona, Archivo de la Corona de Aragon",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.3851,
+        "lon": 2.1734,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS nouv. acq. fr. 22211"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-monastery-of-ripoll",
+        "label": "Monastery of Ripoll",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 42.2,
+        "lon": 2.191,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Monastery of Ripoll\"."
+      },
+      {
+        "id": "place-tours",
+        "label": "Tours",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 47.394,
+        "lon": 0.684,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Tours\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-xi-a-tours-to-paris-bnf",
+        "label": "A: Tours → Paris, BnF",
+        "manuscriptId": "ms-ocf-xi-a",
+        "fromPlaceId": "place-tours",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "ca. 1000",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xi-b-monastery-of-ripoll-to-barcelona-archivo-de-la-corona-de-aragon",
+        "label": "B: Monastery of Ripoll → Barcelona, Archivo de la Corona de Aragon",
+        "manuscriptId": "ms-ocf-xi-b",
+        "fromPlaceId": "place-monastery-of-ripoll",
+        "toPlaceId": "repo-barcelona-archivo-de-la-corona-de-aragon",
+        "start": "11th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","lat","lon","certainty","note"
+"repo-angers-bibl-mun","Angers, Bibl. mun.","E53 Place","place","repository_place","47.4739","-0.5518","certain","Current repository inferred from shelfmark: Angers, Bibl. mun., MS 80"
+"repo-paris-bnf","Paris, BnF","E53 Place","place","repository_place","48.8339","2.3757","certain","Current repository inferred from shelfmark: Paris, BnF, MS lat. 9430"
+"place-poitiers","Poitiers","E53 Place","place","scriptorium_or_origin_place","46.58","0.34","possible","Origin/context place parsed from ""Poitiers or Tours""."
+"place-tours","Tours","E53 Place","place","scriptorium_or_origin_place","47.394","0.684","probable","Origin/context place parsed from ""Tours""."

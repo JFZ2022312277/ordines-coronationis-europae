@@ -1,0 +1,8 @@
+"id","label","openatlasClass","systemClass","type","url","description"
+"ref-ms-ocf-xxiii-a-digital","Biblissima IIIF: London, British Library, MS Cotton Tiberius B.viii","E31 Document","reference","iiif_manifest","https://portail.biblissima.fr/ark:/43093/mdata1f640af7b55e4c5e48254969500d754e0eba1c56","Digital source for London, British Library, MS Cotton Tiberius B.viii."
+"ref-ms-ocf-xxiii-a-bib-1","Dewick, Coronation Book, xi–xii","E31 Document","reference","edition_or_catalogue","","Bibliographic reference for London, British Library, MS Cotton Tiberius B.viii."
+"ref-ms-ocf-xxiii-e-digital","Gallica / BnF: Paris, BnF, MS Dupuy 365","E31 Document","reference","digital_facsimile","https://gallica.bnf.fr/ark:/12148/btv1b10034215c","Digital source for Paris, BnF, MS Dupuy 365."
+"ref-ms-ocf-xxiii-g-digital","Gallica / BnF: Paris, BnF, MS lat. 13314","E31 Document","reference","digital_facsimile","https://gallica.bnf.fr/ark:/12148/btv1b10720778b","Digital source for Paris, BnF, MS lat. 13314."
+"ref-ms-ocf-xxiii-b-digital","Gallica / BnF: Paris, BnF, MS lat. 8886","E31 Document","reference","digital_facsimile","https://gallica.bnf.fr/ark:/12148/btv1b84516106","Digital source for Paris, BnF, MS lat. 8886."
+"ref-ms-ocf-xxiii-c-digital","Gallica / BnF: Paris, BnF, MS lat. 9479","E31 Document","reference","digital_facsimile","https://gallica.bnf.fr/ark:/12148/btv1b9067004s","Digital source for Paris, BnF, MS lat. 9479."
+"ref-ms-ocf-xxiii-a-bib-2","Sherman, 'The Queen in Charles V's Coronation Book' (1977)","E31 Document","reference","edition_or_catalogue","","Bibliographic reference for London, British Library, MS Cotton Tiberius B.viii."

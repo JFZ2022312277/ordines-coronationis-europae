@@ -1,0 +1,5 @@
+"id","label","manuscriptId","fromPlaceId","toPlaceId","start","end","certainty","type"
+"move-ms-ocf-ii-a-chelles-to-vatican-city-bav","A: Chelles → Vatican City, BAV","ms-ocf-ii-a","place-chelles","repo-vatican-city-bav","8th century","","possible","manuscript_dispersal"
+"move-ms-ocf-ii-b-abbey-of-gellone-saint-guilhem-le-desert-to-paris-bnf","B: Abbey of Gellone, Saint-Guilhem-le-Desert → Paris, BnF","ms-ocf-ii-b","place-abbey-of-gellone-saint-guilhem-le-desert","repo-paris-bnf","Late 8th century","","probable","manuscript_dispersal"
+"move-ms-ocf-ii-c-angouleme-to-paris-bnf","C: Angouleme → Paris, BnF","ms-ocf-ii-c","place-angouleme","repo-paris-bnf","ca. 800","","probable","manuscript_dispersal"
+"move-ms-ocf-ii-d-autun-to-berlin-deutsche-staatsbibl","D: Autun → Berlin, Deutsche Staatsbibl.","ms-ocf-ii-d","place-autun","repo-berlin-deutsche-staatsbibl","ca. 800","","probable","manuscript_dispersal"

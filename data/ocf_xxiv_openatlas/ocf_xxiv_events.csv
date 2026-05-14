@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","manuscriptId","placeId","start","end","description","certainty"
+"event-ms-ocf-xxiv-a-current-repository","A kept at Paris, BnF","E7 Activity","activity","current_repository","ms-ocf-xxiv-a","repo-paris-bnf","","","Paris, BnF, MS fr. 8334 is currently kept at Paris, BnF.","certain"
+"event-ms-ocf-xxiv-b-current-repository","B kept at Reims, Bibl. mun.","E7 Activity","activity","current_repository","ms-ocf-xxiv-b","repo-reims-bibl-mun","","","Reims, Bibl. mun., MS 1651 (nouv. fonds) is currently kept at Reims, Bibl. mun..","certain"
+"event-ms-ocf-xxiv-c-current-repository","C kept at Reims, Bibl. mun.","E7 Activity","activity","current_repository","ms-ocf-xxiv-c","repo-reims-bibl-mun","","","Reims, Bibl. mun., MS 1489 (nouv. fonds), no. 9 is currently kept at Reims, Bibl. mun..","certain"
+"event-ms-ocf-xxiv-d-current-repository","D kept at Reims, Bibl. mun.","E7 Activity","activity","current_repository","ms-ocf-xxiv-d","repo-reims-bibl-mun","","","Reims, Bibl. mun., MS 1490 (nouv. fonds), no. 5 is currently kept at Reims, Bibl. mun..","certain"

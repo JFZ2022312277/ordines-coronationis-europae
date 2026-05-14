@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","lat","lon","certainty","note"
+"place-beauvais","Beauvais","E53 Place","place","scriptorium_or_origin_place","49.431","2.08","probable","Origin/context place parsed from ""Beauvais""."
+"repo-besanc-on-bibl-mun","Besançon, Bibl. mun.","E53 Place","place","repository_place","47.2378","6.0244","certain","Current repository inferred from shelfmark: Besançon, Bibl. mun., MS 138"
+"place-reims","Reims","E53 Place","place","scriptorium_or_origin_place","49.258","4.031","probable","Origin/context place parsed from ""Reims Cathedral chapter library""."
+"repo-reims-bibl-mun","Reims, Bibl. mun.","E53 Place","place","repository_place","49.2541","3.025","certain","Current repository inferred from shelfmark: Reims, Bibl. mun., MS 343"

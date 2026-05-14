@@ -1,0 +1,4 @@
+"id","label","openatlasClass","systemClass","type","lat","lon","certainty","note"
+"place-abbey-of-gellone-saint-guilhem-le-desert","Abbey of Gellone, Saint-Guilhem-le-Desert","E53 Place","place","scriptorium_or_origin_place","43.733","3.548","probable","Origin/copying place parsed from ""Gellone?""."
+"place-paris","Paris","E53 Place","place","copying_or_publication_place","48.8566","2.3522","probable","Origin/copying place parsed from ""Copy of A by Luc d'Achery""."
+"repo-paris-bnf","Paris, BnF","E53 Place","place","repository_place","48.8339","2.3757","certain","Current repository inferred from shelfmark: Paris, BnF, MS lat. 12049"

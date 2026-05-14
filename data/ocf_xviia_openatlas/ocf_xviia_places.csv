@@ -1,0 +1,3 @@
+"id","label","openatlasClass","systemClass","type","lat","lon","certainty","note"
+"repo-multiple-lost-witnesses-reims-beauvais-toul-sirmond-lost","Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST]","E53 Place","place","repository_place","49.2541","3.025","last_known_or_reported","Lost witness location inferred from shelfmark/last known context: Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST]"
+"repo-vatican-city-bav","Vatican City, BAV","E53 Place","place","repository_place","41.9022","12.4539","certain","Current repository inferred from shelfmark: Vatican City, BAV, MS Ottoboniani lat. 811"

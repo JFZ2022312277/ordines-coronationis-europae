@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XXIIA manuscript pilot">
+  <ordo id="OCF-XXIIA"><label>Last Capetian Ordo</label><date>1250–270</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xxiia-a" siglum="A"><shelfmark>Paris, BnF, MS nouv. acq. lat. 1202</shelfmark><folios>fols. 121r–43v</folios><date>ca. 1250–270</date><origin>Meaux (pontifical)</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiia-b" siglum="B"><shelfmark>Urbana, University of Illinois Library, unnumbered MS</shelfmark><folios>fols. 1r–3v</folios><date>ca. 1330</date><origin>France</origin><currentRepository ref="repo-urbana-university-of-illinois-library">Urbana, University of Illinois Library</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiia-c" siglum="C"><shelfmark>Vatican City, BAV, MS Chigi C VI 182</shelfmark><folios>fols. 72r–5v</folios><date>Mid 14th century</date><origin>Cambrai (or Reims)</origin><currentRepository ref="repo-vatican-city-bav">Vatican City, BAV</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiia-d" siglum="D"><shelfmark>London, British Library, MS Egerton 931</shelfmark><folios>fols. 183v–03r</folios><date>1346–378</date><origin>Sens (for Archbishop Guillaume de Melun)</origin><currentRepository ref="repo-london-british-library">London, British Library</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiia-e" siglum="E"><shelfmark>Vatican City, BAV, MS lat. 4733</shelfmark><folios>fols. 61r–7r</folios><date>15th century</date><origin></origin><currentRepository ref="repo-vatican-city-bav">Vatican City, BAV</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiia-f" siglum="F"><shelfmark>Paris, BnF, MS lat. 3968</shelfmark><folios>fols. 208r–10r</folios><date>15th century</date><origin></origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiia-g" siglum="G"><shelfmark>Paris, BnF, MS fr. 14371</shelfmark><folios>fols. 318r–24v</folios><date>ca. 1475</date><origin></origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiia-g-2" siglum="G2"><shelfmark>Paris, BnF, MS fr. 14371</shelfmark><folios>fol. 356r</folios><date>ca. 1475 (same codex as G?; different hand)</date><origin></origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiia-h" siglum="H"><shelfmark>London, British Library, MS Arundel 149</shelfmark><folios>fols. 23r–0v</folios><date>Late 15th century (after 1484)</date><origin></origin><currentRepository ref="repo-london-british-library">London, British Library</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiia-i" siglum="I"><shelfmark>Paris, BnF, MS lat. 12080</shelfmark><folios>fols. 1r–0v</folios><date>ca. 1500</date><origin></origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiia-j" siglum="J"><shelfmark>Paris, BnF, MS nouv. acq. fr. 7232</shelfmark><folios>fols. 7v–1v</folios><date>17th century, first half</date><origin></origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiia-k" siglum="K"><shelfmark>Sens, Bibl. mun., MS 11</shelfmark><folios>fols. 144r–55r</folios><date>1671</date><origin></origin><currentRepository ref="repo-sens-bibl-mun">Sens, Bibl. mun.</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="place-cambrai" type="scriptorium_or_origin_place" lat="50.176" lon="3.235" certainty="probable">Cambrai</place>
+    <place id="place-france" type="regional_context" lat="46.8" lon="2.4" certainty="possible">France</place>
+    <place id="repo-london-british-library" type="repository_place" lat="51.5299" lon="-0.1277" certainty="certain">London, British Library</place>
+    <place id="place-meaux" type="scriptorium_or_origin_place" lat="48.96" lon="2.888" certainty="probable">Meaux</place>
+    <place id="repo-paris-bnf" type="repository_place" lat="48.8339" lon="2.3757" certainty="certain">Paris, BnF</place>
+    <place id="place-reims" type="scriptorium_or_origin_place" lat="49.258" lon="4.031" certainty="probable">Reims</place>
+    <place id="place-sens" type="scriptorium_or_origin_place" lat="48.198" lon="3.283" certainty="probable">Sens</place>
+    <place id="repo-sens-bibl-mun" type="repository_place" lat="48.1974" lon="3.282" certainty="certain">Sens, Bibl. mun.</place>
+    <place id="repo-urbana-university-of-illinois-library" type="repository_place" lat="40.102" lon="-88.2272" certainty="certain">Urbana, University of Illinois Library</place>
+    <place id="repo-vatican-city-bav" type="repository_place" lat="41.9022" lon="12.4539" certainty="certain">Vatican City, BAV</place>
+  </places>
+</openatlasSeed>

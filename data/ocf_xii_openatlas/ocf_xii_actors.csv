@@ -1,0 +1,7 @@
+"id","label","openatlasClass","systemClass","type","role","placeId","description"
+"actor-bnf","Bibliothèque nationale de France (BnF)","E74 Group","actor","institution","repository institution / digital provider","repo-paris-bnf",""
+"actor-biblissima","Biblissima","E74 Group","actor","source","digital source aggregator","",""
+"actor-iiif","IIIF","E74 Group","actor","source","image/service reference","",""
+"actor-poitiers-church","Poitiers ecclesiastical milieu","E74 Group","actor","institution","liturgical/sacramentary context","place-poitiers",""
+"actor-tours-church","Tours ecclesiastical milieu","E74 Group","actor","institution","liturgical/sacramentary context","place-tours",""
+"actor-victor-leroquais","Victor Leroquais","E21 Person","actor","editor","cataloguer / scholar","place-paris",""

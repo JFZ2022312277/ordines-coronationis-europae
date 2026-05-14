@@ -1,0 +1,4 @@
+"id","label","lat","lon","type","openatlasClass","description"
+"place-arras-context","Arras / Saint-Vaast context","50.291","2.7775","origin_context","E53 Place","Arras or Saint-Vaast context."
+"place-arras-source-tradition-anchor","Arras, source tradition anchor","50.291","2.7775","origin_context","E53 Place",""
+"repo-cologne-dombibliothek","Cologne, Dombibliothek","50.9413","6.9583","repository_place","E53 Place",""

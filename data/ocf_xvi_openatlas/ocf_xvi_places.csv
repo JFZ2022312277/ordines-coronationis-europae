@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","lat","lon","certainty","note"
+"repo-bamberg-staatsbibl","Bamberg, Staatsbibl.","E53 Place","place","repository_place","49.8917","10.8867","certain","Current repository inferred from shelfmark: Bamberg, Staatsbibl., MS Msc. Lit. 56"
+"place-cambrai","Cambrai","E53 Place","place","scriptorium_or_origin_place","50.176","3.235","probable","Origin/context place parsed from ""Benedictine monastery in diocese of Cambrai (archdiocese of Reims)""."
+"repo-cologne-erzbischo-fliche-dio-zesan-und-dombibl","Cologne, Erzbischöfliche Diözesan- und Dombibl.","E53 Place","place","repository_place","50.9413","6.9583","certain","Current repository inferred from shelfmark: Cologne, Erzbischöfliche Diözesan- und Dombibl., MS 141"
+"place-reims","Reims","E53 Place","place","scriptorium_or_origin_place","49.258","4.031","probable","Origin/context place parsed from ""Benedictine monastery in diocese of Cambrai (archdiocese of Reims)""."

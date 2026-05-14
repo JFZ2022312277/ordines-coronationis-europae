@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","lat","lon","certainty","note"
+"repo-paris-bibl-sainte-genevie-ve","Paris, Bibl. Sainte-Geneviève","E53 Place","place","repository_place","48.8469","2.3464","certain","Current repository inferred from shelfmark: Paris, Bibl. Sainte-Geneviève, MS 148"
+"place-saint-bertin-saint-omer","Saint-Bertin, Saint-Omer","E53 Place","place","scriptorium_or_origin_place","50.75","2.253","probable","Origin/context place parsed from ""Saint-Bertin, Saint-Omer""."
+"repo-saint-omer-bibl-mun","Saint-Omer, Bibl. mun.","E53 Place","place","repository_place","50.75","2.253","certain","Current repository inferred from shelfmark: Saint-Omer, Bibl. mun., MS 98"
+"place-senlis","Senlis","E53 Place","place","scriptorium_or_origin_place","49.207","2.586","probable","Origin/context place parsed from ""Senlis""."

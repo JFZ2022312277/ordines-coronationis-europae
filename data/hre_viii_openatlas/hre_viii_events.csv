@@ -1,0 +1,6 @@
+"id","label","type","placeId","start","end","description","openatlasClass"
+"event-ms-hre-viii-src-transmission","SRC copying/transmission context","copying_or_transmission","place-mainz-source-tradition-anchor","ca. 1000","ca. 1000","Geographic anchor inferred from HRE source dateline place: Mainz?.","E5 Event"
+"event-ms-hre-viii-a-transmission","A copying/transmission context","copying_or_transmission","repo-milan-ambrosiana","11th century","11th century","Witness listed in Elze for this HRE ordo; structured here as a pilot entity.","E5 Event"
+"event-ms-hre-viii-b-transmission","B copying/transmission context","copying_or_transmission","repo-merseburg-cathedral","11th century","11th century","Witness listed in Elze for this HRE ordo; structured here as a pilot entity.","E5 Event"
+"event-ms-hre-viii-c1-transmission","C1 copying/transmission context","copying_or_transmission","place-augsburg-context","11th century","11th century","Witness listed in Elze for this HRE ordo; structured here as a pilot entity.","E5 Event"
+"event-ms-hre-viii-c2-transmission","C2 copying/transmission context","copying_or_transmission","repo-munich-bsb","12th century","12th century","Witness listed in Elze for this HRE ordo; structured here as a pilot entity.","E5 Event"

@@ -1,0 +1,4 @@
+"id","label","lat","lon","type","openatlasClass","description"
+"place-verden-context","Verden diocesan context","52.9234","9.2344","origin_context","E53 Place","Diocese of Verden context."
+"place-verden-source-tradition-anchor","Verden, source tradition anchor","52.9234","9.2344","origin_context","E53 Place",""
+"repo-bamberg-staatsbibliothek","Bamberg, Staatsbibliothek","49.8917","10.886","repository_place","E53 Place",""

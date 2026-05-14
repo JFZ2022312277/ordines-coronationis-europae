@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XXA manuscript pilot">
+  <ordo id="OCF-XXA"><label>Ordo of Reims</label><date>ca. 1230</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xxa-a" siglum="A"><shelfmark>Reims, Bibl. mun., MS 328</shelfmark><folios>fols. 70v–3r</folios><date>Late 13th century</date><origin>Reims Cathedral (ordinary)</origin><currentRepository ref="repo-reims-bibl-mun">Reims, Bibl. mun.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxa-b" siglum="B"><shelfmark>Reims, Bibl. mun., MS 329</shelfmark><folios>fols. 3v”v</folios><date>ca. 1300</date><origin>Reims Cathedral (ordinary)</origin><currentRepository ref="repo-reims-bibl-mun">Reims, Bibl. mun.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxa-c" siglum="C"><shelfmark>Reims, Bibl. mun., MS 330</shelfmark><folios>fols. 104v–06v</folios><date>14th century, first quarter</date><origin>Reims Cathedral (ordinary)</origin><currentRepository ref="repo-reims-bibl-mun">Reims, Bibl. mun.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxa-d" siglum="D"><shelfmark>Wolfenbüttel, Herzog August Bibl., MS Guelf 1 Gud. lat. 20</shelfmark><folios>fols. 72v–3r</folios><date>14th century (addition to 12th-century MS)</date><origin>Diocese of Thérouanne, Tournai, or Cambrai</origin><currentRepository ref="repo-wolfenbu-ttel-herzog-august-bibl">Wolfenbüttel, Herzog August Bibl.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxa-e" siglum="E"><shelfmark>Chantilly, Musée Condé, MS 1596</shelfmark><folios>fols. 73v–4r</folios><date>ca. 1470</date><origin></origin><currentRepository ref="repo-chantilly-muse-e-conde">Chantilly, Musée Condé</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxa-f" siglum="F"><shelfmark>The Hague, Koninklijke Bibl., MS 72 A 23</shelfmark><folios>fol. 86r–v</folios><date>1460</date><origin>Lille or Ninove</origin><currentRepository ref="repo-the-hague-koninklijke-bibl">The Hague, Koninklijke Bibl.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxa-g" siglum="G"><shelfmark>Genoa, Bibl. Durazzo-Giustiniani, MS A IX 9</shelfmark><folios>fols. 70r–1r</folios><date>Late 15th century</date><origin></origin><currentRepository ref="repo-genoa-bibl-durazzo-giustiniani">Genoa, Bibl. Durazzo-Giustiniani</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxa-h" siglum="H"><shelfmark>Vatican City, BAV, MS Reg. lat. 574</shelfmark><folios>fols. 17r–9r</folios><date>15th century</date><origin></origin><currentRepository ref="repo-vatican-city-bav">Vatican City, BAV</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="place-cambrai" type="scriptorium_or_origin_place" lat="50.176" lon="3.235" certainty="probable">Cambrai</place>
+    <place id="repo-chantilly-muse-e-conde" type="repository_place" lat="49.1945" lon="2.4858" certainty="certain">Chantilly, Musée Condé</place>
+    <place id="repo-genoa-bibl-durazzo-giustiniani" type="repository_place" lat="44.4072" lon="8.934" certainty="certain">Genoa, Bibl. Durazzo-Giustiniani</place>
+    <place id="place-lille" type="scriptorium_or_origin_place" lat="50.629" lon="3.057" certainty="possible">Lille</place>
+    <place id="place-ninove" type="scriptorium_or_origin_place" lat="50.827" lon="4.026" certainty="possible">Ninove</place>
+    <place id="place-reims" type="scriptorium_or_origin_place" lat="49.258" lon="4.031" certainty="probable">Reims</place>
+    <place id="repo-reims-bibl-mun" type="repository_place" lat="49.2541" lon="3.025" certainty="certain">Reims, Bibl. mun.</place>
+    <place id="repo-the-hague-koninklijke-bibl" type="repository_place" lat="52.0817" lon="4.326" certainty="certain">The Hague, Koninklijke Bibl.</place>
+    <place id="place-therouanne" type="diocesan_context" lat="50.636" lon="2.258" certainty="possible">Therouanne</place>
+    <place id="place-tournai" type="diocesan_context" lat="50.605" lon="3.389" certainty="possible">Tournai</place>
+    <place id="repo-vatican-city-bav" type="repository_place" lat="41.9022" lon="12.4539" certainty="certain">Vatican City, BAV</place>
+    <place id="repo-wolfenbu-ttel-herzog-august-bibl" type="repository_place" lat="52.1637" lon="10.5333" certainty="certain">Wolfenbüttel, Herzog August Bibl.</place>
+  </places>
+</openatlasSeed>

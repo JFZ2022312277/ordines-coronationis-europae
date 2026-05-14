@@ -1,0 +1,3 @@
+"id","label","openatlasClass","systemClass","type","manuscriptId","placeId","start","end","description","certainty"
+"event-ms-ocf-ix-a-current-repository","A kept at Reims, Bibl. mun.","E7 Activity","activity","current_repository","ms-ocf-ix-a","repo-reims-bibl-mun","","","Reims, Bibl. mun., MS 214 is currently kept at Reims, Bibl. mun..","certain"
+"event-ms-ocf-ix-a-origin-saint-thierry-near-reims","A origin/context: Saint-Thierry, near Reims","E12 Production","production","copying_or_origin","ms-ocf-ix-a","place-saint-thierry-near-reims","Late 10th century","Late 10th century","Reims, Bibl. mun., MS 214: origin/context recorded as ""Saint-Thierry, near Reims"".","probable"

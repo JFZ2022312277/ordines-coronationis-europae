@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "title": "ECR-XIV Court of Claims of Richard II. English coronation record pilot",
+    "generatedAt": "2026-05-12T13:41:42.819Z",
+    "source": "ordines_coronationis_iiif.html ECR records",
+    "note": "ECR includes ordines, narrative records, papal letters, inventories, processions, and printed orders; reference anchors are not asserted physical manuscripts."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "ECR-XIV",
+        "label": "Court of Claims of Richard II.",
+        "labelFr": "Court of Claims of Richard II.",
+        "sourceLabel": "ECR",
+        "tradition": "English",
+        "date": "S.d.",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "The processus fadus of Richard II. is the first knovra minutes of the proceedings of the Court of Claims held before the coronation. The officers and the services performed may be compared with those mentioned in the accounts of the coronations of Richard I. and Queen Eleanor. The history of the offices themselves has been dealt with in the Introduction. The manuscript from which the document is printed is in the Public Record Office. With regard to the description of the coronation which follows the report of the proceedings of the Court of Claims, it may be noted that the riding of the King from the Tower to Westminster is here for the first time described, though, it will be remembered, it is mentioned in the long rubric at the beginning of Liber regalis, but not in the rubric of the early edition of the fourth recension. The ceremony was discontinued at the coronation of James II. and it has not since been restored. The description of the coronation has but little interest, but a few details may be noticed: first, the statement that there were two rods with doves on the top; secondly, the curious order in which we are given to understand that the King, the Earl of Arundel with the crown, and the Earl of Suffolk with the sceptre with the cross came into the church j thirdly, the vestments carried in the procession; fourthly, the statements that the King was girded with Curtana, and that he was girded with this sword after the crowning had taken place; both statements are probably due to misapprehension."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ecr-xiv-src",
+        "siglum": "SRC",
+        "shelfmark": "London, British Library / Westminster tradition (reference anchor)",
+        "repositoryPlaceId": "repo-london-british-library",
+        "currentRepository": "London, British Library / Westminster tradition (reference anchor)",
+        "lat": 51.4994,
+        "lon": -0.1276,
+        "date": "medieval to early modern",
+        "folios": "",
+        "group": "reference",
+        "origin": "",
+        "witnessType": "reference",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "iiif_url": "",
+        "iiif_manifest_url": "",
+        "embedded_viewer_url": "",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "bibliography": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "source_record"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-westminster-abbey",
+        "label": "Westminster Abbey",
+        "lat": 51.4993,
+        "lon": -0.1273,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Principal English coronation church."
+      },
+      {
+        "id": "place-tower-of-london",
+        "label": "Tower of London",
+        "lat": 51.5081,
+        "lon": -0.0759,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Processional and regalia context."
+      },
+      {
+        "id": "place-canterbury",
+        "label": "Canterbury / archiepiscopal context",
+        "lat": 51.2802,
+        "lon": 1.0789,
+        "type": "institutional_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "place-iona",
+        "label": "Iona",
+        "lat": 56.335,
+        "lon": -6.393,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "place-scotland-context",
+        "label": "Scottish royal context",
+        "lat": 56.49,
+        "lon": -4.2,
+        "type": "political_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "place-winchester",
+        "label": "Winchester ecclesiastical context",
+        "lat": 51.0629,
+        "lon": -1.3165,
+        "type": "origin_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "lat": 51.5299,
+        "lon": -0.1275,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ecr-xiv-record-context",
+        "label": "ECR-XIV English coronation record context",
+        "type": "documentary_record",
+        "placeId": "place-westminster-abbey",
+        "start": "S.d.",
+        "end": "S.d.",
+        "description": "The processus fadus of Richard II. is the first knovra minutes of the proceedings of the Court of Claims held before the coronation. The officers and the services performed may be compared with those mentioned in the accounts of the coronations of Richard I. and Queen Eleanor. The history of the offices themselves has been dealt with in the Introduction. The manuscript from which the document is printed is in the Public Record Office. With regard to the description of the coronation which follows the report of the proceedings of the Court of Claims, it may be noted that the riding of the King from the Tower to Westminster is here for the first time described, though, it will be remembered, it is mentioned in the long rubric at the beginning of Liber regalis, but not in the rubric of the early edition of the fourth recension. The ceremony was discontinued at the coronation of James II. and it has not since been restored. The description of the coronation has but little interest, but a few details may be noticed: first, the statement that there were two rods with doves on the top; secondly, the curious order in which we are given to understand that the King, the Earl of Arundel with the crown, and the Earl of Suffolk with the sceptre with the cross came into the church j thirdly, the vestments carried in the procession; fourthly, the statements that the King was girded with Curtana, and that he was girded with this sword after the crowning had taken place; both statements are probably due to misapprehension.",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-ecr-xiv-src-source",
+        "label": "SRC source/witness context",
+        "type": "source_reference",
+        "placeId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-leopold-legg",
+        "label": "Leopold G. Wickham Legg",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of English Coronation Records",
+        "placeId": ""
+      },
+      {
+        "id": "actor-english-coronation-tradition",
+        "label": "English coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "ritual and documentary tradition",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-westminster-abbey",
+        "label": "Westminster Abbey",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "coronation church / institutional context",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-richard-i",
+        "label": "Richard I",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-john",
+        "label": "King John",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-richard-ii",
+        "label": "Richard II",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-james-i",
+        "label": "James I",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-james-ii",
+        "label": "James II",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-canterbury",
+        "label": "Archbishopric of Canterbury",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "claimant/coronation authority",
+        "placeId": "place-canterbury"
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-legg-1901",
+        "label": "Leopold G. Wickham Legg, English Coronation Records (1901)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Base edition for the ECR corpus."
+      },
+      {
+        "id": "ref-ecr-xiv-edition-1",
+        "label": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_source",
+        "url": "",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-english",
+        "label": "English coronation records",
+        "code": "ECR"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ECR-XIV",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-english",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIV",
+      "predicate": "edited_by",
+      "object": "actor-leopold-legg",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIV",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIV",
+      "predicate": "documents_event",
+      "object": "event-ecr-xiv-record-context",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIV",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIV",
+      "predicate": "associated_with",
+      "object": "actor-westminster-abbey",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIV",
+      "predicate": "associated_with",
+      "object": "actor-richard-i",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIV",
+      "predicate": "associated_with",
+      "object": "actor-john",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIV",
+      "predicate": "associated_with",
+      "object": "actor-richard-ii",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIV",
+      "predicate": "associated_with",
+      "object": "actor-james-i",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIV",
+      "predicate": "associated_with",
+      "object": "actor-james-ii",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIV",
+      "predicate": "associated_with",
+      "object": "actor-canterbury",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XIV",
+      "predicate": "preserved_in",
+      "object": "ms-ecr-xiv-src",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xiv-src",
+      "predicate": "has_event",
+      "object": "event-ms-ecr-xiv-src-source",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xiv-src",
+      "predicate": "located_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xiv-src",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xiv-src",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xiv-src",
+      "predicate": "associated_with",
+      "object": "actor-british-library",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": [
+      {
+        "id": "move-ms-ecr-xiv-src",
+        "manuscriptId": "ms-ecr-xiv-src",
+        "fromPlaceId": "place-westminster-abbey",
+        "toPlaceId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "certainty": "derived",
+        "description": "Research context line for SRC: Westminster Abbey -> London, British Library / Westminster tradition (reference anchor)."
+      }
+    ]
+  }
+}

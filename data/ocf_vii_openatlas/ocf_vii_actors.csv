@@ -1,0 +1,6 @@
+"id","label","openatlasClass","systemClass","type","role","placeId","description"
+"actor-bav","Biblioteca Apostolica Vaticana","E74 Group","actor","institution","repository institution / digital provider","repo-vatican-city-bav",""
+"actor-bnf","Bibliothèque nationale de France (BnF)","E74 Group","actor","institution","repository institution / digital provider","repo-paris-bnf",""
+"actor-biblissima","Biblissima","E74 Group","actor","source","digital source aggregator","",""
+"actor-jacques-sirmond","Jacques Sirmond","E21 Person","actor","editor","early modern editor / user of lost witness","place-paris",""
+"actor-saint-laurent-liege","Monastery of Saint-Laurent, Liège","E74 Group","actor","institution","lost witness context","repo-lie-ge-monastery-of-saint-laurent-lost",""

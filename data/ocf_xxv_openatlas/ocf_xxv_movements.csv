@@ -1,0 +1,2 @@
+"id","label","manuscriptId","fromPlaceId","toPlaceId","start","end","certainty","type"
+"move-ms-ocf-xxv-b-brienne-collection-context-to-paris-bnf","B: Brienne collection context → Paris, BnF","ms-ocf-xxv-b","place-brienne-collection-context","repo-paris-bnf","17th century, first half","","possible","manuscript_dispersal"

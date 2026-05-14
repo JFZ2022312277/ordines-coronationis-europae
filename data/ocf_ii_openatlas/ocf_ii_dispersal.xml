@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-II manuscript pilot">
+  <ordo id="OCF-II"><label>Royal Texts in the Sacramentary of Angoulême</label><date>ca. 800</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-ii-a" siglum="A"><shelfmark>Vatican City, BAV, MS Reg. lat. 316</shelfmark><folios>fol. 214r–v</folios><date>8th century</date><origin>Chelles?</origin><currentRepository ref="repo-vatican-city-bav">Vatican City, BAV</currentRepository></manuscript>
+    <manuscript id="ms-ocf-ii-b" siglum="B"><shelfmark>Paris, BnF, MS lat. 12048</shelfmark><folios>fol. 221r–v</folios><date>Late 8th century</date><origin>Gellone</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-ii-c" siglum="C"><shelfmark>Paris, BnF, MS lat. 816</shelfmark><folios>fols. 130r–v, 167v–69r</folios><date>ca. 800</date><origin>Angoulême</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-ii-d" siglum="D"><shelfmark>Berlin, Deutsche Staatsbibl., MS Phillips 1667</shelfmark><folios>fols. 145v–46v</folios><date>ca. 800</date><origin>Autun</origin><currentRepository ref="repo-berlin-deutsche-staatsbibl">Berlin, Deutsche Staatsbibl.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-ii-e" siglum="E"><shelfmark>Paris, BnF, MS lat. 12049</shelfmark><folios>pp. 572–3</folios><date>17th century</date><origin></origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="place-abbey-of-gellone-saint-guilhem-le-desert" type="scriptorium_or_origin_place" lat="43.733" lon="3.548" certainty="probable">Abbey of Gellone, Saint-Guilhem-le-Desert</place>
+    <place id="place-angouleme" type="scriptorium_or_origin_place" lat="45.648" lon="0.156" certainty="probable">Angouleme</place>
+    <place id="place-autun" type="scriptorium_or_origin_place" lat="46.951" lon="4.298" certainty="probable">Autun</place>
+    <place id="repo-berlin-deutsche-staatsbibl" type="repository_place" lat="52.5084" lon="13.3707" certainty="certain">Berlin, Deutsche Staatsbibl.</place>
+    <place id="place-chelles" type="scriptorium_or_origin_place" lat="48.881" lon="2.592" certainty="possible">Chelles</place>
+    <place id="repo-paris-bnf" type="repository_place" lat="48.8339" lon="2.3757" certainty="certain">Paris, BnF</place>
+    <place id="repo-vatican-city-bav" type="repository_place" lat="41.9022" lon="12.4539" certainty="certain">Vatican City, BAV</place>
+  </places>
+</openatlasSeed>

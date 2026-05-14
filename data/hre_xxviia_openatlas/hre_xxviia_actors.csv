@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","role","placeId"
+"actor-reinhard-elze","Reinhard Elze","E21 Person","actor","editor","editor of Ordines Coronationis Imperialis",""
+"actor-hre-imperial-tradition","Holy Roman imperial coronation tradition","E74 Group","actor","institution","political-liturgical context",""
+"actor-bologna-context","Bologna context","E74 Group","actor","institution","textual or production context","place-bologna-context"
+"actor-blasius-de-cesena","Blasius de Cesena","E21 Person","actor","person","compiler / papal master of ceremonies","place-bologna-context"

@@ -1,0 +1,2057 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "../iiif/RECUEIL-MINIATURES/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Recueil. Ensemble de miniatures decoupees du XVe siecle"
+    ],
+    "fr": [
+      "Recueil. Ensemble de miniatures decoupees du XVe siecle"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Local IIIF witness for the recueil of mounted miniature and text fragments"
+    ],
+    "fr": [
+      "Local IIIF witness for the recueil of mounted miniature and text fragments"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0001",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1536,
+      "label": {
+        "en": [
+          "PDF p. 0001"
+        ],
+        "fr": [
+          "PDF p. 0001"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0001",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0001",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0001",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p001.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1536
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0002",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1536,
+      "label": {
+        "en": [
+          "PDF p. 0002"
+        ],
+        "fr": [
+          "PDF p. 0002"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0002",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0002",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0002",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p002.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1536
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0003",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1381,
+      "label": {
+        "en": [
+          "PDF p. 0003"
+        ],
+        "fr": [
+          "PDF p. 0003"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0003",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0003",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0003",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p003.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1381
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0004",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1387,
+      "label": {
+        "en": [
+          "PDF p. 0004"
+        ],
+        "fr": [
+          "PDF p. 0004"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0004",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0004",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0004",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p004.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1387
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0005",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1402,
+      "label": {
+        "en": [
+          "PDF p. 0005"
+        ],
+        "fr": [
+          "PDF p. 0005"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0005",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0005",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0005",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p005.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1402
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0006",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1407,
+      "label": {
+        "en": [
+          "PDF p. 0006"
+        ],
+        "fr": [
+          "PDF p. 0006"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0006",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0006",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0006",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p006.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1407
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0007",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1405,
+      "label": {
+        "en": [
+          "PDF p. 0007"
+        ],
+        "fr": [
+          "PDF p. 0007"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0007",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0007",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0007",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p007.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1405
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0008",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1412,
+      "label": {
+        "en": [
+          "PDF p. 0008"
+        ],
+        "fr": [
+          "PDF p. 0008"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0008",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0008",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0008",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p008.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1412
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0009",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1404,
+      "label": {
+        "en": [
+          "PDF p. 0009"
+        ],
+        "fr": [
+          "PDF p. 0009"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0009",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0009",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0009",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p009.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1404
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0010",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1393,
+      "label": {
+        "en": [
+          "PDF p. 0010"
+        ],
+        "fr": [
+          "PDF p. 0010"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0010",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0010",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0010",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p010.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1393
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0011",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1400,
+      "label": {
+        "en": [
+          "PDF p. 0011"
+        ],
+        "fr": [
+          "PDF p. 0011"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0011",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0011",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0011",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p011.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1400
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0012",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1388,
+      "label": {
+        "en": [
+          "PDF p. 0012"
+        ],
+        "fr": [
+          "PDF p. 0012"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0012",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0012",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0012",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p012.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1388
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0013",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1410,
+      "label": {
+        "en": [
+          "PDF p. 0013"
+        ],
+        "fr": [
+          "PDF p. 0013"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0013",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0013",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0013",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p013.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1410
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0014",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1409,
+      "label": {
+        "en": [
+          "PDF p. 0014"
+        ],
+        "fr": [
+          "PDF p. 0014"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0014",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0014",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0014",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p014.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1409
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0015",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1416,
+      "label": {
+        "en": [
+          "PDF p. 0015"
+        ],
+        "fr": [
+          "PDF p. 0015"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0015",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0015",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0015",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p015.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1416
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0016",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1411,
+      "label": {
+        "en": [
+          "PDF p. 0016"
+        ],
+        "fr": [
+          "PDF p. 0016"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0016",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0016",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0016",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p016.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1411
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0017",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1410,
+      "label": {
+        "en": [
+          "PDF p. 0017"
+        ],
+        "fr": [
+          "PDF p. 0017"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0017",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0017",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0017",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p017.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1410
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0018",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1420,
+      "label": {
+        "en": [
+          "PDF p. 0018"
+        ],
+        "fr": [
+          "PDF p. 0018"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0018",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0018",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0018",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p018.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1420
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0019",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1417,
+      "label": {
+        "en": [
+          "PDF p. 0019"
+        ],
+        "fr": [
+          "PDF p. 0019"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0019",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0019",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0019",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p019.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1417
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0020",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1419,
+      "label": {
+        "en": [
+          "PDF p. 0020"
+        ],
+        "fr": [
+          "PDF p. 0020"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0020",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0020",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0020",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p020.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1419
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0021",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1406,
+      "label": {
+        "en": [
+          "PDF p. 0021"
+        ],
+        "fr": [
+          "PDF p. 0021"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0021",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0021",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0021",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p021.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1406
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0022",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1409,
+      "label": {
+        "en": [
+          "PDF p. 0022"
+        ],
+        "fr": [
+          "PDF p. 0022"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0022",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0022",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0022",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p022.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1409
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0023",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1402,
+      "label": {
+        "en": [
+          "PDF p. 0023"
+        ],
+        "fr": [
+          "PDF p. 0023"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0023",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0023",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0023",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p023.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1402
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0024",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1415,
+      "label": {
+        "en": [
+          "PDF p. 0024"
+        ],
+        "fr": [
+          "PDF p. 0024"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0024",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0024",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0024",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p024.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1415
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0025",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1389,
+      "label": {
+        "en": [
+          "PDF p. 0025"
+        ],
+        "fr": [
+          "PDF p. 0025"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0025",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0025",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0025",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p025.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1389
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0026",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1403,
+      "label": {
+        "en": [
+          "PDF p. 0026"
+        ],
+        "fr": [
+          "PDF p. 0026"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0026",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0026",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0026",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p026.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1403
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0027",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1392,
+      "label": {
+        "en": [
+          "PDF p. 0027"
+        ],
+        "fr": [
+          "PDF p. 0027"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0027",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0027",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0027",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p027.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1392
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0028",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1400,
+      "label": {
+        "en": [
+          "PDF p. 0028"
+        ],
+        "fr": [
+          "PDF p. 0028"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0028",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0028",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0028",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p028.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1400
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0029",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1389,
+      "label": {
+        "en": [
+          "PDF p. 0029"
+        ],
+        "fr": [
+          "PDF p. 0029"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0029",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0029",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0029",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p029.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1389
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0030",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1396,
+      "label": {
+        "en": [
+          "PDF p. 0030"
+        ],
+        "fr": [
+          "PDF p. 0030"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0030",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0030",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0030",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p030.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1396
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0031",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1395,
+      "label": {
+        "en": [
+          "PDF p. 0031"
+        ],
+        "fr": [
+          "PDF p. 0031"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0031",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0031",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0031",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p031.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1395
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0032",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1400,
+      "label": {
+        "en": [
+          "PDF p. 0032"
+        ],
+        "fr": [
+          "PDF p. 0032"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0032",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0032",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0032",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p032.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1400
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0033",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1399,
+      "label": {
+        "en": [
+          "PDF p. 0033"
+        ],
+        "fr": [
+          "PDF p. 0033"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0033",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0033",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0033",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p033.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1399
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0034",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1399,
+      "label": {
+        "en": [
+          "PDF p. 0034"
+        ],
+        "fr": [
+          "PDF p. 0034"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0034",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0034",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0034",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p034.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1399
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0035",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1399,
+      "label": {
+        "en": [
+          "PDF p. 0035"
+        ],
+        "fr": [
+          "PDF p. 0035"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0035",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0035",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0035",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p035.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1399
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0036",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1410,
+      "label": {
+        "en": [
+          "PDF p. 0036"
+        ],
+        "fr": [
+          "PDF p. 0036"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0036",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0036",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0036",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p036.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1410
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0037",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1390,
+      "label": {
+        "en": [
+          "PDF p. 0037"
+        ],
+        "fr": [
+          "PDF p. 0037"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0037",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0037",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0037",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p037.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1390
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0038",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1403,
+      "label": {
+        "en": [
+          "PDF p. 0038"
+        ],
+        "fr": [
+          "PDF p. 0038"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0038",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0038",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0038",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p038.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1403
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0039",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1404,
+      "label": {
+        "en": [
+          "PDF p. 0039"
+        ],
+        "fr": [
+          "PDF p. 0039"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0039",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0039",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0039",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p039.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1404
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0040",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1402,
+      "label": {
+        "en": [
+          "PDF p. 0040"
+        ],
+        "fr": [
+          "PDF p. 0040"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0040",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0040",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0040",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p040.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1402
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0041",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1387,
+      "label": {
+        "en": [
+          "PDF p. 0041"
+        ],
+        "fr": [
+          "PDF p. 0041"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0041",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0041",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0041",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p041.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1387
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0042",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1405,
+      "label": {
+        "en": [
+          "PDF p. 0042"
+        ],
+        "fr": [
+          "PDF p. 0042"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0042",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0042",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0042",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p042.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1405
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0043",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1412,
+      "label": {
+        "en": [
+          "PDF p. 0043"
+        ],
+        "fr": [
+          "PDF p. 0043"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0043",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0043",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0043",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p043.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1412
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0044",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1415,
+      "label": {
+        "en": [
+          "PDF p. 0044"
+        ],
+        "fr": [
+          "PDF p. 0044"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0044",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0044",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0044",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p044.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1415
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0045",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1403,
+      "label": {
+        "en": [
+          "PDF p. 0045"
+        ],
+        "fr": [
+          "PDF p. 0045"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0045",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0045",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0045",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p045.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1403
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0046",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1403,
+      "label": {
+        "en": [
+          "PDF p. 0046"
+        ],
+        "fr": [
+          "PDF p. 0046"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0046",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0046",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0046",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p046.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1403
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0047",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1391,
+      "label": {
+        "en": [
+          "PDF p. 0047"
+        ],
+        "fr": [
+          "PDF p. 0047"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0047",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0047",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0047",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p047.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1391
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0048",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1394,
+      "label": {
+        "en": [
+          "PDF p. 0048"
+        ],
+        "fr": [
+          "PDF p. 0048"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0048",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0048",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0048",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p048.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1394
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0049",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1404,
+      "label": {
+        "en": [
+          "PDF p. 0049"
+        ],
+        "fr": [
+          "PDF p. 0049"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0049",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0049",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0049",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p049.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1404
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0050",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1385,
+      "label": {
+        "en": [
+          "PDF p. 0050"
+        ],
+        "fr": [
+          "PDF p. 0050"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0050",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0050",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0050",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p050.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1385
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0051",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1385,
+      "label": {
+        "en": [
+          "PDF p. 0051"
+        ],
+        "fr": [
+          "PDF p. 0051"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0051",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0051",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0051",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p051.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1385
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0052",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1386,
+      "label": {
+        "en": [
+          "PDF p. 0052"
+        ],
+        "fr": [
+          "PDF p. 0052"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0052",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0052",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0052",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p052.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1386
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0053",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1384,
+      "label": {
+        "en": [
+          "PDF p. 0053"
+        ],
+        "fr": [
+          "PDF p. 0053"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0053",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0053",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0053",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p053.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1384
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0054",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 1357,
+      "label": {
+        "en": [
+          "PDF p. 0054"
+        ],
+        "fr": [
+          "PDF p. 0054"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0054",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0054",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0054",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p054.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 1357
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0055",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 11566,
+      "label": {
+        "en": [
+          "PDF p. 0055"
+        ],
+        "fr": [
+          "PDF p. 0055"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0055",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0055",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0055",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p055.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 11566
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0056",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 9476,
+      "label": {
+        "en": [
+          "PDF p. 0056"
+        ],
+        "fr": [
+          "PDF p. 0056"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0056",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0056",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0056",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p056.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 9476
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0057",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 11000,
+      "label": {
+        "en": [
+          "PDF p. 0057"
+        ],
+        "fr": [
+          "PDF p. 0057"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0057",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0057",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0057",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p057.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 11000
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0058",
+      "type": "Canvas",
+      "width": 1024,
+      "height": 9591,
+      "label": {
+        "en": [
+          "PDF p. 0058"
+        ],
+        "fr": [
+          "PDF p. 0058"
+        ]
+      },
+      "items": [
+        {
+          "id": "iiif/RECUEIL-MINIATURES/manifest.json#page-0058",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "iiif/RECUEIL-MINIATURES/manifest.json#annotation-0058",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0058",
+              "body": {
+                "id": "../assets/recueil_miniatures/recueil_p058.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1024,
+                "height": 9591
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

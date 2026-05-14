@@ -1,0 +1,514 @@
+{
+  "meta": {
+    "title": "OCF-XXI manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:45.092Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XXI. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-XXI.",
+    "entityEnrichedAt": "2026-05-12T09:59:45.438Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XXI",
+        "label": "Ordo of 1250",
+        "labelFr": "Ordo de 1250",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "1240–1250",
+        "description": "French scholarly appendix dossier for the Ordo of 1250, built from the Paris, BNF, latin 1246 witness and the collation and French translation by Monique Goullet."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xxi-a",
+        "siglum": "A",
+        "displaySiglum": "A",
+        "label": "A — Paris, BnF, MS lat. 1246",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 1246",
+        "folios": "fols. 1r–1v",
+        "date": "ca. 1250",
+        "origin": "Reims (text) / Paris (illumination)",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Famous illuminated coronation manuscript. First complete French ordo with miniatures. Formerly MS lat. 4464.",
+        "bibliography": "Branner, Manuscript Painting in Paris, 13–4, 69, 87–1; Bonne, 'The Manuscript of the Ordo of 1250'"
+      },
+      {
+        "id": "ms-ocf-xxi-b",
+        "siglum": "B",
+        "displaySiglum": "B",
+        "label": "B — Paris, Bibl. de l'Institut de France, MS Godefroy 380",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "copy",
+        "shelfmark": "Paris, Bibl. de l'Institut de France, MS Godefroy 380",
+        "folios": "pp. 179–27",
+        "date": "17th century",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bibl-de-l-institut-de-france",
+        "currentRepository": "Paris, Bibl. de l'Institut de France",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Copied from A.",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "place-paris",
+        "label": "Paris",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Reims (text) / Paris (illumination)\"."
+      },
+      {
+        "id": "repo-paris-bibl-de-l-institut-de-france",
+        "label": "Paris, Bibl. de l'Institut de France",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8568,
+        "lon": 2.337,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, Bibl. de l'Institut de France, MS Godefroy 380"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS lat. 1246"
+      },
+      {
+        "id": "place-reims",
+        "label": "Reims",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.258,
+        "lon": 4.031,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Reims (text) / Paris (illumination)\"."
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xxi-a-current-repository",
+        "label": "A kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxi-a",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 1246 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxi-a-origin-reims",
+        "label": "A origin/context: Reims",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxi-a",
+        "placeId": "place-reims",
+        "start": "ca. 1250",
+        "end": "ca. 1250",
+        "description": "Paris, BnF, MS lat. 1246: origin/context recorded as \"Reims (text) / Paris (illumination)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxi-a-origin-paris",
+        "label": "A origin/context: Paris",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxi-a",
+        "placeId": "place-paris",
+        "start": "ca. 1250",
+        "end": "ca. 1250",
+        "description": "Paris, BnF, MS lat. 1246: origin/context recorded as \"Reims (text) / Paris (illumination)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xxi-b-current-repository",
+        "label": "B kept at Paris, Bibl. de l'Institut de France",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxi-b",
+        "placeId": "repo-paris-bibl-de-l-institut-de-france",
+        "start": "",
+        "end": "",
+        "description": "Paris, Bibl. de l'Institut de France, MS Godefroy 380 is currently kept at Paris, Bibl. de l'Institut de France.",
+        "certainty": "certain"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-institut-de-france",
+        "label": "Bibliothèque de l’Institut de France",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution",
+        "placeId": "repo-paris-bibl-institut-de-france",
+        "description": ""
+      },
+      {
+        "id": "actor-bnf",
+        "label": "Bibliothèque nationale de France (BnF)",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-paris-bnf",
+        "description": ""
+      },
+      {
+        "id": "actor-denis-godefroy",
+        "label": "Denis Godefroy",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "collector / copy tradition context",
+        "placeId": "place-paris",
+        "description": ""
+      },
+      {
+        "id": "actor-pierre-bonne",
+        "label": "Pierre Bonne",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "modern scholar",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-reims-cathedral",
+        "label": "Reims Cathedral / Chapter Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "cathedral repository / coronation center",
+        "placeId": "place-reims",
+        "description": ""
+      },
+      {
+        "id": "actor-robert-branner",
+        "label": "Robert Branner",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "modern scholar",
+        "placeId": "",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-xxi-a-bib-2",
+        "label": "Bonne, 'The Manuscript of the Ordo of 1250'",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS lat. 1246."
+      },
+      {
+        "id": "ref-ms-ocf-xxi-a-bib-1",
+        "label": "Branner, Manuscript Painting in Paris, 13–4, 69, 87–1",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS lat. 1246."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xxi-a",
+      "predicate": "witnesses",
+      "object": "OCF-XXI",
+      "certainty": "certain",
+      "source": "OCF-XXI witness list"
+    },
+    {
+      "subject": "ms-ocf-xxi-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxi-a-origin-reims",
+      "predicate": "occurred_at",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxi-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-reims",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "event-ms-ocf-xxi-a-origin-paris",
+      "predicate": "occurred_at",
+      "object": "place-paris",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxi-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-paris",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxi-b",
+      "predicate": "witnesses",
+      "object": "OCF-XXI",
+      "certainty": "certain",
+      "source": "OCF-XXI witness list"
+    },
+    {
+      "subject": "ms-ocf-xxi-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bibl-de-l-institut-de-france",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxi-a",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxi-a",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxi-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-robert-branner",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxi-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-pierre-bonne",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxi-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xxi-a-bib-1",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-xxi-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xxi-a-bib-2",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-xxi-b",
+      "predicate": "associated_with",
+      "object": "actor-institut-de-france",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxi-b",
+      "predicate": "associated_person",
+      "object": "actor-denis-godefroy",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "OCF-XXI",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-XXI",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxi-a",
+      "certainty": "certain",
+      "source": "OCF-XXI witness list"
+    },
+    {
+      "subject": "OCF-XXI",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxi-b",
+      "certainty": "certain",
+      "source": "OCF-XXI witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-paris-bibl-de-l-institut-de-france",
+        "label": "Paris, Bibl. de l'Institut de France",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8568,
+        "lon": 2.337,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, Bibl. de l'Institut de France, MS Godefroy 380"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS lat. 1246"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-paris",
+        "label": "Paris",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Reims (text) / Paris (illumination)\"."
+      },
+      {
+        "id": "place-reims",
+        "label": "Reims",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.258,
+        "lon": 4.031,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Reims (text) / Paris (illumination)\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-xxi-a-reims-to-paris-bnf",
+        "label": "A: Reims → Paris, BnF",
+        "manuscriptId": "ms-ocf-xxi-a",
+        "fromPlaceId": "place-reims",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "ca. 1250",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xxi-a-paris-to-paris-bnf",
+        "label": "A: Paris → Paris, BnF",
+        "manuscriptId": "ms-ocf-xxi-a",
+        "fromPlaceId": "place-paris",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "ca. 1250",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_person",
+        "label": "associated_person"
+      },
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-edited_or_studied_by",
+        "label": "edited_or_studied_by"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

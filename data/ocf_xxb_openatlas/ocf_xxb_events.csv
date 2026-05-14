@@ -1,0 +1,3 @@
+"id","label","openatlasClass","systemClass","type","manuscriptId","placeId","start","end","description","certainty"
+"event-ms-ocf-xxb-b-current-repository","B kept at London, British Library","E7 Activity","activity","current_repository","ms-ocf-xxb-b","repo-london-british-library","","","London, British Library, MS Cotton Tiberius B.viii is currently kept at London, British Library.","certain"
+"event-ms-ocf-xxb-b-origin-paris","B origin/context: Paris","E12 Production","production","copying_or_origin","ms-ocf-xxb-b","place-paris","1365","1365","London, British Library, MS Cotton Tiberius B.viii: origin/context recorded as ""Paris (for Charles V)"".","probable"

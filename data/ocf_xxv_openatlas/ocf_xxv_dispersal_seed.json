@@ -1,0 +1,535 @@
+{
+  "meta": {
+    "title": "OCF-XXV manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:45.115Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XXV. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-XXV.",
+    "entityEnrichedAt": "2026-05-12T09:59:45.455Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XXV",
+        "label": "Ordo of Charles VIII",
+        "labelFr": "Ordo de Charles VIII",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "29 May ”2 June 1484",
+        "description": "Differs markedly from all previous texts. Not a generic ordo but a precise, full description of a specific event-unprecedented in the history of the ceremony. Contains the entire liturgy plus extensive descriptions of the king's entry into Reims, local detail, and records of active participants. Written by a cleric in the archbishop's entourage, probably the cathedral Dean. Primary liturgical source was the livre rouge. Set the standard for reporting future coronations. A fitting conclusion to the edition."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xxv-a",
+        "siglum": "A",
+        "displaySiglum": "A",
+        "label": "A — London, British Library, MS Arundel 149",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "London, British Library, MS Arundel 149",
+        "folios": "fol. 23r",
+        "date": "Late 15th century",
+        "origin": "",
+        "currentRepositoryId": "repo-london-british-library",
+        "currentRepository": "London, British Library",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Latin extracts only (nos. 23–0, 83–4).",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxv-b",
+        "siglum": "B",
+        "displaySiglum": "B",
+        "label": "B — Paris, BnF, MS nouv. acq. fr. 7232",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS nouv. acq. fr. 7232",
+        "folios": "fols. 47r–9v",
+        "date": "17th century, first half",
+        "origin": "From Brienne collection",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Base text. Better preserves older spellings than C.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxv-c",
+        "siglum": "C",
+        "displaySiglum": "C",
+        "label": "C — Paris, Bibl. de l'Institut de France, MS Godefroy 381",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, Bibl. de l'Institut de France, MS Godefroy 381",
+        "folios": "pp. 53–47B",
+        "date": "17th century, first half",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bibl-de-l-institut-de-france",
+        "currentRepository": "Paris, Bibl. de l'Institut de France",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Copied for the Godefroys' Cérémonial françois (1648). Corrected, possibly collated with B or lost MS 1.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxv-d",
+        "siglum": "D",
+        "displaySiglum": "D",
+        "label": "D — Paris, Bibl. de l'Arsenal, MS 4227",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "copy",
+        "shelfmark": "Paris, Bibl. de l'Arsenal, MS 4227",
+        "folios": "fols. 39r–4v",
+        "date": "17th century",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bibl-de-l-arsenal",
+        "currentRepository": "Paris, Bibl. de l'Arsenal",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Copied indirectly from B.",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "place-brienne-collection-context",
+        "label": "Brienne collection context",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "collection_context",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"From Brienne collection\"."
+      },
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 51.5299,
+        "lon": -0.1277,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: London, British Library, MS Arundel 149"
+      },
+      {
+        "id": "repo-paris-bibl-de-l-arsenal",
+        "label": "Paris, Bibl. de l'Arsenal",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8493,
+        "lon": 2.3623,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, Bibl. de l'Arsenal, MS 4227"
+      },
+      {
+        "id": "repo-paris-bibl-de-l-institut-de-france",
+        "label": "Paris, Bibl. de l'Institut de France",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8568,
+        "lon": 2.337,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, Bibl. de l'Institut de France, MS Godefroy 381"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS nouv. acq. fr. 7232"
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xxv-a-current-repository",
+        "label": "A kept at London, British Library",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxv-a",
+        "placeId": "repo-london-british-library",
+        "start": "",
+        "end": "",
+        "description": "London, British Library, MS Arundel 149 is currently kept at London, British Library.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxv-b-current-repository",
+        "label": "B kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxv-b",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS nouv. acq. fr. 7232 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxv-b-origin-brienne-collection-context",
+        "label": "B origin/context: Brienne collection context",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xxv-b",
+        "placeId": "place-brienne-collection-context",
+        "start": "17th century, first half",
+        "end": "17th century, first half",
+        "description": "Paris, BnF, MS nouv. acq. fr. 7232: origin/context recorded as \"From Brienne collection\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-xxv-c-current-repository",
+        "label": "C kept at Paris, Bibl. de l'Institut de France",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxv-c",
+        "placeId": "repo-paris-bibl-de-l-institut-de-france",
+        "start": "",
+        "end": "",
+        "description": "Paris, Bibl. de l'Institut de France, MS Godefroy 381 is currently kept at Paris, Bibl. de l'Institut de France.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxv-d-current-repository",
+        "label": "D kept at Paris, Bibl. de l'Arsenal",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxv-d",
+        "placeId": "repo-paris-bibl-de-l-arsenal",
+        "start": "",
+        "end": "",
+        "description": "Paris, Bibl. de l'Arsenal, MS 4227 is currently kept at Paris, Bibl. de l'Arsenal.",
+        "certainty": "certain"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-institut-de-france",
+        "label": "Bibliothèque de l’Institut de France",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution",
+        "placeId": "repo-paris-bibl-institut-de-france",
+        "description": ""
+      },
+      {
+        "id": "actor-bnf",
+        "label": "Bibliothèque nationale de France (BnF)",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-paris-bnf",
+        "description": ""
+      },
+      {
+        "id": "actor-british-library",
+        "label": "British Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-london-british-library",
+        "description": ""
+      },
+      {
+        "id": "actor-denis-godefroy",
+        "label": "Denis Godefroy",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "collector / copy tradition context",
+        "placeId": "place-paris",
+        "description": ""
+      }
+    ],
+    "references": []
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xxv-a",
+      "predicate": "witnesses",
+      "object": "OCF-XXV",
+      "certainty": "certain",
+      "source": "OCF-XXV witness list"
+    },
+    {
+      "subject": "ms-ocf-xxv-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxv-b",
+      "predicate": "witnesses",
+      "object": "OCF-XXV",
+      "certainty": "certain",
+      "source": "OCF-XXV witness list"
+    },
+    {
+      "subject": "ms-ocf-xxv-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xxv-b-origin-brienne-collection-context",
+      "predicate": "occurred_at",
+      "object": "place-brienne-collection-context",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxv-b",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-brienne-collection-context",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xxv-c",
+      "predicate": "witnesses",
+      "object": "OCF-XXV",
+      "certainty": "certain",
+      "source": "OCF-XXV witness list"
+    },
+    {
+      "subject": "ms-ocf-xxv-c",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bibl-de-l-institut-de-france",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxv-d",
+      "predicate": "witnesses",
+      "object": "OCF-XXV",
+      "certainty": "certain",
+      "source": "OCF-XXV witness list"
+    },
+    {
+      "subject": "ms-ocf-xxv-d",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bibl-de-l-arsenal",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxv-a",
+      "predicate": "associated_with",
+      "object": "actor-british-library",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxv-b",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxv-c",
+      "predicate": "associated_with",
+      "object": "actor-institut-de-france",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxv-c",
+      "predicate": "associated_person",
+      "object": "actor-denis-godefroy",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "OCF-XXV",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-XXV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxv-a",
+      "certainty": "certain",
+      "source": "OCF-XXV witness list"
+    },
+    {
+      "subject": "OCF-XXV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxv-b",
+      "certainty": "certain",
+      "source": "OCF-XXV witness list"
+    },
+    {
+      "subject": "OCF-XXV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxv-c",
+      "certainty": "certain",
+      "source": "OCF-XXV witness list"
+    },
+    {
+      "subject": "OCF-XXV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxv-d",
+      "certainty": "certain",
+      "source": "OCF-XXV witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 51.5299,
+        "lon": -0.1277,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: London, British Library, MS Arundel 149"
+      },
+      {
+        "id": "repo-paris-bibl-de-l-arsenal",
+        "label": "Paris, Bibl. de l'Arsenal",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8493,
+        "lon": 2.3623,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, Bibl. de l'Arsenal, MS 4227"
+      },
+      {
+        "id": "repo-paris-bibl-de-l-institut-de-france",
+        "label": "Paris, Bibl. de l'Institut de France",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8568,
+        "lon": 2.337,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, Bibl. de l'Institut de France, MS Godefroy 381"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS nouv. acq. fr. 7232"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-brienne-collection-context",
+        "label": "Brienne collection context",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "collection_context",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"From Brienne collection\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-xxv-b-brienne-collection-context-to-paris-bnf",
+        "label": "B: Brienne collection context → Paris, BnF",
+        "manuscriptId": "ms-ocf-xxv-b",
+        "fromPlaceId": "place-brienne-collection-context",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "17th century, first half",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_person",
+        "label": "associated_person"
+      },
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

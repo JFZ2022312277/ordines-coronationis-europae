@@ -1,0 +1,6 @@
+"id","label","openatlasClass","systemClass","type","lat","lon","certainty","note"
+"place-brienne-collection-context","Brienne collection context","E53 Place","place","collection_context","48.8566","2.3522","possible","Origin/context place parsed from ""From Brienne collection""."
+"repo-london-british-library","London, British Library","E53 Place","place","repository_place","51.5299","-0.1277","certain","Current repository inferred from shelfmark: London, British Library, MS Arundel 149"
+"repo-paris-bibl-de-l-arsenal","Paris, Bibl. de l'Arsenal","E53 Place","place","repository_place","48.8493","2.3623","certain","Current repository inferred from shelfmark: Paris, Bibl. de l'Arsenal, MS 4227"
+"repo-paris-bibl-de-l-institut-de-france","Paris, Bibl. de l'Institut de France","E53 Place","place","repository_place","48.8568","2.337","certain","Current repository inferred from shelfmark: Paris, Bibl. de l'Institut de France, MS Godefroy 381"
+"repo-paris-bnf","Paris, BnF","E53 Place","place","repository_place","48.8339","2.3757","certain","Current repository inferred from shelfmark: Paris, BnF, MS nouv. acq. fr. 7232"

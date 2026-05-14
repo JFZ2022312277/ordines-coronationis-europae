@@ -1,0 +1,50 @@
+# --- working-folder leftovers ---------------------------------------------
+*.bak
+*.bak-*
+*-backup-*
+*~
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Python / Node tooling caches -----------------------------------------
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+package-lock.json
+yarn.lock
+.npm/
+
+# --- editor / IDE ---------------------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+.history/
+
+# --- OS / network -------------------------------------------------------
+.openatlas_static_server.pid
+.edge-headless/
+
+# --- pre-cleanup backup files from the GitHub release prep ----------------
+index.html.bak-precleanup-*
+*.bak-precleanup-*
+
+# --- explicitly excluded large local image caches -------------------------
+# These directories were intentionally omitted from the public submission
+# package. Re-adding them is a separate workflow decision.
+assets/gcf-fr2813/
+assets/recueil_miniatures/
+assets/_disabled_gcf-fr2813/
+assets/_disabled_recueil_miniatures/
+
+# --- Zenodo / archive scratch ---------------------------------------------
+*.zip
+*.tar.gz
+zenodo_release_*.zip
+
+# --- AI helper logs -------------------------------------------------------
+.claude/
+.codex/

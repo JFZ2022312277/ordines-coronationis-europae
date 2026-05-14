@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XXIII manuscript pilot">
+  <ordo id="OCF-XXIII"><label>Ordo of Charles V</label><date>19 May 1364</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xxiii-a" siglum="A"><shelfmark>London, British Library, MS Cotton Tiberius B.viii</shelfmark><folios>fols. 43r–4v</folios><date>1365 (13 April 1365” April 1366)</date><origin>Paris (for Charles V, royal library)</origin><currentRepository ref="repo-london-british-library">London, British Library</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiii-b" siglum="B"><shelfmark>Paris, BnF, MS lat. 8886</shelfmark><folios>fols. 62v–3v</folios><date>Early 15th century</date><origin>Bayeux (pontifical) / for Jean, Duke of Berry</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiii-c" siglum="C"><shelfmark>Paris, BnF, MS lat. 9479</shelfmark><folios>fols. 213r–19r</folios><date>Early 15th century (before 1427/1435)</date><origin>Arles (pontifical, with addition)</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiii-d" siglum="D"><shelfmark>London, British Library, MS Additional 32097</shelfmark><folios>fols. 150v–61v</folios><date>15th century</date><origin></origin><currentRepository ref="repo-london-british-library">London, British Library</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiii-e" siglum="E"><shelfmark>Paris, BnF, MS Dupuy 365</shelfmark><folios>fols. 28r–4r</folios><date>15th century, third quarter</date><origin></origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiii-f" siglum="F"><shelfmark>Paris, Archives de Saint-Sulpice, MS 1928</shelfmark><folios>fols. 57r–8r</folios><date>ca. 1480</date><origin>Noyon (for Bishop Guillaume de Marafin, 1473–501)</origin><currentRepository ref="repo-paris-archives-de-saint-sulpice">Paris, Archives de Saint-Sulpice</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiii-g" siglum="G"><shelfmark>Paris, BnF, MS lat. 13314</shelfmark><folios>fols. 3r–4r</folios><date>1530–535</date><origin>Beauvais (for Bishop Charles de Villiers-de-l'Isle-Adam)</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="place-arles" type="scriptorium_or_origin_place" lat="43.677" lon="4.628" certainty="probable">Arles</place>
+    <place id="place-bayeux" type="scriptorium_or_origin_place" lat="49.276" lon="-0.703" certainty="probable">Bayeux</place>
+    <place id="place-beauvais" type="scriptorium_or_origin_place" lat="49.431" lon="2.08" certainty="probable">Beauvais</place>
+    <place id="repo-london-british-library" type="repository_place" lat="51.5299" lon="-0.1277" certainty="certain">London, British Library</place>
+    <place id="place-noyon" type="scriptorium_or_origin_place" lat="49.581" lon="3" certainty="probable">Noyon</place>
+    <place id="place-paris" type="scriptorium_or_origin_place" lat="48.8566" lon="2.3522" certainty="probable">Paris</place>
+    <place id="repo-paris-archives-de-saint-sulpice" type="repository_place" lat="48.8513" lon="2.3346" certainty="certain">Paris, Archives de Saint-Sulpice</place>
+    <place id="repo-paris-bnf" type="repository_place" lat="48.8339" lon="2.3757" certainty="certain">Paris, BnF</place>
+    <place id="place-royal-library-paris" type="collection_context" lat="48.8566" lon="2.3522" certainty="probable">Royal Library, Paris</place>
+  </places>
+</openatlasSeed>

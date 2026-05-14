@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XVI manuscript pilot">
+  <ordo id="OCF-XVI"><label>Royal Ordo in Cologne Dombibliothek 141</label><date>1000-1050</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xvi-a" siglum="A"><shelfmark>Cologne, Erzbischöfliche Diözesan- und Dombibl., MS 141</shelfmark><folios>fols. 153r–65v, 168v–71v</folios><date>First half of 11th century</date><origin>Benedictine monastery in diocese of Cambrai (archdiocese of Reims)</origin><currentRepository ref="repo-cologne-erzbischo-fliche-dio-zesan-und-dombibl">Cologne, Erzbischöfliche Diözesan- und Dombibl.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xvi-b" siglum="B"><shelfmark>Bamberg, Staatsbibl., MS Msc. Lit. 56</shelfmark><folios>fols. 146r–55v, 158r–60r</folios><date>14th century</date><origin>Copied from A</origin><currentRepository ref="repo-bamberg-staatsbibl">Bamberg, Staatsbibl.</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="repo-bamberg-staatsbibl" type="repository_place" lat="49.8917" lon="10.8867" certainty="certain">Bamberg, Staatsbibl.</place>
+    <place id="place-cambrai" type="scriptorium_or_origin_place" lat="50.176" lon="3.235" certainty="probable">Cambrai</place>
+    <place id="repo-cologne-erzbischo-fliche-dio-zesan-und-dombibl" type="repository_place" lat="50.9413" lon="6.9583" certainty="certain">Cologne, Erzbischöfliche Diözesan- und Dombibl.</place>
+    <place id="place-reims" type="scriptorium_or_origin_place" lat="49.258" lon="4.031" certainty="probable">Reims</place>
+  </places>
+</openatlasSeed>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-VII manuscript pilot">
+  <ordo id="OCF-VII"><label>Ordo of Charles the Bald</label><date>9 September 869</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-vii-lost-ms-1" siglum="Lost MS 1"><shelfmark>Liege, monastery of Saint-Laurent [LOST]</shelfmark><folios>Unknown (lost manuscript)</folios><date>Unknown</date><origin></origin><currentRepository ref="repo-liege-monastery-of-saint-laurent-lost">Liege, monastery of Saint-Laurent [LOST]</currentRepository></manuscript>
+    <manuscript id="ms-ocf-vii-lost-ms-2" siglum="Lost MS 2"><shelfmark>Beauvais, library of the cathedral chapter [LOST]</shelfmark><folios>Unknown (lost manuscript)</folios><date>9th century</date><origin></origin><currentRepository ref="repo-beauvais-library-of-the-cathedral-chapter-lost">Beauvais, library of the cathedral chapter [LOST]</currentRepository></manuscript>
+    <manuscript id="ms-ocf-vii-lost-ms-3" siglum="Lost MS 3"><shelfmark>Modena, Biblioteca Capitolare, MS 11,2 [LOST]</shelfmark><folios>Unknown (lost manuscript)</folios><date>Late 10th century</date><origin></origin><currentRepository ref="repo-modena-biblioteca-capitolare">Modena, Biblioteca Capitolare</currentRepository></manuscript>
+    <manuscript id="ms-ocf-vii-lost-ms-4" siglum="Lost MS 4"><shelfmark>Location unknown (&quot;Muret&quot; manuscript) [LOST]</shelfmark><folios>Unknown (lost manuscript)</folios><date>Unknown</date><origin></origin><currentRepository ref="repo-location-unknown-muret-manuscript-lost">Location unknown (&quot;Muret&quot; manuscript) [LOST]</currentRepository></manuscript>
+    <manuscript id="ms-ocf-vii-lost-ms-5" siglum="Lost MS 5"><shelfmark>Tarragona (?) manuscript of Antonio Agustin [LOST]</shelfmark><folios>Unknown (lost manuscript)</folios><date>Unknown</date><origin></origin><currentRepository ref="repo-tarragona-manuscript-of-antonio-agustin-lost">Tarragona (?) manuscript of Antonio Agustin [LOST]</currentRepository></manuscript>
+    <manuscript id="ms-ocf-vii-a" siglum="A"><shelfmark>Vatican City, BAV, MS Reg. lat. 291</shelfmark><folios>fols. 120v-121v</folios><date>First half of 16th century</date><origin>Capitulary tradition (Italian branch)</origin><currentRepository ref="repo-vatican-city-bav">Vatican City, BAV</currentRepository></manuscript>
+    <manuscript id="ms-ocf-vii-b" siglum="B"><shelfmark>Rome, Biblioteca Vallicelliana, MS C 16</shelfmark><folios>fols. 82v-85r</folios><date>16th century (third quarter)</date><origin>Capitulary tradition (Italian branch)</origin><currentRepository ref="repo-rome-biblioteca-vallicelliana">Rome, Biblioteca Vallicelliana</currentRepository></manuscript>
+    <manuscript id="ms-ocf-vii-c" siglum="C"><shelfmark>Vatican City, BAV, MS Vat. lat. 4982</shelfmark><folios>fols. 144r-145v</folios><date>17th century</date><origin>Copied from Modena tradition (lost MS 3)</origin><currentRepository ref="repo-vatican-city-bav">Vatican City, BAV</currentRepository></manuscript>
+    <manuscript id="ms-ocf-vii-d" siglum="D"><shelfmark>Saint-Omer, Bibliotheque d'agglomeration, MS 706</shelfmark><folios>fols. 206v-207v</folios><date>ca. 1000</date><origin>Annales Bertiniani tradition</origin><currentRepository ref="repo-saint-omer-bibliotheque-d-agglomeration">Saint-Omer, Bibliotheque d'agglomeration</currentRepository></manuscript>
+    <manuscript id="ms-ocf-vii-e" siglum="E"><shelfmark>Brussels, Bibliotheque royale, MS 6439-6451</shelfmark><folios>Not specified in the edition</folios><date>11th century</date><origin>Annales Bertiniani tradition</origin><currentRepository ref="repo-brussels-bibliotheque-royale">Brussels, Bibliotheque royale</currentRepository></manuscript>
+    <manuscript id="ms-ocf-vii-f" siglum="F"><shelfmark>Paris, BnF, MS lat. 12711</shelfmark><folios>fols. 142r-143v</folios><date>End of 11th century</date><origin>Continuation of Aimoin tradition</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-vii-g" siglum="G"><shelfmark>Paris, BnF, MS lat. 12710</shelfmark><folios>fol. 53r-v</folios><date>13th century</date><origin>Continuation of Aimoin tradition</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="place-annales-bertiniani-tradition" type="textual_tradition_context" lat="49.258" lon="4.031" certainty="possible">Annales Bertiniani tradition</place>
+    <place id="repo-beauvais-library-of-the-cathedral-chapter-lost" type="repository_place" lat="49.431" lon="2.08" certainty="last_known_or_reported">Beauvais, library of the cathedral chapter [LOST]</place>
+    <place id="repo-brussels-bibliotheque-royale" type="repository_place" lat="50.8427" lon="4.361" certainty="certain">Brussels, Bibliotheque royale</place>
+    <place id="place-continuation-of-aimoin-tradition" type="textual_tradition_context" lat="48.8566" lon="2.3522" certainty="possible">Continuation of Aimoin tradition</place>
+    <place id="place-italian-capitulary-tradition" type="textual_tradition_context" lat="41.9022" lon="12.4539" certainty="possible">Italian capitulary tradition</place>
+    <place id="repo-liege-monastery-of-saint-laurent-lost" type="repository_place" lat="50.633" lon="5.567" certainty="last_known_or_reported">Liege, monastery of Saint-Laurent [LOST]</place>
+    <place id="repo-location-unknown-muret-manuscript-lost" type="repository_place" lat="" lon="" certainty="last_known_or_reported">Location unknown (&quot;Muret&quot; manuscript) [LOST]</place>
+    <place id="place-modena" type="lost_witness_context" lat="44.647" lon="10.925" certainty="probable">Modena</place>
+    <place id="repo-modena-biblioteca-capitolare" type="repository_place" lat="44.647" lon="10.925" certainty="last_known_or_reported">Modena, Biblioteca Capitolare</place>
+    <place id="repo-paris-bnf" type="repository_place" lat="48.8339" lon="2.3757" certainty="certain">Paris, BnF</place>
+    <place id="repo-rome-biblioteca-vallicelliana" type="repository_place" lat="41.899" lon="12.468" certainty="certain">Rome, Biblioteca Vallicelliana</place>
+    <place id="repo-saint-omer-bibliotheque-d-agglomeration" type="repository_place" lat="50.75" lon="2.253" certainty="certain">Saint-Omer, Bibliotheque d'agglomeration</place>
+    <place id="repo-tarragona-manuscript-of-antonio-agustin-lost" type="repository_place" lat="41.118" lon="1.245" certainty="last_known_or_reported">Tarragona (?) manuscript of Antonio Agustin [LOST]</place>
+    <place id="repo-vatican-city-bav" type="repository_place" lat="41.9022" lon="12.4539" certainty="certain">Vatican City, BAV</place>
+  </places>
+</openatlasSeed>

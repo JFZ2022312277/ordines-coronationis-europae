@@ -1,0 +1,8 @@
+"id","label","lat","lon","type","openatlasClass","description"
+"place-westminster-abbey","Westminster Abbey","51.4993","-0.1273","ritual_place","E53 Place","Principal English coronation church."
+"place-tower-of-london","Tower of London","51.5081","-0.0759","ritual_place","E53 Place","Processional and regalia context."
+"place-canterbury","Canterbury / archiepiscopal context","51.2802","1.0789","institutional_context","E53 Place",""
+"place-iona","Iona","56.335","-6.393","ritual_place","E53 Place",""
+"place-scotland-context","Scottish royal context","56.49","-4.2","political_context","E53 Place",""
+"place-winchester","Winchester ecclesiastical context","51.0629","-1.3165","origin_context","E53 Place",""
+"repo-london-british-library","London, British Library","51.5299","-0.1275","repository_place","E53 Place",""

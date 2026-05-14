@@ -1,0 +1,3 @@
+"id","manuscriptId","fromPlaceId","toPlaceId","start","end","certainty","description"
+"move-ms-hre-x-src","ms-hre-x-src","place-rome-curia-context","repo-vatican-bav","ca. 1100","ca. 1100","derived","Research context line for SRC: Rome / Papal Curia context -> Rome (Curia / Vatican), source tradition anchor."
+"move-ms-hre-x-a","ms-hre-x-a","place-rome-curia-context","repo-vatican-bav","ca. 1100-1192","ca. 1100-1192","probable","Research context line for A: Rome / Papal Curia context -> Biblioteca Apostolica Vaticana."

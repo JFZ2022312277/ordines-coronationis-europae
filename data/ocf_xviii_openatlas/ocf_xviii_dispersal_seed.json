@@ -1,0 +1,447 @@
+{
+  "meta": {
+    "title": "OCF-XVIII manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:41.751Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XVIII. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-XVIII.",
+    "entityEnrichedAt": "2026-05-12T09:59:45.421Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XVIII",
+        "label": "Ordo of Saint-Bertin",
+        "labelFr": "Ordo de Saint-Bertin",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "ca. 1150–200",
+        "description": "A variant of the 'German' ordo in the Romano-Germanic pontifical of Mainz, but not an exact reproduction. From the monastery of Saint-Bertin at Saint-Omer. Nothing specifically 'French' about it; no evidence it was ever used at a coronation. The full text had not been published previously."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xviii-a",
+        "siglum": "A",
+        "label": "A — Saint-Omer, Bibl. mun., MS 98",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Saint-Omer, Bibl. mun., MS 98",
+        "folios": "fols. 64v–1r",
+        "date": "12th century, middle or second half",
+        "origin": "Saint-Bertin, Saint-Omer",
+        "currentRepositoryId": "repo-saint-omer-bibl-mun",
+        "currentRepository": "Saint-Omer, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Primary witness for Ordo XVIII at the listed folios.",
+        "bibliography": "Leroquais, Pontificaux, 2: 318–3, no. 195"
+      },
+      {
+        "id": "ms-ocf-xviii-b",
+        "siglum": "B",
+        "label": "B — Paris, Bibl. Sainte-Geneviève, MS 148",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, Bibl. Sainte-Geneviève, MS 148",
+        "folios": "fols. 84v–2r",
+        "date": "1350–356",
+        "origin": "Senlis",
+        "currentRepositoryId": "repo-paris-bibl-sainte-genevie-ve",
+        "currentRepository": "Paris, Bibl. Sainte-Geneviève",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Pontifical of Pierre de Trégny, bishop of Senlis.",
+        "bibliography": "Leroquais, Pontificaux, 2: 250–5, no. 177"
+      }
+    ],
+    "places": [
+      {
+        "id": "repo-paris-bibl-sainte-genevie-ve",
+        "label": "Paris, Bibl. Sainte-Geneviève",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8469,
+        "lon": 2.3464,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, Bibl. Sainte-Geneviève, MS 148"
+      },
+      {
+        "id": "place-saint-bertin-saint-omer",
+        "label": "Saint-Bertin, Saint-Omer",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.75,
+        "lon": 2.253,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Saint-Bertin, Saint-Omer\"."
+      },
+      {
+        "id": "repo-saint-omer-bibl-mun",
+        "label": "Saint-Omer, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.75,
+        "lon": 2.253,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Saint-Omer, Bibl. mun., MS 98"
+      },
+      {
+        "id": "place-senlis",
+        "label": "Senlis",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.207,
+        "lon": 2.586,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Senlis\"."
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xviii-a-current-repository",
+        "label": "A kept at Saint-Omer, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xviii-a",
+        "placeId": "repo-saint-omer-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Saint-Omer, Bibl. mun., MS 98 is currently kept at Saint-Omer, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xviii-a-origin-saint-bertin-saint-omer",
+        "label": "A origin/context: Saint-Bertin, Saint-Omer",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xviii-a",
+        "placeId": "place-saint-bertin-saint-omer",
+        "start": "12th century, middle or second half",
+        "end": "12th century, middle or second half",
+        "description": "Saint-Omer, Bibl. mun., MS 98: origin/context recorded as \"Saint-Bertin, Saint-Omer\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xviii-b-current-repository",
+        "label": "B kept at Paris, Bibl. Sainte-Geneviève",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xviii-b",
+        "placeId": "repo-paris-bibl-sainte-genevie-ve",
+        "start": "",
+        "end": "",
+        "description": "Paris, Bibl. Sainte-Geneviève, MS 148 is currently kept at Paris, Bibl. Sainte-Geneviève.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xviii-b-origin-senlis",
+        "label": "B origin/context: Senlis",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xviii-b",
+        "placeId": "place-senlis",
+        "start": "1350–356",
+        "end": "1350–356",
+        "description": "Paris, Bibl. Sainte-Geneviève, MS 148: origin/context recorded as \"Senlis\".",
+        "certainty": "probable"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-sainte-genevieve-library",
+        "label": "Bibliothèque Sainte-Geneviève",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution",
+        "placeId": "repo-paris-bibl-sainte-genevieve",
+        "description": ""
+      },
+      {
+        "id": "actor-victor-leroquais",
+        "label": "Victor Leroquais",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "cataloguer / scholar",
+        "placeId": "place-paris",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-xviii-b-bib-1",
+        "label": "Leroquais, Pontificaux, 2: 250–5, no. 177",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Paris, Bibl. Sainte-Geneviève, MS 148."
+      },
+      {
+        "id": "ref-ms-ocf-xviii-a-bib-1",
+        "label": "Leroquais, Pontificaux, 2: 318–3, no. 195",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_catalogue",
+        "url": "",
+        "description": "Bibliographic reference for Saint-Omer, Bibl. mun., MS 98."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xviii-a",
+      "predicate": "witnesses",
+      "object": "OCF-XVIII",
+      "certainty": "certain",
+      "source": "OCF-XVIII witness list"
+    },
+    {
+      "subject": "ms-ocf-xviii-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-saint-omer-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xviii-a-origin-saint-bertin-saint-omer",
+      "predicate": "occurred_at",
+      "object": "place-saint-bertin-saint-omer",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xviii-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-saint-bertin-saint-omer",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xviii-b",
+      "predicate": "witnesses",
+      "object": "OCF-XVIII",
+      "certainty": "certain",
+      "source": "OCF-XVIII witness list"
+    },
+    {
+      "subject": "ms-ocf-xviii-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bibl-sainte-genevie-ve",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xviii-b-origin-senlis",
+      "predicate": "occurred_at",
+      "object": "place-senlis",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xviii-b",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-senlis",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xviii-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xviii-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xviii-a-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "ms-ocf-xviii-b",
+      "predicate": "associated_with",
+      "object": "actor-sainte-genevieve-library",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xviii-b",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-victor-leroquais",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xviii-b",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-xviii-b-bib-1",
+      "certainty": "certain",
+      "source": "edition_or_catalogue"
+    },
+    {
+      "subject": "OCF-XVIII",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-XVIII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xviii-a",
+      "certainty": "certain",
+      "source": "OCF-XVIII witness list"
+    },
+    {
+      "subject": "OCF-XVIII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xviii-b",
+      "certainty": "certain",
+      "source": "OCF-XVIII witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-paris-bibl-sainte-genevie-ve",
+        "label": "Paris, Bibl. Sainte-Geneviève",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8469,
+        "lon": 2.3464,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, Bibl. Sainte-Geneviève, MS 148"
+      },
+      {
+        "id": "repo-saint-omer-bibl-mun",
+        "label": "Saint-Omer, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.75,
+        "lon": 2.253,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Saint-Omer, Bibl. mun., MS 98"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-saint-bertin-saint-omer",
+        "label": "Saint-Bertin, Saint-Omer",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 50.75,
+        "lon": 2.253,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Saint-Bertin, Saint-Omer\"."
+      },
+      {
+        "id": "place-senlis",
+        "label": "Senlis",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 49.207,
+        "lon": 2.586,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Senlis\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-xviii-a-saint-bertin-saint-omer-to-saint-omer-bibl-mun",
+        "label": "A: Saint-Bertin, Saint-Omer → Saint-Omer, Bibl. mun.",
+        "manuscriptId": "ms-ocf-xviii-a",
+        "fromPlaceId": "place-saint-bertin-saint-omer",
+        "toPlaceId": "repo-saint-omer-bibl-mun",
+        "start": "12th century, middle or second half",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xviii-b-senlis-to-paris-bibl-sainte-genevie-ve",
+        "label": "B: Senlis → Paris, Bibl. Sainte-Geneviève",
+        "manuscriptId": "ms-ocf-xviii-b",
+        "fromPlaceId": "place-senlis",
+        "toPlaceId": "repo-paris-bibl-sainte-genevie-ve",
+        "start": "1350–356",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-edited_or_studied_by",
+        "label": "edited_or_studied_by"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

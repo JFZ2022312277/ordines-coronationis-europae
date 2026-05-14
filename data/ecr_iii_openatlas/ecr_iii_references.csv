@@ -1,0 +1,4 @@
+"id","label","openatlasClass","systemClass","type","url","description"
+"ref-legg-1901","Leopold G. Wickham Legg, English Coronation Records (1901)","E31 Document","reference","edition","","Base edition for the ECR corpus."
+"ref-ecr-iii-edition-1","Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).","E31 Document","reference","edition_or_source","",""
+"ref-ms-ecr-iii-a-digital","Parker Library: Cambridge, Corpus Christi College, MS 146","E31 Document","reference","digital_facsimile","https://parker.stanford.edu/parker/catalog/wy783rb3141",""

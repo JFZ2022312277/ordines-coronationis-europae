@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "title": "OCF-XVIIB manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:41.749Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XVIIB. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-XVIIB.",
+    "entityEnrichedAt": "2026-05-12T09:59:45.416Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XVIIB",
+        "label": "French Translations of the Memorandum of Philip I's Coronation",
+        "labelFr": "Traductions françaises du mémorandum du sacre de Philippe Ier",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "1555–969",
+        "description": "A series of French translations of the Latin memorandum, from Du Tillet's 16th-century version to modern scholarly translations."
+      }
+    ],
+    "manuscripts": [],
+    "places": [],
+    "events": [],
+    "actors": [],
+    "references": []
+  },
+  "relations": [
+    {
+      "subject": "OCF-XVIIB",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [],
+    "originPlaces": [],
+    "movements": []
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      }
+    ]
+  }
+}

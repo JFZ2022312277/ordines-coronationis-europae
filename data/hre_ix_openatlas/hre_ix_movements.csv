@@ -1,0 +1,3 @@
+"id","manuscriptId","fromPlaceId","toPlaceId","start","end","certainty","description"
+"move-ms-hre-ix-src","ms-hre-ix-src","place-arras-context","place-arras-source-tradition-anchor","11th century","11th century","derived","Research context line for SRC: Arras / Saint-Vaast context -> Arras, source tradition anchor."
+"move-ms-hre-ix-a","ms-hre-ix-a","place-arras-context","repo-cologne-dombibliothek","mid-11th century","mid-11th century","probable","Research context line for A: Arras / Saint-Vaast context -> Erzbischöfliche Diözesan- und Dombibliothek, Cologne."

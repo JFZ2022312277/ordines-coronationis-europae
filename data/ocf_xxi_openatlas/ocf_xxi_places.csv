@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","lat","lon","certainty","note"
+"place-paris","Paris","E53 Place","place","scriptorium_or_origin_place","48.8566","2.3522","probable","Origin/context place parsed from ""Reims (text) / Paris (illumination)""."
+"repo-paris-bibl-de-l-institut-de-france","Paris, Bibl. de l'Institut de France","E53 Place","place","repository_place","48.8568","2.337","certain","Current repository inferred from shelfmark: Paris, Bibl. de l'Institut de France, MS Godefroy 380"
+"repo-paris-bnf","Paris, BnF","E53 Place","place","repository_place","48.8339","2.3757","certain","Current repository inferred from shelfmark: Paris, BnF, MS lat. 1246"
+"place-reims","Reims","E53 Place","place","scriptorium_or_origin_place","49.258","4.031","probable","Origin/context place parsed from ""Reims (text) / Paris (illumination)""."

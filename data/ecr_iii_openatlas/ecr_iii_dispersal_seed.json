@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "title": "ECR-III A Coronation Order written before the Conquest English coronation record pilot",
+    "generatedAt": "2026-05-12T13:41:42.750Z",
+    "source": "ordines_coronationis_iiif.html ECR records",
+    "note": "ECR includes ordines, narrative records, papal letters, inventories, processions, and printed orders; reference anchors are not asserted physical manuscripts."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "ECR-III",
+        "label": "A Coronation Order written before the Conquest",
+        "labelFr": "A Coronation Order written before the Conquest",
+        "sourceLabel": "ECR",
+        "tradition": "English",
+        "date": "S.d.",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "This coronation order belongs to what is known as the second recension of the service. It is often called the Coronation Order of Ethelred II., but there does not seem to be much ground for this designation. The manuscript from which the coronation service now edited is taken, belongs to Corpus Christi College, Cambridge (No. 146), and dates from the eleventh century. It seems possible that this service was used at the consecration of Harold and William the Conqueror. As early as the time of Selden (John Selden, Titles of Honor, London, 1631, p. 222) it was noticed that this recension was probably composed in England, whence it spread to the Continent It is found in the Pontificals of many of the churches of northern France, and was the order used for the coronations of the Kings of France and Italy. The reason for considering it an English order is the presence of the terms anglorum vel saxonum in the consecratory prayer. These terms or the terms saxonum mereiorum nordanymbrorum appear in the coronation book of Charles V. of France, as well as in an early Chartres Pontifical in the National Library at Paris (MS. latin 945, fo. 204), and also in a coronation order for the King of Italy (MS. latin, 977. See Martene, De antiquis ecdesiae ritibus, Antuerpiae, 1736, vol. ii. coll. 584-9). The difficulty was sometimes solved in the foreign churches by adding videlicet Francorum after the English names, as in the order printed in Menard (^Divi Gregorii... Liber Sacramentorum, Paris, 1642, pp. 278-285. Albionis totius videlicet Francorum.) In the blessing which begins.拢芦^芦芦/fa^ omnipotens we have the mention of St. Gregory, Anglorum apostolici. The phrase is also found abroad, though in places out of all connexion with England, and corrupted into angelorum (Menard, op. at.), and St. Gregory is mentioned in a French Pontifical of the early fourteenth century (National Library, Paris, MS. latin 953). In the coronation of the King of Italy the name of St. Ambrose is substituted, very naturally, for that of St. Gregory. The service for the coronation of the Queen is found in this recension. Other copies of this recension have a prayer to be said at the door of the church as the Queen enters. At Chartres (National Library, Paris, MS. lat. 945), and at St. Amand (National Library, MS. lat. 953) we find Adesto Domine supplicationibus, which is printed in Mdnard (JDivi Gregorii... Liber Sacramentorum, Paris, 1642, p. 284.) At Milan they said Omnipotens sempiteme Deusfons et origo (National Library, Paris, MS. lat. 977.) COKilNAIInx.IK IIaKiii.1.. (In.ni thr \\::,y.:ux lapcMiy.)"
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ecr-iii-a",
+        "siglum": "A",
+        "shelfmark": "Cambridge, Corpus Christi College, MS 146",
+        "repositoryPlaceId": "repo-cambridge-corpus",
+        "currentRepository": "Cambridge, Corpus Christi College",
+        "lat": 52.2043,
+        "lon": 0.1182,
+        "date": "11th century",
+        "folios": "pp. 138-150",
+        "group": "primary",
+        "origin": "Winchester / Worcester",
+        "witnessType": "primary",
+        "sourceLabel": "Parker Library",
+        "digitalUrl": "https://parker.stanford.edu/parker/catalog/wy783rb3141",
+        "iiifUrl": "",
+        "iiif_url": "",
+        "iiif_manifest_url": "",
+        "embedded_viewer_url": "",
+        "description": "The Samson Pontifical. Second recension of the English coronation service. Possibly used at the coronation of Harold and William the Conqueror.",
+        "bibliography": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-westminster-abbey",
+        "label": "Westminster Abbey",
+        "lat": 51.4993,
+        "lon": -0.1273,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Principal English coronation church."
+      },
+      {
+        "id": "place-tower-of-london",
+        "label": "Tower of London",
+        "lat": 51.5081,
+        "lon": -0.0759,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Processional and regalia context."
+      },
+      {
+        "id": "place-iona",
+        "label": "Iona",
+        "lat": 56.335,
+        "lon": -6.393,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "place-scotland-context",
+        "label": "Scottish royal context",
+        "lat": 56.49,
+        "lon": -4.2,
+        "type": "political_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-cambridge-corpus",
+        "label": "Cambridge, Corpus Christi College",
+        "lat": 52.2053,
+        "lon": 0.1192,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "place-winchester",
+        "label": "Winchester ecclesiastical context",
+        "lat": 51.0629,
+        "lon": -1.3165,
+        "type": "origin_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ecr-iii-record-context",
+        "label": "ECR-III English coronation record context",
+        "type": "coronation_or_ritual_record",
+        "placeId": "place-westminster-abbey",
+        "start": "S.d.",
+        "end": "S.d.",
+        "description": "This coronation order belongs to what is known as the second recension of the service. It is often called the Coronation Order of Ethelred II., but there does not seem to be much ground for this designation. The manuscript from which the coronation service now edited is taken, belongs to Corpus Christi College, Cambridge (No. 146), and dates from the eleventh century. It seems possible that this service was used at the consecration of Harold and William the Conqueror. As early as the time of Selden (John Selden, Titles of Honor, London, 1631, p. 222) it was noticed that this recension was probably composed in England, whence it spread to the Continent It is found in the Pontificals of many of the churches of northern France, and was the order used for the coronations of the Kings of France and Italy. The reason for considering it an English order is the presence of the terms anglorum vel saxonum in the consecratory prayer. These terms or the terms saxonum mereiorum nordanymbrorum appear in the coronation book of Charles V. of France, as well as in an early Chartres Pontifical in the National Library at Paris (MS. latin 945, fo. 204), and also in a coronation order for the King of Italy (MS. latin, 977. See Martene, De antiquis ecdesiae ritibus, Antuerpiae, 1736, vol. ii. coll. 584-9). The difficulty was sometimes solved in the foreign churches by adding videlicet Francorum after the English names, as in the order printed in Menard (^Divi Gregorii... Liber Sacramentorum, Paris, 1642, pp. 278-285. Albionis totius videlicet Francorum.) In the blessing which begins.拢芦^芦芦/fa^ omnipotens we have the mention of St. Gregory, Anglorum apostolici. The phrase is also found abroad, though in places out of all connexion with England, and corrupted into angelorum (Menard, op. at.), and St. Gregory is mentioned in a French Pontifical of the early fourteenth century (National Library, Paris, MS. latin 953). In the coronation of the King of Italy the name of St. Ambrose is substituted, very naturally, for that of St. Gregory. The service for the coronation of the Queen is found in this recension. Other copies of this recension have a prayer to be said at the door of the church as the Queen enters. At Chartres (National Library, Paris, MS. lat. 945), and at St. Amand (National Library, MS. lat. 953) we find Adesto Domine supplicationibus, which is printed in Mdnard (JDivi Gregorii... Liber Sacramentorum, Paris, 1642, p. 284.) At Milan they said Omnipotens sempiteme Deusfons et origo (National Library, Paris, MS. lat. 977.) COKilNAIInx.IK IIaKiii.1.. (In.ni thr \\::,y.:ux lapcMiy.)",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-ecr-iii-a-source",
+        "label": "A source/witness context",
+        "type": "copying_or_transmission",
+        "placeId": "repo-cambridge-corpus",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "The Samson Pontifical. Second recension of the English coronation service. Possibly used at the coronation of Harold and William the Conqueror.",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-leopold-legg",
+        "label": "Leopold G. Wickham Legg",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of English Coronation Records",
+        "placeId": ""
+      },
+      {
+        "id": "actor-english-coronation-tradition",
+        "label": "English coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "ritual and documentary tradition",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-westminster-abbey",
+        "label": "Westminster Abbey",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "coronation church / institutional context",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-columba",
+        "label": "St Columba",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "saint / consecrating figure",
+        "placeId": ""
+      },
+      {
+        "id": "actor-ethelred-ii",
+        "label": "Æthelred II",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal attribution / recension label",
+        "placeId": ""
+      },
+      {
+        "id": "actor-harold-ii",
+        "label": "Harold II",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "possible coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-william-conqueror",
+        "label": "William the Conqueror",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-john",
+        "label": "King John",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-bnf",
+        "label": "Bibliothèque nationale de France (BnF)",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-paris-bnf"
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-legg-1901",
+        "label": "Leopold G. Wickham Legg, English Coronation Records (1901)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Base edition for the ECR corpus."
+      },
+      {
+        "id": "ref-ecr-iii-edition-1",
+        "label": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_source",
+        "url": "",
+        "description": ""
+      },
+      {
+        "id": "ref-ms-ecr-iii-a-digital",
+        "label": "Parker Library: Cambridge, Corpus Christi College, MS 146",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://parker.stanford.edu/parker/catalog/wy783rb3141",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-english",
+        "label": "English coronation records",
+        "code": "ECR"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ECR-III",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-english",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-III",
+      "predicate": "edited_by",
+      "object": "actor-leopold-legg",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-III",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-III",
+      "predicate": "documents_event",
+      "object": "event-ecr-iii-record-context",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-III",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-III",
+      "predicate": "associated_with",
+      "object": "actor-westminster-abbey",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-III",
+      "predicate": "associated_with",
+      "object": "actor-columba",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-III",
+      "predicate": "associated_with",
+      "object": "actor-ethelred-ii",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-III",
+      "predicate": "associated_with",
+      "object": "actor-harold-ii",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-III",
+      "predicate": "associated_with",
+      "object": "actor-william-conqueror",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-III",
+      "predicate": "associated_with",
+      "object": "actor-john",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-III",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-III",
+      "predicate": "preserved_in",
+      "object": "ms-ecr-iii-a",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-iii-a",
+      "predicate": "has_event",
+      "object": "event-ms-ecr-iii-a-source",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-iii-a",
+      "predicate": "located_at",
+      "object": "repo-cambridge-corpus",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-iii-a",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-iii-a",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-iii-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-ecr-iii-a-digital",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": [
+      {
+        "id": "move-ms-ecr-iii-a",
+        "manuscriptId": "ms-ecr-iii-a",
+        "fromPlaceId": "place-winchester",
+        "toPlaceId": "repo-cambridge-corpus",
+        "start": "11th century",
+        "end": "11th century",
+        "certainty": "probable",
+        "description": "Research context line for A: Winchester ecclesiastical context -> Cambridge, Corpus Christi College."
+      }
+    ]
+  }
+}

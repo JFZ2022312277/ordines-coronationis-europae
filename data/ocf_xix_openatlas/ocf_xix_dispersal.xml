@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XIX manuscript pilot">
+  <ordo id="OCF-XIX"><label>Ordo of 1200</label><date>ca. 1200</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xix-a" siglum="A"><shelfmark>Reims, Bibl. mun., MS 343</shelfmark><folios>fols. 126r–49r</folios><date>Early 13th century</date><origin>Reims Cathedral chapter library</origin><currentRepository ref="repo-reims-bibl-mun">Reims, Bibl. mun.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xix-b" siglum="B"><shelfmark>Besançon, Bibl. mun., MS 138</shelfmark><folios>fols. 190v–14v</folios><date>Mid-13th century</date><origin>Beauvais</origin><currentRepository ref="repo-besanc-on-bibl-mun">Besançon, Bibl. mun.</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="place-beauvais" type="scriptorium_or_origin_place" lat="49.431" lon="2.08" certainty="probable">Beauvais</place>
+    <place id="repo-besanc-on-bibl-mun" type="repository_place" lat="47.2378" lon="6.0244" certainty="certain">Besançon, Bibl. mun.</place>
+    <place id="place-reims" type="scriptorium_or_origin_place" lat="49.258" lon="4.031" certainty="probable">Reims</place>
+    <place id="repo-reims-bibl-mun" type="repository_place" lat="49.2541" lon="3.025" certainty="certain">Reims, Bibl. mun.</place>
+  </places>
+</openatlasSeed>

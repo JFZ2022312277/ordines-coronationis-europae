@@ -1,0 +1,6 @@
+"id","label","manuscriptId","fromPlaceId","toPlaceId","start","end","certainty","type"
+"move-ms-ocf-xiv-a-sens-to-leiden-rijksuniversiteit-bibl","A: Sens → Leiden, Rijksuniversiteit Bibl.","ms-ocf-xiv-a","place-sens","repo-leiden-rijksuniversiteit-bibl","ca. 1000","","probable","manuscript_dispersal"
+"move-ms-ocf-xiv-b-milan-to-milan-biblioteca-del-capitolo-metropolitano","B: Milan → Milan, Biblioteca del Capitolo Metropolitano","ms-ocf-xiv-b","place-milan","repo-milan-biblioteca-del-capitolo-metropolitano","11th century","","probable","manuscript_dispersal"
+"move-ms-ocf-xiv-c-milan-to-vatican-city-bav","C: Milan → Vatican City, BAV","ms-ocf-xiv-c","place-milan","repo-vatican-city-bav","11th century","","probable","manuscript_dispersal"
+"move-ms-ocf-xiv-d-monte-cassino-to-vatican-city-bav","D: Monte Cassino → Vatican City, BAV","ms-ocf-xiv-d","place-monte-cassino","repo-vatican-city-bav","Second half of 11th century","","probable","manuscript_dispersal"
+"move-ms-ocf-xiv-f-braga-to-lisbon-bibl-nac","F: Braga → Lisbon, Bibl. Nac.","ms-ocf-xiv-f","place-braga","repo-lisbon-bibl-nac","13th century","","probable","manuscript_dispersal"

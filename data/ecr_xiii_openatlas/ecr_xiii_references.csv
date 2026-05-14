@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","url","description"
+"ref-legg-1901","Leopold G. Wickham Legg, English Coronation Records (1901)","E31 Document","reference","edition","","Base edition for the ECR corpus."
+"ref-ecr-xiii-edition-1","Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).","E31 Document","reference","edition_or_source","",""
+"ref-ms-ecr-xiii-a-digital","Local PDF facsimile: London, Westminster Abbey, MS 38","E31 Document","reference","digital_facsimile","/非常重要！Liber Regalis.pdf",""
+"ref-ms-ecr-xiii-a-iiif","IIIF manifest: London, Westminster Abbey, MS 38","E31 Document","reference","iiif_manifest","/iiif/ECR-XIII-LIBER-REGALIS/manifest.json",""

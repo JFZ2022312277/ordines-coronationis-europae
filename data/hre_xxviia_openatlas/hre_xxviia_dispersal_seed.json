@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "title": "HRE-XXVIIA Spoken and sung texts of Ordo XXVII in the oath book of Blasius de Cesena dispersal pilot",
+    "generatedAt": "2026-05-12T13:04:25.729Z",
+    "source": "ordines_coronationis_iiif.html HRE records",
+    "note": "Pilot OpenAtlas-style data for HRE entries; source anchors are reference/context entities, not asserted manuscript repositories."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "HRE-XXVIIA",
+        "label": "Spoken and sung texts of Ordo XXVII in the oath book of Blasius de Cesena",
+        "labelFr": "Spoken and sung texts of Ordo XXVII in the oath book of Blasius de Cesena",
+        "sourceLabel": "HRE",
+        "tradition": "HRE",
+        "date": "1530",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "Spoken and sung texts of Ordo XXVII in the oath book of Blasius de Cesena. Date: 1530. Imported from Elze (1960), Ordo XXVIIA."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-hre-xxviia-src",
+        "siglum": "SRC",
+        "shelfmark": "Bologna, source tradition anchor",
+        "repositoryPlaceId": "place-bologna-context",
+        "currentRepository": "Bologna, source tradition anchor",
+        "lat": 44.4949,
+        "lon": 11.3426,
+        "date": "1530",
+        "folios": "",
+        "group": "reference",
+        "origin": "Bologna context",
+        "witnessType": "reference",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "description": "Geographic anchor inferred from HRE source dateline place: Bologna.",
+        "bibliography": "Reinhard Elze (ed.), Ordines Coronationis Imperialis (1960).",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-bologna-context",
+        "label": "Bologna context",
+        "lat": 44.4949,
+        "lon": 11.3426,
+        "type": "origin_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-hre-xxviia-src-context",
+        "label": "SRC copying/source context",
+        "type": "copying_or_transmission",
+        "placeId": "place-bologna-context",
+        "start": "1530",
+        "end": "1530",
+        "description": "Geographic anchor inferred from HRE source dateline place: Bologna.",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-reinhard-elze",
+        "label": "Reinhard Elze",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of Ordines Coronationis Imperialis",
+        "placeId": ""
+      },
+      {
+        "id": "actor-hre-imperial-tradition",
+        "label": "Holy Roman imperial coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "political-liturgical context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-bologna-context",
+        "label": "Bologna context",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "textual or production context",
+        "placeId": "place-bologna-context"
+      },
+      {
+        "id": "actor-blasius-de-cesena",
+        "label": "Blasius de Cesena",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "compiler / papal master of ceremonies",
+        "placeId": "place-bologna-context"
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-elze-1960",
+        "label": "Reinhard Elze, Ordines Coronationis Imperialis (1960)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00000664-8",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-hre",
+        "label": "Holy Roman Empire coronation ordines",
+        "code": "HRE"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "HRE-XXVIIA",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-hre",
+      "certainty": "certain",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "HRE-XXVIIA",
+      "predicate": "edited_by",
+      "object": "actor-reinhard-elze",
+      "certainty": "certain",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "HRE-XXVIIA",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "HRE-XXVIIA",
+      "predicate": "preserved_in",
+      "object": "ms-hre-xxviia-src",
+      "certainty": "certain",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "ms-hre-xxviia-src",
+      "predicate": "has_event",
+      "object": "event-ms-hre-xxviia-src-context",
+      "certainty": "certain",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "ms-hre-xxviia-src",
+      "predicate": "located_at",
+      "object": "place-bologna-context",
+      "certainty": "certain",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "ms-hre-xxviia-src",
+      "predicate": "has_reference",
+      "object": "ref-elze-1960",
+      "certainty": "certain",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "ms-hre-xxviia-src",
+      "predicate": "associated_with",
+      "object": "actor-hre-imperial-tradition",
+      "certainty": "probable",
+      "source": "HRE XI-XXVIIA pilot"
+    },
+    {
+      "subject": "ms-hre-xxviia-src",
+      "predicate": "associated_with",
+      "object": "actor-bologna-context",
+      "certainty": "derived",
+      "source": "HRE XI-XXVIIA pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": []
+  }
+}

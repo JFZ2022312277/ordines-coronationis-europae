@@ -1,0 +1,395 @@
+{
+  "meta": {
+    "title": "ECR-XXV Necessaries to be Provided for the Coronation of Charles II. and the Procession from the Tower English coronation record pilot",
+    "generatedAt": "2026-05-12T13:41:42.880Z",
+    "source": "ordines_coronationis_iiif.html ECR records",
+    "note": "ECR includes ordines, narrative records, papal letters, inventories, processions, and printed orders; reference anchors are not asserted physical manuscripts."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "ECR-XXV",
+        "label": "Necessaries to be Provided for the Coronation of Charles II. and the Procession from the Tower",
+        "labelFr": "Necessaries to be Provided for the Coronation of Charles II. and the Procession from the Tower",
+        "sourceLabel": "ECR",
+        "tradition": "English",
+        "date": "S.d.",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "ordo_text",
+        "description": "The following list of necessaries and the description of the Royal \" proceeding '' from the Tower to Westminster is taken from Sir Edward Walker's manuscript describing the Coronation ceremonies of Charles II. (A circumstantial Account of the Preparations for the Coronation of His Majesty King Charles the Second, etc., London, 1820). It contains a list of the regalia which had to be made to replace those destroyed in 1649, as well as the various vestments necessary for the coronation. Besides the robes of St. Edward, there were also provided the robes which the King wore before the ceremony, which were delivered to the Lord Great Chamberlain, and also those worn after the ceremony, which were laid, with the Imperial Crown, on the altar in St. Edward's chapel. There are no less than seven different chairs: the Throne; the chair of Estate; the chair on the south side of the \" area \"; the chair in which the King was anointed, for it must be remembered that Charles II. was not anointed, as were the other Kings, in St. Edward's chair; St. Edward's chair, in which the King was crowned; the Archbishop's chair; and the chair in St. Edward's chapel. All the regalia which were made on this occasion \"reteyne the old names and fashion.\" The document Bodl. Ashm. MS. 863, p. 344 gives a more detailed account of the robes made for the King: but St. Edward's robes are not mentioned: we only have the shirts and tunics with loops for the anointing, and the two parliament robes with their surcotes and hoods, the sandals for the King's feet as he goes in the processions, and also the coif and linen gloves. Lastly mention is made of the girdle for the sword which the King puts on during the service j but the other \" girdle and Hangers with a Sword for the King to put on after his coronacion \" is not necessary, and the composer of the list himself seems to be doubtful whether these articles were wanted. The second part of the present document deals with the procession from the Tower to Westminster. The Coronation of Charles II. was the last occasion on which this ceremony took place, and we here have a description showing the condition of the procession in the middle of the seventeenth century. It may be compared with the description given in Liber regalis (Doc. xiii.) in the processus factus of Richard II. (Doc. xiv.) and in the Little Device (Doc. xx.) The route of the procession appears to be still the same: the King must have been covered, if the Duke of York was, arid there is no trace of the canopy which was held over the King in the fifteenth and sixteenth centuries. Otherwise the procession appears to be much the same as those described in the documents above. It will be noticed that no mention is made of any Bishops in the procession. Pepys, however, who was an eyewitness, in describing the procession, says: \" The Bishops come next after Barons, which is the higher place; which makes me think that the next Parliament they will be called to the House of Lords.\" {The Diary of Samuel Pepys, ed. Henry B. Wheatley, London, 1893. Vol. ii. p. 17.)"
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ecr-xxv-src",
+        "siglum": "SRC",
+        "shelfmark": "London, British Library / Westminster tradition (reference anchor)",
+        "repositoryPlaceId": "repo-london-british-library",
+        "currentRepository": "London, British Library / Westminster tradition (reference anchor)",
+        "lat": 51.4994,
+        "lon": -0.1276,
+        "date": "medieval to early modern",
+        "folios": "",
+        "group": "reference",
+        "origin": "",
+        "witnessType": "reference",
+        "sourceLabel": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "iiif_url": "",
+        "iiif_manifest_url": "",
+        "embedded_viewer_url": "",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "bibliography": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "source_record"
+      }
+    ],
+    "places": [
+      {
+        "id": "place-westminster-abbey",
+        "label": "Westminster Abbey",
+        "lat": 51.4993,
+        "lon": -0.1273,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Principal English coronation church."
+      },
+      {
+        "id": "place-tower-of-london",
+        "label": "Tower of London",
+        "lat": 51.5081,
+        "lon": -0.0759,
+        "type": "ritual_place",
+        "openatlasClass": "E53 Place",
+        "description": "Processional and regalia context."
+      },
+      {
+        "id": "place-york",
+        "label": "York / archiepiscopal context",
+        "lat": 53.959,
+        "lon": -1.0815,
+        "type": "institutional_context",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      },
+      {
+        "id": "repo-london-british-library",
+        "label": "London, British Library",
+        "lat": 51.5299,
+        "lon": -0.1275,
+        "type": "repository_place",
+        "openatlasClass": "E53 Place",
+        "description": ""
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ecr-xxv-record-context",
+        "label": "ECR-XXV English coronation record context",
+        "type": "documentary_record",
+        "placeId": "place-westminster-abbey",
+        "start": "S.d.",
+        "end": "S.d.",
+        "description": "The following list of necessaries and the description of the Royal \" proceeding '' from the Tower to Westminster is taken from Sir Edward Walker's manuscript describing the Coronation ceremonies of Charles II. (A circumstantial Account of the Preparations for the Coronation of His Majesty King Charles the Second, etc., London, 1820). It contains a list of the regalia which had to be made to replace those destroyed in 1649, as well as the various vestments necessary for the coronation. Besides the robes of St. Edward, there were also provided the robes which the King wore before the ceremony, which were delivered to the Lord Great Chamberlain, and also those worn after the ceremony, which were laid, with the Imperial Crown, on the altar in St. Edward's chapel. There are no less than seven different chairs: the Throne; the chair of Estate; the chair on the south side of the \" area \"; the chair in which the King was anointed, for it must be remembered that Charles II. was not anointed, as were the other Kings, in St. Edward's chair; St. Edward's chair, in which the King was crowned; the Archbishop's chair; and the chair in St. Edward's chapel. All the regalia which were made on this occasion \"reteyne the old names and fashion.\" The document Bodl. Ashm. MS. 863, p. 344 gives a more detailed account of the robes made for the King: but St. Edward's robes are not mentioned: we only have the shirts and tunics with loops for the anointing, and the two parliament robes with their surcotes and hoods, the sandals for the King's feet as he goes in the processions, and also the coif and linen gloves. Lastly mention is made of the girdle for the sword which the King puts on during the service j but the other \" girdle and Hangers with a Sword for the King to put on after his coronacion \" is not necessary, and the composer of the list himself seems to be doubtful whether these articles were wanted. The second part of the present document deals with the procession from the Tower to Westminster. The Coronation of Charles II. was the last occasion on which this ceremony took place, and we here have a description showing the condition of the procession in the middle of the seventeenth century. It may be compared with the description given in Liber regalis (Doc. xiii.) in the processus factus of Richard II. (Doc. xiv.) and in the Little Device (Doc. xx.) The route of the procession appears to be still the same: the King must have been covered, if the Duke of York was, arid there is no trace of the canopy which was held over the King in the fifteenth and sixteenth centuries. Otherwise the procession appears to be much the same as those described in the documents above. It will be noticed that no mention is made of any Bishops in the procession. Pepys, however, who was an eyewitness, in describing the procession, says: \" The Bishops come next after Barons, which is the higher place; which makes me think that the next Parliament they will be called to the House of Lords.\" {The Diary of Samuel Pepys, ed. Henry B. Wheatley, London, 1893. Vol. ii. p. 17.)",
+        "openatlasClass": "E5 Event"
+      },
+      {
+        "id": "event-ms-ecr-xxv-src-source",
+        "label": "SRC source/witness context",
+        "type": "source_reference",
+        "placeId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "description": "Geographic anchor added to enable map display for ECR entries lacking explicit repository geodata.",
+        "openatlasClass": "E5 Event"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-leopold-legg",
+        "label": "Leopold G. Wickham Legg",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "editor of English Coronation Records",
+        "placeId": ""
+      },
+      {
+        "id": "actor-english-coronation-tradition",
+        "label": "English coronation tradition",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "ritual and documentary tradition",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-westminster-abbey",
+        "label": "Westminster Abbey",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "coronation church / institutional context",
+        "placeId": "place-westminster-abbey"
+      },
+      {
+        "id": "actor-john",
+        "label": "King John",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-richard-ii",
+        "label": "Richard II",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-charles-i",
+        "label": "Charles I",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-charles-ii",
+        "label": "Charles II",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "royal coronation context",
+        "placeId": ""
+      },
+      {
+        "id": "actor-compton",
+        "label": "Henry Compton, Bishop of London",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "Bishop of London / service reviser",
+        "placeId": ""
+      },
+      {
+        "id": "actor-edward-walker",
+        "label": "Sir Edward Walker",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "Garter King of Arms / compiler",
+        "placeId": ""
+      },
+      {
+        "id": "actor-samuel-pepys",
+        "label": "Samuel Pepys",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "eyewitness / diarist",
+        "placeId": ""
+      },
+      {
+        "id": "actor-york",
+        "label": "Archbishopric of York",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "rival/participating coronation authority",
+        "placeId": "place-york"
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-legg-1901",
+        "label": "Leopold G. Wickham Legg, English Coronation Records (1901)",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Base edition for the ECR corpus."
+      },
+      {
+        "id": "ref-ecr-xxv-edition-1",
+        "label": "Leopold G. Wickham Legg (ed.), English Coronation Records (Westminster: Archibald Constable, 1901).",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition_or_source",
+        "url": "",
+        "description": ""
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-english",
+        "label": "English coronation records",
+        "code": "ECR"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ECR-XXV",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-english",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXV",
+      "predicate": "edited_by",
+      "object": "actor-leopold-legg",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXV",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXV",
+      "predicate": "documents_event",
+      "object": "event-ecr-xxv-record-context",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXV",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXV",
+      "predicate": "associated_with",
+      "object": "actor-westminster-abbey",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXV",
+      "predicate": "associated_with",
+      "object": "actor-john",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXV",
+      "predicate": "associated_with",
+      "object": "actor-richard-ii",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXV",
+      "predicate": "associated_with",
+      "object": "actor-charles-i",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXV",
+      "predicate": "associated_with",
+      "object": "actor-charles-ii",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXV",
+      "predicate": "associated_with",
+      "object": "actor-compton",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXV",
+      "predicate": "associated_with",
+      "object": "actor-edward-walker",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXV",
+      "predicate": "associated_with",
+      "object": "actor-samuel-pepys",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXV",
+      "predicate": "associated_with",
+      "object": "actor-york",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ECR-XXV",
+      "predicate": "preserved_in",
+      "object": "ms-ecr-xxv-src",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxv-src",
+      "predicate": "has_event",
+      "object": "event-ms-ecr-xxv-src-source",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxv-src",
+      "predicate": "located_at",
+      "object": "repo-london-british-library",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxv-src",
+      "predicate": "has_reference",
+      "object": "ref-legg-1901",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxv-src",
+      "predicate": "associated_with",
+      "object": "actor-english-coronation-tradition",
+      "certainty": "certain",
+      "source": "ECR pilot"
+    },
+    {
+      "subject": "ms-ecr-xxv-src",
+      "predicate": "associated_with",
+      "object": "actor-british-library",
+      "certainty": "probable",
+      "source": "ECR pilot"
+    }
+  ],
+  "mapLayers": {
+    "movements": [
+      {
+        "id": "move-ms-ecr-xxv-src",
+        "manuscriptId": "ms-ecr-xxv-src",
+        "fromPlaceId": "place-westminster-abbey",
+        "toPlaceId": "repo-london-british-library",
+        "start": "medieval to early modern",
+        "end": "medieval to early modern",
+        "certainty": "derived",
+        "description": "Research context line for SRC: Westminster Abbey -> London, British Library / Westminster tradition (reference anchor)."
+      }
+    ]
+  }
+}

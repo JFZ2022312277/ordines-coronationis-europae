@@ -1,0 +1,8 @@
+"id","label","openatlasClass","systemClass","type","url","description"
+"ref-elze-1960","Reinhard Elze, Ordines Coronationis Imperialis (1960)","E31 Document","reference","edition","https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00000664-8",""
+"ref-ms-hre-ii-a-digital","Digital source: Munich, BSB, Clm 3917","E31 Document","reference","digital_facsimile","https://www.digitale-sammlungen.de/en/view/bsb00106697",""
+"ref-ms-hre-ii-a-iiif","IIIF manifest: Munich, BSB, Clm 3917","E31 Document","reference","iiif_manifest","https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106697/manifest",""
+"ref-ms-hre-ii-b-digital","Digital source: Vatican City, BAV, Vat. lat. 7114","E31 Document","reference","digital_facsimile","https://digi.vatlib.it/view/MSS_Vat.lat.7114",""
+"ref-ms-hre-ii-b-iiif","IIIF manifest: Vatican City, BAV, Vat. lat. 7114","E31 Document","reference","iiif_manifest","https://digi.vatlib.it/iiif/MSS_Vat.lat.7114/manifest.json",""
+"ref-ms-hre-ii-c-digital","Digital source: Munich, BSB, Clm 6425","E31 Document","reference","digital_facsimile","https://www.digitale-sammlungen.de/en/view/bsb00060090",""
+"ref-ms-hre-ii-c-iiif","IIIF manifest: Munich, BSB, Clm 6425","E31 Document","reference","iiif_manifest","https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060090/manifest",""

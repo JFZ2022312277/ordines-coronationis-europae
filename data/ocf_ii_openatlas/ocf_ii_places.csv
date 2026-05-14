@@ -1,0 +1,8 @@
+"id","label","openatlasClass","systemClass","type","lat","lon","certainty","note"
+"place-abbey-of-gellone-saint-guilhem-le-desert","Abbey of Gellone, Saint-Guilhem-le-Desert","E53 Place","place","scriptorium_or_origin_place","43.733","3.548","probable","Origin/context place parsed from ""Gellone""."
+"place-angouleme","Angouleme","E53 Place","place","scriptorium_or_origin_place","45.648","0.156","probable","Origin/context place parsed from ""Angoulême""."
+"place-autun","Autun","E53 Place","place","scriptorium_or_origin_place","46.951","4.298","probable","Origin/context place parsed from ""Autun""."
+"repo-berlin-deutsche-staatsbibl","Berlin, Deutsche Staatsbibl.","E53 Place","place","repository_place","52.5084","13.3707","certain","Current repository inferred from shelfmark: Berlin, Deutsche Staatsbibl., MS Phillips 1667"
+"place-chelles","Chelles","E53 Place","place","scriptorium_or_origin_place","48.881","2.592","possible","Origin/context place parsed from ""Chelles?""."
+"repo-paris-bnf","Paris, BnF","E53 Place","place","repository_place","48.8339","2.3757","certain","Current repository inferred from shelfmark: Paris, BnF, MS lat. 12049"
+"repo-vatican-city-bav","Vatican City, BAV","E53 Place","place","repository_place","41.9022","12.4539","certain","Current repository inferred from shelfmark: Vatican City, BAV, MS Reg. lat. 316"

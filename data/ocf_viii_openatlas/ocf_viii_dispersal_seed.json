@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "OCF-VIII manuscript pilot",
+    "generatedAt": "2026-05-12T09:13:46.649Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-VIII. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-VIII.",
+    "entityEnrichedAt": "2026-05-12T09:14:27.636Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-VIII",
+        "label": "Ordo of Louis the Stammerer",
+        "labelFr": "Ordo de Louis le Bègue",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "30 November and 8 December 877",
+        "description": "Louis the Stammerer was crowned at Compi� gne on 8 December 877; Hincmar officiated. Texts survived in three sources that became thoroughly confused. Ordo VIIIA is from the Annales Bertiniani; Ordo VIIIB from the lost Li� ge manuscript."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-viii-lost-ms-2",
+        "siglum": "Lost MS 2",
+        "label": "Lost MS 2 — Liège, monastery of Saint-Laurent [LOST]",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "lost",
+        "shelfmark": "Liège, monastery of Saint-Laurent [LOST]",
+        "folios": "Unknown (lost manuscript)",
+        "date": "Unknown",
+        "origin": "",
+        "currentRepositoryId": "repo-lie-ge-monastery-of-saint-laurent-lost",
+        "currentRepository": "Liège, monastery of Saint-Laurent [LOST]",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Same collection as Ordines V–VII",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "repo-lie-ge-monastery-of-saint-laurent-lost",
+        "label": "Liège, monastery of Saint-Laurent [LOST]",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.633,
+        "lon": 5.567,
+        "certainty": "last_known_or_reported",
+        "note": "Lost witness location inferred from shelfmark/last known context: Liège, monastery of Saint-Laurent [LOST]"
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-viii-lost-ms-2-current-repository",
+        "label": "Lost MS 2 kept at Liège, monastery of Saint-Laurent [LOST]",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "lost_witness_reported_location",
+        "manuscriptId": "ms-ocf-viii-lost-ms-2",
+        "placeId": "repo-lie-ge-monastery-of-saint-laurent-lost",
+        "start": "",
+        "end": "",
+        "description": "Liège, monastery of Saint-Laurent [LOST] is currently kept at Liège, monastery of Saint-Laurent [LOST].",
+        "certainty": "certain"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-jacques-sirmond",
+        "label": "Jacques Sirmond",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "early modern editor / user of lost witness",
+        "placeId": "place-paris",
+        "description": ""
+      },
+      {
+        "id": "actor-saint-laurent-liege",
+        "label": "Monastery of Saint-Laurent, Liège",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "lost witness context",
+        "placeId": "repo-lie-ge-monastery-of-saint-laurent-lost",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-sirmond-1623",
+        "label": "Sirmond 1623 edition",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Early modern edition linked to the lost Saint-Laurent witness."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-viii-lost-ms-2",
+      "predicate": "witnesses",
+      "object": "OCF-VIII",
+      "certainty": "certain",
+      "source": "OCF-VIII witness list"
+    },
+    {
+      "subject": "ms-ocf-viii-lost-ms-2",
+      "predicate": "currently_kept_at",
+      "object": "repo-lie-ge-monastery-of-saint-laurent-lost",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-viii-lost-ms-2",
+      "predicate": "associated_with",
+      "object": "actor-saint-laurent-liege",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-viii-lost-ms-2",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-viii-lost-ms-2",
+      "predicate": "cited_by",
+      "object": "ref-sirmond-1623",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "OCF-VIII",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-VIII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-viii-lost-ms-2",
+      "certainty": "certain",
+      "source": "OCF-VIII witness list"
+    },
+    {
+      "subject": "OCF-VIII",
+      "predicate": "edited_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "certain",
+      "source": "edition tradition"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-lie-ge-monastery-of-saint-laurent-lost",
+        "label": "Liège, monastery of Saint-Laurent [LOST]",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.633,
+        "lon": 5.567,
+        "certainty": "last_known_or_reported",
+        "note": "Lost witness location inferred from shelfmark/last known context: Liège, monastery of Saint-Laurent [LOST]"
+      }
+    ],
+    "originPlaces": [],
+    "movements": []
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-edited_by",
+        "label": "edited_by"
+      },
+      {
+        "id": "rel-edited_or_studied_by",
+        "label": "edited_or_studied_by"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

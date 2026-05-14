@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-IV manuscript pilot">
+  <ordo id="OCF-IV"><label>Royal Texts in the Benedictional of Freising</label><date>before 900</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-iv-a" siglum="A"><shelfmark>Munich, Bayerische Staatsbibl., MS Clm. 6430</shelfmark><folios>fols. 50v-51r</folios><date>Second half of 9th century</date><origin>Freising</origin><currentRepository ref="repo-munich-bayerische-staatsbibl">Munich, Bayerische Staatsbibl.</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="place-freising" type="scriptorium_or_origin_place" lat="48.402" lon="11.749" certainty="probable">Freising</place>
+    <place id="repo-munich-bayerische-staatsbibl" type="repository_place" lat="48.1497" lon="11.5786" certainty="certain">Munich, Bayerische Staatsbibl.</place>
+  </places>
+</openatlasSeed>

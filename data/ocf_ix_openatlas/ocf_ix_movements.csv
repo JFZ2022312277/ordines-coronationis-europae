@@ -1,0 +1,2 @@
+"id","label","manuscriptId","fromPlaceId","toPlaceId","start","end","certainty","type"
+"move-ms-ocf-ix-a-saint-thierry-near-reims-to-reims-bibl-mun","A: Saint-Thierry, near Reims → Reims, Bibl. mun.","ms-ocf-ix-a","place-saint-thierry-near-reims","repo-reims-bibl-mun","Late 10th century","","probable","manuscript_dispersal"

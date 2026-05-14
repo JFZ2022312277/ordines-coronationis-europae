@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XV manuscript pilot">
+  <ordo id="OCF-XV"><label>Ratold Ordo</label><date>ca. 980</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xv-a" siglum="A"><shelfmark>Paris, BnF, MS lat. 12052</shelfmark><folios>fols. 21v-30r</folios><date>ca. 980</date><origin>Corbie</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-b" siglum="B"><shelfmark>Paris, BnF, MS lat. 13313</shelfmark><folios>fols. 188r-198v</folios><date>11th century</date><origin>Trier, adapted for Cambrai</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-c" siglum="C"><shelfmark>Paris, BnF, MS lat. 14192</shelfmark><folios>fols. 73r-81r, 82r-83r</folios><date>12th century, second quarter</date><origin></origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-d" siglum="D"><shelfmark>Paris, BnF, MS lat. 13315</shelfmark><folios>fols. 101r-110r</folios><date>12th century</date><origin>Saint-Germain-des-Prés</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-e" siglum="E"><shelfmark>Paris, BnF, MS lat. 945</shelfmark><folios>fols. 204r-215v</folios><date>Middle or second half of 12th century</date><origin>Chartres</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-f" siglum="F"><shelfmark>Paris, BnF, MS lat. 953</shelfmark><folios>fols. 107r-116r</folios><date>Middle or second half of 12th century</date><origin>Saint-Amand, diocese of Tournai</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-g" siglum="G"><shelfmark>Reims, Bibl. mun., MS 342</shelfmark><folios>fols. 69v-80r</folios><date>Second half or end of 12th century</date><origin>Reims Cathedral</origin><currentRepository ref="repo-reims-bibl-mun">Reims, Bibl. mun.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-h" siglum="H"><shelfmark>Sens, Bibl. mun., MS 9</shelfmark><folios>fols. 57r-63v</folios><date>End of 12th century</date><origin>Sens</origin><currentRepository ref="repo-sens-bibl-mun">Sens, Bibl. mun.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-i" siglum="I"><shelfmark>Troyes, Trésor de la Cathédrale, MS 4</shelfmark><folios>fols. 129r-135r</folios><date>End of 12th century</date><origin>Saint-Loup</origin><currentRepository ref="repo-troyes-tre-sor-de-la-cathe-drale">Troyes, Trésor de la Cathédrale</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-j" siglum="J"><shelfmark>Siena, Bibl. Comunale degli Intronati, MS G.V. 12</shelfmark><folios>fols. 65v-71v; Benedictio vexilli on fol. 108v</folios><date>Early 13th century (1203-1210)</date><origin>Tyre</origin><currentRepository ref="repo-siena-bibl-comunale-degli-intronati">Siena, Bibl. Comunale degli Intronati</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-k" siglum="K"><shelfmark>Rouen, Bibl. mun., MS 370</shelfmark><folios>fols. 89r-98r</folios><date>Early 13th century</date><origin>Reims</origin><currentRepository ref="repo-rouen-bibl-mun">Rouen, Bibl. mun.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-l" siglum="L"><shelfmark>Orléans, Bibl. mun., MS 144</shelfmark><folios>fols. 160r-168r</folios><date>Early 13th century (before 1236)</date><origin>Chartres; in Orléans by 1256</origin><currentRepository ref="repo-orle-ans-bibl-mun">Orléans, Bibl. mun.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-m" siglum="M"><shelfmark>Paris, BnF, MS lat. 1223</shelfmark><folios>fols. 161v-190r</folios><date>13th century, perhaps first half</date><origin>Metz</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-n" siglum="N"><shelfmark>Brussels, Bibl. royale Albert Ier, MS II 1013</shelfmark><folios>fols. 131r-142v</folios><date>13th century</date><origin>Saint-Martin of Tournai</origin><currentRepository ref="repo-brussels-bibl-royale-albert-ier">Brussels, Bibl. royale Albert Ier</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-o" siglum="O"><shelfmark>Brugge, Stedelijke Openbare Bibl., MS 318</shelfmark><folios>fols. 111v-121r</folios><date>13th century</date><origin>Ter Doest</origin><currentRepository ref="repo-brugge-stedelijke-openbare-bibl">Brugge, Stedelijke Openbare Bibl.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-p" siglum="P"><shelfmark>Paris, BnF, MS lat. 17335</shelfmark><folios>fols. 64r-80r</folios><date>Second half or end of 13th century</date><origin>Noyon</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-q" siglum="Q"><shelfmark>Wrocław, Bibl. Uniwersytecka, MS I F 380</shelfmark><folios>fols. 118r-126v</folios><date>14th century</date><origin>Prague (or near)</origin><currentRepository ref="repo-wroc-aw-bibl-uniwersytecka">Wrocław, Bibl. Uniwersytecka</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-r" siglum="R"><shelfmark>Paris, BnF, MS Baluze 379</shelfmark><folios>fols. 78r-83r</folios><date>17th century</date><origin></origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-s" siglum="S"><shelfmark>Chantilly, Musée Condé, MS 1149 (no. 356)</shelfmark><folios>fols. 4r-9r</folios><date>17th century</date><origin></origin><currentRepository ref="repo-chantilly-muse-e-conde">Chantilly, Musée Condé</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xv-t" siglum="T"><shelfmark>Paris, BnF, MS lat. 11743</shelfmark><folios>fols. 75r-84r</folios><date>17th century</date><origin></origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="place-abbey-of-saint-loup-troyes" type="scriptorium_or_origin_place" lat="48.297" lon="4.074" certainty="probable">Abbey of Saint-Loup, Troyes</place>
+    <place id="repo-brugge-stedelijke-openbare-bibl" type="repository_place" lat="51.2094" lon="3.2247" certainty="certain">Brugge, Stedelijke Openbare Bibl.</place>
+    <place id="repo-brussels-bibl-royale-albert-ier" type="repository_place" lat="50.8427" lon="4.361" certainty="certain">Brussels, Bibl. royale Albert Ier</place>
+    <place id="place-cambrai" type="scriptorium_or_origin_place" lat="50.176" lon="3.235" certainty="probable">Cambrai</place>
+    <place id="repo-chantilly-muse-e-conde" type="repository_place" lat="49.1945" lon="2.4858" certainty="certain">Chantilly, Musée Condé</place>
+    <place id="place-chartres" type="scriptorium_or_origin_place" lat="48.446" lon="1.489" certainty="probable">Chartres</place>
+    <place id="place-corbie" type="scriptorium_or_origin_place" lat="49.906" lon="2.506" certainty="probable">Corbie</place>
+    <place id="place-metz" type="scriptorium_or_origin_place" lat="49.119" lon="6.176" certainty="probable">Metz</place>
+    <place id="place-noyon" type="scriptorium_or_origin_place" lat="49.581" lon="3" certainty="probable">Noyon</place>
+    <place id="repo-orle-ans-bibl-mun" type="repository_place" lat="47.9029" lon="1.9039" certainty="certain">Orléans, Bibl. mun.</place>
+    <place id="repo-paris-bnf" type="repository_place" lat="48.8339" lon="2.3757" certainty="certain">Paris, BnF</place>
+    <place id="place-prague" type="scriptorium_or_origin_place" lat="50.0755" lon="14.4378" certainty="possible">Prague</place>
+    <place id="place-reims" type="scriptorium_or_origin_place" lat="49.258" lon="4.031" certainty="probable">Reims</place>
+    <place id="repo-reims-bibl-mun" type="repository_place" lat="49.2541" lon="3.025" certainty="certain">Reims, Bibl. mun.</place>
+    <place id="repo-rouen-bibl-mun" type="repository_place" lat="49.4432" lon="1.0993" certainty="certain">Rouen, Bibl. mun.</place>
+    <place id="place-saint-amand-les-eaux" type="scriptorium_or_origin_place" lat="50.447" lon="3.429" certainty="probable">Saint-Amand-les-Eaux</place>
+    <place id="place-saint-germain-des-pres-paris" type="scriptorium_or_origin_place" lat="48.854" lon="2.334" certainty="probable">Saint-Germain-des-Pres, Paris</place>
+    <place id="place-saint-martin-of-tournai" type="scriptorium_or_origin_place" lat="50.605" lon="3.389" certainty="probable">Saint-Martin of Tournai</place>
+    <place id="place-sens" type="scriptorium_or_origin_place" lat="48.198" lon="3.283" certainty="probable">Sens</place>
+    <place id="repo-sens-bibl-mun" type="repository_place" lat="48.1974" lon="3.282" certainty="certain">Sens, Bibl. mun.</place>
+    <place id="repo-siena-bibl-comunale-degli-intronati" type="repository_place" lat="43.3188" lon="11.3308" certainty="certain">Siena, Bibl. Comunale degli Intronati</place>
+    <place id="place-ter-doest-abbey" type="scriptorium_or_origin_place" lat="51.3" lon="3.19" certainty="probable">Ter Doest Abbey</place>
+    <place id="place-tournai" type="diocesan_context" lat="50.605" lon="3.389" certainty="possible">Tournai</place>
+    <place id="place-trier" type="scriptorium_or_origin_place" lat="49.756" lon="6.641" certainty="probable">Trier</place>
+    <place id="repo-troyes-tre-sor-de-la-cathe-drale" type="repository_place" lat="48.2973" lon="4.0744" certainty="certain">Troyes, Trésor de la Cathédrale</place>
+    <place id="place-tyre" type="scriptorium_or_origin_place" lat="33.27" lon="35.203" certainty="probable">Tyre</place>
+    <place id="repo-wroc-aw-bibl-uniwersytecka" type="repository_place" lat="51.114" lon="17.0471" certainty="certain">Wrocław, Bibl. Uniwersytecka</place>
+  </places>
+</openatlasSeed>

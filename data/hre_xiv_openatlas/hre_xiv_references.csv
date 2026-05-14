@@ -1,0 +1,4 @@
+"id","label","openatlasClass","systemClass","type","url","description"
+"ref-elze-1960","Reinhard Elze, Ordines Coronationis Imperialis (1960)","E31 Document","reference","edition","https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00000664-8",""
+"ref-ms-hre-xiv-a-digital","Digital source: Vatican City, BAV, Vat. lat. 4747","E31 Document","reference","digital_facsimile","https://digi.vatlib.it/view/MSS_Vat.lat.4747",""
+"ref-ms-hre-xiv-a-iiif","IIIF manifest: Vatican City, BAV, Vat. lat. 4747","E31 Document","reference","iiif_manifest","https://digi.vatlib.it/iiif/MSS_Vat.lat.4747/manifest.json",""

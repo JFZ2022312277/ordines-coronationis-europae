@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-I manuscript pilot">
+  <ordo id="OCF-I"><label>Royal Texts in the Sacramentary of Gellone</label><date>790–00</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-i-a" siglum="A" copiedFrom=""><shelfmark>Paris, BnF, MS lat. 12048</shelfmark><folios>fols. 165r-166r</folios><date>Late 8th century</date><origin>Gellone?</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-i-b" siglum="B" copiedFrom="A"><shelfmark>Paris, BnF, MS lat. 12049</shelfmark><folios>p. 401</folios><date>1677</date><origin>Copy of A by Luc d'Achery</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="place-abbey-of-gellone-saint-guilhem-le-desert" type="scriptorium_or_origin_place" lat="43.733" lon="3.548" certainty="probable">Abbey of Gellone, Saint-Guilhem-le-Desert</place>
+    <place id="place-paris" type="copying_or_publication_place" lat="48.8566" lon="2.3522" certainty="probable">Paris</place>
+    <place id="repo-paris-bnf" type="repository_place" lat="48.8339" lon="2.3757" certainty="certain">Paris, BnF</place>
+  </places>
+  <actors>
+    <actor id="actor-bnf" type="institution" placeRef="repo-paris-bnf"><label>Bibliothèque nationale de France (BnF)</label><role>repository institution / digital provider</role></actor>
+    <actor id="actor-abbey-gellone" type="institution" placeRef="place-abbey-of-gellone-saint-guilhem-le-desert"><label>Abbey of Gellone</label><role>monastic scriptorium / origin context</role></actor>
+    <actor id="actor-luc-d-achery" type="person" placeRef="place-paris"><label>Luc d'Achery</label><role>copyist / Maurist scholar</role></actor>
+    <actor id="actor-leopold-delisle" type="editor" placeRef="place-paris"><label>Léopold Delisle</label><role>scholar / bibliographic authority</role></actor>
+    <actor id="actor-jean-deshusses" type="editor" placeRef=""><label>Jean Deshusses</label><role>modern editor</role></actor>
+  </actors>
+  <references>
+    <reference id="ref-gallica-ms-lat-12048-f339" type="digital_facsimile"><label>Gallica: Paris, BnF, MS lat. 12048, f. 339</label><url>https://gallica.bnf.fr/ark:/12148/btv1b60000317/f339.item</url></reference>
+    <reference id="ref-delisle-memoire" type="bibliography"><label>Delisle, 'Mémoire,' 80-1</label><url></url></reference>
+    <reference id="ref-deshusses-gellone" type="edition"><label>Deshusses, Sacramentary of Gellone edition</label><url></url></reference>
+  </references>
+</openatlasSeed>

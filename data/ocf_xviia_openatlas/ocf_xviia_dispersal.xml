@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XVIIA manuscript pilot">
+  <ordo id="OCF-XVIIA"><label>Memorandum of Philip I's Coronation</label><date>23 May 1059</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xviia-a" siglum="A"><shelfmark>Vatican City, BAV, MS Ottoboniani lat. 811</shelfmark><folios>fols. 113r?114r</folios><date>ca. 1100</date><origin></origin><currentRepository ref="repo-vatican-city-bav">Vatican City, BAV</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xviia-lost-mss-1-5" siglum="Lost MSS 1?5"><shelfmark>Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST]</shelfmark><folios>Unknown (lost manuscripts)</folios><date>Unknown</date><origin></origin><currentRepository ref="repo-multiple-lost-witnesses-reims-beauvais-toul-sirmond-lost">Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST]</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="repo-multiple-lost-witnesses-reims-beauvais-toul-sirmond-lost" type="repository_place" lat="49.2541" lon="3.025" certainty="last_known_or_reported">Multiple lost witnesses (Reims / Beauvais / Toul / Sirmond) [LOST]</place>
+    <place id="repo-vatican-city-bav" type="repository_place" lat="41.9022" lon="12.4539" certainty="certain">Vatican City, BAV</place>
+  </places>
+</openatlasSeed>

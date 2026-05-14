@@ -1,0 +1,1 @@
+window.__EMBEDDED_IIIF_CANVASES__ = window.__EMBEDDED_IIIF_CANVASES__ || {};

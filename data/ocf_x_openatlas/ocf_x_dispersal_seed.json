@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "title": "OCF-X manuscript pilot",
+    "generatedAt": "2026-05-12T09:13:46.658Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-X. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-X.",
+    "entityEnrichedAt": "2026-05-12T09:14:27.643Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-X",
+        "label": "Petitio and Promissio of Carloman",
+        "labelFr": "Petitio et Promissio de Carloman",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "9 September 882",
+        "description": "After Louis III's death in 882, Carloman signed a promissio at Quierzy, modified from the corresponding texts of the Ordo of Louis the Stammerer. Though not a coronation ordo, it provides evidence regarding the promise signed at the double coronation of 879."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-x-a",
+        "siglum": "A",
+        "label": "A — Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40",
+        "folios": "fol. 29r",
+        "date": "11th century",
+        "origin": "Monastery of Ripoll",
+        "currentRepositoryId": "repo-barcelona-archivo-de-la-corona-de-aragon",
+        "currentRepository": "Barcelona, Archivo de la Corona de Aragon",
+        "copiedFrom": "",
+        "digitalUrl": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/2334950",
+        "iiifUrl": "",
+        "sourceLabel": "PARES / Archivo de la Corona de Aragon",
+        "description": "Primary witness for the petitio and promissio of Carloman (9 September 882).",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-x-b",
+        "siglum": "B",
+        "label": "B — Paris, BnF, MS Baluze 1",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "copy",
+        "shelfmark": "Paris, BnF, MS Baluze 1",
+        "folios": "fol. 25v",
+        "date": "17th century",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b9001314p",
+        "iiifUrl": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9001314p/manifest.json",
+        "sourceLabel": "Biblissima / BnF Baluze 1 (fol. 25v)",
+        "description": "Seventeenth-century copy of manuscript A (Ripoll 40).",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "repo-barcelona-archivo-de-la-corona-de-aragon",
+        "label": "Barcelona, Archivo de la Corona de Aragon",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.3851,
+        "lon": 2.1734,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40"
+      },
+      {
+        "id": "place-monastery-of-ripoll",
+        "label": "Monastery of Ripoll",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 42.2,
+        "lon": 2.191,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Monastery of Ripoll\"."
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS Baluze 1"
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-x-a-current-repository",
+        "label": "A kept at Barcelona, Archivo de la Corona de Aragon",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-x-a",
+        "placeId": "repo-barcelona-archivo-de-la-corona-de-aragon",
+        "start": "",
+        "end": "",
+        "description": "Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40 is currently kept at Barcelona, Archivo de la Corona de Aragon.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-x-a-origin-monastery-of-ripoll",
+        "label": "A origin/context: Monastery of Ripoll",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-x-a",
+        "placeId": "place-monastery-of-ripoll",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40: origin/context recorded as \"Monastery of Ripoll\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-x-b-current-repository",
+        "label": "B kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-x-b",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS Baluze 1 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-bnf",
+        "label": "Bibliothèque nationale de France (BnF)",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-paris-bnf",
+        "description": ""
+      },
+      {
+        "id": "actor-biblissima",
+        "label": "Biblissima",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "digital source aggregator",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-iiif",
+        "label": "IIIF",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "image/service reference",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-ripoll",
+        "label": "Monastery of Ripoll",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "monastic scriptorium / origin context",
+        "placeId": "place-monastery-of-ripoll",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-x-b-digital",
+        "label": "Biblissima / BnF Baluze 1 (fol. 25v): Paris, BnF, MS Baluze 1",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b9001314p",
+        "description": "Digital source for Paris, BnF, MS Baluze 1."
+      },
+      {
+        "id": "ref-ms-ocf-x-b-iiif",
+        "label": "IIIF manifest: Paris, BnF, MS Baluze 1",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "iiif_manifest",
+        "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b9001314p/manifest.json",
+        "description": "IIIF manifest for Paris, BnF, MS Baluze 1."
+      },
+      {
+        "id": "ref-ms-ocf-x-a-digital",
+        "label": "PARES / Archivo de la Corona de Aragon: Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://pares.mcu.es/ParesBusquedas20/catalogo/description/2334950",
+        "description": "Digital source for Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-x-a",
+      "predicate": "witnesses",
+      "object": "OCF-X",
+      "certainty": "certain",
+      "source": "OCF-X witness list"
+    },
+    {
+      "subject": "ms-ocf-x-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-barcelona-archivo-de-la-corona-de-aragon",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-x-a-origin-monastery-of-ripoll",
+      "predicate": "occurred_at",
+      "object": "place-monastery-of-ripoll",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-x-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-monastery-of-ripoll",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-x-b",
+      "predicate": "witnesses",
+      "object": "OCF-X",
+      "certainty": "certain",
+      "source": "OCF-X witness list"
+    },
+    {
+      "subject": "ms-ocf-x-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-x-a",
+      "predicate": "associated_with",
+      "object": "actor-ripoll",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-x-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-x-a-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-x-b",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-x-b",
+      "predicate": "associated_with",
+      "object": "actor-ripoll",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-x-b",
+      "predicate": "associated_source_actor",
+      "object": "actor-biblissima",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-x-b",
+      "predicate": "associated_source_actor",
+      "object": "actor-iiif",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-x-b",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-x-b-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-x-b",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-x-b-iiif",
+      "certainty": "certain",
+      "source": "iiif_manifest"
+    },
+    {
+      "subject": "OCF-X",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-X",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-x-a",
+      "certainty": "certain",
+      "source": "OCF-X witness list"
+    },
+    {
+      "subject": "OCF-X",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-x-b",
+      "certainty": "certain",
+      "source": "OCF-X witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-barcelona-archivo-de-la-corona-de-aragon",
+        "label": "Barcelona, Archivo de la Corona de Aragon",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.3851,
+        "lon": 2.1734,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS Baluze 1"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-monastery-of-ripoll",
+        "label": "Monastery of Ripoll",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 42.2,
+        "lon": 2.191,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Monastery of Ripoll\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-x-a-monastery-of-ripoll-to-barcelona-archivo-de-la-corona-de-aragon",
+        "label": "A: Monastery of Ripoll → Barcelona, Archivo de la Corona de Aragon",
+        "manuscriptId": "ms-ocf-x-a",
+        "fromPlaceId": "place-monastery-of-ripoll",
+        "toPlaceId": "repo-barcelona-archivo-de-la-corona-de-aragon",
+        "start": "11th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_source_actor",
+        "label": "associated_source_actor"
+      },
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-has_reference",
+        "label": "has_reference"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

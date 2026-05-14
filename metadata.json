@@ -1,0 +1,12 @@
+{
+  "title": "Ordines Coronationis Europae",
+  "version": "2026-05-12",
+  "description": "Digital atlas of medieval coronation ordines, manuscripts, and ritual transmission.",
+  "live_url_placeholder": "https://YOUR-USER.github.io/ordines-coronationis-europae/",
+  "doi_or_purl_placeholder": "https://doi.org/10.5281/zenodo.TBD",
+  "entry_points": [
+    "index.html#/map",
+    "index.html#/detail/OCF-XV",
+    "index.html#/detail/ECR-XIII"
+  ]
+}

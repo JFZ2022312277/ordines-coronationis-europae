@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XXB manuscript pilot">
+  <ordo id="OCF-XXB"><label>French Translations of the Ordo of Reims / Directory of ca. 1230</label><date>ca. 1260–350</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xxb-b" siglum="B"><shelfmark>London, British Library, MS Cotton Tiberius B.viii</shelfmark><folios>fols. 35r–2v</folios><date>1365</date><origin>Paris (for Charles V)</origin><currentRepository ref="repo-london-british-library">London, British Library</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="repo-london-british-library" type="repository_place" lat="51.5299" lon="-0.1277" certainty="certain">London, British Library</place>
+    <place id="place-paris" type="scriptorium_or_origin_place" lat="48.8566" lon="2.3522" certainty="probable">Paris</place>
+  </places>
+</openatlasSeed>

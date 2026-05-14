@@ -1,0 +1,716 @@
+{
+  "meta": {
+    "title": "OCF-XIV manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:41.724Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XIV. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XIV",
+        "label": "Ordo of Eleven Forms",
+        "labelFr": "Ordo aux onze formules",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "900–50",
+        "description": "A 10th-century ordo traditionally named after Stavelot or the 'seven forms.' Actually contains eleven formulas (seven for the king, four for the queen). The queen's formulas are nearly identical to Elze's Ordo III and were incorporated into the Romano-Germanic pontifical of Mainz and most later French ordines."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xiv-a",
+        "siglum": "A",
+        "label": "A — Leiden, Rijksuniversiteit Bibl., MS Vossianus lat. Q. 13",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Leiden, Rijksuniversiteit Bibl., MS Vossianus lat. Q. 13",
+        "folios": "fols. 28v-30r",
+        "date": "ca. 1000",
+        "origin": "Province of Sens?",
+        "currentRepositoryId": "repo-leiden-rijksuniversiteit-bibl",
+        "currentRepository": "Leiden, Rijksuniversiteit Bibl.",
+        "copiedFrom": "",
+        "digitalUrl": "https://digitalcollections.universiteitleiden.nl/view/item/4243440#page/23/mode/1up",
+        "iiifUrl": "",
+        "sourceLabel": "Leiden Digital Collections",
+        "description": "Fragment from a pontifical. King's ordo only.",
+        "bibliography": "de Meyier, Codices Vossiani Latini, Pars II, 38-39"
+      },
+      {
+        "id": "ms-ocf-xiv-b",
+        "siglum": "B",
+        "label": "B — Milan, Biblioteca del Capitolo Metropolitano, MS D 1-11",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Milan, Biblioteca del Capitolo Metropolitano, MS D 1-11",
+        "folios": "fols. 103r-127v",
+        "date": "11th century",
+        "origin": "Milan",
+        "currentRepositoryId": "repo-milan-biblioteca-del-capitolo-metropolitano",
+        "currentRepository": "Milan, Biblioteca del Capitolo Metropolitano",
+        "copiedFrom": "",
+        "digitalUrl": "https://usuarium.elte.hu/book/6027/view",
+        "iiifUrl": "",
+        "sourceLabel": "Usuarium (manuscript record)",
+        "description": "Pontifical of Milan. Lombard ordo; all formulas except end of no. 11 and nos. 12-13 (lost folios).",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xiv-c",
+        "siglum": "C",
+        "label": "C — Vatican City, BAV, MS lat. 13151",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Vatican City, BAV, MS lat. 13151",
+        "folios": "fols. 52r-59v",
+        "date": "11th century",
+        "origin": "Milan",
+        "currentRepositoryId": "repo-vatican-city-bav",
+        "currentRepository": "Vatican City, BAV",
+        "copiedFrom": "",
+        "digitalUrl": "https://digi.vatlib.it/view/MSS_Vat.lat.13151",
+        "iiifUrl": "",
+        "sourceLabel": "DigiVatLib / Biblioteca Apostolica Vaticana",
+        "description": "All eleven formulas. Complete.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xiv-d",
+        "siglum": "D",
+        "label": "D — Vatican City, BAV, MS Barb. lat. 631",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Vatican City, BAV, MS Barb. lat. 631",
+        "folios": "fols. 155v-166r",
+        "date": "Second half of 11th century",
+        "origin": "Monte Cassino",
+        "currentRepositoryId": "repo-vatican-city-bav",
+        "currentRepository": "Vatican City, BAV",
+        "copiedFrom": "",
+        "digitalUrl": "https://digi.vatlib.it/view/MSS_Barb.lat.631",
+        "iiifUrl": "",
+        "sourceLabel": "DigiVatLib / Biblioteca Apostolica Vaticana",
+        "description": "All except nos. 1-2.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xiv-e",
+        "siglum": "E",
+        "label": "E — Brussels, Bibl. roy. Albert Ier, MS 2067-73",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Brussels, Bibl. roy. Albert Ier, MS 2067-73",
+        "folios": "fols. 109v-110v",
+        "date": "13th century",
+        "origin": "",
+        "currentRepositoryId": "repo-brussels-bibl-roy-albert-ier",
+        "currentRepository": "Brussels, Bibl. roy. Albert Ier",
+        "copiedFrom": "",
+        "digitalUrl": "https://opac.kbr.be/search.aspx?SC=KBR_UNIFIED&QUERY=%22ms.%202067-73%22",
+        "iiifUrl": "",
+        "sourceLabel": "KBR OPAC (search)",
+        "description": "Extracts from a pontifical.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xiv-f",
+        "siglum": "F",
+        "label": "F — Lisbon, Bibl. Nac., MS Alcobacen 162",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Lisbon, Bibl. Nac., MS Alcobacen 162",
+        "folios": "fols. 67v-69r",
+        "date": "13th century",
+        "origin": "Archbishopric of Braga",
+        "currentRepositoryId": "repo-lisbon-bibl-nac",
+        "currentRepository": "Lisbon, Bibl. Nac.",
+        "copiedFrom": "",
+        "digitalUrl": "https://purl.pt/28815",
+        "iiifUrl": "",
+        "sourceLabel": "Biblioteca Nacional de Portugal",
+        "description": "Pontifical; first five formulas identical to MS A.",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "place-braga",
+        "label": "Braga",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "ecclesiastical_context",
+        "lat": 41.551,
+        "lon": -8.422,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Archbishopric of Braga\"."
+      },
+      {
+        "id": "repo-brussels-bibl-roy-albert-ier",
+        "label": "Brussels, Bibl. roy. Albert Ier",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.8427,
+        "lon": 4.361,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Brussels, Bibl. roy. Albert Ier, MS 2067-73"
+      },
+      {
+        "id": "repo-leiden-rijksuniversiteit-bibl",
+        "label": "Leiden, Rijksuniversiteit Bibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 52.1574,
+        "lon": 4.4854,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Leiden, Rijksuniversiteit Bibl., MS Vossianus lat. Q. 13"
+      },
+      {
+        "id": "repo-lisbon-bibl-nac",
+        "label": "Lisbon, Bibl. Nac.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 38.7361,
+        "lon": -9.1461,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Lisbon, Bibl. Nac., MS Alcobacen 162"
+      },
+      {
+        "id": "place-milan",
+        "label": "Milan",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 45.464,
+        "lon": 9.19,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Milan\"."
+      },
+      {
+        "id": "repo-milan-biblioteca-del-capitolo-metropolitano",
+        "label": "Milan, Biblioteca del Capitolo Metropolitano",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 45.4642,
+        "lon": 9.19,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Milan, Biblioteca del Capitolo Metropolitano, MS D 1-11"
+      },
+      {
+        "id": "place-monte-cassino",
+        "label": "Monte Cassino",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 41.49,
+        "lon": 13.813,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Monte Cassino\"."
+      },
+      {
+        "id": "place-sens",
+        "label": "Sens",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.198,
+        "lon": 3.283,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Province of Sens?\"."
+      },
+      {
+        "id": "repo-vatican-city-bav",
+        "label": "Vatican City, BAV",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Vatican City, BAV, MS Barb. lat. 631"
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xiv-a-current-repository",
+        "label": "A kept at Leiden, Rijksuniversiteit Bibl.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xiv-a",
+        "placeId": "repo-leiden-rijksuniversiteit-bibl",
+        "start": "",
+        "end": "",
+        "description": "Leiden, Rijksuniversiteit Bibl., MS Vossianus lat. Q. 13 is currently kept at Leiden, Rijksuniversiteit Bibl..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xiv-a-origin-sens",
+        "label": "A origin/context: Sens",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xiv-a",
+        "placeId": "place-sens",
+        "start": "ca. 1000",
+        "end": "ca. 1000",
+        "description": "Leiden, Rijksuniversiteit Bibl., MS Vossianus lat. Q. 13: origin/context recorded as \"Province of Sens?\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xiv-b-current-repository",
+        "label": "B kept at Milan, Biblioteca del Capitolo Metropolitano",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xiv-b",
+        "placeId": "repo-milan-biblioteca-del-capitolo-metropolitano",
+        "start": "",
+        "end": "",
+        "description": "Milan, Biblioteca del Capitolo Metropolitano, MS D 1-11 is currently kept at Milan, Biblioteca del Capitolo Metropolitano.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xiv-b-origin-milan",
+        "label": "B origin/context: Milan",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xiv-b",
+        "placeId": "place-milan",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Milan, Biblioteca del Capitolo Metropolitano, MS D 1-11: origin/context recorded as \"Milan\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xiv-c-current-repository",
+        "label": "C kept at Vatican City, BAV",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xiv-c",
+        "placeId": "repo-vatican-city-bav",
+        "start": "",
+        "end": "",
+        "description": "Vatican City, BAV, MS lat. 13151 is currently kept at Vatican City, BAV.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xiv-c-origin-milan",
+        "label": "C origin/context: Milan",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xiv-c",
+        "placeId": "place-milan",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Vatican City, BAV, MS lat. 13151: origin/context recorded as \"Milan\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xiv-d-current-repository",
+        "label": "D kept at Vatican City, BAV",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xiv-d",
+        "placeId": "repo-vatican-city-bav",
+        "start": "",
+        "end": "",
+        "description": "Vatican City, BAV, MS Barb. lat. 631 is currently kept at Vatican City, BAV.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xiv-d-origin-monte-cassino",
+        "label": "D origin/context: Monte Cassino",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xiv-d",
+        "placeId": "place-monte-cassino",
+        "start": "Second half of 11th century",
+        "end": "Second half of 11th century",
+        "description": "Vatican City, BAV, MS Barb. lat. 631: origin/context recorded as \"Monte Cassino\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-xiv-e-current-repository",
+        "label": "E kept at Brussels, Bibl. roy. Albert Ier",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xiv-e",
+        "placeId": "repo-brussels-bibl-roy-albert-ier",
+        "start": "",
+        "end": "",
+        "description": "Brussels, Bibl. roy. Albert Ier, MS 2067-73 is currently kept at Brussels, Bibl. roy. Albert Ier.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xiv-f-current-repository",
+        "label": "F kept at Lisbon, Bibl. Nac.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xiv-f",
+        "placeId": "repo-lisbon-bibl-nac",
+        "start": "",
+        "end": "",
+        "description": "Lisbon, Bibl. Nac., MS Alcobacen 162 is currently kept at Lisbon, Bibl. Nac..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xiv-f-origin-braga",
+        "label": "F origin/context: Braga",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-xiv-f",
+        "placeId": "place-braga",
+        "start": "13th century",
+        "end": "13th century",
+        "description": "Lisbon, Bibl. Nac., MS Alcobacen 162: origin/context recorded as \"Archbishopric of Braga\".",
+        "certainty": "probable"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xiv-a",
+      "predicate": "witnesses",
+      "object": "OCF-XIV",
+      "certainty": "certain",
+      "source": "OCF-XIV witness list"
+    },
+    {
+      "subject": "ms-ocf-xiv-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-leiden-rijksuniversiteit-bibl",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xiv-a-origin-sens",
+      "predicate": "occurred_at",
+      "object": "place-sens",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xiv-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-sens",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xiv-b",
+      "predicate": "witnesses",
+      "object": "OCF-XIV",
+      "certainty": "certain",
+      "source": "OCF-XIV witness list"
+    },
+    {
+      "subject": "ms-ocf-xiv-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-milan-biblioteca-del-capitolo-metropolitano",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xiv-b-origin-milan",
+      "predicate": "occurred_at",
+      "object": "place-milan",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xiv-b",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-milan",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xiv-c",
+      "predicate": "witnesses",
+      "object": "OCF-XIV",
+      "certainty": "certain",
+      "source": "OCF-XIV witness list"
+    },
+    {
+      "subject": "ms-ocf-xiv-c",
+      "predicate": "currently_kept_at",
+      "object": "repo-vatican-city-bav",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xiv-c-origin-milan",
+      "predicate": "occurred_at",
+      "object": "place-milan",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xiv-c",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-milan",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xiv-d",
+      "predicate": "witnesses",
+      "object": "OCF-XIV",
+      "certainty": "certain",
+      "source": "OCF-XIV witness list"
+    },
+    {
+      "subject": "ms-ocf-xiv-d",
+      "predicate": "currently_kept_at",
+      "object": "repo-vatican-city-bav",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xiv-d-origin-monte-cassino",
+      "predicate": "occurred_at",
+      "object": "place-monte-cassino",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xiv-d",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-monte-cassino",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xiv-e",
+      "predicate": "witnesses",
+      "object": "OCF-XIV",
+      "certainty": "certain",
+      "source": "OCF-XIV witness list"
+    },
+    {
+      "subject": "ms-ocf-xiv-e",
+      "predicate": "currently_kept_at",
+      "object": "repo-brussels-bibl-roy-albert-ier",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xiv-f",
+      "predicate": "witnesses",
+      "object": "OCF-XIV",
+      "certainty": "certain",
+      "source": "OCF-XIV witness list"
+    },
+    {
+      "subject": "ms-ocf-xiv-f",
+      "predicate": "currently_kept_at",
+      "object": "repo-lisbon-bibl-nac",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-xiv-f-origin-braga",
+      "predicate": "occurred_at",
+      "object": "place-braga",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-xiv-f",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-braga",
+      "certainty": "probable",
+      "source": "origin field"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-brussels-bibl-roy-albert-ier",
+        "label": "Brussels, Bibl. roy. Albert Ier",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.8427,
+        "lon": 4.361,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Brussels, Bibl. roy. Albert Ier, MS 2067-73"
+      },
+      {
+        "id": "repo-leiden-rijksuniversiteit-bibl",
+        "label": "Leiden, Rijksuniversiteit Bibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 52.1574,
+        "lon": 4.4854,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Leiden, Rijksuniversiteit Bibl., MS Vossianus lat. Q. 13"
+      },
+      {
+        "id": "repo-lisbon-bibl-nac",
+        "label": "Lisbon, Bibl. Nac.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 38.7361,
+        "lon": -9.1461,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Lisbon, Bibl. Nac., MS Alcobacen 162"
+      },
+      {
+        "id": "repo-milan-biblioteca-del-capitolo-metropolitano",
+        "label": "Milan, Biblioteca del Capitolo Metropolitano",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 45.4642,
+        "lon": 9.19,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Milan, Biblioteca del Capitolo Metropolitano, MS D 1-11"
+      },
+      {
+        "id": "repo-vatican-city-bav",
+        "label": "Vatican City, BAV",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Vatican City, BAV, MS Barb. lat. 631"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-braga",
+        "label": "Braga",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "ecclesiastical_context",
+        "lat": 41.551,
+        "lon": -8.422,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Archbishopric of Braga\"."
+      },
+      {
+        "id": "place-milan",
+        "label": "Milan",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 45.464,
+        "lon": 9.19,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Milan\"."
+      },
+      {
+        "id": "place-monte-cassino",
+        "label": "Monte Cassino",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 41.49,
+        "lon": 13.813,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Monte Cassino\"."
+      },
+      {
+        "id": "place-sens",
+        "label": "Sens",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.198,
+        "lon": 3.283,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Province of Sens?\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-xiv-a-sens-to-leiden-rijksuniversiteit-bibl",
+        "label": "A: Sens → Leiden, Rijksuniversiteit Bibl.",
+        "manuscriptId": "ms-ocf-xiv-a",
+        "fromPlaceId": "place-sens",
+        "toPlaceId": "repo-leiden-rijksuniversiteit-bibl",
+        "start": "ca. 1000",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xiv-b-milan-to-milan-biblioteca-del-capitolo-metropolitano",
+        "label": "B: Milan → Milan, Biblioteca del Capitolo Metropolitano",
+        "manuscriptId": "ms-ocf-xiv-b",
+        "fromPlaceId": "place-milan",
+        "toPlaceId": "repo-milan-biblioteca-del-capitolo-metropolitano",
+        "start": "11th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xiv-c-milan-to-vatican-city-bav",
+        "label": "C: Milan → Vatican City, BAV",
+        "manuscriptId": "ms-ocf-xiv-c",
+        "fromPlaceId": "place-milan",
+        "toPlaceId": "repo-vatican-city-bav",
+        "start": "11th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xiv-d-monte-cassino-to-vatican-city-bav",
+        "label": "D: Monte Cassino → Vatican City, BAV",
+        "manuscriptId": "ms-ocf-xiv-d",
+        "fromPlaceId": "place-monte-cassino",
+        "toPlaceId": "repo-vatican-city-bav",
+        "start": "Second half of 11th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-xiv-f-braga-to-lisbon-bibl-nac",
+        "label": "F: Braga → Lisbon, Bibl. Nac.",
+        "manuscriptId": "ms-ocf-xiv-f",
+        "fromPlaceId": "place-braga",
+        "toPlaceId": "repo-lisbon-bibl-nac",
+        "start": "13th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  }
+}

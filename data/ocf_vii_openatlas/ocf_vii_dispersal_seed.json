@@ -1,0 +1,1741 @@
+{
+  "meta": {
+    "title": "OCF-VII manuscript pilot",
+    "generatedAt": "2026-05-12T09:13:46.642Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-VII. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-VII.",
+    "entityEnrichedAt": "2026-05-12T09:14:27.630Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-VII",
+        "label": "Ordo of Charles the Bald",
+        "labelFr": "Ordo de Charles le Chauve",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "9 September 869",
+        "description": "Charles the Bald was crowned king of Lorraine at Metz. Third ordo compiled by Hincmar of Reims. Peculiar in that its first seven formulas were spoken by six assisting bishops and the archbishop. Profoundly influenced the French ceremony; several formulas were still in use at the coronation of Charles X in 1825."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-vii-lost-ms-1",
+        "siglum": "Lost MS 1",
+        "label": "Lost MS 1 — Liege, monastery of Saint-Laurent [LOST]",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "lost",
+        "shelfmark": "Liege, monastery of Saint-Laurent [LOST]",
+        "folios": "Unknown (lost manuscript)",
+        "date": "Unknown",
+        "origin": "",
+        "currentRepositoryId": "repo-liege-monastery-of-saint-laurent-lost",
+        "currentRepository": "Liege, monastery of Saint-Laurent [LOST]",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Principal lost witness containing both capitulary and liturgical ordo (nos. 17-43).",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-vii-lost-ms-2",
+        "siglum": "Lost MS 2",
+        "label": "Lost MS 2 — Beauvais, library of the cathedral chapter [LOST]",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "lost",
+        "shelfmark": "Beauvais, library of the cathedral chapter [LOST]",
+        "folios": "Unknown (lost manuscript)",
+        "date": "9th century",
+        "origin": "",
+        "currentRepositoryId": "repo-beauvais-library-of-the-cathedral-chapter-lost",
+        "currentRepository": "Beauvais, library of the cathedral chapter [LOST]",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Source for Sirmond's edition b1a in the French capitulary tradition.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-vii-lost-ms-3",
+        "siglum": "Lost MS 3",
+        "label": "Lost MS 3 — Modena, Biblioteca Capitolare, MS 11,2 [LOST]",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "lost",
+        "shelfmark": "Modena, Biblioteca Capitolare, MS 11,2 [LOST]",
+        "folios": "Unknown (lost manuscript)",
+        "date": "Late 10th century",
+        "origin": "",
+        "currentRepositoryId": "repo-modena-biblioteca-capitolare",
+        "currentRepository": "Modena, Biblioteca Capitolare",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Archetype linked to manuscripts A and C; reportedly copied from Vercelli MS 175.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-vii-lost-ms-4",
+        "siglum": "Lost MS 4",
+        "label": "Lost MS 4 — Location unknown (\"Muret\" manuscript) [LOST]",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "lost",
+        "shelfmark": "Location unknown (\"Muret\" manuscript) [LOST]",
+        "folios": "Unknown (lost manuscript)",
+        "date": "Unknown",
+        "origin": "",
+        "currentRepositoryId": "repo-location-unknown-muret-manuscript-lost",
+        "currentRepository": "Location unknown (\"Muret\" manuscript) [LOST]",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Copy of lost MS 3, associated with Marc-Antoine Muret.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-vii-lost-ms-5",
+        "siglum": "Lost MS 5",
+        "label": "Lost MS 5 — Tarragona (?) manuscript of Antonio Agustin [LOST]",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "lost",
+        "shelfmark": "Tarragona (?) manuscript of Antonio Agustin [LOST]",
+        "folios": "Unknown (lost manuscript)",
+        "date": "Unknown",
+        "origin": "",
+        "currentRepositoryId": "repo-tarragona-manuscript-of-antonio-agustin-lost",
+        "currentRepository": "Tarragona (?) manuscript of Antonio Agustin [LOST]",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Cited by Baronius (ed. a); capitula numbering not retained.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-vii-a",
+        "siglum": "A",
+        "label": "A — Vatican City, BAV, MS Reg. lat. 291",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Vatican City, BAV, MS Reg. lat. 291",
+        "folios": "fols. 120v-121v",
+        "date": "First half of 16th century",
+        "origin": "Capitulary tradition (Italian branch)",
+        "currentRepositoryId": "repo-vatican-city-bav",
+        "currentRepository": "Vatican City, BAV",
+        "copiedFrom": "",
+        "digitalUrl": "https://digi.vatlib.it/view/MSS_Reg.lat.291",
+        "iiifUrl": "",
+        "sourceLabel": "DigiVatLib / Biblioteca Apostolica Vaticana",
+        "description": "Extant witness for capitulary section (nos. 3-6, 8-9, 11-15).",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-vii-b",
+        "siglum": "B",
+        "label": "B — Rome, Biblioteca Vallicelliana, MS C 16",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Rome, Biblioteca Vallicelliana, MS C 16",
+        "folios": "fols. 82v-85r",
+        "date": "16th century (third quarter)",
+        "origin": "Capitulary tradition (Italian branch)",
+        "currentRepositoryId": "repo-rome-biblioteca-vallicelliana",
+        "currentRepository": "Rome, Biblioteca Vallicelliana",
+        "copiedFrom": "",
+        "digitalUrl": "https://capitularia.uni-koeln.de/en/manuscripts/manuscript/rom-bibl-vallicelliana-c16",
+        "iiifUrl": "",
+        "sourceLabel": "Capitularia (manuscript record)",
+        "description": "Extant witness; manuscript record available (no public full facsimile confirmed).",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-vii-c",
+        "siglum": "C",
+        "label": "C — Vatican City, BAV, MS Vat. lat. 4982",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Vatican City, BAV, MS Vat. lat. 4982",
+        "folios": "fols. 144r-145v",
+        "date": "17th century",
+        "origin": "Copied from Modena tradition (lost MS 3)",
+        "currentRepositoryId": "repo-vatican-city-bav",
+        "currentRepository": "Vatican City, BAV",
+        "copiedFrom": "",
+        "digitalUrl": "https://digi.vatlib.it/view/MSS_Vat.lat.4982",
+        "iiifUrl": "",
+        "sourceLabel": "DigiVatLib / Biblioteca Apostolica Vaticana",
+        "description": "Extant witness for capitulary section (nos. 3-6, 8-9, 11-15).",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-vii-d",
+        "siglum": "D",
+        "label": "D — Saint-Omer, Bibliotheque d'agglomeration, MS 706",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Saint-Omer, Bibliotheque d'agglomeration, MS 706",
+        "folios": "fols. 206v-207v",
+        "date": "ca. 1000",
+        "origin": "Annales Bertiniani tradition",
+        "currentRepositoryId": "repo-saint-omer-bibliotheque-d-agglomeration",
+        "currentRepository": "Saint-Omer, Bibliotheque d'agglomeration",
+        "copiedFrom": "",
+        "digitalUrl": "https://bibliotheque-numerique.bibliotheque-agglo-stomer.fr/idurl/1/18437",
+        "iiifUrl": "",
+        "sourceLabel": "Bibliotheque numerique de Saint-Omer",
+        "description": "Oldest complete witness of Annales Bertiniani used for the capitulary context.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-vii-e",
+        "siglum": "E",
+        "label": "E — Brussels, Bibliotheque royale, MS 6439-6451",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Brussels, Bibliotheque royale, MS 6439-6451",
+        "folios": "Not specified in the edition",
+        "date": "11th century",
+        "origin": "Annales Bertiniani tradition",
+        "currentRepositoryId": "repo-brussels-bibliotheque-royale",
+        "currentRepository": "Brussels, Bibliotheque royale",
+        "copiedFrom": "",
+        "digitalUrl": "https://opac.kbr.be/LIBRARY/doc/SYRACUSE/17937993",
+        "iiifUrl": "",
+        "sourceLabel": "KBR OPAC (catalog record)",
+        "description": "Nearly complete Annales witness copied from D; not collated by Jackson. Folio range not specified in the edition.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-vii-f",
+        "siglum": "F",
+        "label": "F — Paris, BnF, MS lat. 12711",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Paris, BnF, MS lat. 12711",
+        "folios": "fols. 142r-143v",
+        "date": "End of 11th century",
+        "origin": "Continuation of Aimoin tradition",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://portail.biblissima.fr/fr/ark:/43093/mdata0d57bc4f5ef1f3c14be2116e03a773efcbacc8bc",
+        "iiifUrl": "",
+        "sourceLabel": "Biblissima (record)",
+        "description": "Annales-related witness.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-vii-g",
+        "siglum": "G",
+        "label": "G — Paris, BnF, MS lat. 12710",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Paris, BnF, MS lat. 12710",
+        "folios": "fol. 53r-v",
+        "date": "13th century",
+        "origin": "Continuation of Aimoin tradition",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://portail.biblissima.fr/fr/ark:/43093/mdata75c7eb095157f9ab6facc06ec59301f66e9aa552",
+        "iiifUrl": "",
+        "sourceLabel": "Biblissima (record)",
+        "description": "Annales-related witness.",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "place-annales-bertiniani-tradition",
+        "label": "Annales Bertiniani tradition",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "textual_tradition_context",
+        "lat": 49.258,
+        "lon": 4.031,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Annales Bertiniani tradition\"."
+      },
+      {
+        "id": "repo-beauvais-library-of-the-cathedral-chapter-lost",
+        "label": "Beauvais, library of the cathedral chapter [LOST]",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.431,
+        "lon": 2.08,
+        "certainty": "last_known_or_reported",
+        "note": "Lost witness location inferred from shelfmark/last known context: Beauvais, library of the cathedral chapter [LOST]"
+      },
+      {
+        "id": "repo-brussels-bibliotheque-royale",
+        "label": "Brussels, Bibliotheque royale",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.8427,
+        "lon": 4.361,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Brussels, Bibliotheque royale, MS 6439-6451"
+      },
+      {
+        "id": "place-continuation-of-aimoin-tradition",
+        "label": "Continuation of Aimoin tradition",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "textual_tradition_context",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Continuation of Aimoin tradition\"."
+      },
+      {
+        "id": "place-italian-capitulary-tradition",
+        "label": "Italian capitulary tradition",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "textual_tradition_context",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Capitulary tradition (Italian branch)\"."
+      },
+      {
+        "id": "repo-liege-monastery-of-saint-laurent-lost",
+        "label": "Liege, monastery of Saint-Laurent [LOST]",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.633,
+        "lon": 5.567,
+        "certainty": "last_known_or_reported",
+        "note": "Lost witness location inferred from shelfmark/last known context: Liege, monastery of Saint-Laurent [LOST]"
+      },
+      {
+        "id": "repo-location-unknown-muret-manuscript-lost",
+        "label": "Location unknown (\"Muret\" manuscript) [LOST]",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": null,
+        "lon": null,
+        "certainty": "last_known_or_reported",
+        "note": "Lost witness location inferred from shelfmark/last known context: Location unknown (\"Muret\" manuscript) [LOST]"
+      },
+      {
+        "id": "place-modena",
+        "label": "Modena",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "lost_witness_context",
+        "lat": 44.647,
+        "lon": 10.925,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Copied from Modena tradition (lost MS 3)\"."
+      },
+      {
+        "id": "repo-modena-biblioteca-capitolare",
+        "label": "Modena, Biblioteca Capitolare",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 44.647,
+        "lon": 10.925,
+        "certainty": "last_known_or_reported",
+        "note": "Lost witness location inferred from shelfmark/last known context: Modena, Biblioteca Capitolare, MS 11,2 [LOST]"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS lat. 12710"
+      },
+      {
+        "id": "repo-rome-biblioteca-vallicelliana",
+        "label": "Rome, Biblioteca Vallicelliana",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.899,
+        "lon": 12.468,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Rome, Biblioteca Vallicelliana, MS C 16"
+      },
+      {
+        "id": "repo-saint-omer-bibliotheque-d-agglomeration",
+        "label": "Saint-Omer, Bibliotheque d'agglomeration",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.75,
+        "lon": 2.253,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Saint-Omer, Bibliotheque d'agglomeration, MS 706"
+      },
+      {
+        "id": "repo-tarragona-manuscript-of-antonio-agustin-lost",
+        "label": "Tarragona (?) manuscript of Antonio Agustin [LOST]",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.118,
+        "lon": 1.245,
+        "certainty": "last_known_or_reported",
+        "note": "Lost witness location inferred from shelfmark/last known context: Tarragona (?) manuscript of Antonio Agustin [LOST]"
+      },
+      {
+        "id": "repo-vatican-city-bav",
+        "label": "Vatican City, BAV",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Vatican City, BAV, MS Vat. lat. 4982"
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-vii-lost-ms-1-current-repository",
+        "label": "Lost MS 1 kept at Liege, monastery of Saint-Laurent [LOST]",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "lost_witness_reported_location",
+        "manuscriptId": "ms-ocf-vii-lost-ms-1",
+        "placeId": "repo-liege-monastery-of-saint-laurent-lost",
+        "start": "",
+        "end": "",
+        "description": "Liege, monastery of Saint-Laurent [LOST] is currently kept at Liege, monastery of Saint-Laurent [LOST].",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-vii-lost-ms-2-current-repository",
+        "label": "Lost MS 2 kept at Beauvais, library of the cathedral chapter [LOST]",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "lost_witness_reported_location",
+        "manuscriptId": "ms-ocf-vii-lost-ms-2",
+        "placeId": "repo-beauvais-library-of-the-cathedral-chapter-lost",
+        "start": "",
+        "end": "",
+        "description": "Beauvais, library of the cathedral chapter [LOST] is currently kept at Beauvais, library of the cathedral chapter [LOST].",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-vii-lost-ms-3-current-repository",
+        "label": "Lost MS 3 kept at Modena, Biblioteca Capitolare",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "lost_witness_reported_location",
+        "manuscriptId": "ms-ocf-vii-lost-ms-3",
+        "placeId": "repo-modena-biblioteca-capitolare",
+        "start": "",
+        "end": "",
+        "description": "Modena, Biblioteca Capitolare, MS 11,2 [LOST] is currently kept at Modena, Biblioteca Capitolare.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-vii-lost-ms-4-current-repository",
+        "label": "Lost MS 4 kept at Location unknown (\"Muret\" manuscript) [LOST]",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "lost_witness_reported_location",
+        "manuscriptId": "ms-ocf-vii-lost-ms-4",
+        "placeId": "repo-location-unknown-muret-manuscript-lost",
+        "start": "",
+        "end": "",
+        "description": "Location unknown (\"Muret\" manuscript) [LOST] is currently kept at Location unknown (\"Muret\" manuscript) [LOST].",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-vii-lost-ms-5-current-repository",
+        "label": "Lost MS 5 kept at Tarragona (?) manuscript of Antonio Agustin [LOST]",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "lost_witness_reported_location",
+        "manuscriptId": "ms-ocf-vii-lost-ms-5",
+        "placeId": "repo-tarragona-manuscript-of-antonio-agustin-lost",
+        "start": "",
+        "end": "",
+        "description": "Tarragona (?) manuscript of Antonio Agustin [LOST] is currently kept at Tarragona (?) manuscript of Antonio Agustin [LOST].",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-vii-a-current-repository",
+        "label": "A kept at Vatican City, BAV",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-vii-a",
+        "placeId": "repo-vatican-city-bav",
+        "start": "",
+        "end": "",
+        "description": "Vatican City, BAV, MS Reg. lat. 291 is currently kept at Vatican City, BAV.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-vii-a-origin-italian-capitulary-tradition",
+        "label": "A origin/context: Italian capitulary tradition",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-vii-a",
+        "placeId": "place-italian-capitulary-tradition",
+        "start": "First half of 16th century",
+        "end": "First half of 16th century",
+        "description": "Vatican City, BAV, MS Reg. lat. 291: origin/context recorded as \"Capitulary tradition (Italian branch)\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-vii-b-current-repository",
+        "label": "B kept at Rome, Biblioteca Vallicelliana",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-vii-b",
+        "placeId": "repo-rome-biblioteca-vallicelliana",
+        "start": "",
+        "end": "",
+        "description": "Rome, Biblioteca Vallicelliana, MS C 16 is currently kept at Rome, Biblioteca Vallicelliana.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-vii-b-origin-italian-capitulary-tradition",
+        "label": "B origin/context: Italian capitulary tradition",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-vii-b",
+        "placeId": "place-italian-capitulary-tradition",
+        "start": "16th century (third quarter)",
+        "end": "16th century (third quarter)",
+        "description": "Rome, Biblioteca Vallicelliana, MS C 16: origin/context recorded as \"Capitulary tradition (Italian branch)\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-vii-c-current-repository",
+        "label": "C kept at Vatican City, BAV",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-vii-c",
+        "placeId": "repo-vatican-city-bav",
+        "start": "",
+        "end": "",
+        "description": "Vatican City, BAV, MS Vat. lat. 4982 is currently kept at Vatican City, BAV.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-vii-c-origin-modena",
+        "label": "C origin/context: Modena",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-vii-c",
+        "placeId": "place-modena",
+        "start": "17th century",
+        "end": "17th century",
+        "description": "Vatican City, BAV, MS Vat. lat. 4982: origin/context recorded as \"Copied from Modena tradition (lost MS 3)\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-vii-d-current-repository",
+        "label": "D kept at Saint-Omer, Bibliotheque d'agglomeration",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-vii-d",
+        "placeId": "repo-saint-omer-bibliotheque-d-agglomeration",
+        "start": "",
+        "end": "",
+        "description": "Saint-Omer, Bibliotheque d'agglomeration, MS 706 is currently kept at Saint-Omer, Bibliotheque d'agglomeration.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-vii-d-origin-annales-bertiniani-tradition",
+        "label": "D origin/context: Annales Bertiniani tradition",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-vii-d",
+        "placeId": "place-annales-bertiniani-tradition",
+        "start": "ca. 1000",
+        "end": "ca. 1000",
+        "description": "Saint-Omer, Bibliotheque d'agglomeration, MS 706: origin/context recorded as \"Annales Bertiniani tradition\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-vii-e-current-repository",
+        "label": "E kept at Brussels, Bibliotheque royale",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-vii-e",
+        "placeId": "repo-brussels-bibliotheque-royale",
+        "start": "",
+        "end": "",
+        "description": "Brussels, Bibliotheque royale, MS 6439-6451 is currently kept at Brussels, Bibliotheque royale.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-vii-e-origin-annales-bertiniani-tradition",
+        "label": "E origin/context: Annales Bertiniani tradition",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-vii-e",
+        "placeId": "place-annales-bertiniani-tradition",
+        "start": "11th century",
+        "end": "11th century",
+        "description": "Brussels, Bibliotheque royale, MS 6439-6451: origin/context recorded as \"Annales Bertiniani tradition\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-vii-f-current-repository",
+        "label": "F kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-vii-f",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 12711 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-vii-f-origin-continuation-of-aimoin-tradition",
+        "label": "F origin/context: Continuation of Aimoin tradition",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-vii-f",
+        "placeId": "place-continuation-of-aimoin-tradition",
+        "start": "End of 11th century",
+        "end": "End of 11th century",
+        "description": "Paris, BnF, MS lat. 12711: origin/context recorded as \"Continuation of Aimoin tradition\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-vii-g-current-repository",
+        "label": "G kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-vii-g",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 12710 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-vii-g-origin-continuation-of-aimoin-tradition",
+        "label": "G origin/context: Continuation of Aimoin tradition",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-vii-g",
+        "placeId": "place-continuation-of-aimoin-tradition",
+        "start": "13th century",
+        "end": "13th century",
+        "description": "Paris, BnF, MS lat. 12710: origin/context recorded as \"Continuation of Aimoin tradition\".",
+        "certainty": "possible"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-bav",
+        "label": "Biblioteca Apostolica Vaticana",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-vatican-city-bav",
+        "description": ""
+      },
+      {
+        "id": "actor-bnf",
+        "label": "Bibliothèque nationale de France (BnF)",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-paris-bnf",
+        "description": ""
+      },
+      {
+        "id": "actor-biblissima",
+        "label": "Biblissima",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "source",
+        "role": "digital source aggregator",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-jacques-sirmond",
+        "label": "Jacques Sirmond",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "early modern editor / user of lost witness",
+        "placeId": "place-paris",
+        "description": ""
+      },
+      {
+        "id": "actor-saint-laurent-liege",
+        "label": "Monastery of Saint-Laurent, Liège",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "lost witness context",
+        "placeId": "repo-lie-ge-monastery-of-saint-laurent-lost",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-vii-d-digital",
+        "label": "Bibliotheque numerique de Saint-Omer: Saint-Omer, Bibliotheque d'agglomeration, MS 706",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://bibliotheque-numerique.bibliotheque-agglo-stomer.fr/idurl/1/18437",
+        "description": "Digital source for Saint-Omer, Bibliotheque d'agglomeration, MS 706."
+      },
+      {
+        "id": "ref-ms-ocf-vii-g-digital",
+        "label": "Biblissima (record): Paris, BnF, MS lat. 12710",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://portail.biblissima.fr/fr/ark:/43093/mdata75c7eb095157f9ab6facc06ec59301f66e9aa552",
+        "description": "Digital source for Paris, BnF, MS lat. 12710."
+      },
+      {
+        "id": "ref-ms-ocf-vii-f-digital",
+        "label": "Biblissima (record): Paris, BnF, MS lat. 12711",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://portail.biblissima.fr/fr/ark:/43093/mdata0d57bc4f5ef1f3c14be2116e03a773efcbacc8bc",
+        "description": "Digital source for Paris, BnF, MS lat. 12711."
+      },
+      {
+        "id": "ref-ms-ocf-vii-b-digital",
+        "label": "Capitularia (manuscript record): Rome, Biblioteca Vallicelliana, MS C 16",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://capitularia.uni-koeln.de/en/manuscripts/manuscript/rom-bibl-vallicelliana-c16",
+        "description": "Digital source for Rome, Biblioteca Vallicelliana, MS C 16."
+      },
+      {
+        "id": "ref-ms-ocf-vii-a-digital",
+        "label": "DigiVatLib / Biblioteca Apostolica Vaticana: Vatican City, BAV, MS Reg. lat. 291",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://digi.vatlib.it/view/MSS_Reg.lat.291",
+        "description": "Digital source for Vatican City, BAV, MS Reg. lat. 291."
+      },
+      {
+        "id": "ref-ms-ocf-vii-c-digital",
+        "label": "DigiVatLib / Biblioteca Apostolica Vaticana: Vatican City, BAV, MS Vat. lat. 4982",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://digi.vatlib.it/view/MSS_Vat.lat.4982",
+        "description": "Digital source for Vatican City, BAV, MS Vat. lat. 4982."
+      },
+      {
+        "id": "ref-ms-ocf-vii-e-digital",
+        "label": "KBR OPAC (catalog record): Brussels, Bibliotheque royale, MS 6439-6451",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://opac.kbr.be/LIBRARY/doc/SYRACUSE/17937993",
+        "description": "Digital source for Brussels, Bibliotheque royale, MS 6439-6451."
+      },
+      {
+        "id": "ref-sirmond-1623",
+        "label": "Sirmond 1623 edition",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Early modern edition linked to the lost Saint-Laurent witness."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-vii-lost-ms-1",
+      "predicate": "witnesses",
+      "object": "OCF-VII",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-1",
+      "predicate": "currently_kept_at",
+      "object": "repo-liege-monastery-of-saint-laurent-lost",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-2",
+      "predicate": "witnesses",
+      "object": "OCF-VII",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-2",
+      "predicate": "currently_kept_at",
+      "object": "repo-beauvais-library-of-the-cathedral-chapter-lost",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-3",
+      "predicate": "witnesses",
+      "object": "OCF-VII",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-3",
+      "predicate": "currently_kept_at",
+      "object": "repo-modena-biblioteca-capitolare",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-4",
+      "predicate": "witnesses",
+      "object": "OCF-VII",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-4",
+      "predicate": "currently_kept_at",
+      "object": "repo-location-unknown-muret-manuscript-lost",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-5",
+      "predicate": "witnesses",
+      "object": "OCF-VII",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-5",
+      "predicate": "currently_kept_at",
+      "object": "repo-tarragona-manuscript-of-antonio-agustin-lost",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-vii-a",
+      "predicate": "witnesses",
+      "object": "OCF-VII",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "ms-ocf-vii-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-vatican-city-bav",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-vii-a-origin-italian-capitulary-tradition",
+      "predicate": "occurred_at",
+      "object": "place-italian-capitulary-tradition",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-vii-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-italian-capitulary-tradition",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-vii-b",
+      "predicate": "witnesses",
+      "object": "OCF-VII",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "ms-ocf-vii-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-rome-biblioteca-vallicelliana",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-vii-b-origin-italian-capitulary-tradition",
+      "predicate": "occurred_at",
+      "object": "place-italian-capitulary-tradition",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-vii-b",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-italian-capitulary-tradition",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-vii-c",
+      "predicate": "witnesses",
+      "object": "OCF-VII",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "ms-ocf-vii-c",
+      "predicate": "currently_kept_at",
+      "object": "repo-vatican-city-bav",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-vii-c-origin-modena",
+      "predicate": "occurred_at",
+      "object": "place-modena",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-vii-c",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-modena",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-vii-d",
+      "predicate": "witnesses",
+      "object": "OCF-VII",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "ms-ocf-vii-d",
+      "predicate": "currently_kept_at",
+      "object": "repo-saint-omer-bibliotheque-d-agglomeration",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-vii-d-origin-annales-bertiniani-tradition",
+      "predicate": "occurred_at",
+      "object": "place-annales-bertiniani-tradition",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-vii-d",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-annales-bertiniani-tradition",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-vii-e",
+      "predicate": "witnesses",
+      "object": "OCF-VII",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "ms-ocf-vii-e",
+      "predicate": "currently_kept_at",
+      "object": "repo-brussels-bibliotheque-royale",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-vii-e-origin-annales-bertiniani-tradition",
+      "predicate": "occurred_at",
+      "object": "place-annales-bertiniani-tradition",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-vii-e",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-annales-bertiniani-tradition",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-vii-f",
+      "predicate": "witnesses",
+      "object": "OCF-VII",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "ms-ocf-vii-f",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-vii-f-origin-continuation-of-aimoin-tradition",
+      "predicate": "occurred_at",
+      "object": "place-continuation-of-aimoin-tradition",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-vii-f",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-continuation-of-aimoin-tradition",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-vii-g",
+      "predicate": "witnesses",
+      "object": "OCF-VII",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "ms-ocf-vii-g",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-vii-g-origin-continuation-of-aimoin-tradition",
+      "predicate": "occurred_at",
+      "object": "place-continuation-of-aimoin-tradition",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-vii-g",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-continuation-of-aimoin-tradition",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-1",
+      "predicate": "associated_with",
+      "object": "actor-saint-laurent-liege",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-1",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-1",
+      "predicate": "cited_by",
+      "object": "ref-sirmond-1623",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-2",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-2",
+      "predicate": "cited_by",
+      "object": "ref-sirmond-1623",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-3",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-3",
+      "predicate": "cited_by",
+      "object": "ref-sirmond-1623",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-4",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-4",
+      "predicate": "cited_by",
+      "object": "ref-sirmond-1623",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-5",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-lost-ms-5",
+      "predicate": "cited_by",
+      "object": "ref-sirmond-1623",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "ms-ocf-vii-a",
+      "predicate": "associated_with",
+      "object": "actor-bav",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-vii-a-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-vii-a",
+      "predicate": "cited_by",
+      "object": "ref-sirmond-1623",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "ms-ocf-vii-b",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-b",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-vii-b-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-vii-b",
+      "predicate": "cited_by",
+      "object": "ref-sirmond-1623",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "ms-ocf-vii-c",
+      "predicate": "associated_with",
+      "object": "actor-bav",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-c",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-c",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-vii-c-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-vii-c",
+      "predicate": "cited_by",
+      "object": "ref-sirmond-1623",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "ms-ocf-vii-d",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-d",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-vii-d-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-vii-d",
+      "predicate": "cited_by",
+      "object": "ref-sirmond-1623",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "ms-ocf-vii-e",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-e",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-vii-e-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-vii-e",
+      "predicate": "cited_by",
+      "object": "ref-sirmond-1623",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "ms-ocf-vii-f",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-f",
+      "predicate": "associated_source_actor",
+      "object": "actor-biblissima",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-f",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-f",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-vii-f-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-vii-f",
+      "predicate": "cited_by",
+      "object": "ref-sirmond-1623",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "ms-ocf-vii-g",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-g",
+      "predicate": "associated_source_actor",
+      "object": "actor-biblissima",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-g",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-vii-g",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-vii-g-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-vii-g",
+      "predicate": "cited_by",
+      "object": "ref-sirmond-1623",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "OCF-VII",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-VII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-vii-lost-ms-1",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "OCF-VII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-vii-lost-ms-2",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "OCF-VII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-vii-lost-ms-3",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "OCF-VII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-vii-lost-ms-4",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "OCF-VII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-vii-lost-ms-5",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "OCF-VII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-vii-a",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "OCF-VII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-vii-b",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "OCF-VII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-vii-c",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "OCF-VII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-vii-d",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "OCF-VII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-vii-e",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "OCF-VII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-vii-f",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "OCF-VII",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-vii-g",
+      "certainty": "certain",
+      "source": "OCF-VII witness list"
+    },
+    {
+      "subject": "OCF-VII",
+      "predicate": "edited_by",
+      "object": "actor-jacques-sirmond",
+      "certainty": "certain",
+      "source": "edition tradition"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-beauvais-library-of-the-cathedral-chapter-lost",
+        "label": "Beauvais, library of the cathedral chapter [LOST]",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.431,
+        "lon": 2.08,
+        "certainty": "last_known_or_reported",
+        "note": "Lost witness location inferred from shelfmark/last known context: Beauvais, library of the cathedral chapter [LOST]"
+      },
+      {
+        "id": "repo-brussels-bibliotheque-royale",
+        "label": "Brussels, Bibliotheque royale",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.8427,
+        "lon": 4.361,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Brussels, Bibliotheque royale, MS 6439-6451"
+      },
+      {
+        "id": "repo-liege-monastery-of-saint-laurent-lost",
+        "label": "Liege, monastery of Saint-Laurent [LOST]",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.633,
+        "lon": 5.567,
+        "certainty": "last_known_or_reported",
+        "note": "Lost witness location inferred from shelfmark/last known context: Liege, monastery of Saint-Laurent [LOST]"
+      },
+      {
+        "id": "repo-location-unknown-muret-manuscript-lost",
+        "label": "Location unknown (\"Muret\" manuscript) [LOST]",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": null,
+        "lon": null,
+        "certainty": "last_known_or_reported",
+        "note": "Lost witness location inferred from shelfmark/last known context: Location unknown (\"Muret\" manuscript) [LOST]"
+      },
+      {
+        "id": "repo-modena-biblioteca-capitolare",
+        "label": "Modena, Biblioteca Capitolare",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 44.647,
+        "lon": 10.925,
+        "certainty": "last_known_or_reported",
+        "note": "Lost witness location inferred from shelfmark/last known context: Modena, Biblioteca Capitolare, MS 11,2 [LOST]"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS lat. 12710"
+      },
+      {
+        "id": "repo-rome-biblioteca-vallicelliana",
+        "label": "Rome, Biblioteca Vallicelliana",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.899,
+        "lon": 12.468,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Rome, Biblioteca Vallicelliana, MS C 16"
+      },
+      {
+        "id": "repo-saint-omer-bibliotheque-d-agglomeration",
+        "label": "Saint-Omer, Bibliotheque d'agglomeration",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 50.75,
+        "lon": 2.253,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Saint-Omer, Bibliotheque d'agglomeration, MS 706"
+      },
+      {
+        "id": "repo-tarragona-manuscript-of-antonio-agustin-lost",
+        "label": "Tarragona (?) manuscript of Antonio Agustin [LOST]",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.118,
+        "lon": 1.245,
+        "certainty": "last_known_or_reported",
+        "note": "Lost witness location inferred from shelfmark/last known context: Tarragona (?) manuscript of Antonio Agustin [LOST]"
+      },
+      {
+        "id": "repo-vatican-city-bav",
+        "label": "Vatican City, BAV",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Vatican City, BAV, MS Vat. lat. 4982"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-annales-bertiniani-tradition",
+        "label": "Annales Bertiniani tradition",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "textual_tradition_context",
+        "lat": 49.258,
+        "lon": 4.031,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Annales Bertiniani tradition\"."
+      },
+      {
+        "id": "place-continuation-of-aimoin-tradition",
+        "label": "Continuation of Aimoin tradition",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "textual_tradition_context",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Continuation of Aimoin tradition\"."
+      },
+      {
+        "id": "place-italian-capitulary-tradition",
+        "label": "Italian capitulary tradition",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "textual_tradition_context",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Capitulary tradition (Italian branch)\"."
+      },
+      {
+        "id": "place-modena",
+        "label": "Modena",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "lost_witness_context",
+        "lat": 44.647,
+        "lon": 10.925,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Copied from Modena tradition (lost MS 3)\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-vii-a-italian-capitulary-tradition-to-vatican-city-bav",
+        "label": "A: Italian capitulary tradition → Vatican City, BAV",
+        "manuscriptId": "ms-ocf-vii-a",
+        "fromPlaceId": "place-italian-capitulary-tradition",
+        "toPlaceId": "repo-vatican-city-bav",
+        "start": "First half of 16th century",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-vii-b-italian-capitulary-tradition-to-rome-biblioteca-vallicelliana",
+        "label": "B: Italian capitulary tradition → Rome, Biblioteca Vallicelliana",
+        "manuscriptId": "ms-ocf-vii-b",
+        "fromPlaceId": "place-italian-capitulary-tradition",
+        "toPlaceId": "repo-rome-biblioteca-vallicelliana",
+        "start": "16th century (third quarter)",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-vii-c-modena-to-vatican-city-bav",
+        "label": "C: Modena → Vatican City, BAV",
+        "manuscriptId": "ms-ocf-vii-c",
+        "fromPlaceId": "place-modena",
+        "toPlaceId": "repo-vatican-city-bav",
+        "start": "17th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-vii-d-annales-bertiniani-tradition-to-saint-omer-bibliotheque-d-agglomeration",
+        "label": "D: Annales Bertiniani tradition → Saint-Omer, Bibliotheque d'agglomeration",
+        "manuscriptId": "ms-ocf-vii-d",
+        "fromPlaceId": "place-annales-bertiniani-tradition",
+        "toPlaceId": "repo-saint-omer-bibliotheque-d-agglomeration",
+        "start": "ca. 1000",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-vii-e-annales-bertiniani-tradition-to-brussels-bibliotheque-royale",
+        "label": "E: Annales Bertiniani tradition → Brussels, Bibliotheque royale",
+        "manuscriptId": "ms-ocf-vii-e",
+        "fromPlaceId": "place-annales-bertiniani-tradition",
+        "toPlaceId": "repo-brussels-bibliotheque-royale",
+        "start": "11th century",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-vii-f-continuation-of-aimoin-tradition-to-paris-bnf",
+        "label": "F: Continuation of Aimoin tradition → Paris, BnF",
+        "manuscriptId": "ms-ocf-vii-f",
+        "fromPlaceId": "place-continuation-of-aimoin-tradition",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "End of 11th century",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-vii-g-continuation-of-aimoin-tradition-to-paris-bnf",
+        "label": "G: Continuation of Aimoin tradition → Paris, BnF",
+        "manuscriptId": "ms-ocf-vii-g",
+        "fromPlaceId": "place-continuation-of-aimoin-tradition",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "13th century",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_source_actor",
+        "label": "associated_source_actor"
+      },
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-edited_by",
+        "label": "edited_by"
+      },
+      {
+        "id": "rel-edited_or_studied_by",
+        "label": "edited_or_studied_by"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-has_reference",
+        "label": "has_reference"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","manuscriptId","placeId","start","end","description","certainty"
+"event-ms-ocf-xix-a-current-repository","A kept at Reims, Bibl. mun.","E7 Activity","activity","current_repository","ms-ocf-xix-a","repo-reims-bibl-mun","","","Reims, Bibl. mun., MS 343 is currently kept at Reims, Bibl. mun..","certain"
+"event-ms-ocf-xix-a-origin-reims","A origin/context: Reims","E12 Production","production","copying_or_origin","ms-ocf-xix-a","place-reims","Early 13th century","Early 13th century","Reims, Bibl. mun., MS 343: origin/context recorded as ""Reims Cathedral chapter library"".","probable"
+"event-ms-ocf-xix-b-current-repository","B kept at Besançon, Bibl. mun.","E7 Activity","activity","current_repository","ms-ocf-xix-b","repo-besanc-on-bibl-mun","","","Besançon, Bibl. mun., MS 138 is currently kept at Besançon, Bibl. mun..","certain"
+"event-ms-ocf-xix-b-origin-beauvais","B origin/context: Beauvais","E12 Production","production","copying_or_origin","ms-ocf-xix-b","place-beauvais","Mid-13th century","Mid-13th century","Besançon, Bibl. mun., MS 138: origin/context recorded as ""Beauvais"".","probable"

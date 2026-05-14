@@ -1,0 +1,4 @@
+"id","label","openatlasClass","systemClass","type","url","description"
+"ref-ms-ocf-x-b-digital","Biblissima / BnF Baluze 1 (fol. 25v): Paris, BnF, MS Baluze 1","E31 Document","reference","digital_facsimile","https://gallica.bnf.fr/ark:/12148/btv1b9001314p","Digital source for Paris, BnF, MS Baluze 1."
+"ref-ms-ocf-x-b-iiif","IIIF manifest: Paris, BnF, MS Baluze 1","E31 Document","reference","iiif_manifest","https://gallica.bnf.fr/iiif/ark:/12148/btv1b9001314p/manifest.json","IIIF manifest for Paris, BnF, MS Baluze 1."
+"ref-ms-ocf-x-a-digital","PARES / Archivo de la Corona de Aragon: Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40","E31 Document","reference","digital_facsimile","https://pares.mcu.es/ParesBusquedas20/catalogo/description/2334950","Digital source for Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40."

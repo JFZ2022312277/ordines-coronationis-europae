@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","url","description"
+"ref-ms-ocf-ix-a-digital","Biblissima resource page / Reims BM MS 214: Reims, Bibl. mun., MS 214","E31 Document","reference","digital_facsimile","https://portail.biblissima.fr/ark:/43093/mdata193b47fc9ce99b274d8022c5b83bbf0f","Digital source for Reims, Bibl. mun., MS 214."
+"ref-ms-ocf-ix-a-bib-1","Delisle, 'Mémoire,' 285–9, no. CXVI","E31 Document","reference","bibliography","","Bibliographic reference for Reims, Bibl. mun., MS 214."
+"ref-ms-ocf-ix-a-iiif","IIIF manifest: Reims, Bibl. mun., MS 214","E31 Document","reference","iiif_manifest","https://api.irht.cnrs.fr/ark:/63955/f7bgc86el8ga/manifest.json","IIIF manifest for Reims, Bibl. mun., MS 214."
+"ref-ms-ocf-ix-a-bib-2","Leroquais, Sacramentaires, 1: 91–4, no. 36","E31 Document","reference","edition_or_catalogue","","Bibliographic reference for Reims, Bibl. mun., MS 214."

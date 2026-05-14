@@ -1,0 +1,3 @@
+"id","manuscriptId","fromPlaceId","toPlaceId","start","end","certainty","description"
+"move-ms-ecr-ii-a","ms-ecr-ii-a","place-winchester","repo-rouen-bm","10th century","10th century","probable","Research context line for A: Winchester ecclesiastical context -> Rouen, Bibl. mun.."
+"move-ms-ecr-ii-b","ms-ecr-ii-b","place-wessex-context","repo-paris-bnf","10th-11th century","10th-11th century","probable","Research context line for B: Southern England / Wessex context -> Paris, BnF."

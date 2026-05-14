@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XI manuscript pilot">
+  <ordo id="OCF-XI"><label>Texts Concerning the First Coronation of Eudes</label><date>29 February 888</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xi-a" siglum="A"><shelfmark>Paris, BnF, MS lat. 9430</shelfmark><folios>fols. 191v-192r</folios><date>ca. 1000</date><origin>Tours</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xi-b" siglum="B"><shelfmark>Barcelona, Archivo de la Corona de Aragon, MS Ripoll 40</shelfmark><folios>fol. 4v</folios><date>11th century</date><origin>Monastery of Ripoll</origin><currentRepository ref="repo-barcelona-archivo-de-la-corona-de-aragon">Barcelona, Archivo de la Corona de Aragon</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xi-c" siglum="C"><shelfmark>Paris, BnF, MS Baluze 1</shelfmark><folios>fol. 25r</folios><date>17th century</date><origin></origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xi-d" siglum="D"><shelfmark>Paris, BnF, MS nouv. acq. fr. 22211</shelfmark><folios>fol. 60r</folios><date>18th century</date><origin></origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="repo-barcelona-archivo-de-la-corona-de-aragon" type="repository_place" lat="41.3851" lon="2.1734" certainty="certain">Barcelona, Archivo de la Corona de Aragon</place>
+    <place id="place-monastery-of-ripoll" type="scriptorium_or_origin_place" lat="42.2" lon="2.191" certainty="probable">Monastery of Ripoll</place>
+    <place id="repo-paris-bnf" type="repository_place" lat="48.8339" lon="2.3757" certainty="certain">Paris, BnF</place>
+    <place id="place-tours" type="scriptorium_or_origin_place" lat="47.394" lon="0.684" certainty="probable">Tours</place>
+  </places>
+</openatlasSeed>

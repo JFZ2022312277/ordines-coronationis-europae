@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XIII manuscript pilot">
+  <ordo id="OCF-XIII"><label>Erdmann Ordo</label><date>ca. 900</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xiii-a" siglum="A"><shelfmark>Sens, Bibl. mun., MS 12</shelfmark><folios>fols. 85r-97v</folios><date>Late 9th / early 10th century</date><origin>Sens</origin><currentRepository ref="repo-sens-bibl-mun">Sens, Bibl. mun.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xiii-b" siglum="B"><shelfmark>Leningrad [St. Petersburg], Public Library, MS lat. Q.v.I, no. 35</shelfmark><folios>fols. 65r-73v</folios><date>10th century</date><origin>Copied from A</origin><currentRepository ref="repo-leningrad-st-petersburg-public-library">Leningrad [St. Petersburg], Public Library</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xiii-c" siglum="C"><shelfmark>Sens, Tr?sor de la Cath?drale, unnumbered</shelfmark><folios>-</folios><date>Late 9th / early 10th century?</date><origin></origin><currentRepository ref="repo-sens-tr-sor-de-la-cath-drale">Sens, Tr?sor de la Cath?drale</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="repo-leningrad-st-petersburg-public-library" type="repository_place" lat="59.9343" lon="30.3351" certainty="certain">Leningrad [St. Petersburg], Public Library</place>
+    <place id="place-sens" type="scriptorium_or_origin_place" lat="48.198" lon="3.283" certainty="probable">Sens</place>
+    <place id="repo-sens-bibl-mun" type="repository_place" lat="48.1974" lon="3.282" certainty="certain">Sens, Bibl. mun.</place>
+    <place id="repo-sens-tr-sor-de-la-cath-drale" type="repository_place" lat="48.1974" lon="3.282" certainty="certain">Sens, Tr?sor de la Cath?drale</place>
+  </places>
+</openatlasSeed>

@@ -1,0 +1,3 @@
+"id","label","openatlasClass","systemClass","type","manuscriptId","placeId","start","end","description","certainty"
+"event-ms-ocf-iii-a-current-repository","A kept at Munich, Bayerische Staatsbibl.","E7 Activity","activity","current_repository","ms-ocf-iii-a","repo-munich-bayerische-staatsbibl","","","Munich, Bayerische Staatsbibl., MS Clm. 14510 is currently kept at Munich, Bayerische Staatsbibl..","certain"
+"event-ms-ocf-iii-a-origin-sankt-emmeram-regensburg","A origin/context: Sankt Emmeram, Regensburg","E12 Production","production","copying_or_origin","ms-ocf-iii-a","place-sankt-emmeram-regensburg","824–27","824–27","Munich, Bayerische Staatsbibl., MS Clm. 14510: origin/context recorded as ""Sankt Emmeram"".","probable"

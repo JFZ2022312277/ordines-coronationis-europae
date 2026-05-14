@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-III manuscript pilot">
+  <ordo id="OCF-III"><label>Royal Texts in the Collection of Sankt Emmeram</label><date>824–27</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-iii-a" siglum="A"><shelfmark>Munich, Bayerische Staatsbibl., MS Clm. 14510</shelfmark><folios>fols. 72v-74r</folios><date>824–27</date><origin>Sankt Emmeram</origin><currentRepository ref="repo-munich-bayerische-staatsbibl">Munich, Bayerische Staatsbibl.</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="repo-munich-bayerische-staatsbibl" type="repository_place" lat="48.1497" lon="11.5786" certainty="certain">Munich, Bayerische Staatsbibl.</place>
+    <place id="place-sankt-emmeram-regensburg" type="scriptorium_or_origin_place" lat="49.014" lon="12.095" certainty="probable">Sankt Emmeram, Regensburg</place>
+  </places>
+</openatlasSeed>

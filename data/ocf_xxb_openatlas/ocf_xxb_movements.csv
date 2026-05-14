@@ -1,0 +1,2 @@
+"id","label","manuscriptId","fromPlaceId","toPlaceId","start","end","certainty","type"
+"move-ms-ocf-xxb-b-paris-to-london-british-library","B: Paris → London, British Library","ms-ocf-xxb-b","place-paris","repo-london-british-library","1365","","probable","manuscript_dispersal"

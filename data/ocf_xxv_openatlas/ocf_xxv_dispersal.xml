@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XXV manuscript pilot">
+  <ordo id="OCF-XXV"><label>Ordo of Charles VIII</label><date>29 May ”2 June 1484</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xxv-a" siglum="A"><shelfmark>London, British Library, MS Arundel 149</shelfmark><folios>fol. 23r</folios><date>Late 15th century</date><origin></origin><currentRepository ref="repo-london-british-library">London, British Library</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxv-b" siglum="B"><shelfmark>Paris, BnF, MS nouv. acq. fr. 7232</shelfmark><folios>fols. 47r–9v</folios><date>17th century, first half</date><origin>From Brienne collection</origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxv-c" siglum="C"><shelfmark>Paris, Bibl. de l'Institut de France, MS Godefroy 381</shelfmark><folios>pp. 53–47B</folios><date>17th century, first half</date><origin></origin><currentRepository ref="repo-paris-bibl-de-l-institut-de-france">Paris, Bibl. de l'Institut de France</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxv-d" siglum="D"><shelfmark>Paris, Bibl. de l'Arsenal, MS 4227</shelfmark><folios>fols. 39r–4v</folios><date>17th century</date><origin></origin><currentRepository ref="repo-paris-bibl-de-l-arsenal">Paris, Bibl. de l'Arsenal</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="place-brienne-collection-context" type="collection_context" lat="48.8566" lon="2.3522" certainty="possible">Brienne collection context</place>
+    <place id="repo-london-british-library" type="repository_place" lat="51.5299" lon="-0.1277" certainty="certain">London, British Library</place>
+    <place id="repo-paris-bibl-de-l-arsenal" type="repository_place" lat="48.8493" lon="2.3623" certainty="certain">Paris, Bibl. de l'Arsenal</place>
+    <place id="repo-paris-bibl-de-l-institut-de-france" type="repository_place" lat="48.8568" lon="2.337" certainty="certain">Paris, Bibl. de l'Institut de France</place>
+    <place id="repo-paris-bnf" type="repository_place" lat="48.8339" lon="2.3757" certainty="certain">Paris, BnF</place>
+  </places>
+</openatlasSeed>

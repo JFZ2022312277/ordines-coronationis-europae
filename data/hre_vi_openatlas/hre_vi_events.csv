@@ -1,0 +1,3 @@
+"id","label","type","placeId","start","end","description","openatlasClass"
+"event-ms-hre-vi-src-transmission","SRC copying/transmission context","copying_or_transmission","place-freising-source-tradition-anchor","ca. 1030","ca. 1030","Geographic anchor inferred from HRE source dateline place: Freising.","E5 Event"
+"event-ms-hre-vi-a-transmission","A copying/transmission context","copying_or_transmission","repo-munich-bsb","2nd quarter 11th century","2nd quarter 11th century","Pontificale Egilberti episcopi Frisingensis; defining witness of HRE-VI.","E5 Event"

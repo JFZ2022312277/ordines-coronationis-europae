@@ -1,0 +1,3 @@
+"id","label","type","placeId","start","end","description","openatlasClass"
+"event-ms-hre-vii-src-transmission","SRC copying/transmission context","copying_or_transmission","place-verden-source-tradition-anchor","1039/46","1039/46","Geographic anchor inferred from HRE source dateline place: Diocese of Verden.","E5 Event"
+"event-ms-hre-vii-a-transmission","A copying/transmission context","copying_or_transmission","repo-bamberg-staatsbibliothek","11th century","11th century","Witness listed in Elze for this HRE ordo; structured here as a pilot entity.","E5 Event"

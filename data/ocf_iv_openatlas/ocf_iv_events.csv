@@ -1,0 +1,3 @@
+"id","label","openatlasClass","systemClass","type","manuscriptId","placeId","start","end","description","certainty"
+"event-ms-ocf-iv-a-current-repository","A kept at Munich, Bayerische Staatsbibl.","E7 Activity","activity","current_repository","ms-ocf-iv-a","repo-munich-bayerische-staatsbibl","","","Munich, Bayerische Staatsbibl., MS Clm. 6430 is currently kept at Munich, Bayerische Staatsbibl..","certain"
+"event-ms-ocf-iv-a-origin-freising","A origin/context: Freising","E12 Production","production","copying_or_origin","ms-ocf-iv-a","place-freising","Second half of 9th century","Second half of 9th century","Munich, Bayerische Staatsbibl., MS Clm. 6430: origin/context recorded as ""Freising"".","probable"

@@ -1,0 +1,4 @@
+"id","label","manuscriptId","fromPlaceId","toPlaceId","start","end","certainty","type"
+"move-ms-ocf-xii-a-tours-to-angers-bibl-mun","A: Tours → Angers, Bibl. mun.","ms-ocf-xii-a","place-tours","repo-angers-bibl-mun","Second half or end of 9th century","","probable","manuscript_dispersal"
+"move-ms-ocf-xii-a-poitiers-to-angers-bibl-mun","A: Poitiers → Angers, Bibl. mun.","ms-ocf-xii-a","place-poitiers","repo-angers-bibl-mun","Second half or end of 9th century","","possible","manuscript_dispersal"
+"move-ms-ocf-xii-b-tours-to-paris-bnf","B: Tours → Paris, BnF","ms-ocf-xii-b","place-tours","repo-paris-bnf","ca. 900","","probable","manuscript_dispersal"

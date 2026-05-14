@@ -1,0 +1,524 @@
+{
+  "meta": {
+    "title": "OCF-I Gellone royal texts manuscript pilot",
+    "generatedAt": "2026-05-12T08:57:11.481Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot centered on OCF-I witnesses and the Gellone-to-Paris/copy context."
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-I",
+        "label": "Royal Texts in the Sacramentary of Gellone",
+        "labelFr": "Textes royaux du Sacramentaire de Gellone",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "790–00",
+        "description": "The earliest surviving liturgical formulas associated with coronation ceremonial, found in the late 8th-century Sacramentary of Gellone. Contains four royal benedictions copied from older sources. None remained permanently in the French ceremony, but three reappear in later texts. The fourth (Christe Deus oriens) is unique to this sacramentary."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-i-a",
+        "siglum": "A",
+        "label": "A — Paris, BnF, MS lat. 12048",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 12048",
+        "folios": "fols. 165r-166r",
+        "date": "Late 8th century",
+        "origin": "Gellone?",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b60000317/f339.item",
+        "iiifUrl": "",
+        "sourceLabel": "Gallica / BnF",
+        "description": "Digital witness for OCF-I: fols. 165r-166r (Gallica).",
+        "bibliography": "Delisle, 'Mémoire,' 80–1; Deshusses (ed. b), vii–xxxiv"
+      },
+      {
+        "id": "ms-ocf-i-b",
+        "siglum": "B",
+        "label": "B — Paris, BnF, MS lat. 12049",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "copy",
+        "shelfmark": "Paris, BnF, MS lat. 12049",
+        "folios": "p. 401",
+        "date": "1677",
+        "origin": "Copy of A by Luc d'Achery",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "A",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Secondary witness preserving a parallel text version (pp. 401-404 in this codex).",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "place-abbey-of-gellone-saint-guilhem-le-desert",
+        "label": "Abbey of Gellone, Saint-Guilhem-le-Desert",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 43.733,
+        "lon": 3.548,
+        "certainty": "probable",
+        "note": "Origin/copying place parsed from \"Gellone?\"."
+      },
+      {
+        "id": "place-paris",
+        "label": "Paris",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "copying_or_publication_place",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "certainty": "probable",
+        "note": "Origin/copying place parsed from \"Copy of A by Luc d'Achery\"."
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS lat. 12049"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-bnf",
+        "label": "Bibliothèque nationale de France (BnF)",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-paris-bnf",
+        "description": "Current repository institution for both extant OCF-I witnesses in this pilot."
+      },
+      {
+        "id": "actor-abbey-gellone",
+        "label": "Abbey of Gellone",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "monastic scriptorium / origin context",
+        "placeId": "place-abbey-of-gellone-saint-guilhem-le-desert",
+        "description": "Probable monastic context of the Sacramentary of Gellone witness."
+      },
+      {
+        "id": "actor-luc-d-achery",
+        "label": "Luc d'Achery",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "person",
+        "role": "copyist / Maurist scholar",
+        "placeId": "place-paris",
+        "description": "Recorded copying context for OCF-I witness B."
+      },
+      {
+        "id": "actor-leopold-delisle",
+        "label": "Léopold Delisle",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "scholar / bibliographic authority",
+        "placeId": "place-paris",
+        "description": "Cited through Delisle, 'Mémoire,' 80-1."
+      },
+      {
+        "id": "actor-jean-deshusses",
+        "label": "Jean Deshusses",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "modern editor",
+        "placeId": "",
+        "description": "Cited edition of the Sacramentary of Gellone."
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-gallica-ms-lat-12048-f339",
+        "label": "Gallica: Paris, BnF, MS lat. 12048, f. 339",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b60000317/f339.item",
+        "description": "Digital image source for the OCF-I royal texts in the Sacramentary of Gellone."
+      },
+      {
+        "id": "ref-delisle-memoire",
+        "label": "Delisle, 'Mémoire,' 80-1",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference cited for OCF-I witness A."
+      },
+      {
+        "id": "ref-deshusses-gellone",
+        "label": "Deshusses, Sacramentary of Gellone edition",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Modern edition reference cited for OCF-I witness A."
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-i-a-current-repository",
+        "label": "A kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-i-a",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 12048 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-i-a-origin-abbey-of-gellone-saint-guilhem-le-desert",
+        "label": "A origin/copying context: Abbey of Gellone, Saint-Guilhem-le-Desert",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-i-a",
+        "placeId": "place-abbey-of-gellone-saint-guilhem-le-desert",
+        "start": "Late 8th century",
+        "end": "Late 8th century",
+        "description": "Paris, BnF, MS lat. 12048: origin/copying context recorded as \"Gellone?\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-i-b-current-repository",
+        "label": "B kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-i-b",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 12049 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-i-b-origin-paris",
+        "label": "B origin/copying context: Paris",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "copying",
+        "manuscriptId": "ms-ocf-i-b",
+        "placeId": "place-paris",
+        "start": "1677",
+        "end": "1677",
+        "description": "Paris, BnF, MS lat. 12049: origin/copying context recorded as \"Copy of A by Luc d'Achery\".",
+        "certainty": "probable"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-i-a",
+      "predicate": "witnesses",
+      "object": "OCF-I",
+      "certainty": "certain",
+      "source": "OCF-I witness list"
+    },
+    {
+      "subject": "ms-ocf-i-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-i-a",
+      "predicate": "currently_held_by",
+      "object": "actor-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-i-a-origin-abbey-of-gellone-saint-guilhem-le-desert",
+      "predicate": "occurred_at",
+      "object": "place-abbey-of-gellone-saint-guilhem-le-desert",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-i-a",
+      "predicate": "has_origin_or_copying_place",
+      "object": "place-abbey-of-gellone-saint-guilhem-le-desert",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-i-a",
+      "predicate": "associated_with",
+      "object": "actor-abbey-gellone",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-i-b",
+      "predicate": "witnesses",
+      "object": "OCF-I",
+      "certainty": "certain",
+      "source": "OCF-I witness list"
+    },
+    {
+      "subject": "ms-ocf-i-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-i-b",
+      "predicate": "currently_held_by",
+      "object": "actor-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-i-b-origin-paris",
+      "predicate": "occurred_at",
+      "object": "place-paris",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-i-b",
+      "predicate": "has_origin_or_copying_place",
+      "object": "place-paris",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-i-b",
+      "predicate": "copied_by",
+      "object": "actor-luc-d-achery",
+      "certainty": "probable",
+      "source": "witness note"
+    },
+    {
+      "subject": "ms-ocf-i-a",
+      "predicate": "has_reference",
+      "object": "ref-gallica-ms-lat-12048-f339",
+      "certainty": "certain",
+      "source": "digital_url"
+    },
+    {
+      "subject": "ms-ocf-i-a",
+      "predicate": "cited_by",
+      "object": "ref-delisle-memoire",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-i-a",
+      "predicate": "cited_by",
+      "object": "ref-deshusses-gellone",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-i-a",
+      "predicate": "studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-i-a",
+      "predicate": "edited_by",
+      "object": "actor-jean-deshusses",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-i-b",
+      "predicate": "copied_from",
+      "object": "ms-ocf-i-a",
+      "certainty": "probable",
+      "source": "witness note"
+    },
+    {
+      "subject": "OCF-I",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-I",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-i-a",
+      "certainty": "certain",
+      "source": "OCF-I witness list"
+    },
+    {
+      "subject": "OCF-I",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-i-b",
+      "certainty": "certain",
+      "source": "OCF-I witness list"
+    },
+    {
+      "subject": "OCF-I",
+      "predicate": "associated_with",
+      "object": "actor-abbey-gellone",
+      "certainty": "probable",
+      "source": "origin field"
+    }
+  ],
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-copied_by",
+        "label": "copied_by"
+      },
+      {
+        "id": "rel-copied_from",
+        "label": "copied_from"
+      },
+      {
+        "id": "rel-currently_held_by",
+        "label": "currently_held_by"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-edited_by",
+        "label": "edited_by"
+      },
+      {
+        "id": "rel-has_origin_or_copying_place",
+        "label": "has_origin_or_copying_place"
+      },
+      {
+        "id": "rel-has_reference",
+        "label": "has_reference"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-studied_by",
+        "label": "studied_by"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  },
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS lat. 12049"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-abbey-of-gellone-saint-guilhem-le-desert",
+        "label": "Abbey of Gellone, Saint-Guilhem-le-Desert",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 43.733,
+        "lon": 3.548,
+        "certainty": "probable",
+        "note": "Origin/copying place parsed from \"Gellone?\"."
+      },
+      {
+        "id": "place-paris",
+        "label": "Paris",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "copying_or_publication_place",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "certainty": "probable",
+        "note": "Origin/copying place parsed from \"Copy of A by Luc d'Achery\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-i-a-abbey-of-gellone-saint-guilhem-le-desert-to-paris-bnf",
+        "label": "A: Abbey of Gellone, Saint-Guilhem-le-Desert → Paris, BnF",
+        "manuscriptId": "ms-ocf-i-a",
+        "fromPlaceId": "place-abbey-of-gellone-saint-guilhem-le-desert",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "Late 8th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-i-b-paris-to-paris-bnf",
+        "label": "B: Paris → Paris, BnF",
+        "manuscriptId": "ms-ocf-i-b",
+        "fromPlaceId": "place-paris",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "1677",
+        "end": "",
+        "certainty": "probable",
+        "type": "copy_witness_context"
+      }
+    ]
+  }
+}

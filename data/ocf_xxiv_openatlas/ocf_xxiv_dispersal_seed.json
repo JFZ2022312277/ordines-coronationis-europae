@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "title": "OCF-XXIV manuscript pilot",
+    "generatedAt": "2026-05-12T09:59:45.111Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-XXIV. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-XXIV.",
+    "entityEnrichedAt": "2026-05-12T09:59:45.452Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-XXIV",
+        "label": "Ordo of Louis XI",
+        "labelFr": "Ordo de Louis XI",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "15 August 1461 (ceremony); 1478 (text)",
+        "description": "Jean Foulquart, procureur syndic de l'échevinage of Reims, wrote in 1478 a treatise on the obligations of the échevins at ceremonies, incorporating the ordo used at Louis XI's coronation on 15 August 1461. An amalgam of the Last Capetian Ordo and the Ordo of Charles V. Rubrics translated into French, formulas left in Latin. Full text never previously published."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-xxiv-a",
+        "siglum": "A",
+        "displaySiglum": "A",
+        "label": "A — Paris, BnF, MS fr. 8334",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS fr. 8334",
+        "folios": "fols. 47r–0v",
+        "date": "1626",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Only surviving complete manuscript. Collection for a history of Reims, copied from lost MS 1. Sent to André Duchesne by Jean Rogier l'Aîné.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiv-b",
+        "siglum": "B",
+        "displaySiglum": "B",
+        "label": "B — Reims, Bibl. mun., MS 1651 (nouv. fonds)",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "secondary",
+        "shelfmark": "Reims, Bibl. mun., MS 1651 (nouv. fonds)",
+        "folios": "fols. 11v–4r",
+        "date": "18th century",
+        "origin": "",
+        "currentRepositoryId": "repo-reims-bibl-mun",
+        "currentRepository": "Reims, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Partial only. Copied from lost MS 1.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiv-c",
+        "siglum": "C",
+        "displaySiglum": "C",
+        "label": "C — Reims, Bibl. mun., MS 1489 (nouv. fonds), no. 9",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "copy",
+        "shelfmark": "Reims, Bibl. mun., MS 1489 (nouv. fonds), no. 9",
+        "folios": "fols. 193v–97v",
+        "date": "18th century",
+        "origin": "",
+        "currentRepositoryId": "repo-reims-bibl-mun",
+        "currentRepository": "Reims, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Partial. Copied from B.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-xxiv-d",
+        "siglum": "D",
+        "displaySiglum": "D",
+        "label": "D — Reims, Bibl. mun., MS 1490 (nouv. fonds), no. 5",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "copy",
+        "shelfmark": "Reims, Bibl. mun., MS 1490 (nouv. fonds), no. 5",
+        "folios": "pp. 16–3",
+        "date": "18th century",
+        "origin": "",
+        "currentRepositoryId": "repo-reims-bibl-mun",
+        "currentRepository": "Reims, Bibl. mun.",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Partial. Copied from B or C.",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS fr. 8334"
+      },
+      {
+        "id": "repo-reims-bibl-mun",
+        "label": "Reims, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.2541,
+        "lon": 3.025,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Reims, Bibl. mun., MS 1490 (nouv. fonds), no. 5"
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-xxiv-a-current-repository",
+        "label": "A kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiv-a",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS fr. 8334 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiv-b-current-repository",
+        "label": "B kept at Reims, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiv-b",
+        "placeId": "repo-reims-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Reims, Bibl. mun., MS 1651 (nouv. fonds) is currently kept at Reims, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiv-c-current-repository",
+        "label": "C kept at Reims, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiv-c",
+        "placeId": "repo-reims-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Reims, Bibl. mun., MS 1489 (nouv. fonds), no. 9 is currently kept at Reims, Bibl. mun..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-xxiv-d-current-repository",
+        "label": "D kept at Reims, Bibl. mun.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-xxiv-d",
+        "placeId": "repo-reims-bibl-mun",
+        "start": "",
+        "end": "",
+        "description": "Reims, Bibl. mun., MS 1490 (nouv. fonds), no. 5 is currently kept at Reims, Bibl. mun..",
+        "certainty": "certain"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-bnf",
+        "label": "Bibliothèque nationale de France (BnF)",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-paris-bnf",
+        "description": ""
+      },
+      {
+        "id": "actor-reims-cathedral",
+        "label": "Reims Cathedral / Chapter Library",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "cathedral repository / coronation center",
+        "placeId": "place-reims",
+        "description": ""
+      }
+    ],
+    "references": []
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-xxiv-a",
+      "predicate": "witnesses",
+      "object": "OCF-XXIV",
+      "certainty": "certain",
+      "source": "OCF-XXIV witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiv-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxiv-b",
+      "predicate": "witnesses",
+      "object": "OCF-XXIV",
+      "certainty": "certain",
+      "source": "OCF-XXIV witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiv-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-reims-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxiv-c",
+      "predicate": "witnesses",
+      "object": "OCF-XXIV",
+      "certainty": "certain",
+      "source": "OCF-XXIV witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiv-c",
+      "predicate": "currently_kept_at",
+      "object": "repo-reims-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxiv-d",
+      "predicate": "witnesses",
+      "object": "OCF-XXIV",
+      "certainty": "certain",
+      "source": "OCF-XXIV witness list"
+    },
+    {
+      "subject": "ms-ocf-xxiv-d",
+      "predicate": "currently_kept_at",
+      "object": "repo-reims-bibl-mun",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-xxiv-a",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiv-a",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiv-b",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiv-c",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-xxiv-d",
+      "predicate": "associated_with",
+      "object": "actor-reims-cathedral",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "OCF-XXIV",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-XXIV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiv-a",
+      "certainty": "certain",
+      "source": "OCF-XXIV witness list"
+    },
+    {
+      "subject": "OCF-XXIV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiv-b",
+      "certainty": "certain",
+      "source": "OCF-XXIV witness list"
+    },
+    {
+      "subject": "OCF-XXIV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiv-c",
+      "certainty": "certain",
+      "source": "OCF-XXIV witness list"
+    },
+    {
+      "subject": "OCF-XXIV",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-xxiv-d",
+      "certainty": "certain",
+      "source": "OCF-XXIV witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS fr. 8334"
+      },
+      {
+        "id": "repo-reims-bibl-mun",
+        "label": "Reims, Bibl. mun.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 49.2541,
+        "lon": 3.025,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Reims, Bibl. mun., MS 1490 (nouv. fonds), no. 5"
+      }
+    ],
+    "originPlaces": [],
+    "movements": []
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

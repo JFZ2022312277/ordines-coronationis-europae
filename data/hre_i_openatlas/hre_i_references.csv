@@ -1,0 +1,6 @@
+"id","label","openatlasClass","systemClass","type","url","description"
+"ref-elze-1960-ordo-i","Reinhard Elze, Ordines Coronationis Imperialis (1960), Ordo I","E31 Document","reference","edition","https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00000664-8","Digitized edition used for the HRE record."
+"ref-bsb-clm-3917","BSB digital facsimile: Clm 3917","E31 Document","reference","digital_facsimile","https://www.digitale-sammlungen.de/en/view/bsb00106697",""
+"ref-bsb-clm-3917-iiif","IIIF manifest: BSB Clm 3917","E31 Document","reference","iiif_manifest","https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00106697/manifest",""
+"ref-bav-vat-lat-7114","DigiVatLib: Vat. lat. 7114","E31 Document","reference","digital_facsimile","https://digi.vatlib.it/view/MSS_Vat.lat.7114",""
+"ref-bav-vat-lat-7114-iiif","IIIF manifest: Vat. lat. 7114","E31 Document","reference","iiif_manifest","https://digi.vatlib.it/iiif/MSS_Vat.lat.7114/manifest.json",""

@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","role","placeId"
+"actor-reinhard-elze","Reinhard Elze","E21 Person","actor","editor","editor of Ordines Coronationis Imperialis",""
+"actor-hre-imperial-tradition","Holy Roman imperial coronation tradition","E74 Group","actor","institution","political-liturgical context",""
+"actor-rome-papal-curia-context","Rome / Papal Curia context","E74 Group","actor","institution","textual or production context","place-rome-curia-context"
+"actor-guillaume-durand","Guillaume Durand","E21 Person","actor","person","author/compiler of pontifical tradition","place-rome-curia-context"

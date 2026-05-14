@@ -1,0 +1,1021 @@
+{
+  "meta": {
+    "title": "OCF-II manuscript pilot",
+    "generatedAt": "2026-05-12T09:06:32.368Z",
+    "sourceHtml": "ordines_coronationis_iiif.html",
+    "note": "OpenAtlas-style pilot for OCF-II. Current repositories are certain; origin/context places are parsed from existing metadata and marked by certainty.",
+    "entityEnrichment": "Actors and references enriched for OCF-II.",
+    "entityEnrichedAt": "2026-05-12T09:06:35.684Z"
+  },
+  "entities": {
+    "ordines": [
+      {
+        "id": "OCF-II",
+        "label": "Royal Texts in the Sacramentary of Angoulême",
+        "labelFr": "Textes royaux du Sacramentaire d'Angoulême",
+        "openatlasClass": "E33 Linguistic Object",
+        "systemClass": "artifact",
+        "viewClass": "artifact",
+        "type": "ordo_text",
+        "tradition": "OCF",
+        "date": "ca. 800",
+        "description": "Perhaps only slightly younger than Gellone. Contains the earliest text specifically associated with the inauguration of a king: 'quando elevatur in regno.' Two royal benedictions and a mass for the king. The Gelasian sacramentary, Gellone, Autun, and Angoulême variants are given together."
+      }
+    ],
+    "manuscripts": [
+      {
+        "id": "ms-ocf-ii-a",
+        "siglum": "A",
+        "label": "A — Vatican City, BAV, MS Reg. lat. 316",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Vatican City, BAV, MS Reg. lat. 316",
+        "folios": "fol. 214r–v",
+        "date": "8th century",
+        "origin": "Chelles?",
+        "currentRepositoryId": "repo-vatican-city-bav",
+        "currentRepository": "Vatican City, BAV",
+        "copiedFrom": "",
+        "digitalUrl": "https://digi.vatlib.it/view/MSS_Reg.lat.316/0445",
+        "iiifUrl": "",
+        "sourceLabel": "DigiVatLib / Biblioteca Apostolica Vaticana",
+        "description": "Gelasian sacramentary. Nos. 3” only.",
+        "bibliography": "Mohlberg (ed. d), xxiii–xxxviii"
+      },
+      {
+        "id": "ms-ocf-ii-b",
+        "siglum": "B",
+        "label": "B — Paris, BnF, MS lat. 12048",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 12048",
+        "folios": "fol. 221r–v",
+        "date": "Late 8th century",
+        "origin": "Gellone",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b60000317",
+        "iiifUrl": "",
+        "sourceLabel": "Gallica / BnF",
+        "description": "Sacramentary of Gellone. Nos. 3” only.",
+        "bibliography": ""
+      },
+      {
+        "id": "ms-ocf-ii-c",
+        "siglum": "C",
+        "label": "C — Paris, BnF, MS lat. 816",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Paris, BnF, MS lat. 816",
+        "folios": "fols. 130r–v, 167v–69r",
+        "date": "ca. 800",
+        "origin": "Angoulême",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "https://archivesetmanuscrits.bnf.fr/ark:/12148/cc622768",
+        "iiifUrl": "",
+        "sourceLabel": "BnF Archives et manuscrits (catalog)",
+        "description": "Sacramentary of Angoulême. Base text.",
+        "bibliography": "Delisle, 'Mémoire,' 91–6; Saint-Roch (ed. g), viii–xv, xxvi"
+      },
+      {
+        "id": "ms-ocf-ii-d",
+        "siglum": "D",
+        "label": "D — Berlin, Deutsche Staatsbibl., MS Phillips 1667",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "primary",
+        "shelfmark": "Berlin, Deutsche Staatsbibl., MS Phillips 1667",
+        "folios": "fols. 145v–46v",
+        "date": "ca. 800",
+        "origin": "Autun",
+        "currentRepositoryId": "repo-berlin-deutsche-staatsbibl",
+        "currentRepository": "Berlin, Deutsche Staatsbibl.",
+        "copiedFrom": "",
+        "digitalUrl": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN769819745",
+        "iiifUrl": "",
+        "sourceLabel": "Staatsbibliothek zu Berlin Digital Collections",
+        "description": "Sacramentary of Autun. Nos. 3” and 9–0 only.",
+        "bibliography": "Heiming (ed. f), v–xx"
+      },
+      {
+        "id": "ms-ocf-ii-e",
+        "siglum": "E",
+        "label": "E — Paris, BnF, MS lat. 12049",
+        "openatlasClass": "E22 Human-Made Object",
+        "systemClass": "artifact",
+        "type": "manuscript_witness",
+        "witnessType": "copy",
+        "shelfmark": "Paris, BnF, MS lat. 12049",
+        "folios": "pp. 572–3",
+        "date": "17th century",
+        "origin": "",
+        "currentRepositoryId": "repo-paris-bnf",
+        "currentRepository": "Paris, BnF",
+        "copiedFrom": "",
+        "digitalUrl": "",
+        "iiifUrl": "",
+        "sourceLabel": "",
+        "description": "Later copy of manuscript A (Angouleme witness).",
+        "bibliography": ""
+      }
+    ],
+    "places": [
+      {
+        "id": "place-abbey-of-gellone-saint-guilhem-le-desert",
+        "label": "Abbey of Gellone, Saint-Guilhem-le-Desert",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 43.733,
+        "lon": 3.548,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Gellone\"."
+      },
+      {
+        "id": "place-angouleme",
+        "label": "Angouleme",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 45.648,
+        "lon": 0.156,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Angoulême\"."
+      },
+      {
+        "id": "place-autun",
+        "label": "Autun",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 46.951,
+        "lon": 4.298,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Autun\"."
+      },
+      {
+        "id": "repo-berlin-deutsche-staatsbibl",
+        "label": "Berlin, Deutsche Staatsbibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 52.5084,
+        "lon": 13.3707,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Berlin, Deutsche Staatsbibl., MS Phillips 1667"
+      },
+      {
+        "id": "place-chelles",
+        "label": "Chelles",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.881,
+        "lon": 2.592,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Chelles?\"."
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS lat. 12049"
+      },
+      {
+        "id": "repo-vatican-city-bav",
+        "label": "Vatican City, BAV",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Vatican City, BAV, MS Reg. lat. 316"
+      }
+    ],
+    "events": [
+      {
+        "id": "event-ms-ocf-ii-a-current-repository",
+        "label": "A kept at Vatican City, BAV",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-ii-a",
+        "placeId": "repo-vatican-city-bav",
+        "start": "",
+        "end": "",
+        "description": "Vatican City, BAV, MS Reg. lat. 316 is currently kept at Vatican City, BAV.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-ii-a-origin-chelles",
+        "label": "A origin/context: Chelles",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-ii-a",
+        "placeId": "place-chelles",
+        "start": "8th century",
+        "end": "8th century",
+        "description": "Vatican City, BAV, MS Reg. lat. 316: origin/context recorded as \"Chelles?\".",
+        "certainty": "possible"
+      },
+      {
+        "id": "event-ms-ocf-ii-b-current-repository",
+        "label": "B kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-ii-b",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 12048 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-ii-b-origin-abbey-of-gellone-saint-guilhem-le-desert",
+        "label": "B origin/context: Abbey of Gellone, Saint-Guilhem-le-Desert",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-ii-b",
+        "placeId": "place-abbey-of-gellone-saint-guilhem-le-desert",
+        "start": "Late 8th century",
+        "end": "Late 8th century",
+        "description": "Paris, BnF, MS lat. 12048: origin/context recorded as \"Gellone\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-ii-c-current-repository",
+        "label": "C kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-ii-c",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 816 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-ii-c-origin-angouleme",
+        "label": "C origin/context: Angouleme",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-ii-c",
+        "placeId": "place-angouleme",
+        "start": "ca. 800",
+        "end": "ca. 800",
+        "description": "Paris, BnF, MS lat. 816: origin/context recorded as \"Angoulême\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-ii-d-current-repository",
+        "label": "D kept at Berlin, Deutsche Staatsbibl.",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-ii-d",
+        "placeId": "repo-berlin-deutsche-staatsbibl",
+        "start": "",
+        "end": "",
+        "description": "Berlin, Deutsche Staatsbibl., MS Phillips 1667 is currently kept at Berlin, Deutsche Staatsbibl..",
+        "certainty": "certain"
+      },
+      {
+        "id": "event-ms-ocf-ii-d-origin-autun",
+        "label": "D origin/context: Autun",
+        "openatlasClass": "E12 Production",
+        "systemClass": "production",
+        "type": "copying_or_origin",
+        "manuscriptId": "ms-ocf-ii-d",
+        "placeId": "place-autun",
+        "start": "ca. 800",
+        "end": "ca. 800",
+        "description": "Berlin, Deutsche Staatsbibl., MS Phillips 1667: origin/context recorded as \"Autun\".",
+        "certainty": "probable"
+      },
+      {
+        "id": "event-ms-ocf-ii-e-current-repository",
+        "label": "E kept at Paris, BnF",
+        "openatlasClass": "E7 Activity",
+        "systemClass": "activity",
+        "type": "current_repository",
+        "manuscriptId": "ms-ocf-ii-e",
+        "placeId": "repo-paris-bnf",
+        "start": "",
+        "end": "",
+        "description": "Paris, BnF, MS lat. 12049 is currently kept at Paris, BnF.",
+        "certainty": "certain"
+      }
+    ],
+    "actors": [
+      {
+        "id": "actor-abbey-chelles",
+        "label": "Abbey of Chelles",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "scriptorium / origin context",
+        "placeId": "place-chelles",
+        "description": ""
+      },
+      {
+        "id": "actor-abbey-gellone",
+        "label": "Abbey of Gellone",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "monastic scriptorium / origin context",
+        "placeId": "place-abbey-of-gellone-saint-guilhem-le-desert",
+        "description": ""
+      },
+      {
+        "id": "actor-angouleme-church",
+        "label": "Angoulême ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "liturgical/sacramentary context",
+        "placeId": "place-angouleme",
+        "description": ""
+      },
+      {
+        "id": "actor-autun-church",
+        "label": "Autun ecclesiastical milieu",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "liturgical/sacramentary context",
+        "placeId": "place-autun",
+        "description": ""
+      },
+      {
+        "id": "actor-bav",
+        "label": "Biblioteca Apostolica Vaticana",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-vatican-city-bav",
+        "description": ""
+      },
+      {
+        "id": "actor-bnf",
+        "label": "Bibliothèque nationale de France (BnF)",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-paris-bnf",
+        "description": ""
+      },
+      {
+        "id": "actor-leo-cunibert-mohlberg",
+        "label": "Leo Cunibert Mohlberg",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "modern editor / bibliographic authority",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-leopold-delisle",
+        "label": "Léopold Delisle",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "scholar / bibliographic authority",
+        "placeId": "place-paris",
+        "description": ""
+      },
+      {
+        "id": "actor-odilo-heiming",
+        "label": "Odilo Heiming",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "modern editor",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-patrick-saint-roch",
+        "label": "Patrick Saint-Roch",
+        "openatlasClass": "E21 Person",
+        "systemClass": "actor",
+        "type": "editor",
+        "role": "modern editor",
+        "placeId": "",
+        "description": ""
+      },
+      {
+        "id": "actor-stabi-berlin",
+        "label": "Staatsbibliothek zu Berlin",
+        "openatlasClass": "E74 Group",
+        "systemClass": "actor",
+        "type": "institution",
+        "role": "repository institution / digital provider",
+        "placeId": "repo-berlin-deutsche-staatsbibl",
+        "description": ""
+      }
+    ],
+    "references": [
+      {
+        "id": "ref-ms-ocf-ii-c-digital",
+        "label": "BnF Archives et manuscrits (catalog): Paris, BnF, MS lat. 816",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://archivesetmanuscrits.bnf.fr/ark:/12148/cc622768",
+        "description": "Digital source for Paris, BnF, MS lat. 816."
+      },
+      {
+        "id": "ref-ms-ocf-ii-c-bib-1",
+        "label": "Delisle, 'Mémoire,' 91–6",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "bibliography",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS lat. 816."
+      },
+      {
+        "id": "ref-ms-ocf-ii-a-digital",
+        "label": "DigiVatLib / Biblioteca Apostolica Vaticana: Vatican City, BAV, MS Reg. lat. 316",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://digi.vatlib.it/view/MSS_Reg.lat.316/0445",
+        "description": "Digital source for Vatican City, BAV, MS Reg. lat. 316."
+      },
+      {
+        "id": "ref-ms-ocf-ii-b-digital",
+        "label": "Gallica / BnF: Paris, BnF, MS lat. 12048",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://gallica.bnf.fr/ark:/12148/btv1b60000317",
+        "description": "Digital source for Paris, BnF, MS lat. 12048."
+      },
+      {
+        "id": "ref-ms-ocf-ii-d-bib-1",
+        "label": "Heiming (ed. f), v–xx",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Bibliographic reference for Berlin, Deutsche Staatsbibl., MS Phillips 1667."
+      },
+      {
+        "id": "ref-ms-ocf-ii-a-bib-1",
+        "label": "Mohlberg (ed. d), xxiii–xxxviii",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Bibliographic reference for Vatican City, BAV, MS Reg. lat. 316."
+      },
+      {
+        "id": "ref-ms-ocf-ii-c-bib-2",
+        "label": "Saint-Roch (ed. g), viii–xv, xxvi",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "edition",
+        "url": "",
+        "description": "Bibliographic reference for Paris, BnF, MS lat. 816."
+      },
+      {
+        "id": "ref-ms-ocf-ii-d-digital",
+        "label": "Staatsbibliothek zu Berlin Digital Collections: Berlin, Deutsche Staatsbibl., MS Phillips 1667",
+        "openatlasClass": "E31 Document",
+        "systemClass": "reference",
+        "type": "digital_facsimile",
+        "url": "https://digital.staatsbibliothek-berlin.de/werkansicht/?PPN=PPN769819745",
+        "description": "Digital source for Berlin, Deutsche Staatsbibl., MS Phillips 1667."
+      }
+    ]
+  },
+  "relations": [
+    {
+      "subject": "ms-ocf-ii-a",
+      "predicate": "witnesses",
+      "object": "OCF-II",
+      "certainty": "certain",
+      "source": "OCF-II witness list"
+    },
+    {
+      "subject": "ms-ocf-ii-a",
+      "predicate": "currently_kept_at",
+      "object": "repo-vatican-city-bav",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-ii-a-origin-chelles",
+      "predicate": "occurred_at",
+      "object": "place-chelles",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-ii-a",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-chelles",
+      "certainty": "possible",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-ii-b",
+      "predicate": "witnesses",
+      "object": "OCF-II",
+      "certainty": "certain",
+      "source": "OCF-II witness list"
+    },
+    {
+      "subject": "ms-ocf-ii-b",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-ii-b-origin-abbey-of-gellone-saint-guilhem-le-desert",
+      "predicate": "occurred_at",
+      "object": "place-abbey-of-gellone-saint-guilhem-le-desert",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-ii-b",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-abbey-of-gellone-saint-guilhem-le-desert",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-ii-c",
+      "predicate": "witnesses",
+      "object": "OCF-II",
+      "certainty": "certain",
+      "source": "OCF-II witness list"
+    },
+    {
+      "subject": "ms-ocf-ii-c",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-ii-c-origin-angouleme",
+      "predicate": "occurred_at",
+      "object": "place-angouleme",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-ii-c",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-angouleme",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-ii-d",
+      "predicate": "witnesses",
+      "object": "OCF-II",
+      "certainty": "certain",
+      "source": "OCF-II witness list"
+    },
+    {
+      "subject": "ms-ocf-ii-d",
+      "predicate": "currently_kept_at",
+      "object": "repo-berlin-deutsche-staatsbibl",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "event-ms-ocf-ii-d-origin-autun",
+      "predicate": "occurred_at",
+      "object": "place-autun",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-ii-d",
+      "predicate": "has_origin_or_context_place",
+      "object": "place-autun",
+      "certainty": "probable",
+      "source": "origin field"
+    },
+    {
+      "subject": "ms-ocf-ii-e",
+      "predicate": "witnesses",
+      "object": "OCF-II",
+      "certainty": "certain",
+      "source": "OCF-II witness list"
+    },
+    {
+      "subject": "ms-ocf-ii-e",
+      "predicate": "currently_kept_at",
+      "object": "repo-paris-bnf",
+      "certainty": "certain",
+      "source": "shelfmark/repository metadata"
+    },
+    {
+      "subject": "ms-ocf-ii-a",
+      "predicate": "associated_with",
+      "object": "actor-bav",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ii-a",
+      "predicate": "associated_with",
+      "object": "actor-abbey-chelles",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ii-a",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leo-cunibert-mohlberg",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ii-a",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-ii-a-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-ii-a",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-ii-a-bib-1",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "ms-ocf-ii-b",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ii-b",
+      "predicate": "associated_with",
+      "object": "actor-abbey-gellone",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ii-b",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-ii-b-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-ii-c",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ii-c",
+      "predicate": "associated_with",
+      "object": "actor-angouleme-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ii-c",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-leopold-delisle",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ii-c",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-patrick-saint-roch",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ii-c",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-ii-c-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-ii-c",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-ii-c-bib-1",
+      "certainty": "certain",
+      "source": "bibliography"
+    },
+    {
+      "subject": "ms-ocf-ii-c",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-ii-c-bib-2",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "ms-ocf-ii-d",
+      "predicate": "associated_with",
+      "object": "actor-stabi-berlin",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ii-d",
+      "predicate": "associated_with",
+      "object": "actor-autun-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ii-d",
+      "predicate": "edited_or_studied_by",
+      "object": "actor-odilo-heiming",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ii-d",
+      "predicate": "has_reference",
+      "object": "ref-ms-ocf-ii-d-digital",
+      "certainty": "certain",
+      "source": "digital_facsimile"
+    },
+    {
+      "subject": "ms-ocf-ii-d",
+      "predicate": "cited_by",
+      "object": "ref-ms-ocf-ii-d-bib-1",
+      "certainty": "certain",
+      "source": "edition"
+    },
+    {
+      "subject": "ms-ocf-ii-e",
+      "predicate": "associated_with",
+      "object": "actor-bnf",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "ms-ocf-ii-e",
+      "predicate": "associated_with",
+      "object": "actor-angouleme-church",
+      "certainty": "probable",
+      "source": "entity enrichment"
+    },
+    {
+      "subject": "OCF-II",
+      "predicate": "belongs_to_tradition",
+      "object": "tradition-ocf",
+      "certainty": "certain",
+      "source": "project vocabulary"
+    },
+    {
+      "subject": "OCF-II",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-ii-a",
+      "certainty": "certain",
+      "source": "OCF-II witness list"
+    },
+    {
+      "subject": "OCF-II",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-ii-b",
+      "certainty": "certain",
+      "source": "OCF-II witness list"
+    },
+    {
+      "subject": "OCF-II",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-ii-c",
+      "certainty": "certain",
+      "source": "OCF-II witness list"
+    },
+    {
+      "subject": "OCF-II",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-ii-d",
+      "certainty": "certain",
+      "source": "OCF-II witness list"
+    },
+    {
+      "subject": "OCF-II",
+      "predicate": "preserved_in",
+      "object": "ms-ocf-ii-e",
+      "certainty": "certain",
+      "source": "OCF-II witness list"
+    }
+  ],
+  "mapLayers": {
+    "repositories": [
+      {
+        "id": "repo-berlin-deutsche-staatsbibl",
+        "label": "Berlin, Deutsche Staatsbibl.",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 52.5084,
+        "lon": 13.3707,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Berlin, Deutsche Staatsbibl., MS Phillips 1667"
+      },
+      {
+        "id": "repo-paris-bnf",
+        "label": "Paris, BnF",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 48.8339,
+        "lon": 2.3757,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Paris, BnF, MS lat. 12049"
+      },
+      {
+        "id": "repo-vatican-city-bav",
+        "label": "Vatican City, BAV",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "repository_place",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "certainty": "certain",
+        "note": "Current repository inferred from shelfmark: Vatican City, BAV, MS Reg. lat. 316"
+      }
+    ],
+    "originPlaces": [
+      {
+        "id": "place-abbey-of-gellone-saint-guilhem-le-desert",
+        "label": "Abbey of Gellone, Saint-Guilhem-le-Desert",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 43.733,
+        "lon": 3.548,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Gellone\"."
+      },
+      {
+        "id": "place-angouleme",
+        "label": "Angouleme",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 45.648,
+        "lon": 0.156,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Angoulême\"."
+      },
+      {
+        "id": "place-autun",
+        "label": "Autun",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 46.951,
+        "lon": 4.298,
+        "certainty": "probable",
+        "note": "Origin/context place parsed from \"Autun\"."
+      },
+      {
+        "id": "place-chelles",
+        "label": "Chelles",
+        "openatlasClass": "E53 Place",
+        "systemClass": "place",
+        "type": "scriptorium_or_origin_place",
+        "lat": 48.881,
+        "lon": 2.592,
+        "certainty": "possible",
+        "note": "Origin/context place parsed from \"Chelles?\"."
+      }
+    ],
+    "movements": [
+      {
+        "id": "move-ms-ocf-ii-a-chelles-to-vatican-city-bav",
+        "label": "A: Chelles → Vatican City, BAV",
+        "manuscriptId": "ms-ocf-ii-a",
+        "fromPlaceId": "place-chelles",
+        "toPlaceId": "repo-vatican-city-bav",
+        "start": "8th century",
+        "end": "",
+        "certainty": "possible",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-ii-b-abbey-of-gellone-saint-guilhem-le-desert-to-paris-bnf",
+        "label": "B: Abbey of Gellone, Saint-Guilhem-le-Desert → Paris, BnF",
+        "manuscriptId": "ms-ocf-ii-b",
+        "fromPlaceId": "place-abbey-of-gellone-saint-guilhem-le-desert",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "Late 8th century",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-ii-c-angouleme-to-paris-bnf",
+        "label": "C: Angouleme → Paris, BnF",
+        "manuscriptId": "ms-ocf-ii-c",
+        "fromPlaceId": "place-angouleme",
+        "toPlaceId": "repo-paris-bnf",
+        "start": "ca. 800",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      },
+      {
+        "id": "move-ms-ocf-ii-d-autun-to-berlin-deutsche-staatsbibl",
+        "label": "D: Autun → Berlin, Deutsche Staatsbibl.",
+        "manuscriptId": "ms-ocf-ii-d",
+        "fromPlaceId": "place-autun",
+        "toPlaceId": "repo-berlin-deutsche-staatsbibl",
+        "start": "ca. 800",
+        "end": "",
+        "certainty": "probable",
+        "type": "manuscript_dispersal"
+      }
+    ]
+  },
+  "vocabularies": {
+    "traditions": [
+      {
+        "id": "tradition-ocf",
+        "label": "Ordines of French Coronation",
+        "code": "OCF"
+      }
+    ],
+    "relationTypes": [
+      {
+        "id": "rel-associated_with",
+        "label": "associated_with"
+      },
+      {
+        "id": "rel-belongs_to_tradition",
+        "label": "belongs_to_tradition"
+      },
+      {
+        "id": "rel-cited_by",
+        "label": "cited_by"
+      },
+      {
+        "id": "rel-currently_kept_at",
+        "label": "currently_kept_at"
+      },
+      {
+        "id": "rel-edited_or_studied_by",
+        "label": "edited_or_studied_by"
+      },
+      {
+        "id": "rel-has_origin_or_context_place",
+        "label": "has_origin_or_context_place"
+      },
+      {
+        "id": "rel-has_reference",
+        "label": "has_reference"
+      },
+      {
+        "id": "rel-occurred_at",
+        "label": "occurred_at"
+      },
+      {
+        "id": "rel-preserved_in",
+        "label": "preserved_in"
+      },
+      {
+        "id": "rel-witnesses",
+        "label": "witnesses"
+      }
+    ]
+  }
+}

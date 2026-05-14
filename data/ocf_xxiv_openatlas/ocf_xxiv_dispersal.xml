@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-XXIV manuscript pilot">
+  <ordo id="OCF-XXIV"><label>Ordo of Louis XI</label><date>15 August 1461 (ceremony); 1478 (text)</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-xxiv-a" siglum="A"><shelfmark>Paris, BnF, MS fr. 8334</shelfmark><folios>fols. 47r–0v</folios><date>1626</date><origin></origin><currentRepository ref="repo-paris-bnf">Paris, BnF</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiv-b" siglum="B"><shelfmark>Reims, Bibl. mun., MS 1651 (nouv. fonds)</shelfmark><folios>fols. 11v–4r</folios><date>18th century</date><origin></origin><currentRepository ref="repo-reims-bibl-mun">Reims, Bibl. mun.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiv-c" siglum="C"><shelfmark>Reims, Bibl. mun., MS 1489 (nouv. fonds), no. 9</shelfmark><folios>fols. 193v–97v</folios><date>18th century</date><origin></origin><currentRepository ref="repo-reims-bibl-mun">Reims, Bibl. mun.</currentRepository></manuscript>
+    <manuscript id="ms-ocf-xxiv-d" siglum="D"><shelfmark>Reims, Bibl. mun., MS 1490 (nouv. fonds), no. 5</shelfmark><folios>pp. 16–3</folios><date>18th century</date><origin></origin><currentRepository ref="repo-reims-bibl-mun">Reims, Bibl. mun.</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="repo-paris-bnf" type="repository_place" lat="48.8339" lon="2.3757" certainty="certain">Paris, BnF</place>
+    <place id="repo-reims-bibl-mun" type="repository_place" lat="49.2541" lon="3.025" certainty="certain">Reims, Bibl. mun.</place>
+  </places>
+</openatlasSeed>

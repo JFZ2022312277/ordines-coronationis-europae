@@ -1,0 +1,3 @@
+"id","label","manuscriptId","fromPlaceId","toPlaceId","start","end","certainty","type"
+"move-ms-ocf-xxi-a-reims-to-paris-bnf","A: Reims → Paris, BnF","ms-ocf-xxi-a","place-reims","repo-paris-bnf","ca. 1250","","probable","manuscript_dispersal"
+"move-ms-ocf-xxi-a-paris-to-paris-bnf","A: Paris → Paris, BnF","ms-ocf-xxi-a","place-paris","repo-paris-bnf","ca. 1250","","probable","manuscript_dispersal"

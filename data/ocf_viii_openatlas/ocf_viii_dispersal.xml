@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openatlasSeed type="OCF-VIII manuscript pilot">
+  <ordo id="OCF-VIII"><label>Ordo of Louis the Stammerer</label><date>30 November and 8 December 877</date><tradition>OCF</tradition></ordo>
+  <manuscripts>
+    <manuscript id="ms-ocf-viii-lost-ms-2" siglum="Lost MS 2"><shelfmark>Liège, monastery of Saint-Laurent [LOST]</shelfmark><folios>Unknown (lost manuscript)</folios><date>Unknown</date><origin></origin><currentRepository ref="repo-lie-ge-monastery-of-saint-laurent-lost">Liège, monastery of Saint-Laurent [LOST]</currentRepository></manuscript>
+  </manuscripts>
+  <places>
+    <place id="repo-lie-ge-monastery-of-saint-laurent-lost" type="repository_place" lat="50.633" lon="5.567" certainty="last_known_or_reported">Liège, monastery of Saint-Laurent [LOST]</place>
+  </places>
+</openatlasSeed>

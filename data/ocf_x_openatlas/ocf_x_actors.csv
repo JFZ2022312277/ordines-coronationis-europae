@@ -1,0 +1,5 @@
+"id","label","openatlasClass","systemClass","type","role","placeId","description"
+"actor-bnf","Bibliothèque nationale de France (BnF)","E74 Group","actor","institution","repository institution / digital provider","repo-paris-bnf",""
+"actor-biblissima","Biblissima","E74 Group","actor","source","digital source aggregator","",""
+"actor-iiif","IIIF","E74 Group","actor","source","image/service reference","",""
+"actor-ripoll","Monastery of Ripoll","E74 Group","actor","institution","monastic scriptorium / origin context","place-monastery-of-ripoll",""
