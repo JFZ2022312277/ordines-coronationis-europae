@@ -1,0 +1,1952 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Liber Regalis (ECR-XIII)"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Local IIIF presentation manifest for Liber Regalis, attached to ECR-XIII."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Shelfmark"
+        ]
+      },
+      "value": {
+        "en": [
+          "London, Westminster Abbey, MS 38"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Tradition"
+        ]
+      },
+      "value": {
+        "en": [
+          "English coronation records"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "Late 14th century (ca. 1382-1399)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Source PDF"
+        ]
+      },
+      "value": {
+        "en": [
+          "非常重要！Liber Regalis.pdf"
+        ]
+      }
+    }
+  ],
+  "rights": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "Ordines Coronationis Europae local research facsimile."
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-001",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 001"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-001.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-001/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-001/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-001",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-001.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-002",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 002"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-002.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-002/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-002/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-002",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-002.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-003",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 003"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-003.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-003/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-003/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-003",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-003.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-004",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 004"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-004.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-004/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-004/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-004",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-004.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-005",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 005"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-005.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-005/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-005/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-005",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-005.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-006",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 006"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-006.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-006/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-006/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-006",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-006.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-007",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 007"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-007.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-007/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-007/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-007",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-007.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-008",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 008"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-008.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-008/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-008/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-008",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-008.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-009",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 009"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-009.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-009/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-009/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-009",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-009.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-010",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 010"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-010.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-010/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-010/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-010",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-010.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-011",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 011"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-011.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-011/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-011/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-011",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-011.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-012",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 012"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-012.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-012/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-012/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-012",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-012.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-013",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 013"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-013.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-013/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-013/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-013",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-013.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-014",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 014"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-014.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-014/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-014/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-014",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-014.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-015",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 015"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-015.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-015/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-015/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-015",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-015.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-016",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 016"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-016.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-016/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-016/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-016",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-016.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-017",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 017"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-017.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-017/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-017/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-017",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-017.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-018",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 018"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-018.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-018/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-018/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-018",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-018.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-019",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 019"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-019.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-019/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-019/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-019",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-019.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-020",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 020"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-020.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-020/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-020/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-020",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-020.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-021",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 021"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-021.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-021/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-021/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-021",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-021.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-022",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 022"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-022.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-022/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-022/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-022",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-022.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-023",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 023"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-023.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-023/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-023/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-023",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-023.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-024",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 024"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-024.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-024/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-024/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-024",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-024.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-025",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 025"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-025.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-025/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-025/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-025",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-025.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-026",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 026"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-026.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-026/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-026/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-026",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-026.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-027",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 027"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-027.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-027/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-027/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-027",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-027.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-028",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 028"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-028.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-028/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-028/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-028",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-028.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-029",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 029"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-029.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-029/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-029/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-029",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-029.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-030",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 030"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-030.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-030/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-030/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-030",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-030.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-031",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 031"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-031.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-031/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-031/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-031",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-031.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-032",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 032"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-032.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-032/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-032/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-032",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-032.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-033",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 033"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-033.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-033/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-033/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-033",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-033.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-034",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 034"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-034.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-034/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-034/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-034",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-034.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-035",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 035"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-035.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-035/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-035/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-035",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-035.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-036",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 036"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-036.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-036/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-036/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-036",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-036.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-037",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 037"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-037.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-037/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-037/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-037",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-037.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-038",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 038"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-038.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-038/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-038/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-038",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-038.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-039",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 039"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-039.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-039/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-039/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-039",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-039.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-040",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 040"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-040.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-040/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-040/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-040",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-040.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-041",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 041"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-041.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-041/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-041/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-041",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-041.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-042",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 042"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-042.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-042/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-042/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-042",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-042.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-043",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 043"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-043.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-043/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-043/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-043",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-043.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-044",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 044"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-044.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-044/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-044/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-044",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-044.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-045",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 045"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-045.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-045/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-045/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-045",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-045.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-046",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 046"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-046.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-046/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-046/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-046",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-046.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-047",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 047"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-047.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-047/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-047/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-047",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-047.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-048",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PDF p. 048"
+        ]
+      },
+      "height": 1577,
+      "width": 1116,
+      "thumbnail": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-048.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-048/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-048/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/canvas/page-048",
+              "body": {
+                "id": "https://jfz2022312277.github.io/ordines-coronationis-europae/iiif/ECR-XIII-LIBER-REGALIS/iiif-source-liberregalis-048.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1577,
+                "width": 1116
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
