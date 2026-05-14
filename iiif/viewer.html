@@ -65,10 +65,10 @@ html,body{height:100%;overflow:hidden;background:#13110d;color:#e8dcc8;font-fami
 <div id="app">
 
   <div id="topbar">
-    <a id="back-btn" href="../ordines%20coronationis-Claude.html">← Ordines Coronationis Europae</a>
+    <a id="back-btn" href="../">← Ordines Coronationis Europae</a>
     <div class="sep"></div>
     <div id="title-main">Visionneuse de manuscrit</div>
-    <div id="title-sub" id="sub"></div>
+    <div id="title-sub"></div>
   </div>
 
   <div id="tabs" id="tabs-row"></div>
@@ -112,7 +112,7 @@ html,body{height:100%;overflow:hidden;background:#13110d;color:#e8dcc8;font-fami
   </div>
 
 </div>
-<script src="./embedded-canvases.js?v=20260407b"></script>
+<script src="./embedded-canvases.js?v=20260514c"></script>
 <script>
 // ── Registry of available manifests ──────────────────────────
 // file: chemin relatif (manifeste local) ou url: URL complète (Gallica, UIUC, etc.)
@@ -146,6 +146,51 @@ let S = {
   scale: 1, tx: 0, ty: 0,
   dragging: false, dragX: 0, dragY: 0
 };
+
+// URL du manifeste actuellement chargé. Sert à résoudre correctement
+// les images relatives, même sur GitHub Pages project site.
+let CURRENT_MANIFEST_URL = '';
+let CURRENT_MANIFEST_BASE = '';
+
+function getProjectBasePath() {
+  // Sur GitHub Pages project site:
+  // https://USER.github.io/ordines-coronationis-europae/iiif/viewer.html
+  // un chemin commençant par /iiif/... irait à https://USER.github.io/iiif/...
+  // Il faut donc réinsérer /ordines-coronationis-europae/.
+  const parts = window.location.pathname.split('/').filter(Boolean);
+  if (window.location.hostname.endsWith('github.io') && parts.length) {
+    return '/' + parts[0] + '/';
+  }
+  return '/';
+}
+
+function resolveResourceUrl(url, baseUrl) {
+  if (!url) return '';
+  if (/^(https?:|data:|blob:)/i.test(url)) return url;
+
+  // Corrige les anciens chemins absolus locaux du type /iiif/... ou /iiif-source/...
+  if (url.startsWith('/')) {
+    return getProjectBasePath() + url.replace(/^\/+/,'');
+  }
+
+  try {
+    return new URL(url, baseUrl || window.location.href).toString();
+  } catch (e) {
+    return url;
+  }
+}
+
+function dirnameOf(url) {
+  try {
+    const u = new URL(url, window.location.href);
+    u.pathname = u.pathname.replace(/[^\/]*$/, '');
+    u.search = '';
+    u.hash = '';
+    return u.toString();
+  } catch (e) {
+    return window.location.href;
+  }
+}
 
 // ── Build tabs dynamically ─────────────────────────────────────
 (function buildTabs() {
@@ -181,17 +226,20 @@ function loadManifest(id) {
     initViewerFromCanvases(embeddedCanvases, entry.tab, entry.shelfmark || '');
     return;
   }
-  const manifestUrl = entry.url || entry.file;  // support both external URL and local file
+  const manifestUrl = resolveResourceUrl(entry.url || entry.file, window.location.href);  // support both external URL and local file
+  CURRENT_MANIFEST_URL = manifestUrl;
+  CURRENT_MANIFEST_BASE = dirnameOf(manifestUrl);
+
   fetch(manifestUrl)
-    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status + ' — ' + manifestUrl); return r.json(); })
     .then(m => initViewer(m))
-    .catch(e => showErr('Impossible de charger le manifeste.<br><small>' + e.message + '</small>'));
+    .catch(e => showErr('Impossible de charger le manifeste.<br><small>' + esc(e.message) + '</small>'));
 }
 
 function initViewerFromCanvases(canvases, title, shelfmark) {
   S.canvases = canvases.map(c => ({
     label: c.label || '—',
-    src: c.imgUrl || '',
+    src: resolveResourceUrl(c.imgUrl || '', window.location.href),
     width: c.width || 1504,
     height: c.height || 1943,
     shelfmark: shelfmark || ''
@@ -221,10 +269,11 @@ function initViewerFromCanvases(canvases, title, shelfmark) {
 function initViewer(manifest) {
   S.canvases = (manifest.items || []).map(canvas => {
     const anno = canvas.items?.[0]?.items?.[0];
-    const body = anno?.body;
+    const body = Array.isArray(anno?.body) ? anno.body[0] : anno?.body;
+    const rawImageId = body?.id || body?.['@id'] || canvas.thumbnail?.[0]?.id || canvas.thumbnail?.[0]?.['@id'] || '';
     return {
       label:     getLabel(canvas.label),
-      src:       body?.id || '',
+      src:       resolveResourceUrl(rawImageId, CURRENT_MANIFEST_BASE),
       width:     body?.width  || canvas.width  || 1200,
       height:    body?.height || canvas.height || 1600,
       shelfmark: getMetaVal(manifest, ['Shelfmark','Cote']) || ''
