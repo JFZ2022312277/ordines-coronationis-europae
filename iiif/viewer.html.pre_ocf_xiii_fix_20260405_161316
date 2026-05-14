@@ -112,11 +112,9 @@ html,body{height:100%;overflow:hidden;background:#13110d;color:#e8dcc8;font-fami
   </div>
 
 </div>
-<script src="./embedded-canvases.js?v=20260407b"></script>
 <script>
 // ── Registry of available manifests ──────────────────────────
 // file: chemin relatif (manifeste local) ou url: URL complète (Gallica, UIUC, etc.)
-const EMBEDDED_IIIF_CANVASES = window.__EMBEDDED_IIIF_CANVASES__ || Object.create(null);
 const REGISTRY = {
   // ── Manuscrits locaux ──────────────────────────────────────────────────────
   'OCF-XXIII':  { file:'OCF-XXIII/manifest.json',  tab:'Ordo de Charles V · fol. 43r–80v (Latin)' },
@@ -124,10 +122,6 @@ const REGISTRY = {
   'OCF-XXIIA':  { file:'OCF-XXIIA/manifest.json',  tab:'Dernier Ordo capétien / Charles IV (XXIIA)' },
   'OCF-XXIIIA': { file:'OCF-XXIIIA/manifest.json', tab:'Ordo Henri VI à Notre-Dame (OCF-XXIIIA)' },
   'OCF-IX':     { file:'OCF-IX/manifest.json',     tab:'Saint-Thierry · Reims BM MS 214 (OCF-IX)' },
-  'OCF-XIII':   { file:'OCF-XIII/manifest.json',   tab:'Ordo d\'Erdmann · Sens BM MS 12 (OCF-XIII)' },
-  'OCF-XVI':    { file:'OCF-XVI/manifest.json',    tab:'Ordo royal de Cologne · MS 141 (OCF-XVI)', shelfmark:'Cologne, Erzbischofliche Diozesan- und Dombibl., MS 141' },
-  'ECR-XIII-LIBER-REGALIS': { file:'ECR-XIII-LIBER-REGALIS/manifest.json', tab:'Liber Regalis · Westminster Abbey MS 38', shelfmark:'London, Westminster Abbey, MS 38' },
-  'SUPP-IX-BRETAGNE': { file:'SUPP-IX-BRETAGNE/manifest.json', tab:'Bretagne · cérémonial du couronnement ducal', shelfmark:'Pontifical de Michel Guibé · fac-similé' },
 
   // ── Manuscrits externes (Gallica, UIUC, etc.) ──────────────────────────────
   'OCF-I-Gellone': {
@@ -174,48 +168,11 @@ function loadManifest(id) {
   showLoading('Chargement…');
 
   const entry = REGISTRY[id];
-  const embeddedCanvases = entry.file
-    ? (EMBEDDED_IIIF_CANVASES[entry.file] || EMBEDDED_IIIF_CANVASES['iiif/' + entry.file] || null)
-    : null;
-  if (Array.isArray(embeddedCanvases) && embeddedCanvases.length) {
-    initViewerFromCanvases(embeddedCanvases, entry.tab, entry.shelfmark || '');
-    return;
-  }
   const manifestUrl = entry.url || entry.file;  // support both external URL and local file
   fetch(manifestUrl)
     .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(m => initViewer(m))
     .catch(e => showErr('Impossible de charger le manifeste.<br><small>' + e.message + '</small>'));
-}
-
-function initViewerFromCanvases(canvases, title, shelfmark) {
-  S.canvases = canvases.map(c => ({
-    label: c.label || '—',
-    src: c.imgUrl || '',
-    width: c.width || 1504,
-    height: c.height || 1943,
-    shelfmark: shelfmark || ''
-  })).filter(c => c.src);
-
-  document.getElementById('title-main').textContent = title || 'Visionneuse';
-  document.getElementById('thumb-count').textContent = S.canvases.length + ' folios';
-  buildThumbs();
-  buildMeta({
-    label: { none: [title || 'Visionneuse'] },
-    metadata: [
-      { label: { none: ['Shelfmark'] }, value: { none: [shelfmark || ''] } },
-      { label: { none: ['Source'] }, value: { none: ['Embedded local canvases'] } }
-    ]
-  });
-
-  const params = new URLSearchParams(window.location.search);
-  const target = params.get('folio') || '';
-  let start = 0;
-  if (target) {
-    const i = S.canvases.findIndex(c => c.label.toLowerCase().includes(target.toLowerCase()));
-    if (i >= 0) start = i;
-  }
-  goTo(start);
 }
 
 function initViewer(manifest) {

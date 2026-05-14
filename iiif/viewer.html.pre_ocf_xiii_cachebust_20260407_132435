@@ -112,7 +112,7 @@ html,body{height:100%;overflow:hidden;background:#13110d;color:#e8dcc8;font-fami
   </div>
 
 </div>
-<script src="./embedded-canvases.js?v=20260407b"></script>
+<script src="./embedded-canvases.js"></script>
 <script>
 // ── Registry of available manifests ──────────────────────────
 // file: chemin relatif (manifeste local) ou url: URL complète (Gallica, UIUC, etc.)
@@ -126,8 +126,6 @@ const REGISTRY = {
   'OCF-IX':     { file:'OCF-IX/manifest.json',     tab:'Saint-Thierry · Reims BM MS 214 (OCF-IX)' },
   'OCF-XIII':   { file:'OCF-XIII/manifest.json',   tab:'Ordo d\'Erdmann · Sens BM MS 12 (OCF-XIII)' },
   'OCF-XVI':    { file:'OCF-XVI/manifest.json',    tab:'Ordo royal de Cologne · MS 141 (OCF-XVI)', shelfmark:'Cologne, Erzbischofliche Diozesan- und Dombibl., MS 141' },
-  'ECR-XIII-LIBER-REGALIS': { file:'ECR-XIII-LIBER-REGALIS/manifest.json', tab:'Liber Regalis · Westminster Abbey MS 38', shelfmark:'London, Westminster Abbey, MS 38' },
-  'SUPP-IX-BRETAGNE': { file:'SUPP-IX-BRETAGNE/manifest.json', tab:'Bretagne · cérémonial du couronnement ducal', shelfmark:'Pontifical de Michel Guibé · fac-similé' },
 
   // ── Manuscrits externes (Gallica, UIUC, etc.) ──────────────────────────────
   'OCF-I-Gellone': {

@@ -1,0 +1,2133 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:4323/iiif/OCF-XXIIIA/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Ordo of Henry VI at Notre-Dame de Paris (Jackson OCF-XXIIIA)"
+    ],
+    "fr": [
+      "Ordo du sacre d'Henri VI à Notre-Dame de Paris (Jackson OCF-XXIIIA)"
+    ]
+  },
+  "summary": {
+    "en": [
+      "The coronation ordo used for Henry VI of England and France at Notre-Dame de Paris, 16 December 1431. Primary manuscript: Paris, Bibliothèque Mazarine, MS 3305, fols. 17r–44v."
+    ],
+    "fr": [
+      "L'ordo du sacre d'Henri VI d'Angleterre et de France à Notre-Dame de Paris, le 16 décembre 1431. Manuscrit principal : Paris, Bibliothèque Mazarine, MS 3305, fol. 17r–44v."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Jackson number"
+        ],
+        "fr": [
+          "Numéro Jackson"
+        ]
+      },
+      "value": {
+        "en": [
+          "OCF-XXIIIA"
+        ],
+        "fr": [
+          "OCF-XXIIIA"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Title (FR)"
+        ],
+        "fr": [
+          "Titre"
+        ]
+      },
+      "value": {
+        "en": [
+          "Ordo du sacre d'Henri VI à Notre-Dame de Paris"
+        ],
+        "fr": [
+          "Ordo du sacre d'Henri VI à Notre-Dame de Paris"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Shelfmark"
+        ],
+        "fr": [
+          "Cote"
+        ]
+      },
+      "value": {
+        "en": [
+          "Paris, Bibliothèque Mazarine, MS 3305"
+        ],
+        "fr": [
+          "Paris, Bibliothèque Mazarine, MS 3305"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Folios"
+        ],
+        "fr": [
+          "Feuillets"
+        ]
+      },
+      "value": {
+        "en": [
+          "fols. 17r–44v"
+        ],
+        "fr": [
+          "fol. 17r–44v"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ],
+        "fr": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca. 1431"
+        ],
+        "fr": [
+          "ca. 1431"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Event"
+        ],
+        "fr": [
+          "Événement"
+        ]
+      },
+      "value": {
+        "en": [
+          "Coronation of Henry VI, Notre-Dame de Paris, 16 December 1431"
+        ],
+        "fr": [
+          "Sacre d'Henri VI, Notre-Dame de Paris, 16 décembre 1431"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ],
+        "fr": [
+          "Langue"
+        ]
+      },
+      "value": {
+        "en": [
+          "Latin"
+        ],
+        "fr": [
+          "Latin"
+        ]
+      }
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ],
+      "fr": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "Ordines Coronationis Europae project"
+      ],
+      "fr": [
+        "Projet Ordines Coronationis Europae"
+      ]
+    }
+  },
+  "viewingDirection": "left-to-right",
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/1",
+      "type": "Canvas",
+      "width": 3650,
+      "height": 4984,
+      "label": {
+        "en": [
+          "fol. 17r"
+        ],
+        "fr": [
+          "fol. 17r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/1/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2017r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3650,
+                "height": 4984
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/2",
+      "type": "Canvas",
+      "width": 3492,
+      "height": 5000,
+      "label": {
+        "en": [
+          "fol. 17v"
+        ],
+        "fr": [
+          "fol. 17v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/2/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/2/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2017v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3492,
+                "height": 5000
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/3",
+      "type": "Canvas",
+      "width": 3630,
+      "height": 4977,
+      "label": {
+        "en": [
+          "fol. 18r"
+        ],
+        "fr": [
+          "fol. 18r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/3/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/3/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2018r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3630,
+                "height": 4977
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/4",
+      "type": "Canvas",
+      "width": 3522,
+      "height": 5000,
+      "label": {
+        "en": [
+          "fol. 18v"
+        ],
+        "fr": [
+          "fol. 18v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/4/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/4/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2018v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3522,
+                "height": 5000
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/5",
+      "type": "Canvas",
+      "width": 3620,
+      "height": 4981,
+      "label": {
+        "en": [
+          "fol. 19r"
+        ],
+        "fr": [
+          "fol. 19r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/5/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/5/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2019r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3620,
+                "height": 4981
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/6",
+      "type": "Canvas",
+      "width": 3533,
+      "height": 5000,
+      "label": {
+        "en": [
+          "fol. 19v"
+        ],
+        "fr": [
+          "fol. 19v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/6/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/6/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2019v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3533,
+                "height": 5000
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/7",
+      "type": "Canvas",
+      "width": 3631,
+      "height": 4974,
+      "label": {
+        "en": [
+          "fol. 20r"
+        ],
+        "fr": [
+          "fol. 20r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/7/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/7/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2020r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3631,
+                "height": 4974
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/8",
+      "type": "Canvas",
+      "width": 3469,
+      "height": 5000,
+      "label": {
+        "en": [
+          "fol. 20v"
+        ],
+        "fr": [
+          "fol. 20v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/8/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/8/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2020v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3469,
+                "height": 5000
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/9",
+      "type": "Canvas",
+      "width": 3636,
+      "height": 4971,
+      "label": {
+        "en": [
+          "fol. 21r"
+        ],
+        "fr": [
+          "fol. 21r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/9/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/9/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2021r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3636,
+                "height": 4971
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/10",
+      "type": "Canvas",
+      "width": 3466,
+      "height": 5000,
+      "label": {
+        "en": [
+          "fol. 21v"
+        ],
+        "fr": [
+          "fol. 21v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/10/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/10/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2021v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3466,
+                "height": 5000
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/11",
+      "type": "Canvas",
+      "width": 3659,
+      "height": 4989,
+      "label": {
+        "en": [
+          "fol. 22r"
+        ],
+        "fr": [
+          "fol. 22r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/11/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/11/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2022r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3659,
+                "height": 4989
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/12",
+      "type": "Canvas",
+      "width": 3475,
+      "height": 5000,
+      "label": {
+        "en": [
+          "fol. 22v"
+        ],
+        "fr": [
+          "fol. 22v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/12/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/12/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2022v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3475,
+                "height": 5000
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/13",
+      "type": "Canvas",
+      "width": 3645,
+      "height": 4984,
+      "label": {
+        "en": [
+          "fol. 23r"
+        ],
+        "fr": [
+          "fol. 23r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/13/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/13/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2023r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3645,
+                "height": 4984
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/14",
+      "type": "Canvas",
+      "width": 3487,
+      "height": 5000,
+      "label": {
+        "en": [
+          "fol. 23v"
+        ],
+        "fr": [
+          "fol. 23v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/14/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/14/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2023v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3487,
+                "height": 5000
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/15",
+      "type": "Canvas",
+      "width": 3648,
+      "height": 4981,
+      "label": {
+        "en": [
+          "fol. 24r"
+        ],
+        "fr": [
+          "fol. 24r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/15/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/15/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2024r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3648,
+                "height": 4981
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/16",
+      "type": "Canvas",
+      "width": 3474,
+      "height": 5000,
+      "label": {
+        "en": [
+          "fol. 24v"
+        ],
+        "fr": [
+          "fol. 24v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/16/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/16/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2024v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3474,
+                "height": 5000
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/17",
+      "type": "Canvas",
+      "width": 3616,
+      "height": 4970,
+      "label": {
+        "en": [
+          "fol. 25r"
+        ],
+        "fr": [
+          "fol. 25r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/17/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/17/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2025r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3616,
+                "height": 4970
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/18",
+      "type": "Canvas",
+      "width": 3598,
+      "height": 4958,
+      "label": {
+        "en": [
+          "fol. 25v"
+        ],
+        "fr": [
+          "fol. 25v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/18/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/18/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2025v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3598,
+                "height": 4958
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/19",
+      "type": "Canvas",
+      "width": 3655,
+      "height": 4960,
+      "label": {
+        "en": [
+          "fol. 26r"
+        ],
+        "fr": [
+          "fol. 26r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/19/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/19/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2026r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3655,
+                "height": 4960
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/20",
+      "type": "Canvas",
+      "width": 3594,
+      "height": 4954,
+      "label": {
+        "en": [
+          "fol. 26v"
+        ],
+        "fr": [
+          "fol. 26v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/20/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/20/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2026v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3594,
+                "height": 4954
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/21",
+      "type": "Canvas",
+      "width": 3668,
+      "height": 4958,
+      "label": {
+        "en": [
+          "fol. 27r"
+        ],
+        "fr": [
+          "fol. 27r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/21/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/21/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2027r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3668,
+                "height": 4958
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/22",
+      "type": "Canvas",
+      "width": 3616,
+      "height": 4957,
+      "label": {
+        "en": [
+          "fol. 27v"
+        ],
+        "fr": [
+          "fol. 27v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/22/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/22/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2027v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3616,
+                "height": 4957
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/23",
+      "type": "Canvas",
+      "width": 3693,
+      "height": 4970,
+      "label": {
+        "en": [
+          "fol. 28r"
+        ],
+        "fr": [
+          "fol. 28r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/23/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/23/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2028r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3693,
+                "height": 4970
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/24",
+      "type": "Canvas",
+      "width": 3592,
+      "height": 4965,
+      "label": {
+        "en": [
+          "fol. 28v"
+        ],
+        "fr": [
+          "fol. 28v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/24/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/24/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2028v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3592,
+                "height": 4965
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/25",
+      "type": "Canvas",
+      "width": 3674,
+      "height": 4959,
+      "label": {
+        "en": [
+          "fol. 29r"
+        ],
+        "fr": [
+          "fol. 29r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/25/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/25/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2029r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3674,
+                "height": 4959
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/26",
+      "type": "Canvas",
+      "width": 3578,
+      "height": 4973,
+      "label": {
+        "en": [
+          "fol. 29v"
+        ],
+        "fr": [
+          "fol. 29v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/26/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/26/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2029v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3578,
+                "height": 4973
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/27",
+      "type": "Canvas",
+      "width": 3688,
+      "height": 4962,
+      "label": {
+        "en": [
+          "fol. 30r"
+        ],
+        "fr": [
+          "fol. 30r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/27/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/27/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2030r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3688,
+                "height": 4962
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/28",
+      "type": "Canvas",
+      "width": 3572,
+      "height": 4978,
+      "label": {
+        "en": [
+          "fol. 30v"
+        ],
+        "fr": [
+          "fol. 30v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/28/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/28/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2030v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3572,
+                "height": 4978
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/29",
+      "type": "Canvas",
+      "width": 3727,
+      "height": 4954,
+      "label": {
+        "en": [
+          "fol. 31r"
+        ],
+        "fr": [
+          "fol. 31r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/29/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/29/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2031r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3727,
+                "height": 4954
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/30",
+      "type": "Canvas",
+      "width": 3606,
+      "height": 4979,
+      "label": {
+        "en": [
+          "fol. 31v"
+        ],
+        "fr": [
+          "fol. 31v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/30/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/30/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2031v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3606,
+                "height": 4979
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/31",
+      "type": "Canvas",
+      "width": 3715,
+      "height": 4949,
+      "label": {
+        "en": [
+          "fol. 32r"
+        ],
+        "fr": [
+          "fol. 32r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/31/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/31/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2032r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3715,
+                "height": 4949
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/32",
+      "type": "Canvas",
+      "width": 3609,
+      "height": 4978,
+      "label": {
+        "en": [
+          "fol. 32v"
+        ],
+        "fr": [
+          "fol. 32v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/32/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/32/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2032v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3609,
+                "height": 4978
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/33",
+      "type": "Canvas",
+      "width": 3725,
+      "height": 4944,
+      "label": {
+        "en": [
+          "fol. 33r"
+        ],
+        "fr": [
+          "fol. 33r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/33/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/33/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2033r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3725,
+                "height": 4944
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/34",
+      "type": "Canvas",
+      "width": 3600,
+      "height": 4994,
+      "label": {
+        "en": [
+          "fol. 33v"
+        ],
+        "fr": [
+          "fol. 33v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/34/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/34/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2033v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3600,
+                "height": 4994
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/34"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/35",
+      "type": "Canvas",
+      "width": 3715,
+      "height": 4941,
+      "label": {
+        "en": [
+          "fol. 34r"
+        ],
+        "fr": [
+          "fol. 34r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/35/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/35/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2034r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3715,
+                "height": 4941
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/36",
+      "type": "Canvas",
+      "width": 3589,
+      "height": 5002,
+      "label": {
+        "en": [
+          "fol. 34v"
+        ],
+        "fr": [
+          "fol. 34v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/36/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/36/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2034v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3589,
+                "height": 5002
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/36"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/37",
+      "type": "Canvas",
+      "width": 3737,
+      "height": 4918,
+      "label": {
+        "en": [
+          "fol. 35r"
+        ],
+        "fr": [
+          "fol. 35r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/37/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/37/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2035r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3737,
+                "height": 4918
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/38",
+      "type": "Canvas",
+      "width": 3624,
+      "height": 4990,
+      "label": {
+        "en": [
+          "fol. 35v"
+        ],
+        "fr": [
+          "fol. 35v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/38/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/38/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2035v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3624,
+                "height": 4990
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/38"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/39",
+      "type": "Canvas",
+      "width": 3770,
+      "height": 4923,
+      "label": {
+        "en": [
+          "fol. 36r"
+        ],
+        "fr": [
+          "fol. 36r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/39/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/39/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2036r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3770,
+                "height": 4923
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/39"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/40",
+      "type": "Canvas",
+      "width": 3623,
+      "height": 4996,
+      "label": {
+        "en": [
+          "fol. 36v"
+        ],
+        "fr": [
+          "fol. 36v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/40/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/40/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2036v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3623,
+                "height": 4996
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/41",
+      "type": "Canvas",
+      "width": 3781,
+      "height": 4917,
+      "label": {
+        "en": [
+          "fol. 37r"
+        ],
+        "fr": [
+          "fol. 37r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/41/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/41/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2037r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3781,
+                "height": 4917
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/41"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/42",
+      "type": "Canvas",
+      "width": 3649,
+      "height": 5000,
+      "label": {
+        "en": [
+          "fol. 37v"
+        ],
+        "fr": [
+          "fol. 37v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/42/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/42/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2037v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3649,
+                "height": 5000
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/43",
+      "type": "Canvas",
+      "width": 3776,
+      "height": 4963,
+      "label": {
+        "en": [
+          "fol. 38r"
+        ],
+        "fr": [
+          "fol. 38r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/43/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/43/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2038r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3776,
+                "height": 4963
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/44",
+      "type": "Canvas",
+      "width": 3615,
+      "height": 4968,
+      "label": {
+        "en": [
+          "fol. 38v"
+        ],
+        "fr": [
+          "fol. 38v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/44/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/44/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2038v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3615,
+                "height": 4968
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/44"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/45",
+      "type": "Canvas",
+      "width": 3765,
+      "height": 4958,
+      "label": {
+        "en": [
+          "fol. 39r"
+        ],
+        "fr": [
+          "fol. 39r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/45/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/45/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2039r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3765,
+                "height": 4958
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/46",
+      "type": "Canvas",
+      "width": 3607,
+      "height": 4966,
+      "label": {
+        "en": [
+          "fol. 39v"
+        ],
+        "fr": [
+          "fol. 39v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/46/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/46/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2039v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3607,
+                "height": 4966
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/46"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/47",
+      "type": "Canvas",
+      "width": 3771,
+      "height": 4950,
+      "label": {
+        "en": [
+          "fol. 40r"
+        ],
+        "fr": [
+          "fol. 40r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/47/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/47/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2040r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3771,
+                "height": 4950
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/47"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/48",
+      "type": "Canvas",
+      "width": 3632,
+      "height": 4964,
+      "label": {
+        "en": [
+          "fol. 40v"
+        ],
+        "fr": [
+          "fol. 40v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/48/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/48/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2040v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3632,
+                "height": 4964
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/48"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/49",
+      "type": "Canvas",
+      "width": 3768,
+      "height": 4931,
+      "label": {
+        "en": [
+          "fol. 41r"
+        ],
+        "fr": [
+          "fol. 41r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/49/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/49/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2041r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3768,
+                "height": 4931
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/49"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/50",
+      "type": "Canvas",
+      "width": 3631,
+      "height": 4969,
+      "label": {
+        "en": [
+          "fol. 41v"
+        ],
+        "fr": [
+          "fol. 41v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/50/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/50/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2041v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3631,
+                "height": 4969
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/51",
+      "type": "Canvas",
+      "width": 3757,
+      "height": 4947,
+      "label": {
+        "en": [
+          "fol. 42r"
+        ],
+        "fr": [
+          "fol. 42r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/51/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/51/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2042r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3757,
+                "height": 4947
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/51"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/52",
+      "type": "Canvas",
+      "width": 3646,
+      "height": 4988,
+      "label": {
+        "en": [
+          "fol. 42v"
+        ],
+        "fr": [
+          "fol. 42v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/52/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/52/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2042v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3646,
+                "height": 4988
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/52"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/53",
+      "type": "Canvas",
+      "width": 3729,
+      "height": 4929,
+      "label": {
+        "en": [
+          "fol. 43r"
+        ],
+        "fr": [
+          "fol. 43r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/53/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/53/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2043r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3729,
+                "height": 4929
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/53"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/54",
+      "type": "Canvas",
+      "width": 3640,
+      "height": 4991,
+      "label": {
+        "en": [
+          "fol. 43v"
+        ],
+        "fr": [
+          "fol. 43v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/54/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/54/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2043v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3640,
+                "height": 4991
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/54"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/55",
+      "type": "Canvas",
+      "width": 3719,
+      "height": 4920,
+      "label": {
+        "en": [
+          "fol. 44r"
+        ],
+        "fr": [
+          "fol. 44r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/55/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/55/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2044r.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3719,
+                "height": 4920
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/56",
+      "type": "Canvas",
+      "width": 3681,
+      "height": 4989,
+      "label": {
+        "en": [
+          "fol. 44v"
+        ],
+        "fr": [
+          "fol. 44v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/56/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/56/ann",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/ms-images/OCF-XXIIIA/fol%2044v.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3681,
+                "height": 4989
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIIIA/canvas/56"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

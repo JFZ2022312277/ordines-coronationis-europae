@@ -1,0 +1,534 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "SUPP-IX-BRETAGNE/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Breton Ducal Coronation Ceremonial - manuscript facsimile"
+    ],
+    "fr": [
+      "C?r?monial du couronnement des ducs de Bretagne - fac-simil? du manuscrit"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Manuscript facsimile pages extracted from Ceremonial du couronnement des ducs de Bretagne, reproducing the Michel Guib? pontifical ceremonial."
+    ],
+    "fr": [
+      "Pages de fac-simil? extraites du C?r?monial du couronnement des ducs de Bretagne, reproduisant le c?r?monial du pontifical de Michel Guib?."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Shelfmark / source"
+        ],
+        "fr": [
+          "Cote / source"
+        ]
+      },
+      "value": {
+        "en": [
+          "Pontifical of Michel Guib?, Breton ducal coronation ceremonial, facsimile in local PDF edition"
+        ],
+        "fr": [
+          "Pontifical de Michel Guib?, c?r?monial du couronnement des ducs de Bretagne, fac-simil? dans l??dition PDF locale"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Repository context"
+        ],
+        "fr": [
+          "Contexte de conservation"
+        ]
+      },
+      "value": {
+        "en": [
+          "Rennes / Brittany"
+        ],
+        "fr": [
+          "Rennes / Bretagne"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Pages"
+        ],
+        "fr": [
+          "Pages"
+        ]
+      },
+      "value": {
+        "en": [
+          "PDF pp. 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72"
+        ],
+        "fr": [
+          "PDF pp. 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "SUPP-IX-BRETAGNE/canvas/p048",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Manuscript facsimile, PDF p. 048"
+        ],
+        "fr": [
+          "Fac-simil? du manuscrit, p. PDF 048"
+        ]
+      },
+      "height": 842,
+      "width": 596,
+      "items": [
+        {
+          "id": "SUPP-IX-BRETAGNE/page/p048/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "SUPP-IX-BRETAGNE/annotation/p048-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "../ceremonial_bretagne_images/bretagne_page048.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 842,
+                "width": 596
+              },
+              "target": "SUPP-IX-BRETAGNE/canvas/p048"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUPP-IX-BRETAGNE/canvas/p050",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Manuscript facsimile, PDF p. 050"
+        ],
+        "fr": [
+          "Fac-simil? du manuscrit, p. PDF 050"
+        ]
+      },
+      "height": 842,
+      "width": 596,
+      "items": [
+        {
+          "id": "SUPP-IX-BRETAGNE/page/p050/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "SUPP-IX-BRETAGNE/annotation/p050-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "../ceremonial_bretagne_images/bretagne_page050.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 842,
+                "width": 596
+              },
+              "target": "SUPP-IX-BRETAGNE/canvas/p050"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUPP-IX-BRETAGNE/canvas/p052",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Manuscript facsimile, PDF p. 052"
+        ],
+        "fr": [
+          "Fac-simil? du manuscrit, p. PDF 052"
+        ]
+      },
+      "height": 842,
+      "width": 596,
+      "items": [
+        {
+          "id": "SUPP-IX-BRETAGNE/page/p052/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "SUPP-IX-BRETAGNE/annotation/p052-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "../ceremonial_bretagne_images/bretagne_page052.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 842,
+                "width": 596
+              },
+              "target": "SUPP-IX-BRETAGNE/canvas/p052"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUPP-IX-BRETAGNE/canvas/p054",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Manuscript facsimile, PDF p. 054"
+        ],
+        "fr": [
+          "Fac-simil? du manuscrit, p. PDF 054"
+        ]
+      },
+      "height": 842,
+      "width": 596,
+      "items": [
+        {
+          "id": "SUPP-IX-BRETAGNE/page/p054/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "SUPP-IX-BRETAGNE/annotation/p054-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "../ceremonial_bretagne_images/bretagne_page054.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 842,
+                "width": 596
+              },
+              "target": "SUPP-IX-BRETAGNE/canvas/p054"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUPP-IX-BRETAGNE/canvas/p056",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Manuscript facsimile, PDF p. 056"
+        ],
+        "fr": [
+          "Fac-simil? du manuscrit, p. PDF 056"
+        ]
+      },
+      "height": 842,
+      "width": 596,
+      "items": [
+        {
+          "id": "SUPP-IX-BRETAGNE/page/p056/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "SUPP-IX-BRETAGNE/annotation/p056-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "../ceremonial_bretagne_images/bretagne_page056.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 842,
+                "width": 596
+              },
+              "target": "SUPP-IX-BRETAGNE/canvas/p056"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUPP-IX-BRETAGNE/canvas/p058",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Manuscript facsimile, PDF p. 058"
+        ],
+        "fr": [
+          "Fac-simil? du manuscrit, p. PDF 058"
+        ]
+      },
+      "height": 842,
+      "width": 596,
+      "items": [
+        {
+          "id": "SUPP-IX-BRETAGNE/page/p058/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "SUPP-IX-BRETAGNE/annotation/p058-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "../ceremonial_bretagne_images/bretagne_page058.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 842,
+                "width": 596
+              },
+              "target": "SUPP-IX-BRETAGNE/canvas/p058"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUPP-IX-BRETAGNE/canvas/p060",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Manuscript facsimile, PDF p. 060"
+        ],
+        "fr": [
+          "Fac-simil? du manuscrit, p. PDF 060"
+        ]
+      },
+      "height": 842,
+      "width": 595,
+      "items": [
+        {
+          "id": "SUPP-IX-BRETAGNE/page/p060/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "SUPP-IX-BRETAGNE/annotation/p060-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "../ceremonial_bretagne_images/bretagne_page060.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 842,
+                "width": 595
+              },
+              "target": "SUPP-IX-BRETAGNE/canvas/p060"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUPP-IX-BRETAGNE/canvas/p062",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Manuscript facsimile, PDF p. 062"
+        ],
+        "fr": [
+          "Fac-simil? du manuscrit, p. PDF 062"
+        ]
+      },
+      "height": 842,
+      "width": 596,
+      "items": [
+        {
+          "id": "SUPP-IX-BRETAGNE/page/p062/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "SUPP-IX-BRETAGNE/annotation/p062-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "../ceremonial_bretagne_images/bretagne_page062.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 842,
+                "width": 596
+              },
+              "target": "SUPP-IX-BRETAGNE/canvas/p062"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUPP-IX-BRETAGNE/canvas/p064",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Manuscript facsimile, PDF p. 064"
+        ],
+        "fr": [
+          "Fac-simil? du manuscrit, p. PDF 064"
+        ]
+      },
+      "height": 842,
+      "width": 596,
+      "items": [
+        {
+          "id": "SUPP-IX-BRETAGNE/page/p064/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "SUPP-IX-BRETAGNE/annotation/p064-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "../ceremonial_bretagne_images/bretagne_page064.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 842,
+                "width": 596
+              },
+              "target": "SUPP-IX-BRETAGNE/canvas/p064"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUPP-IX-BRETAGNE/canvas/p066",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Manuscript facsimile, PDF p. 066"
+        ],
+        "fr": [
+          "Fac-simil? du manuscrit, p. PDF 066"
+        ]
+      },
+      "height": 842,
+      "width": 596,
+      "items": [
+        {
+          "id": "SUPP-IX-BRETAGNE/page/p066/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "SUPP-IX-BRETAGNE/annotation/p066-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "../ceremonial_bretagne_images/bretagne_page066.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 842,
+                "width": 596
+              },
+              "target": "SUPP-IX-BRETAGNE/canvas/p066"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUPP-IX-BRETAGNE/canvas/p068",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Manuscript facsimile, PDF p. 068"
+        ],
+        "fr": [
+          "Fac-simil? du manuscrit, p. PDF 068"
+        ]
+      },
+      "height": 842,
+      "width": 596,
+      "items": [
+        {
+          "id": "SUPP-IX-BRETAGNE/page/p068/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "SUPP-IX-BRETAGNE/annotation/p068-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "../ceremonial_bretagne_images/bretagne_page068.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 842,
+                "width": 596
+              },
+              "target": "SUPP-IX-BRETAGNE/canvas/p068"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUPP-IX-BRETAGNE/canvas/p070",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Manuscript facsimile, PDF p. 070"
+        ],
+        "fr": [
+          "Fac-simil? du manuscrit, p. PDF 070"
+        ]
+      },
+      "height": 842,
+      "width": 596,
+      "items": [
+        {
+          "id": "SUPP-IX-BRETAGNE/page/p070/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "SUPP-IX-BRETAGNE/annotation/p070-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "../ceremonial_bretagne_images/bretagne_page070.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 842,
+                "width": 596
+              },
+              "target": "SUPP-IX-BRETAGNE/canvas/p070"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUPP-IX-BRETAGNE/canvas/p072",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Manuscript facsimile, PDF p. 072"
+        ],
+        "fr": [
+          "Fac-simil? du manuscrit, p. PDF 072"
+        ]
+      },
+      "height": 842,
+      "width": 596,
+      "items": [
+        {
+          "id": "SUPP-IX-BRETAGNE/page/p072/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "SUPP-IX-BRETAGNE/annotation/p072-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "../ceremonial_bretagne_images/bretagne_page072.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 842,
+                "width": 596
+              },
+              "target": "SUPP-IX-BRETAGNE/canvas/p072"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

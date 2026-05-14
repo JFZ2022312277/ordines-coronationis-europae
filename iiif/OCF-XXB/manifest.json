@@ -1,0 +1,805 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:4323/iiif/OCF-XXB/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Traductions françaises de l'Ordo de Reims / Directoire de ca. 1230 (Jackson XXB/XXC)"
+    ],
+    "fr": [
+      "Traductions françaises de l'Ordo de Reims / Directoire de ca. 1230 (Jackson XXB/XXC)"
+    ]
+  },
+  "summary": {
+    "en": [
+      "French translations of the Ordo of Reims and the Directory of ca. 1230 (Jackson Ordines XXB/XXC). Copy in the Coronation Book of Charles V, fols. 35r–42v. London, British Library, MS Cotton Tiberius B.viii (1365)."
+    ],
+    "fr": [
+      "Traductions françaises de l'Ordo de Reims et Directoire de ca. 1230 (Jackson Ordines XXB/XXC). Copie dans le Livre du sacre de Charles V, fol. 35r–42v. Londres, British Library, MS Cotton Tiberius B.viii (1365)."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Jackson number"
+        ],
+        "fr": [
+          "Numéro Jackson"
+        ]
+      },
+      "value": {
+        "en": [
+          "XXB/XXC"
+        ],
+        "fr": [
+          "XXB/XXC"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Title (EN)"
+        ],
+        "fr": [
+          "Titre (EN)"
+        ]
+      },
+      "value": {
+        "en": [
+          "French Translations of the Ordo of Reims / Directory of ca. 1230"
+        ],
+        "fr": [
+          "French Translations of the Ordo of Reims / Directory of ca. 1230"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Titre (FR)"
+        ],
+        "fr": [
+          "Titre (FR)"
+        ]
+      },
+      "value": {
+        "en": [
+          "Traductions françaises de l'Ordo de Reims / Directoire de ca. 1230"
+        ],
+        "fr": [
+          "Traductions françaises de l'Ordo de Reims / Directoire de ca. 1230"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Shelfmark (this copy)"
+        ],
+        "fr": [
+          "Cote (cette copie)"
+        ]
+      },
+      "value": {
+        "en": [
+          "London, British Library, MS Cotton Tiberius B.viii"
+        ],
+        "fr": [
+          "Londres, British Library, MS Cotton Tiberius B.viii"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Manuscript date"
+        ],
+        "fr": [
+          "Date du manuscrit"
+        ]
+      },
+      "value": {
+        "en": [
+          "1365 (Coronation Book of Charles V)"
+        ],
+        "fr": [
+          "1365 (Livre du sacre de Charles V)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Ordo date"
+        ],
+        "fr": [
+          "Date de l'ordo"
+        ]
+      },
+      "value": {
+        "en": [
+          "ca. 1260–1350"
+        ],
+        "fr": [
+          "ca. 1260–1350"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Century"
+        ],
+        "fr": [
+          "Siècle"
+        ]
+      },
+      "value": {
+        "en": [
+          "XIII–XIV"
+        ],
+        "fr": [
+          "XIII–XIV"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Folios (this copy)"
+        ],
+        "fr": [
+          "Feuillets (cette copie)"
+        ]
+      },
+      "value": {
+        "en": [
+          "fols. 35r–42v"
+        ],
+        "fr": [
+          "fol. 35r–42v"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ],
+        "fr": [
+          "Langue"
+        ]
+      },
+      "value": {
+        "en": [
+          "Medieval French (Old French / Anglo-Norman)"
+        ],
+        "fr": [
+          "Français médiéval (ancien français / anglo-normand)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Content"
+        ],
+        "fr": [
+          "Contenu"
+        ]
+      },
+      "value": {
+        "en": [
+          "French translations and adaptations of the Ordo of Reims (Ordo XX A), with the Directory of ca. 1230. Preserved in multiple manuscripts including the Coronation Book of Charles V."
+        ],
+        "fr": [
+          "Traductions et adaptations françaises de l'Ordo de Reims (Ordo XX A), avec le Directoire de ca. 1230. Conservées dans plusieurs manuscrits dont le Livre du sacre de Charles V."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Siglum (this copy)"
+        ],
+        "fr": [
+          "Sigle (cette copie)"
+        ]
+      },
+      "value": {
+        "en": [
+          "B"
+        ],
+        "fr": [
+          "B"
+        ]
+      }
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ],
+      "fr": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "London, British Library, MS Cotton Tiberius B.viii. Coronation Book of Charles V (1365). Digital images courtesy of the Ordines Coronationis Europae project."
+      ],
+      "fr": [
+        "Londres, British Library, MS Cotton Tiberius B.viii. Livre du Sacre de Charles V (1365). Images numériques dans le cadre du projet Ordines Coronationis Europae."
+      ]
+    }
+  },
+  "viewingDirection": "left-to-right",
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/1",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 35r"
+        ],
+        "fr": [
+          "fol. 35r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/1/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.%2035r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/2",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 35v"
+        ],
+        "fr": [
+          "fol. 35v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/2/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/2/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.35v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/3",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 36r"
+        ],
+        "fr": [
+          "fol. 36r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/3/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/3/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.%2036r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/4",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 36v"
+        ],
+        "fr": [
+          "fol. 36v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/4/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/4/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.%2036v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/5",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 37r"
+        ],
+        "fr": [
+          "fol. 37r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/5/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/5/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.37r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/6",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 37v"
+        ],
+        "fr": [
+          "fol. 37v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/6/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/6/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.%2037v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/7",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 38r"
+        ],
+        "fr": [
+          "fol. 38r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/7/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/7/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.%2038r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/8",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 38v"
+        ],
+        "fr": [
+          "fol. 38v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/8/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/8/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.%2038v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/9",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 39r"
+        ],
+        "fr": [
+          "fol. 39r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/9/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/9/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.%2039r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/10",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 39v"
+        ],
+        "fr": [
+          "fol. 39v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/10/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/10/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.%2039v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/11",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 40r"
+        ],
+        "fr": [
+          "fol. 40r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/11/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/11/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.%2040r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/12",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 40v"
+        ],
+        "fr": [
+          "fol. 40v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/12/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/12/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.%2040v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/13",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 41r"
+        ],
+        "fr": [
+          "fol. 41r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/13/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/13/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.%2041r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/14",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 41v"
+        ],
+        "fr": [
+          "fol. 41v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/14/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/14/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.%2041v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/15",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 42r"
+        ],
+        "fr": [
+          "fol. 42r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/15/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/15/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.%2042r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXB/canvas/16",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 42v"
+        ],
+        "fr": [
+          "fol. 42v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXB/canvas/16/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXB/canvas/16/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2035r-42v%20Ordo%20de%20Reims%20in%20Medieval%20French/fol.%2042v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXB/canvas/16"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

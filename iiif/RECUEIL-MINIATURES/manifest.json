@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "../iiif/RECUEIL-MINIATURES/manifest.json",
+  "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/RECUEIL-MINIATURES/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -47,7 +47,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0001",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p001.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p001.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -82,7 +82,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0002",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p002.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p002.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -117,7 +117,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0003",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p003.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p003.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -152,7 +152,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0004",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p004.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p004.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -187,7 +187,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0005",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p005.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p005.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -222,7 +222,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0006",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p006.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p006.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -257,7 +257,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0007",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p007.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p007.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -292,7 +292,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0008",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p008.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p008.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -327,7 +327,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0009",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p009.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p009.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -362,7 +362,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0010",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p010.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p010.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -397,7 +397,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0011",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p011.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p011.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -432,7 +432,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0012",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p012.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p012.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -467,7 +467,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0013",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p013.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p013.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -502,7 +502,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0014",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p014.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p014.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -537,7 +537,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0015",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p015.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p015.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -572,7 +572,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0016",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p016.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p016.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -607,7 +607,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0017",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p017.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p017.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -642,7 +642,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0018",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p018.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p018.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -677,7 +677,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0019",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p019.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p019.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -712,7 +712,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0020",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p020.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p020.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -747,7 +747,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0021",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p021.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p021.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -782,7 +782,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0022",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p022.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p022.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -817,7 +817,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0023",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p023.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p023.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -852,7 +852,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0024",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p024.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p024.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -887,7 +887,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0025",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p025.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p025.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -922,7 +922,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0026",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p026.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p026.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -957,7 +957,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0027",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p027.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p027.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -992,7 +992,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0028",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p028.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p028.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1027,7 +1027,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0029",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p029.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p029.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1062,7 +1062,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0030",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p030.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p030.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1097,7 +1097,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0031",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p031.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p031.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1132,7 +1132,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0032",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p032.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p032.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1167,7 +1167,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0033",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p033.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p033.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1202,7 +1202,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0034",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p034.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p034.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1237,7 +1237,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0035",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p035.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p035.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1272,7 +1272,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0036",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p036.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p036.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1307,7 +1307,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0037",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p037.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p037.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1342,7 +1342,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0038",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p038.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p038.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1377,7 +1377,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0039",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p039.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p039.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1412,7 +1412,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0040",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p040.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p040.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1447,7 +1447,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0041",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p041.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p041.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1482,7 +1482,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0042",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p042.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p042.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1517,7 +1517,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0043",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p043.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p043.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1552,7 +1552,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0044",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p044.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p044.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1587,7 +1587,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0045",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p045.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p045.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1622,7 +1622,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0046",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p046.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p046.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1657,7 +1657,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0047",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p047.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p047.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1692,7 +1692,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0048",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p048.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p048.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1727,7 +1727,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0049",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p049.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p049.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1762,7 +1762,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0050",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p050.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p050.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1797,7 +1797,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0051",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p051.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p051.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1832,7 +1832,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0052",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p052.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p052.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1867,7 +1867,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0053",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p053.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p053.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1902,7 +1902,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0054",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p054.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p054.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1937,7 +1937,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0055",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p055.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p055.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -1972,7 +1972,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0056",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p056.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p056.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -2007,7 +2007,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0057",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p057.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p057.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,
@@ -2042,7 +2042,7 @@
               "motivation": "painting",
               "target": "iiif/RECUEIL-MINIATURES/manifest.json#canvas-0058",
               "body": {
-                "id": "../assets/recueil_miniatures/recueil_p058.jpg",
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/recueil_miniatures/recueil_p058.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 1024,

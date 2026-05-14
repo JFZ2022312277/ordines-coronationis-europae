@@ -1,0 +1,2815 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:4323/iiif/OCF-XXIII/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Ordo of Charles V (Coronation Book of Charles V)"
+    ],
+    "fr": [
+      "Ordo de Charles V (Livre du Sacre de Charles V)"
+    ]
+  },
+  "summary": {
+    "en": [
+      "The Ordo of Charles V, fols. 43r–80v. London, British Library, MS Cotton Tiberius B.viii (Coronation Book of Charles V, 1365). The definitive French coronation ordo, comprising the ceremony for the king and queen."
+    ],
+    "fr": [
+      "L'Ordo de Charles V, fol. 43r–80v. Londres, British Library, MS Cotton Tiberius B.viii (Livre du Sacre de Charles V, 1365). L'ordo du sacre royal français par excellence, comprenant la cérémonie du roi et de la reine."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Shelfmark"
+        ],
+        "fr": [
+          "Cote"
+        ]
+      },
+      "value": {
+        "en": [
+          "London, British Library, MS Cotton Tiberius B.viii"
+        ],
+        "fr": [
+          "Londres, British Library, MS Cotton Tiberius B.viii"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ],
+        "fr": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "1365 (13 April 1365 – April 1366)"
+        ],
+        "fr": [
+          "1365 (13 avril 1365 – avril 1366)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Folios"
+        ],
+        "fr": [
+          "Feuillets"
+        ]
+      },
+      "value": {
+        "en": [
+          "fols. 43r–80v"
+        ],
+        "fr": [
+          "fol. 43r–80v"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ],
+        "fr": [
+          "Langue"
+        ]
+      },
+      "value": {
+        "en": [
+          "Latin"
+        ],
+        "fr": [
+          "Latin"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Content"
+        ],
+        "fr": [
+          "Contenu"
+        ]
+      },
+      "value": {
+        "en": [
+          "Ordo of Charles V (Ordo XXIII), the definitive French royal coronation ceremony"
+        ],
+        "fr": [
+          "Ordo de Charles V (Ordo XXIII), l'ordo du sacre royal français par excellence"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Origin"
+        ],
+        "fr": [
+          "Origine"
+        ]
+      },
+      "value": {
+        "en": [
+          "Paris (for Charles V, royal library)"
+        ],
+        "fr": [
+          "Paris (pour Charles V, bibliothèque royale)"
+        ]
+      }
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ],
+      "fr": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "London, British Library, MS Cotton Tiberius B.viii. Coronation Book of Charles V (1365). Digital images courtesy of the Ordines Coronationis Europae project."
+      ],
+      "fr": [
+        "Londres, British Library, MS Cotton Tiberius B.viii. Livre du Sacre de Charles V (1365). Images numériques dans le cadre du projet Ordines Coronationis Europae."
+      ]
+    }
+  },
+  "viewingDirection": "left-to-right",
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/1",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 43r"
+        ],
+        "fr": [
+          "fol. 43r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/1/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2043r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/2",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 43v"
+        ],
+        "fr": [
+          "fol. 43v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/2/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/2/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2043v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/3",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 44r"
+        ],
+        "fr": [
+          "fol. 44r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/3/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/3/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2044r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/4",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 44v"
+        ],
+        "fr": [
+          "fol. 44v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/4/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/4/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2044v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/5",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 45r"
+        ],
+        "fr": [
+          "fol. 45r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/5/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/5/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2045r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/6",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 45v"
+        ],
+        "fr": [
+          "fol. 45v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/6/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/6/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2045v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/7",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 46r"
+        ],
+        "fr": [
+          "fol. 46r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/7/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/7/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2046r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/8",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 46v"
+        ],
+        "fr": [
+          "fol. 46v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/8/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/8/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2046v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/9",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 47r"
+        ],
+        "fr": [
+          "fol. 47r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/9/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/9/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2047r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/10",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 47v"
+        ],
+        "fr": [
+          "fol. 47v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/10/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/10/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2047v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/11",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 48r"
+        ],
+        "fr": [
+          "fol. 48r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/11/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/11/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2048r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/12",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 48v"
+        ],
+        "fr": [
+          "fol. 48v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/12/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/12/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2048v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/13",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 49r"
+        ],
+        "fr": [
+          "fol. 49r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/13/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/13/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2049r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/14",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 49v"
+        ],
+        "fr": [
+          "fol. 49v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/14/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/14/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2049v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/15",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 50r"
+        ],
+        "fr": [
+          "fol. 50r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/15/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/15/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2050r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/16",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 50v"
+        ],
+        "fr": [
+          "fol. 50v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/16/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/16/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2050v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/17",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 51r"
+        ],
+        "fr": [
+          "fol. 51r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/17/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/17/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2051r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/18",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 51v"
+        ],
+        "fr": [
+          "fol. 51v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/18/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/18/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2051v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/19",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 52r"
+        ],
+        "fr": [
+          "fol. 52r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/19/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/19/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2052r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/20",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 52v"
+        ],
+        "fr": [
+          "fol. 52v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/20/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/20/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2052v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/21",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 53r"
+        ],
+        "fr": [
+          "fol. 53r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/21/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/21/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2053r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/22",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 53v"
+        ],
+        "fr": [
+          "fol. 53v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/22/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/22/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2053v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/23",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 54r"
+        ],
+        "fr": [
+          "fol. 54r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/23/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/23/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2054r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/24",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 54v"
+        ],
+        "fr": [
+          "fol. 54v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/24/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/24/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2054v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/25",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 55r"
+        ],
+        "fr": [
+          "fol. 55r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/25/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/25/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2055r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/26",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 55v"
+        ],
+        "fr": [
+          "fol. 55v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/26/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/26/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2055v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/27",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 56r"
+        ],
+        "fr": [
+          "fol. 56r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/27/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/27/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2056r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/28",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 56v"
+        ],
+        "fr": [
+          "fol. 56v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/28/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/28/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2056v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/29",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 57r"
+        ],
+        "fr": [
+          "fol. 57r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/29/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/29/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2057r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/30",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 57v"
+        ],
+        "fr": [
+          "fol. 57v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/30/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/30/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2057v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/31",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 58r"
+        ],
+        "fr": [
+          "fol. 58r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/31/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/31/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2058r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/32",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 58v"
+        ],
+        "fr": [
+          "fol. 58v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/32/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/32/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2058v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/33",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 59r"
+        ],
+        "fr": [
+          "fol. 59r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/33/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/33/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2059r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/34",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 59v"
+        ],
+        "fr": [
+          "fol. 59v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/34/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/34/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2059v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/34"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/35",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 60r"
+        ],
+        "fr": [
+          "fol. 60r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/35/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/35/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2060r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/36",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 60v"
+        ],
+        "fr": [
+          "fol. 60v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/36/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/36/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2060v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/36"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/37",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 61r"
+        ],
+        "fr": [
+          "fol. 61r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/37/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/37/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2061r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/38",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 61v"
+        ],
+        "fr": [
+          "fol. 61v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/38/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/38/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2061v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/38"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/39",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 62r"
+        ],
+        "fr": [
+          "fol. 62r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/39/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/39/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2062r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/39"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/40",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 62v"
+        ],
+        "fr": [
+          "fol. 62v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/40/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/40/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2062v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/41",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 63r"
+        ],
+        "fr": [
+          "fol. 63r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/41/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/41/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2063r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/41"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/42",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 63v"
+        ],
+        "fr": [
+          "fol. 63v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/42/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/42/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2063v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/43",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 64r"
+        ],
+        "fr": [
+          "fol. 64r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/43/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/43/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2064r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/44",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 64v"
+        ],
+        "fr": [
+          "fol. 64v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/44/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/44/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2064v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/44"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/45",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 65r"
+        ],
+        "fr": [
+          "fol. 65r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/45/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/45/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2065r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/46",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 65v"
+        ],
+        "fr": [
+          "fol. 65v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/46/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/46/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2065v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/46"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/47",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 66r"
+        ],
+        "fr": [
+          "fol. 66r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/47/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/47/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2066r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/47"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/48",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 66v"
+        ],
+        "fr": [
+          "fol. 66v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/48/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/48/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2066v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/48"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/49",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 67r"
+        ],
+        "fr": [
+          "fol. 67r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/49/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/49/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2067r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/49"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/50",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 67v"
+        ],
+        "fr": [
+          "fol. 67v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/50/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/50/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2067v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/51",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 68r"
+        ],
+        "fr": [
+          "fol. 68r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/51/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/51/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2068r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/51"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/52",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 68v"
+        ],
+        "fr": [
+          "fol. 68v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/52/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/52/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2068v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/52"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/53",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 69r"
+        ],
+        "fr": [
+          "fol. 69r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/53/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/53/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2069r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/53"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/54",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 69v"
+        ],
+        "fr": [
+          "fol. 69v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/54/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/54/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2069v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/54"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/55",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 70r"
+        ],
+        "fr": [
+          "fol. 70r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/55/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/55/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2070r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/56",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 70v"
+        ],
+        "fr": [
+          "fol. 70v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/56/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/56/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2070v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/56"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/57",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 71r"
+        ],
+        "fr": [
+          "fol. 71r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/57/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/57/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2071r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/57"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/58",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 71v"
+        ],
+        "fr": [
+          "fol. 71v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/58/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/58/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2071v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/58"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/59",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 72r"
+        ],
+        "fr": [
+          "fol. 72r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/59/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/59/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2072r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/59"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/60",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 72v"
+        ],
+        "fr": [
+          "fol. 72v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/60/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/60/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2072v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/60"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/61",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 73r"
+        ],
+        "fr": [
+          "fol. 73r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/61/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/61/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2073r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/61"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/62",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 73v"
+        ],
+        "fr": [
+          "fol. 73v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/62/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/62/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2073v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/62"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/63",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 74r"
+        ],
+        "fr": [
+          "fol. 74r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/63/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/63/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2074r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/63"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/64",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 74v"
+        ],
+        "fr": [
+          "fol. 74v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/64/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/64/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2074v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/64"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/65",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 75r"
+        ],
+        "fr": [
+          "fol. 75r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/65/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/65/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2075r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/65"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/66",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 75v"
+        ],
+        "fr": [
+          "fol. 75v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/66/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/66/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2075v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/66"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/67",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 76r"
+        ],
+        "fr": [
+          "fol. 76r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/67/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/67/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2076r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/67"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/68",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 76v"
+        ],
+        "fr": [
+          "fol. 76v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/68/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/68/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2076v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/68"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/69",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 77r"
+        ],
+        "fr": [
+          "fol. 77r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/69/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/69/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2077r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/69"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/70",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 77v"
+        ],
+        "fr": [
+          "fol. 77v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/70/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/70/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2077v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/70"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/71",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 78r"
+        ],
+        "fr": [
+          "fol. 78r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/71/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/71/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2078r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/71"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/72",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 78v"
+        ],
+        "fr": [
+          "fol. 78v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/72/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/72/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2078v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/72"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/73",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 79r"
+        ],
+        "fr": [
+          "fol. 79r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/73/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/73/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2079r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/73"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/74",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 79v"
+        ],
+        "fr": [
+          "fol. 79v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/74/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/74/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2079v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/74"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/75",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 80r"
+        ],
+        "fr": [
+          "fol. 80r"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/75/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/75/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2080r.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/75"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/76",
+      "type": "Canvas",
+      "width": 2535,
+      "height": 1209,
+      "label": {
+        "en": [
+          "fol. 80v"
+        ],
+        "fr": [
+          "fol. 80v"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/76/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:4323/iiif/OCF-XXIII/canvas/76/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:4323/Coronation%20Book%20Of%20Charles%20V/fol.%2043r-fol.%2080v%20Ordo%20de%20Charles%20V%20in%20Latin/fol.%2080v.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 2535,
+                "height": 1209
+              },
+              "target": "http://localhost:4323/iiif/OCF-XXIII/canvas/76"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

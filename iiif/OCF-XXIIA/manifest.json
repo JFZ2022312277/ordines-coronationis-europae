@@ -1,0 +1,2551 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Last Capetian Ordo - Wolfenbuettel witness (Cod. Guelf. 82.3 Aug. 2?)"
+    ],
+    "fr": [
+      "Dernier Ordo capetien - temoin de Wolfenbuettel (Cod. Guelf. 82.3 Aug. 2?)"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Local page sequence extracted from the Wolfenbuettel liturgical PDF witness for OCF-XXIIA / Last Capetian Ordo."
+    ],
+    "fr": [
+      "Sequence locale de pages extraite du temoin liturgique de Wolfenbuettel en PDF pour OCF-XXIIA / Dernier Ordo capetien."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Shelfmark"
+        ],
+        "fr": [
+          "Cote"
+        ]
+      },
+      "value": {
+        "en": [
+          "Wolfenbuettel, Herzog August Bibliothek, Cod. Guelf. 82.3 Aug. 2?"
+        ],
+        "fr": [
+          "Wolfenbuettel, Herzog August Bibliothek, Cod. Guelf. 82.3 Aug. 2?"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Witness type"
+        ],
+        "fr": [
+          "Type de temoin"
+        ]
+      },
+      "value": {
+        "en": [
+          "Local PDF-derived image sequence"
+        ],
+        "fr": [
+          "Sequence d images derivee d un PDF local"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Page count"
+        ],
+        "fr": [
+          "Nombre de pages"
+        ]
+      },
+      "value": {
+        "en": [
+          "70"
+        ],
+        "fr": [
+          "70"
+        ]
+      }
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Source"
+      ],
+      "fr": [
+        "Source"
+      ]
+    },
+    "value": {
+      "en": [
+        "Local derivative from Wolfenbuettel PDF witness supplied in workspace."
+      ],
+      "fr": [
+        "Derive local a partir du PDF Wolfenbuettel fourni dans l espace de travail."
+      ]
+    }
+  },
+  "viewingDirection": "left-to-right",
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-001",
+      "type": "Canvas",
+      "width": 893,
+      "height": 1263,
+      "label": {
+        "en": [
+          "PDF p. 001"
+        ],
+        "fr": [
+          "PDF p. 001"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-001",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-001",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p001.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 893,
+                "height": 1263
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-001"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-002",
+      "type": "Canvas",
+      "width": 893,
+      "height": 1263,
+      "label": {
+        "en": [
+          "PDF p. 002"
+        ],
+        "fr": [
+          "PDF p. 002"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-002",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-002",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p002.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 893,
+                "height": 1263
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-003",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 003"
+        ],
+        "fr": [
+          "PDF p. 003"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-003",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-003",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p003.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-003"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-004",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 004"
+        ],
+        "fr": [
+          "PDF p. 004"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-004",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-004",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p004.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-005",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 005"
+        ],
+        "fr": [
+          "PDF p. 005"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-005",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-005",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p005.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-005"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-006",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 006"
+        ],
+        "fr": [
+          "PDF p. 006"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-006",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-006",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p006.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-006"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-007",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 007"
+        ],
+        "fr": [
+          "PDF p. 007"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-007",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-007",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p007.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-007"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-008",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 008"
+        ],
+        "fr": [
+          "PDF p. 008"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-008",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-008",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p008.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-009",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 009"
+        ],
+        "fr": [
+          "PDF p. 009"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-009",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-009",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p009.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-010",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 010"
+        ],
+        "fr": [
+          "PDF p. 010"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-010",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-010",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p010.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-010"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-011",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 011"
+        ],
+        "fr": [
+          "PDF p. 011"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-011",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-011",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p011.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-012",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 012"
+        ],
+        "fr": [
+          "PDF p. 012"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-012",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-012",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p012.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-013",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 013"
+        ],
+        "fr": [
+          "PDF p. 013"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-013",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-013",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p013.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-013"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-014",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 014"
+        ],
+        "fr": [
+          "PDF p. 014"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-014",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-014",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p014.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-014"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-015",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 015"
+        ],
+        "fr": [
+          "PDF p. 015"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-015",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-015",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p015.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-015"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-016",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 016"
+        ],
+        "fr": [
+          "PDF p. 016"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-016",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-016",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p016.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-016"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-017",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 017"
+        ],
+        "fr": [
+          "PDF p. 017"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-017",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-017",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p017.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-017"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-018",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 018"
+        ],
+        "fr": [
+          "PDF p. 018"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-018",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-018",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p018.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-018"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-019",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 019"
+        ],
+        "fr": [
+          "PDF p. 019"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-019",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-019",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p019.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-019"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-020",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 020"
+        ],
+        "fr": [
+          "PDF p. 020"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-020",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-020",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p020.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-020"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-021",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 021"
+        ],
+        "fr": [
+          "PDF p. 021"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-021",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-021",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p021.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-021"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-022",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 022"
+        ],
+        "fr": [
+          "PDF p. 022"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-022",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-022",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p022.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-022"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-023",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 023"
+        ],
+        "fr": [
+          "PDF p. 023"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-023",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-023",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p023.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-023"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-024",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 024"
+        ],
+        "fr": [
+          "PDF p. 024"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-024",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-024",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p024.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-024"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-025",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 025"
+        ],
+        "fr": [
+          "PDF p. 025"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-025",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-025",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p025.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-025"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-026",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 026"
+        ],
+        "fr": [
+          "PDF p. 026"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-026",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-026",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p026.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-027",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 027"
+        ],
+        "fr": [
+          "PDF p. 027"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-027",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-027",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p027.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-027"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-028",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 028"
+        ],
+        "fr": [
+          "PDF p. 028"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-028",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-028",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p028.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-028"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-029",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 029"
+        ],
+        "fr": [
+          "PDF p. 029"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-029",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-029",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p029.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-030",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 030"
+        ],
+        "fr": [
+          "PDF p. 030"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-030",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-030",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p030.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-030"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-031",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 031"
+        ],
+        "fr": [
+          "PDF p. 031"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-031",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-031",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p031.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-031"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-032",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 032"
+        ],
+        "fr": [
+          "PDF p. 032"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-032",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-032",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p032.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-032"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-033",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 033"
+        ],
+        "fr": [
+          "PDF p. 033"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-033",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-033",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p033.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-033"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-034",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 034"
+        ],
+        "fr": [
+          "PDF p. 034"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-034",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-034",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p034.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-034"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-035",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 035"
+        ],
+        "fr": [
+          "PDF p. 035"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-035",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-035",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p035.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-035"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-036",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 036"
+        ],
+        "fr": [
+          "PDF p. 036"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-036",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-036",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p036.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-036"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-037",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 037"
+        ],
+        "fr": [
+          "PDF p. 037"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-037",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-037",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p037.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-037"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-038",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 038"
+        ],
+        "fr": [
+          "PDF p. 038"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-038",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-038",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p038.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-038"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-039",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 039"
+        ],
+        "fr": [
+          "PDF p. 039"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-039",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-039",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p039.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-039"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-040",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 040"
+        ],
+        "fr": [
+          "PDF p. 040"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-040",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-040",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p040.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-040"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-041",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 041"
+        ],
+        "fr": [
+          "PDF p. 041"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-041",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-041",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p041.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-041"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-042",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 042"
+        ],
+        "fr": [
+          "PDF p. 042"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-042",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-042",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p042.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-042"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-043",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 043"
+        ],
+        "fr": [
+          "PDF p. 043"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-043",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-043",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p043.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-043"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-044",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 044"
+        ],
+        "fr": [
+          "PDF p. 044"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-044",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-044",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p044.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-044"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-045",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 045"
+        ],
+        "fr": [
+          "PDF p. 045"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-045",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-045",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p045.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-045"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-046",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 046"
+        ],
+        "fr": [
+          "PDF p. 046"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-046",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-046",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p046.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-046"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-047",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 047"
+        ],
+        "fr": [
+          "PDF p. 047"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-047",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-047",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p047.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-047"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-048",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 048"
+        ],
+        "fr": [
+          "PDF p. 048"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-048",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-048",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p048.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-048"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-049",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 049"
+        ],
+        "fr": [
+          "PDF p. 049"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-049",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-049",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p049.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-049"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-050",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 050"
+        ],
+        "fr": [
+          "PDF p. 050"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-050",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-050",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p050.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-050"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-051",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 051"
+        ],
+        "fr": [
+          "PDF p. 051"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-051",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-051",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p051.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-051"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-052",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 052"
+        ],
+        "fr": [
+          "PDF p. 052"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-052",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-052",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p052.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-052"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-053",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 053"
+        ],
+        "fr": [
+          "PDF p. 053"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-053",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-053",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p053.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-053"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-054",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 054"
+        ],
+        "fr": [
+          "PDF p. 054"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-054",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-054",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p054.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-054"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-055",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 055"
+        ],
+        "fr": [
+          "PDF p. 055"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-055",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-055",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p055.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-055"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-056",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 056"
+        ],
+        "fr": [
+          "PDF p. 056"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-056",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-056",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p056.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-056"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-057",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 057"
+        ],
+        "fr": [
+          "PDF p. 057"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-057",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-057",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p057.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-057"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-058",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 058"
+        ],
+        "fr": [
+          "PDF p. 058"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-058",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-058",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p058.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-058"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-059",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 059"
+        ],
+        "fr": [
+          "PDF p. 059"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-059",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-059",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p059.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-059"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-060",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 060"
+        ],
+        "fr": [
+          "PDF p. 060"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-060",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-060",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p060.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-060"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-061",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 061"
+        ],
+        "fr": [
+          "PDF p. 061"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-061",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-061",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p061.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-061"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-062",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 062"
+        ],
+        "fr": [
+          "PDF p. 062"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-062",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-062",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p062.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-062"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-063",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 063"
+        ],
+        "fr": [
+          "PDF p. 063"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-063",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-063",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p063.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-063"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-064",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 064"
+        ],
+        "fr": [
+          "PDF p. 064"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-064",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-064",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p064.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-064"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-065",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 065"
+        ],
+        "fr": [
+          "PDF p. 065"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-065",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-065",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p065.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-065"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-066",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 066"
+        ],
+        "fr": [
+          "PDF p. 066"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-066",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-066",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p066.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-066"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-067",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 067"
+        ],
+        "fr": [
+          "PDF p. 067"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-067",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-067",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p067.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-067"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-068",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 068"
+        ],
+        "fr": [
+          "PDF p. 068"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-068",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-068",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p068.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-068"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-069",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 069"
+        ],
+        "fr": [
+          "PDF p. 069"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-069",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-069",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p069.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-069"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-070",
+      "type": "Canvas",
+      "width": 369,
+      "height": 489,
+      "label": {
+        "en": [
+          "PDF p. 070"
+        ],
+        "fr": [
+          "PDF p. 070"
+        ]
+      },
+      "items": [
+        {
+          "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#page-070",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#annotation-070",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/assets/wolfenbuettel/ocf_xxiia_wolf_p070.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 369,
+                "height": 489
+              },
+              "target": "file:///C:/Users/32433/Desktop/ordines%20coronationis%20Europa/iiif/OCF-XXIIA/manifest.json#canvas-070"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
