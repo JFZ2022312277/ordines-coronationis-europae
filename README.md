@@ -15,7 +15,7 @@ Digital Medieval Studies Reviews call.
 After deployment, open the public URL of this repository:
 
 ```
-https://YOUR-USER.github.io/ordines-coronationis-europae/
+https://jfz2022312277.github.io/ordines-coronationis-europae/
 ```
 
 (Replace `YOUR-USER` with the GitHub account that hosts this repository.)
