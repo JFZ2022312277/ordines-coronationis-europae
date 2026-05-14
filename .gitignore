@@ -48,3 +48,8 @@ zenodo_release_*.zip
 # --- AI helper logs -------------------------------------------------------
 .claude/
 .codex/
+
+# --- iiif/ folder backups left by working-folder edits -----------------
+iiif/*.pre_*
+iiif/**/*.pre_*
+iiif/*.bak*
