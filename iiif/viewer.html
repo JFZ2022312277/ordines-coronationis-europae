@@ -128,6 +128,10 @@ const REGISTRY = {
   'OCF-XVI':    { file:'OCF-XVI/manifest.json',    tab:'Ordo royal de Cologne · MS 141 (OCF-XVI)', shelfmark:'Cologne, Erzbischofliche Diozesan- und Dombibl., MS 141' },
   'ECR-XIII-LIBER-REGALIS': { file:'ECR-XIII-LIBER-REGALIS/manifest.json', tab:'Liber Regalis · Westminster Abbey MS 38', shelfmark:'London, Westminster Abbey, MS 38' },
   'SUPP-IX-BRETAGNE': { file:'SUPP-IX-BRETAGNE/manifest.json', tab:'Bretagne · cérémonial du couronnement ducal', shelfmark:'Pontifical de Michel Guibé · fac-similé' },
+  'GCF-FR2813': { file:'GCF-FR2813/manifest.json', tab:'Grandes Chroniques de France · BnF fr. 2813', shelfmark:'Paris, BnF, MS Français 2813' },
+  'BNF-BALUZE1': { file:'BNF-BALUZE1/manifest.json', tab:'BnF · Baluze 1 (Gallica)', shelfmark:'Paris, BnF, MS Baluze 1' },
+  'BNF-LAT9430': { file:'BNF-LAT9430/manifest.json', tab:'BnF · Latin 9430 (Gallica)', shelfmark:'Paris, BnF, MS Latin 9430' },
+  'RECUEIL-MINIATURES': { file:'RECUEIL-MINIATURES/manifest.json', tab:'Recueil de miniatures du XVe siècle', shelfmark:'Recueil de miniatures découpées (XVe s.)' },
 
   // ── Manuscrits externes (Gallica, UIUC, etc.) ──────────────────────────────
   'OCF-I-Gellone': {
@@ -267,18 +271,52 @@ function initViewerFromCanvases(canvases, title, shelfmark) {
 }
 
 function initViewer(manifest) {
-  S.canvases = (manifest.items || []).map(canvas => {
-    const anno = canvas.items?.[0]?.items?.[0];
-    const body = Array.isArray(anno?.body) ? anno.body[0] : anno?.body;
-    const rawImageId = body?.id || body?.['@id'] || canvas.thumbnail?.[0]?.id || canvas.thumbnail?.[0]?.['@id'] || '';
-    return {
-      label:     getLabel(canvas.label),
-      src:       resolveResourceUrl(rawImageId, CURRENT_MANIFEST_BASE),
-      width:     body?.width  || canvas.width  || 1200,
-      height:    body?.height || canvas.height || 1600,
-      shelfmark: getMetaVal(manifest, ['Shelfmark','Cote']) || ''
+  // IIIF Presentation API v3 uses manifest.items (canvases).
+  // IIIF Presentation API v2 uses manifest.sequences[0].canvases instead.
+  const hasV3 = Array.isArray(manifest.items) && manifest.items.length;
+  const hasV2 = Array.isArray(manifest.sequences) && manifest.sequences[0]
+                && Array.isArray(manifest.sequences[0].canvases)
+                && manifest.sequences[0].canvases.length;
+  let rawCanvases = [];
+  let canvasMapper;
+  if (hasV3) {
+    rawCanvases = manifest.items;
+    canvasMapper = (canvas) => {
+      const anno = canvas.items?.[0]?.items?.[0];
+      const body = Array.isArray(anno?.body) ? anno.body[0] : anno?.body;
+      const rawImageId = body?.id || body?.['@id']
+        || canvas.thumbnail?.[0]?.id || canvas.thumbnail?.[0]?.['@id'] || '';
+      return {
+        label:  getLabel(canvas.label),
+        src:    resolveResourceUrl(rawImageId, CURRENT_MANIFEST_BASE),
+        width:  body?.width  || canvas.width  || 1200,
+        height: body?.height || canvas.height || 1600
+      };
     };
-  }).filter(c => c.src);
+  } else if (hasV2) {
+    rawCanvases = manifest.sequences[0].canvases;
+    canvasMapper = (canvas) => {
+      const image = (canvas.images && canvas.images[0]) || {};
+      const resource = image.resource || {};
+      const rawImageId = resource['@id'] || resource.id
+        || (resource.service && (resource.service['@id'] || resource.service.id))
+        || (canvas.thumbnail && (canvas.thumbnail['@id'] || canvas.thumbnail.id)) || '';
+      return {
+        label:  getLabel(canvas.label),
+        src:    resolveResourceUrl(rawImageId, CURRENT_MANIFEST_BASE),
+        width:  resource.width  || canvas.width  || 1200,
+        height: resource.height || canvas.height || 1600
+      };
+    };
+  } else {
+    rawCanvases = [];
+    canvasMapper = () => null;
+  }
+  const shelfmark = getMetaVal(manifest, ['Shelfmark','Cote']) || '';
+  S.canvases = rawCanvases.map(canvas => {
+    const c = canvasMapper(canvas);
+    return c ? Object.assign(c, {shelfmark}) : null;
+  }).filter(c => c && c.src);
 
   document.getElementById('title-main').textContent = getLabel(manifest.label) || 'Visionneuse';
   document.getElementById('thumb-count').textContent = S.canvases.length + ' folios';
@@ -455,25 +493,46 @@ function buildMeta(m) {
   const dl = document.getElementById('meta-panel');
   dl.innerHTML = '';
   (m.metadata || []).forEach(item => {
-    const k = arr(item.label?.fr || item.label?.en)[0];
-    const v = arr(item.value?.fr  || item.value?.en)[0];
+    const k = getLabel(item.label);
+    const v = getLabel(item.value);
     if (!k||!v) return;
     dl.innerHTML += '<dt>'+esc(k)+'</dt><dd>'+esc(v)+'</dd>';
   });
 }
 
+// Handles all the IIIF label flavours we see in the wild:
+//  - plain string                                       (v2)
+//  - array of strings                                   (v2)
+//  - {fr:[...], en:[...]}                               (v3 language map)
+//  - [{@value:"…", @language:"fr"}, …]                  (v2 i18n)
 function getLabel(obj) {
   if (!obj) return '';
   if (typeof obj==='string') return obj;
-  const a = arr(obj.fr || obj.en || Object.values(obj)[0]);
-  return a[0] || '';
+  if (Array.isArray(obj)) {
+    for (const it of obj) {
+      if (typeof it==='string') return it;
+      if (it && typeof it==='object' && '@value' in it) return String(it['@value']||'');
+    }
+    return obj[0] ? String(obj[0]) : '';
+  }
+  if (typeof obj==='object') {
+    if ('@value' in obj) return String(obj['@value']||'');
+    const a = arr(obj.fr || obj.en || Object.values(obj)[0]);
+    if (a[0]) {
+      const first=a[0];
+      if (typeof first==='string') return first;
+      if (first && typeof first==='object' && '@value' in first) return String(first['@value']||'');
+      return String(first);
+    }
+  }
+  return '';
 }
 
 function getMetaVal(m, keys) {
   for (const item of (m.metadata||[])) {
-    const lv = arr(item.label?.en || item.label?.fr);
-    if (keys.some(k => lv.some(l => l.toLowerCase().includes(k.toLowerCase())))) {
-      return arr(item.value?.fr || item.value?.en)[0] || '';
+    const label = getLabel(item.label);
+    if (keys.some(k => label.toLowerCase().includes(k.toLowerCase()))) {
+      return getLabel(item.value);
     }
   }
   return '';
