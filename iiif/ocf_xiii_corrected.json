@@ -1,0 +1,104 @@
+{
+  "id": "OCF-XIII",
+  "jackson_number": "XIII",
+  "name_en": "Erdmann Ordo",
+  "name_fr": "Ordo d'Erdmann",
+  "other_names": [
+    "Ordo XIIIA — Ordo of Charles the Bald (Delalande)",
+    "West Frankish Ordo (Schramm)",
+    "Ordo XIIIB — Investiture Formulas from Sens (Schramm)"
+  ],
+  "date": "ca. 900",
+  "date_sort": 900,
+  "century": "x",
+  "language": "la",
+  "incipit": "Incipit ordo ad ordinandum regem … A vobis perdonari petimus",
+  "description_en": "The Erdmann Ordo is the first text that contains both the king's and the queen's ceremonies; it thereby began a tradition that was generally followed in later French ordines, but the tradition is misleading. The king's and the queen's ordines have nothing to do with each other either in the Erdmann Ordo or in other early ordines, and their juxtaposition in no way reflects a joint coronation or implies that the two were to be used together. The introduction to the Ratold Ordo (Ordo XV) explains how such texts came to be placed together in a sacramentary or pontifical.\n\nWhen Pierre Delalande published the ordo from manuscript A (Conciliorum supplementa, 1666), he thought it was the ordo used at the coronation of Charles the Bald at Orléans on 6 June 848. Schramm subsequently showed that there is nothing in the text to associate it with either Charles the Bald or, apart from the manuscript itself, with Sens, and so he named it after Carl Erdmann, the scholar who first drew his attention to it. Schramm later called it 'der westfränkische Ordo schlechthin'; Erdmann objected to the name, and Bouman, by demonstrating that the ordo is only one example of the West Frankish tradition, restored the older designation, which is now generally preferred. Schramm originally argued for a date of 880–936; Bouman more cautiously suggested ca. 900, the date that has been generally accepted.\n\nManuscript A contains two distinct sets of ordination formulas: nos. 1–32 (the Erdmann Ordo proper, Ordo XIIIA), and a second, simpler set of investiture formulas on fol. 97r–v (Ordo XIIIB, nos. 33–38). Jackson treats them together because in manuscript B the second set is inserted between nos. 14 and 15 of XIIIA. Schramm correctly treated the XIIIB formulas as a separate text; they appear in no other French ordo, nor in any imperial or early Anglo-Saxon ordo, and may well antedate the Erdmann Ordo itself by several decades.\n\nThe Erdmann Ordo was enormously important: it decisively influenced both Continental and Anglo-Saxon ceremonial, and the latter, in turn, would eventually make significant contributions to the French rite, primarily through the Ratold Ordo (Ordo XV). A sacramentary from Reims dating from about 1100 (Walters Art Gallery, MS W. 28) preserves three short formulas drawn uniquely from the Erdmann Ordo, showing that the text — or something copied from it — was still consulted at Reims two centuries after its composition. Martène also knew manuscript A, as is proven by his reference to it at the conclusion of his edition of the Ratold Ordo.",
+  "description_fr": "L'Ordo d'Erdmann est le premier texte qui contient à la fois les cérémonies du roi et de la reine ; il a inauguré une tradition généralement suivie dans les ordines français postérieurs, mais cette tradition est trompeuse. Les ordines du roi et de la reine n'ont rien à voir l'un avec l'autre, ni dans l'Ordo d'Erdmann ni dans les autres ordines anciens, et leur juxtaposition ne reflète nullement un couronnement conjoint ni l'intention de les utiliser ensemble. L'introduction à l'Ordo de Ratold (Ordo XV) explique comment de tels textes en sont venus à être réunis dans un sacramentaire ou un pontifical.\n\nQuand Pierre Delalande a publié l'ordo à partir du manuscrit A (Conciliorum supplementa, 1666), il a cru qu'il s'agissait de l'ordo utilisé au sacre de Charles le Chauve à Orléans le 6 juin 848. Schramm a démontré par la suite qu'il n'y a rien dans le texte qui le rattache à Charles le Chauve ni, hormis le manuscrit, à Sens, et l'a donc nommé d'après Carl Erdmann, le savant qui le lui avait signalé. Schramm l'a appelé plus tard « der westfränkische Ordo schlechthin » ; Erdmann a objecté à cette dénomination, et Bouman, en montrant que l'ordo n'est qu'un exemple parmi d'autres de la tradition franque occidentale, a rétabli le nom plus ancien, généralement préféré aujourd'hui. Schramm avait d'abord proposé une fourchette de 880–936 ; Bouman a plus prudemment suggéré environ 900, date généralement acceptée.\n\nLe manuscrit A contient deux ensembles distincts de formules d'ordination : nos 1–32 (l'Ordo d'Erdmann proprement dit, Ordo XIIIA), et un second ensemble de formules d'investiture plus simples au fol. 97r–v (Ordo XIIIB, nos 33–38). Jackson les traite conjointement parce que, dans le manuscrit B, le second ensemble est inséré entre les nos 14 et 15 du XIIIA. Schramm a correctement traité les formules XIIIB comme un texte séparé ; elles n'apparaissent dans aucun autre ordo français, ni dans aucun ordo impérial ou anglo-saxon ancien, et pourraient bien être antérieures de plusieurs décennies à l'Ordo d'Erdmann lui-même.\n\nL'Ordo d'Erdmann a été d'une importance considérable : il a influencé de façon décisive le cérémonial continental et anglo-saxon, et ce dernier devait à son tour apporter à la liturgie française d'importantes contributions, principalement par l'intermédiaire de l'Ordo de Ratold (Ordo XV). Un sacramentaire de Reims daté d'environ 1100 (Walters Art Gallery, MS W. 28) conserve trois courtes formules tirées de façon unique de l'Ordo d'Erdmann, témoignant que le texte — ou quelque chose qui en était copié — était encore consulté à Reims deux siècles après sa composition. Martène connaissait également le manuscrit A, comme le prouve sa référence à celui-ci à la fin de son édition de l'Ordo de Ratold.",
+  "num_formulas": 38,
+  "manuscripts": [
+    {
+      "siglum": "A",
+      "shelfmark": "Saint Petersburg, National Library of Russia, MS lat. Q.v.I, no. 35",
+      "digital_url": "https://primo.nlr.ru/primo-explore/search?query=any,contains,lat.%20Q.v.I,%20no.%2035&tab=default_tab&vid=07NLR_VU1&lang=en_US",
+      "digital_label": "National Library of Russia (Primo catalog search)",
+      "folios": "fols. 85r–94v (XIIIA), 97r–v (XIIIB)",
+      "date": "ca. 900",
+      "origin": "Pontifical from Sens",
+      "note": "Base text for Jackson's edition. Pontifical from Sens. The first set (fols. 85r–94v) is the Erdmann Ordo proper (XIIIA, nos. 1–32). The second set on fol. 97r–v (XIIIB, nos. 33–38) is independent of XIIIA but transmitted together; manuscript B copies it into the middle of XIIIA between nos. 14 and 15.",
+      "description_ref": "Crosnier (ed. b), iii–xlvi; Staerk (ed. c), 1: 151–73; Martimort, 91 no. 93, 201–203 no. 295, 203 no. 297, 386 no. 775",
+      "type": "primary",
+      "lat": 59.9343,
+      "lon": 30.3351
+    },
+    {
+      "siglum": "B",
+      "shelfmark": "Paris, BnF, MS lat. 17333",
+      "digital_url": "https://archivesetmanuscrits.bnf.fr/ark:/12148/cc59817b",
+      "digital_label": "BnF Archives et manuscrits (catalog record)",
+      "folios": "pp. 107–114",
+      "date": "1011–1065",
+      "origin": "Pontifical copied from A for Hugh the Great, bishop of Nevers",
+      "note": "Pontifical copied for Hugh the Great (Hugues), bishop of Nevers 1011–1065. The scribe of B inserts the second set of formulas (XIIIB, nos. 33–38) between nos. 14 and 15 of XIIIA. B is plainly copied from A, against Schramm.",
+      "description_ref": "Delisle, « Mémoire », 279–81; Leroquais, Sacramentaires, 1: 129 no. 52, and Pontificaux, 2: 201–8 no. 160; Henri Leclercq, « Nevers », DACL 12.1 (1935), 1156–65",
+      "type": "primary",
+      "lat": 48.8338,
+      "lon": 2.3756
+    },
+    {
+      "siglum": "C",
+      "shelfmark": "Paris, BnF, MS Baluze 379",
+      "digital_url": "https://archivesetmanuscrits.bnf.fr/ark:/12148/cc69829s",
+      "digital_label": "BnF Archives et manuscrits (catalog record)",
+      "folios": "fol. 84r–v",
+      "date": "17th century",
+      "origin": "Excerpts copied from A",
+      "note": "Seventeenth-century excerpts from A. Not collated by Jackson.",
+      "description_ref": "Auvray and Poupardin, Manuscrits de la collection Baluze, 421–24",
+      "type": "secondary",
+      "lat": 48.8338,
+      "lon": 2.3756
+    },
+    {
+      "siglum": "D",
+      "shelfmark": "Paris, BnF, nouv. acq. fr. 9744",
+      "digital_url": "https://archivesetmanuscrits.bnf.fr/ark:/12148/cc104268s",
+      "digital_label": "BnF Archives et manuscrits (catalog record)",
+      "folios": "fols. 155r–159v",
+      "date": "17th century",
+      "origin": "Nos. 1–32 from A, perhaps indirectly",
+      "note": "Seventeenth-century copy of XIIIA only (nos. 1–32); copied from A, perhaps indirectly. Not collated by Jackson.",
+      "description_ref": "Omont, Catalogue général des nouvelles acquisitions françaises, 3: 36, 356",
+      "type": "secondary",
+      "lat": 48.8338,
+      "lon": 2.3756
+    },
+    {
+      "siglum": "—",
+      "shelfmark": "Baltimore, Walters Art Gallery, MS W. 28",
+      "digital_url": "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W28/description.html",
+      "digital_label": "The Digital Walters",
+      "folios": "fol. 2",
+      "date": "ca. 1100",
+      "origin": "Sacramentary from Reims",
+      "note": "Not a witness to the Erdmann Ordo itself, but contains three short formulas (for crown, sceptre, and baculus) that consist of opening and closing words of longer Erdmann Ordo formulas (nos. 11, 13, 14). Evidence that the Erdmann Ordo — or something copied from it — was still known at Reims ca. 1100.",
+      "description_ref": "Dorothy Miner, « Since De Ricci — Western Illuminated Manuscripts Acquired since 1934 », Journal of the Walters Art Gallery 31–32 (1968–69), 40–48",
+      "type": "ancillary",
+      "lat": 39.2964,
+      "lon": -76.6160
+    }
+  ],
+  "editions": [
+    "a — Delalande, Conciliorum supplementa (Paris, 1666), 355–58, from A. (Delalande altered the order of the formulas: nos. 1–22; then nos. 33–38 [where B placed them, between nos. 14 and 15]; then excerpts from several formulas of Ordo XV (Ratold), from a manuscript apparently copied from Ordo XV MS C; finally nos. 23–32 for the queen.)",
+    "b — Augustin-Joseph Crosnier et al., eds., Sacramentarium ad usum aecclesiae Nivernensis, Publications de la Société nivernaise, vol. 8 (Nevers: Paulin Fay, 1873), 107–13, from B.",
+    "c — Antonio Staerk, Les manuscrits latins du Ve au XIIIe siècle conservés à la Bibliothèque impériale de Saint-Pétersbourg, 2 vols. (Saint Petersburg: F. Krois, 1910; repr. Hildesheim and New York: G. Olms, 1976), 1: 166–69 (XIIIA) and 1: 170 (XIIIB), from A.",
+    "d — Schramm, « Westfranken und Angelsachsen », 201–8, from a.",
+    "e — Schramm, Kaiser, 2: 216–22, from c."
+  ],
+  "related_ordines": [
+    "OCF-IX",
+    "OCF-XIV",
+    "OCF-XV"
+  ],
+  "_note_unmodified_fields": "latin_text / correction_log / lost_manuscripts / has_stemma / entry_type / source_* fields are kept as-is in the patch (the corrected JSON below is only intended to overwrite the metadata + manuscripts + editions; the long latin_text body remains untouched)."
+}
